@@ -399,7 +399,8 @@ Glosario de acrónimos y abreviaturas</a>
 <hr size="4" />
 <p />
 <a name="PRG-0001" />
-<p>BONA TARDA, si estais viendo esto quiere desir que esto a funsionau</p>
+<p>
+</p>
 <a name="PRG-0002" />
 <p>
 </p>
@@ -410,45 +411,694 @@ Glosario de acrónimos y abreviaturas</a>
 <h1 align="left">1 
 Introducción</h1><a name="SEC-0002" />
 <h2 align="left">1.1 
-Alcance del proyecto</h2><a name="SEC-0003" />
+Alcance del proyecto</h2><a name="PRG-0023" />
+<p>
+<br />El proyecto que vamos a llevar a cabo va a afectar al negocio de la veterinaria en gran medida, lo único que no trataremos será el control financiero del establecimiento y el stock del material. 
+<br />
+</p>
+<a name="PRG-0024" />
+<p>Aunque no tratemos todos los aspectos del negocio abordaremos problemas que afectan tanto a la dueña y gerente, por el control de la información,  y a los trabajadores, por el mismo motivo. Por último, a los clientes, ya que se tendrán en cuenta los métodos de reserva de citas que los implican para mejorarlos. 
+<br />
+<br />
+</p>
+<a name="SEC-0003" />
 <h2 align="left">1.2 
 Participantes en el proyecto</h2><a name="SEC-0004" />
 <h3 align="left">1.2.1 
-Organizaciones participantes</h3><a name="SEC-0005" />
+Organizaciones participantes</h3><a name="PRG-0032" />
+<p>La única orgacición participante de este proyecto es la propia clínica veterinaria "Huellas".</p>
+<a name="SEC-0005" />
 <h3 align="left">1.2.2 
-Personas participantes</h3><a name="SEC-0006" />
+Personas participantes</h3><a name="PRG-0033" />
+<p>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. </p>
+<a name="SEC-0006" />
 <h2 align="left">1.3 
-Objetivos del proyecto</h2><a name="SEC-0007" />
+Objetivos del proyecto</h2><a name="PRG-0020" />
+<p>El objetivo de este proyecto es crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.
+<br />
+</p>
+<a name="PRG-0021" />
+<p>Por otra parte, mediante la creación del sistema de información anterior, también  abordaremos el control de los empleados y el reparto de su respectivos trabajos.
+<br />
+</p>
+<a name="PRG-0022" />
+<p>Finalmente, crearemos un sistema que facilite la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.
+<br />
+</p>
+<a name="SEC-0007" />
 <h1 align="left">2 
 Información sobre el dominio del problema</h1><a name="SEC-0008" />
 <h2 align="left">2.1 
-Introducción al dominio del problema</h2><a name="SEC-0009" />
+Introducción al dominio del problema</h2><a name="PRG-0004" />
+<p>    La clínica veterinaria ''Huellas'' es una pequeña empresa ubicada en Villanueva de la Serena, un pequeño pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnología de la alimentación, que encontró su vocación tras trabajar durante cinco años en una clínica fuera de su localidad. A raíz de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidió crear una en su pueblo. Así nace el negocio de nuestra cliente, que hoy cuenta con más de 12 años de experiencia.</p>
+<a name="PRG-0005" />
+<p>El negocio actualmente está formado por la gerente y propietaria,
+<br />que ejerce como veterinaria , y una trabajadora, que realiza las tareas de auxiliar y peluquera canina. Durante todo el año se mantiene un horario fijo, no obstante, se puede realizar una consulta fuera del horario normal o a domicilio en caso de urgencia. La gestión de citas se hace tanto en el local como por teléfono, siempre que esté dentro del horario de apertura del mismo.
+</p>
+<a name="PRG-0006" />
+<p>La clínica suele tratar a animales de compañía pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clínica está especializada fundamentalmente en el trato de perros, gatos y pequeños roedores. También se tratan animales exóticos, aunque con menor frecuencia debido a las
+<br />limitaciones que tienen al ser un pequeño negocio.</p>
+<a name="PRG-0007" />
+<p>En cuanto a la gestión de información, la empresa se organiza
+<br />mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del cliente y su mascota a la hora de hacer la consulta, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del cliente, el contacto con los proveedores o nóminas y horarios del trabajador. </p>
+<a name="PRG-0008" />
+<p>En general, se trata de un sistema donde toda la información está a medias entre un Excel y una agenda. Esto hace que el sistema sea poco flexible y de lenta gestión cuando se supera la media de clientes o llegan clientes nuevos. Nosotros intentaremos solucionar esos problemas concretos.</p>
+<a name="SEC-0009" />
 <h2 align="left">2.2 
-Glosario de términos del dominio del problema</h2><a name="SEC-0010" />
+Glosario de términos del dominio del problema</h2><a name="PRG-0009" />
+<p>Auxiliar: Trabajador que se dedica a los servicios de peluquería canina y da apoyo al veterinario.</p>
+<a name="PRG-0010" />
+<p>Cliente: Persona que abona la factura y es responsable íntegro del paciente.</p>
+<a name="PRG-0011" />
+<p>Consulta: Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.</p>
+<a name="PRG-0012" />
+<p>Esterilización: proceso quirúrgico mediante el cual se hace infecundo y estéril a aquel paciente que antes no lo era. Se le realiza durante una consulta.
+</p>
+<a name="PRG-0013" />
+<p>Horario laboral normal: Periodo fijo de 10:00 a 14:00 y de 17:30 a 19:30 de lunes a viernes. Durante este periodo se podrán llevar a cabo todo tipo de acciones rutinarias como consultas, pero no se realizarán labores de urgencia.</p>
+<a name="PRG-0014" />
+<p>Horario de urgencias: Todo aquel momento que no comprende el horario laboral normal.</p>
+<a name="PRG-0015" />
+<p>Paciente: Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.</p>
+<a name="PRG-0016" />
+<p>Servicio de peluquería: Proceso de aproximadamente 45 minutos en el cual la auxiliar baña, cepilla y corta el pelo y uñas del paciente. Solo se puede solicitar el servicio de peluquería para perros, gatos y pequeños roedores.</p>
+<a name="PRG-0017" />
+<p>Tratamiento: Conjunto de toda la medicación, posibles operaciones o radiaciones que el paciente reciba. Serán abonadas independientemente de precio de la consulta.</p>
+<a name="PRG-0018" />
+<p>Urgencias: Instancia en la que un paciente se encuentra en una situación extrema y necesita una consulta y tratamiento dentro del horario de urgencias.</p>
+<a name="PRG-0019" />
+<p>Veterinario: Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.</p>
+<a name="SEC-0010" />
 <h1 align="left">3 
 Descripción de la situación actual</h1><a name="SEC-0011" />
 <h2 align="left">3.1 
-Pros y contras de la situación actual</h2><a name="SEC-0015" />
+Pros y contras de la situación actual</h2><a name="PRG-0025" />
+<p>Al tratarse de un pequeño pueblo no hay muchas clínicas veterinarias por lo que no tienen apenas competencia.
+<br />
+</p>
+<a name="PRG-0026" />
+<p>Actualmente tienen una demanda creciente, debido sobre todo a la ganadería.</p>
+<a name="PRG-0027" />
+<p>De cara al público el trato es muy bueno y los cliente están muy fidelizados.
+<br />
+</p>
+<a name="PRG-0028" />
+<p>Al ser una pequeña clínica, el personal es muy reducido.
+<br />
+</p>
+<a name="PRG-0029" />
+<p>La demanda creciente genera sobrecarga.
+<br />
+</p>
+<a name="PRG-0030" />
+<p>La recepción de petición de citas es limitada a una línea telefónica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.
+<br />
+</p>
+<a name="SEC-0015" />
 <h3 align="left">3.1.1 
-Fortalezas de la situación actual</h3><a name="SEC-0016" />
+Fortalezas de la situación actual</h3><a name="PRG-0031" />
+<p>La fortaleza principal del negocio es el trato personal con los clientes, atendiendo citas en el local o por llamada directa. Sería muy difícil pensar en eliminar esta parte del negocio, pues la gran mayoría de personas que van a este establecimiento es por ello.
+<br />
+</p>
+<a name="SEC-0016" />
 <h3 align="left">3.1.2 
-Debilidades de la sitación actual</h3><a name="SEC-0012" />
+Debilidades de la sitación actual</h3><a name="PRG-0034" />
+<p>Las debilidades actuales del negocio son su forma de almacenar toda la información referente a los clientes y trabajadores en general, ya que al ser manual y por un excel no se aprovecha el tiempo como se debería y cabe la posibilidad de que se traspapele información. También les ralentiza y toma mucho tiempo las reservas de citas por teléfono por las mismas razones.
+<br />
+</p>
+<a name="SEC-0012" />
 <h2 align="left">3.2 
 Modelos de procesos de negocio actuales</h2><a name="SEC-0013" />
 <h3 align="left">3.2.1 
-Descripción de actores de negocio actuales</h3><a name="SEC-0014" />
+Descripción de actores de negocio actuales</h3><a name="ACT-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0001</th>
+<th align="left" valign="top" width="100%">
+Gestor</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>es el rol encargado de la organización general del negocio. Sus funciones pasan desde la gestión de personal hasta la administración de peticiones de citas.
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+  La gestora puede tomar a su vez el rol de peluquera o veterinaria.
+<br />
+</td>
+</tr>
+</table>
+<p />
+<a name="ACT-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0002</th>
+<th align="left" valign="top" width="100%">
+Veterinario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>El veterinario, tiene la responsabilidad de atender a los animales que el gestor le asigne y de cumplir su horario de trabajo establecido por el gestor.
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Al atender una consulta genera un historial.</td>
+</tr>
+</table>
+<p />
+<a name="ACT-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0003</th>
+<th align="left" valign="top" width="100%">
+Peluquero</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>El peluquero tiene la responsabilidad de atender las citas de peluquería asignadas por el gestor y debe cumplir con su horario de trabajo establecido.
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ACT-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">ACT-0004</th>
+<th align="left" valign="top" width="100%">
+Cliente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este actor representa
+<em>El cliente es aquella persona que realiza una petición de algún servicio hacia su mascota (paciente).
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+El cliente puede pedir tanto una consulta como una cita de peluquería.</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0014" />
 <h3 align="left">3.2.2 
-Descripción de procesos de negocio actuales</h3><a name="SEC-0017" />
+Descripción de procesos de negocio actuales</h3><a name="UC-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0001</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Solicitar Cita</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+El actor CLIENTE solicita una cita por teléfono o de manera presencial, ya sea para la peluquería o para la revisión médica del animal en el horario de actividad laboral de la empresa y el actor GESTOR  le informará de la disponibilidad de citas que hay.
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="UC-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0002</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Asignar Citas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+El GESTOR asigna las citas al TRABAJADOR.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+Los trabajadores pueden ser GESTORES , VETERINARIOS o PELUQUEROS. A  los veterinarios solo se le asignan consultas, y a los peluqueros citas de peluquería. 
+<br />
+</td>
+</tr>
+</table>
+<p />
+<a name="UC-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">UC-0003</th>
+<th align="left" valign="top" width="100%" colspan="2">
+Actualización/Creación Historial Paciente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="2">1.0
+            ( 26/10/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="2">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="2">
+    El sistema deberá comportarse tal como se describe en el siguiente
+
+    caso de uso cuando
+<em>
+El cliente entrega al paciente a la clínica y el veterinario crea o añade un informe al historial previo del paciente.
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Precondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Postcondición</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Excepciones</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Acción</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Rendimiento</th>
+<th align="center" valign="top">Paso</th>
+<th align="left" valign="top" width="100%">Tiempo máximo</th>
+</tr>
+<tr>
+<td align="center" valign="top">
+                        -
+                    </td>
+<td>
+                        -
+                    </td>
+</tr>
+<tr>
+<th align="left" valign="top">Frecuencia esperada</th>
+<td colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="2">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="2">
+ Cuando los pacientes vayan sin historial, se generará uno, en caso de tenerlo se le añadirá un informe al historial
+<br />
+</td>
+</tr>
+</table>
+<p />
+<a name="SEC-0017" />
 <h2 align="left">3.3 
 Entorno tecnológico actual</h2><a name="SEC-0018" />
 <h3 align="left">3.3.1 
-Descripción del entorno de hardware actual</h3><a name="SEC-0019" />
+Descripción del entorno de hardware actual</h3><a name="PRG-0035" />
+<p>La clínica actualmente tan solo consta de un ordenador de sobremesa de notable vetustez.
+<br />
+</p>
+<a name="SEC-0019" />
 <h3 align="left">3.3.2 
-Descripción del entorno de software actual</h3><a name="SEC-0020" />
+Descripción del entorno de software actual</h3><a name="PRG-0036" />
+<p>
+</p>
+<a name="SEC-0020" />
 <h1 align="left">4 
 Necesidades de negocio</h1><a name="SEC-0021" />
 <h2 align="left">4.1 
-Objetivos de negocio</h2><a name="SEC-0022" />
+Objetivos de negocio</h2><a name="PRG-0037" />
+<p>Los objetivos del negocio serían principalmente tres. En primer lugar la mejora del control y gestión de la información tanto de los trabajadores como de los pacientes y clientes mediante un sistema de información preferentemente. Por otra parte, una plataforma para la organización de los datos de los pacientes (historiales e informes) para los trabajadores. Y por último la optimización de los métodos de reserva de citas para los clientes. </p>
+<a name="SEC-0022" />
 <h2 align="left">4.2 
 Modelos de procesos de negocio a implantar</h2><a name="SEC-0023" />
 <h3 align="left">4.2.1 
