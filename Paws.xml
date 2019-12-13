@@ -1781,108 +1781,142 @@ Requisitos generales del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.1 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0047">
+<rem:functionalRequirement
+ oid = "FRQ-0014">
 <rem:name>
-<rem:ref oid="GLO-0047">RG-1</rem:ref></rem:name>
+Consultas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como cliente,<br/>quiero poder reservar consultas y sesiones de peluquería,<br/>para poder hacer un buen uso del sistema.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0048">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir la reserva de consultas y peluquerias.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0015">
 <rem:name>
-<rem:ref oid="GLO-0048">RG-2</rem:ref></rem:name>
+Mascotas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como cliente,<br/>quiero que tener acceso a toda la información de mis animales,<br/>para estar informado de su estado.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0049">
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir al cliente acceder a los datos de sus mascotas<br/></rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0016">
 <rem:name>
-<rem:ref oid="GLO-0049">RG-3</rem:ref></rem:name>
+Disponibilidad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero saber la disponibilidad de los trabajadores,<br/>para poder adjudicar una cita o <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0050">
+<rem:importance>
+<rem:tbd/>
+</rem:importance>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+mostrar la disponibilidad de los trabajadores, para poder adjudicar una cita o <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/></rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0017">
 <rem:name>
-<rem:ref oid="GLO-0050">RG-4</rem:ref></rem:name>
+Estadísticas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>tener un registro de estadísticas sobre mi negocio,<br/>para saber mi situación.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0051">
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0002"/>
+<rem:description>
+registrar estadísticas periódicas del negocio.<br/></rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0018">
 <rem:name>
-<rem:ref oid="GLO-0051">RG-5</rem:ref></rem:name>
+Notificación a cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como trabajador,<br/>quiero que se me notifique cuando un cita se me adjudica o se me cancela.<br/>para estar informado en todo momentos.<br/><br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0052">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+notificar a los trabajadores cuando se cancele alguna cita suya.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0019">
 <rem:name>
-<rem:ref oid="GLO-0052">RG-6</rem:ref></rem:name>
+Acceso a información de pacientes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como trabajador,<br/>quiero que tener acceso a toda la información de mis pacientes,<br/>para estar informado en todo momentos.<br/><br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir el acceso a los trabajadores a la información de sus pacientes.</rem:description>
+</rem:functionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0031">
@@ -2260,125 +2294,232 @@ Requisitos de información del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.1 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0057">
+<rem:informationRequirement
+ oid = "IRQ-0001">
 <rem:name>
-<rem:ref oid="GLO-0057">RI-1</rem:ref></rem:name>
+Horario trabajadores</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder ver el horario de mis trabajadores,<br/>para tener un control de la plantilla.<br/><br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0058">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+horario de los trabajadores, para tener control sobre la plantilla.<br/><br/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0002">
 <rem:name>
-<rem:ref oid="GLO-0058">RI-2</rem:ref></rem:name>
+Información de clientes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder almacenar la siguiente información sobre los nuevos clientes:<br/>- Fecha de nacimiento<br/>- DNI<br/>- Nombre<br/>- Apellidos <br/>- Número de teléfono<br/>- Dirección<br/>- Código postal<br/>- Email<br/>- Número de pacientes<br/>para tener una mayor organización.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0059">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+los nuevos clientes siguiente:<br/>- Fecha de nacimiento<br/>- DNI<br/>- Nombre<br/>- Apellidos <br/>- Número de teléfono<br/>- Dirección<br/>- Código postal<br/>- Email<br/>- Número de pacientes<br/><br/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0003">
 <rem:name>
-<rem:ref oid="GLO-0059">RI-3</rem:ref></rem:name>
+Información pacientes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder almacenar la siguiente información de los nuevos pacientes,<br/>- Número chip<br/>- Especie<br/>- Raza<br/>- Género<br/>- Color de pelo<br/>- Edad <br/>para tener una mayor organización.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0060">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+los nuevos clientes. En concreto:<br/>- Número chip<br/>- Especie<br/>- Raza<br/>- Género<br/>- Color de pelo<br/>- Edad <br/>-Informes de <rem:ref oid="GLO-0011">consulta</rem:ref><br/>-Informes de vacunas<br/>para tener una mayor organización.<br/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0004">
 <rem:name>
-<rem:ref oid="GLO-0060">RI-4</rem:ref></rem:name>
+Información de citas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero tener acceso a la información referente a las citas<br/>para poder tener información precisa en todo momento.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0061">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status>
+<rem:tbd/>
+</rem:status>
+<rem:stability value = "SBV-0004"/>
+<rem:relevantConcept>
+las citas, y darle acceso también al gestor.<br/>En concreto : <br/>- identificador del <rem:ref oid="GLO-0015">paciente</rem:ref><br/>- horario<br/>- duración<br/>- coste</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0005">
 <rem:name>
-<rem:ref oid="GLO-0061">RI-5</rem:ref></rem:name>
+Horario de trabajo veterinario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0062">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+el horario de los veterinarios, para que se puedan organizar y mantener un control sobre su trabajo.<br/></rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0006">
 <rem:name>
-<rem:ref oid="GLO-0062">RI-6</rem:ref></rem:name>
+Horario trabajo peluquero</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como peluquero,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0063">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+horario de los peluqueros, para una mejor organización.</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
+<rem:informationRequirement
+ oid = "IRQ-0007">
 <rem:name>
-<rem:ref oid="GLO-0063">RI-7</rem:ref></rem:name>
+Información trabajadores</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero disponer de la siguiente información de los trabajadores:<br/>- Fecha de nacimiento <br/>- DNI<br/>- Nombre <br/>- Apellidos <br/>- Número de teléfono <br/>- Dirección <br/>- Código postal <br/>- Correo electrónico <br/>- Horarios de trabajo <br/>- Sueldo <br/>- Es gestor<br/>- Disponibilidad<br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:relevantConcept>
+los trabajadores. En concreto:<br/>- Fecha de nacimiento <br/>- DNI<br/>- Nombre <br/>- Apellidos <br/>- Número de teléfono <br/>- Dirección <br/>- Código postal <br/>- Correo electrónico <br/>- Horario de trabajo</rem:relevantConcept>
+<rem:averageLifeTime>
+<rem:tbd/>
+</rem:averageLifeTime>
+<rem:maximumLifeTime>
+<rem:tbd/>
+</rem:maximumLifeTime>
+<rem:averageOcurrences><rem:tbd/>
+</rem:averageOcurrences>
+<rem:maximumOcurrences><rem:tbd/>
+</rem:maximumOcurrences>
+</rem:informationRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0037">
@@ -2397,108 +2538,140 @@ Requisitos de reglas de negocio del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.2 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0064">
+<rem:functionalRequirement
+ oid = "FRQ-0008">
 <rem:name>
-<rem:ref oid="GLO-0064">RN-1</rem:ref></rem:name>
+Reserva de citas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero que no se puedan reservar consultas en el mismo periodo de tiempo, <br/>para evitar que existan 2 consultas a la vez. <br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0065">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency>
+<rem:tbd/>
+</rem:urgency>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+prohibir que se reserven consultas en el mismo periodo de tiempo. De este modo no habrá conflicto.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0009">
 <rem:name>
-<rem:ref oid="GLO-0065">RN-2</rem:ref></rem:name>
+2 Pacientes en peluquería máximo</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero no se puedan atender a más de 2 pacientes en la peluquería en el mismo periodo de tiempo, <br/>para evitar un exceso de pacientes. <br/><br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0066">
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir un máximo de dos pacientes atendidos en peluquería en el mismo periodo de tiempo, así evitaría la sobrecarga de trabajo al peluquero.<br/><br/></rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0010">
 <rem:name>
-<rem:ref oid="GLO-0066">RN-3</rem:ref></rem:name>
+Mayoría de edad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero que un cliente sea necesariamente mayor de edad para poder estar registrado. <br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0067">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir el registro de clientes solo si son mayores de edad.<br/></rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0011">
 <rem:name>
-<rem:ref oid="GLO-0067">RN-4</rem:ref></rem:name>
+Necesario el registro</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero que un cliente esté necesariamente registrado,<br/>para poder reservar una cita. <br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0068">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+comprobar que el cliente está registrado para poder reservar una cita.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0012">
 <rem:name>
-<rem:ref oid="GLO-0068">RN-5</rem:ref></rem:name>
+Un trabajador por cita</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero que la cita solo pueda ser atendida por su trabajador correspondiente,<br/>para evitar problemas en la organización.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0069">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que solo un trabajador atienda una cita en concreto.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0013">
 <rem:name>
-<rem:ref oid="GLO-0069">RN-6</rem:ref></rem:name>
+Registro trabajadores</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero ser el único que pueda contratar a los trabajadores y gestionar las citas,<br/>para tener el control del negocio.<br/><br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que el gestor sea el único que pueda registrar a los trabajadores en el sistem.</rem:description>
+</rem:functionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0038">
@@ -2517,210 +2690,226 @@ Requisitos de conducta del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.3 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0070">
+<rem:functionalRequirement
+ oid = "FRQ-0020">
 <rem:name>
-<rem:ref oid="GLO-0070">RCS-01</rem:ref></rem:name>
+<rem:ref oid="GLO-0015">Paciente</rem:ref> historial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero poder asociar un <rem:ref oid="GLO-0015">paciente</rem:ref> con un historial,<br/>para poder hacer un seguimiento del animal.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0071">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+asociar a cada <rem:ref oid="GLO-0015">paciente</rem:ref> con un historial, para poder mantener el seguimiento de sus vacunas e informes controlados.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0021">
 <rem:name>
-<rem:ref oid="GLO-0071">RCS-02</rem:ref></rem:name>
+Informe historial</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero poder generar un informe y añadirlo al historial de un <rem:ref oid="GLO-0015">paciente</rem:ref>,<br/>para hacer un seguimiento del animal.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0072">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que el veterinario genere un informe o un informe de vacunas y añadirlo al historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0022">
 <rem:name>
-<rem:ref oid="GLO-0072">RCS-03</rem:ref></rem:name>
+Notificación peluquero</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como peluquero,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0073">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+notificar al peluquero cuando a este se le añada una cita de peluquería.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0023">
 <rem:name>
-<rem:ref oid="GLO-0073">RCS-04</rem:ref></rem:name>
+Modificar horario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder modificar el horario de mis trabajadores,<br/>para tener control de la plantilla.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0074">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que el gestor modifique el horario de los trabajadores.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0024">
 <rem:name>
-<rem:ref oid="GLO-0074">RCS-05</rem:ref></rem:name>
+Modificar cita</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder modificar la información referente a las citas.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0075">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que el gestor modifique los datos de la cita.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0025">
 <rem:name>
-<rem:ref oid="GLO-0075">RCS-06</rem:ref></rem:name>
+Crear cita</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder crear citas,<br/>para poder tener control de las personas atendidas.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0076">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que el gestor cree citas, en el caso de que haya alguna persona que decida reservarla yendo directamente al establecimiento.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0026">
 <rem:name>
-<rem:ref oid="GLO-0076">RCS-07</rem:ref></rem:name>
+Notificación veterinario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0077">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+notificar al veterinario en el caso de que se le añada una <rem:ref oid="GLO-0011">consulta</rem:ref> a atender</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0028">
 <rem:name>
-<rem:ref oid="GLO-0077">RCS-08</rem:ref></rem:name>
+Clientes y pacientes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0078">
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0003"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+ser capaz de listar a todos los clientes junto con sus repectivas mascotas.</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0029">
 <rem:name>
-<rem:ref oid="GLO-0078">RCS-09</rem:ref></rem:name>
+Listado de pacientes</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como peluquero,<br/>quiero recibir una notificación cuando se añade una nueva cita de peluqueria.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0079">
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0004"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+poder listar a los pacientes organizados por raza o especie</rem:description>
+</rem:functionalRequirement>
+<rem:functionalRequirement
+ oid = "FRQ-0030">
 <rem:name>
-<rem:ref oid="GLO-0079">RCS-10</rem:ref></rem:name>
+Notificación cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero un listado de todos los clientes y respectivos pacientes,<br/>para tener una organización más estructurada.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0081">
-<rem:name>
-<rem:ref oid="GLO-0081">RCS-11</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero un listado de los pacientes organizados por raza o especie,<br/>para tener una organización más estructurada.</rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0082">
-<rem:name>
-<rem:ref oid="GLO-0082">RCS-12</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><br/>Como cliente,<br/>quiero recibir un mensaje de confirmación al reservar una cita,<br/>para saber si la reserva está confirmada.<br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+notificar al cliente cuando se realice la reserva de su cita, para que acuda.</rem:description>
+</rem:functionalRequirement>
 </rem:section>
 </rem:section>
 <rem:section
@@ -2757,23 +2946,28 @@ Requisitos de fiabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.1 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0083">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0001">
 <rem:name>
-<rem:ref oid="GLO-0083">RFin-01</rem:ref></rem:name>
+Disponibilidad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero que el sistema esté disponible todo el tiempo 24/7, <br/>para ofrecer servicio en todo momento a los clientes.<br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0002"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+estar disponible 24/7, para poder atender al cliente en todo momento.<br/></rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0041">
@@ -2792,23 +2986,28 @@ Requisitos de usabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.2 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0084">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0002">
 <rem:name>
-<rem:ref oid="GLO-0084">RUS-01</rem:ref></rem:name>
+máximo de clicks</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero que un usuario sea capaz de pedir una cita en menos de 6 clics, <br/>para facilitar el uso a todo tipo de clientes.<br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0004"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0004"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+permitir que el cliente pueda realizar su reserva de cita en máximo 6 clicks, y así asegurar un sistema claro y rápido.</rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0042">
@@ -2827,23 +3026,28 @@ Requisitos de mantenibilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.3 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0089">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0003">
 <rem:name>
-<rem:ref oid="GLO-0089">RM-01</rem:ref></rem:name>
+Mantenimiento</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero que el sistema tenga un seguimiento y comprobación periódicos y si es necesario se puedan realizar mejoras<br/>para poder ofrecerle en todo momento un sistema actualizado tanto al clietne como a mi mismo.</rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+tener seguimientos periódicos y si es necesario que se realicen mejores, y así ofrecerle en todo momento un sistema actualizado tanto al cliente como a los trabajadores.</rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0043">
@@ -2862,23 +3066,28 @@ Requisitos de eficiencia del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.4 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0086">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0004">
 <rem:name>
-<rem:ref oid="GLO-0086">RES-01</rem:ref></rem:name>
+Soportar 100 usuarios a la vez</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero que el sistema sea capaz de operar con hasta 100 usuarios concurrentes con un índice de respuesta inferior a 1 segundo, <br/>para mejorar la eficiencia del sistema. <br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+ser capaz de operar con hasta 100 usuarios concurrentes con un índice de respuesta inferior a 1 segundo, <br/>para mejorar la eficiencia del sistema. <br/></rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0044">
@@ -2897,23 +3106,28 @@ Requisitos de portabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.5 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0087">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0005">
 <rem:name>
-<rem:ref oid="GLO-0087">RPS-01</rem:ref></rem:name>
+Uso</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero que el sistema solo pueda ser utilizado en las versiones actuales de Google Chrome y Firefox, <br/>para garantizar un correcto funcionamiento del sistema.<br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+poder ser utilizado en las versiones actuales de Google Chrome y Firefox, para garantizar un correcto funcionamiento del sistema.</rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0045">
@@ -2932,23 +3146,28 @@ Requisitos de seguridad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.6 </rem:number>
-<rem:glossaryItem
- oid = "GLO-0088">
+<rem:nonFunctionalRequirement
+ oid = "NFR-0006">
 <rem:name>
-<rem:ref oid="GLO-0088">RSS-01</rem:ref></rem:name>
+Acceso para el gestor</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero acceder de forma exclusiva a la información de los clientes, <br/>para cumplir con la ley de protección de datos<br/><br/></rem:text>
-</rem:glossaryItem>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+<br/>permitir al gestor acceder de forma exclusiva a la información de los clientes, para cumplir con la ley de protección de datos<br/><br/></rem:description>
+</rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0046">
@@ -3036,7 +3255,7 @@ Requisitos de integración del sistema</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Actualmente no contamos con muchos sistemas que queramos integrar a nuestro proyecto. Por el momento solo hemos decidido que podemos integrar un iframe de Google Maps para poder mostrar al usuario de la web, la locación exacta de la clínica veterinaria “Huellas”. <br/><br/>Lo hemos mencionado en el apartado anterior, pero recordamos que también integraremos JQuery que es la biblioteca multiplataforma de JavaScript, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web.<br/></rem:text>
+<rem:text>Actualmente no contamos con muchos sistemas que queramos integrar a nuestro proyecto. Por el momento solo hemos decidido que podemos integrar un iframe de Google Maps para poder mostrar al usuario de la web, la locación exacta de la clínica veterinaria “Huellas”. <br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section

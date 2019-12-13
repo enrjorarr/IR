@@ -19,6 +19,15 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -53,6 +62,19 @@
 <rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero un listado de todos los clientes y respectivos pacientes,
+para tener una organización más estructurada.
+] -> [ser capaz de listar a todos los clientes junto con sus repectivas mascotas.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -98,6 +120,15 @@
 <rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -761,9 +792,87 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0076] RCS-07 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [PRG-0124]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [
+Como gestor,
+quiero disponer de la siguiente información de los trabajadores:
+- Fecha de nacimiento 
+- DNI
+- Nombre 
+- Apellidos 
+- Número de teléfono 
+- Dirección 
+- Código postal 
+- Correo electrónico ] -> [los trabajadores. En concreto:
+- Fecha de nacimiento 
+- DNI
+- Nombre 
+- Apellidos 
+- Número de teléfono 
+- Dirección 
+- Código postal 
+- Correo electrónico 
+- Horario de trabajo]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [
+Como gestor,
+quiero disponer de la siguiente información de los trabajadores:
+- Fecha de nacimiento 
+- DNI
+- Nombre 
+- Apellidos 
+- Número de teléfono 
+- Dirección 
+- Código postal 
+- Correo electrónico ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [Como gestor,
+quiero poder ver el horario de mis trabajadores,
+para tener un control de la plantilla.
+] -> [horario de los trabajadores, para tener control sobre la plantilla.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -782,6 +891,54 @@
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [horario de los trabajadores, para tener control sobre la plantilla.
+] -> [horario de los trabajadores, para tener control sobre la plantilla.
+
+hola]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0005] Horario de trabajo veterinario con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0066] RN-3 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -811,6 +968,15 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Información de citas con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -833,9 +999,117 @@
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0067] RN-4 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0065] RN-2 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [UC-0001] Reserva de cita con 0 hijos y 20 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0071] RCS-02 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0074] RCS-05 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0075] RCS-06 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -845,6 +1119,40 @@
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [PRG-0111]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0008</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [poder ser utilizado en las versiones actuales de Google Chrome y Firefox, para garantizar un correcto funcionamiento del sistema.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor, 
+quiero no se puedan atender a más de 2 pacientes en la peluquería en el mismo periodo de tiempo, 
+para evitar un exceso de pacientes. 
+
+] -> [permitir un máximo de dos pacientes atendidos en peluquería en el mismo periodo de tiempo, así evitaría la sobrecarga de trabajo al peluquero.
+
+]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -863,6 +1171,24 @@
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0085] RMS-01 con 0 hijos y 4 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [quedaría bien]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -938,12 +1264,44 @@
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0061] RI-5 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero ser el único que pueda registrar a los trabajadores
+para tener el control del negocio.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0060] RI-4 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -971,6 +1329,15 @@
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [PRG-0111]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0007] Información trabajadores con 0 hijos y 6 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1099,6 +1466,19 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como veterinario,
+quiero recibir una notificación cuando se añade una nueva consulta.
+para estar al tanto de las nuevas consultas.
+]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1225,6 +1605,26 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [Como gestor,
+quiero poder crear citas,
+para poder tener control de las personas atendidas.]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>STK-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1234,6 +1634,15 @@
 <rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] Paws]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1241,6 +1650,28 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [PRG-0056] Peluquero  con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como cliente,
+quiero poder reservar consultas y sesiones de peluquería,
+para poder hacer un buen uso del sistema.
+]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1271,6 +1702,38 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero ser el único que pueda registrar a los trabajadores
+para tener el control del negocio.
+
+] -> [permitir que el gestor sea el único que pueda registrar a los trabajadores en el sistem.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
@@ -1286,6 +1749,163 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [Este proceso permite a un cliente con una cita previamente reservada a modificar su fecha u hora siempre que sea posible y esté dentro del horario establecido. Posteriormente se avisará al trabajador involucrado y se actualizará su horario.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [Como gestor,
+quiero poder crear citas,
+para poder tener control de las personas atendidas.] -> [permitir que el gestor cree citas, en el caso de que haya alguna persona que decida reservarla yendo directamente al establecimiento.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como veterinario,
+quiero recibir una notificación cuando se añade una nueva consulta.
+para estar al tanto de las nuevas consultas.
+] -> [notificar al veterinario en el caso de que se le añada una consulta a atender]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [Como veterinario,
+quiero poder generar un informe y añadirlo al historial de un paciente,
+para hacer un seguimiento del animal.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero que un cliente sea necesariamente mayor de edad para poder estar registrado. 
+] -> [permitir el registro de clientes solo si son mayores de edad.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1306,6 +1926,38 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como trabajador,
+quiero que tener acceso a toda la información de mis pacientes,
+para estar informado en todo momentos.
+
+] -> [permitir el acceso a los trabajadores a la información de sus pacientes.]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>UC-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1313,6 +1965,51 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [Este proceso será necesario para que el cliente pueda solicitar citas posteriormente. Después de haberse registrado, el cliente podrá acceder al sistema de reserva de citas y los trabajadores podrán ver el perfil de sus respectivas mascotas.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero saber la disponibilidad de los trabajadores,
+para poder adjudicar una cita o consulta.
+] -> [mostrar la disponibilidad de los trabajadores, para poder adjudicar una cita o consulta.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como trabajador,
+quiero que se me notifique cuando un cita se me adjudica o se me cancela.
+para estar informado en todo momentos.
+] -> [notificar a los trabajadores cuando se cancele alguna cita suya.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1334,12 +2031,75 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>UC-0005</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [Este proceso permite al veterinario redactar el informe del paciente una vez está en la consulta, este informe se añadirá al historial del paciente posteriormente y podrá ser consultado por el resto de plantilla veterinaria.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0008]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0063] RI-7 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0068] RN-5 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1351,6 +2111,41 @@
 <rem:description><![CDATA[Propiedad [Name] actualizada [Huellas4] -> [Cartel con logo de la clínica]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0009</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor, 
+quiero no se puedan atender a más de 2 pacientes en la peluquería en el mismo periodo de tiempo, 
+para evitar un exceso de pacientes. 
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como cliente,
+quiero que tener acceso a toda la información de mis animales,
+para estar informado de su estado.]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1358,6 +2153,15 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [PRG-0054] Cliente con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0058] RI-2 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1388,6 +2192,19 @@
 ]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como cliente,
+quiero poder reservar consultas y sesiones de peluquería,
+para poder hacer un buen uso del sistema.
+] -> [permitir la reserva de consultas y peluquerias.]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>GRF-0005</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1395,6 +2212,47 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0059] RI-3 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0006] Horario trabajo peluquero con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [puede esperar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+tener un registro de estadísticas sobre mi negocio,
+para saber mi situación.
+] -> [registrar estadísticas periódicas del negocio.
+]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1406,6 +2264,97 @@
 <rem:description><![CDATA[Propiedad [FileName] actualizada [] -> [.\fotos\Webp.net-resizeimage (10).png]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [baja]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [
+Como gestor,
+quiero poder almacenar la siguiente información sobre los nuevos clientes:
+- Fecha de nacimiento
+- DNI
+- Nombre
+- Apellidos 
+- Número de teléfono
+- Dirección
+- Código postal
+- Email
+- Número de pacientes
+para tener una mayor organización.
+] -> [los nuevos clientes siguiente:
+- Fecha de nacimiento
+- DNI
+- Nombre
+- Apellidos 
+- Número de teléfono
+- Dirección
+- Código postal
+- Email
+- Número de pacientes
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [quedaría bien]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+tener un registro de estadísticas sobre mi negocio,
+para saber mi situación.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] Horario trabajadores con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1413,6 +2362,73 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GRF-0004] Huellas con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0064] RN-1 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero saber la disponibilidad de los trabajadores,
+para poder adjudicar una cita o consulta.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0002] Información clientes  con 0 hijos y 7 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1431,6 +2447,15 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [Name] actualizada [Huellas 2] -> [Sección de compra del establecimiento, junto a la caja.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1461,12 +2486,52 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>ACT-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como cliente,
+quiero que tener acceso a toda la información de mis animales,
+para estar informado de su estado.] -> [permitir al cliente acceder a los datos de sus mascotas
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0049] RG-3 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -1525,6 +2590,15 @@
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>GRF-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
@@ -1595,6 +2669,328 @@
 <rem:description><![CDATA[Propiedad [Name] actualizada [Huellas 7] -> [Camilla de consulta veterinaria]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero que un cliente sea necesariamente mayor de edad para poder estar registrado. 
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0010</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0069] RN-6 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [
+Como gestor, 
+quiero tener acceso a la información referente a las citas
+para poder tener información precisa en todo momento.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [
+Como gestor,
+quiero poder almacenar la siguiente información de los nuevos pacientes,
+- Número chip
+- Especie
+- Raza
+- Género
+- Color de pelo
+- Edad 
+-Informes de consulta
+-Informes de vacunas
+para tener una mayor organización.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [
+Como veterinario,
+quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,
+para poder organizarme.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como trabajador,
+quiero que se me notifique cuando un cita se me adjudica o se me cancela.
+para estar informado en todo momentos.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0057] RI-1 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [Como gestor,
+quiero que un cliente esté necesariamente registrado,
+para poder reservar una cita. 
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero que la cita solo pueda ser atendida por su trabajador correspondiente,
+para evitar problemas en la organización.] -> [permitir que solo un trabajador atienda una cita en concreto.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0007</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0008</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero que no se puedan reservar consultas en el mismo periodo de tiempo, 
+para evitar que existan 2 consultas a la vez. 
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero que la cita solo pueda ser atendida por su trabajador correspondiente,
+para evitar problemas en la organización.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [horario de los trabajadores, para tener control sobre la plantilla.
+
+hola] -> [horario de los trabajadores, para tener control sobre la plantilla.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0062] RI-6 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0012</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>UC-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1602,6 +2998,15 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0051] RG-5 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1623,6 +3028,73 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [
+Como gestor,
+quiero poder almacenar la siguiente información de los nuevos pacientes,
+- Número chip
+- Especie
+- Raza
+- Género
+- Color de pelo
+- Edad 
+-Informes de consulta
+-Informes de vacunas
+para tener una mayor organización.
+] -> [los nuevos clientes. En concreto:
+- Número chip
+- Especie
+- Raza
+- Género
+- Color de pelo
+- Edad 
+-Informes de consulta
+-Informes de vacunas
+para tener una mayor organización.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0073] RCS-04 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>ACT-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
@@ -1631,8 +3103,104 @@
 <rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [El actor paciente representa a cualquier animal del actor cliente.]]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0050] RG-4 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [
+Como veterinario,
+quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,
+para poder organizarme.
+] -> [el horario de los veterinarios, para que se puedan organizar y mantener un control sobre su trabajo.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero poder modificar el horario de mis trabajadores,
+para tener control de la plantilla.
+]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [las citas, y darle acceso también al gestor.
+En concreto : ] -> [las citas, y darle acceso también al gestor.
+En concreto : 
+- identificador del paciente
+- horario
+- duración
+- coste]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
@@ -1649,6 +3217,15 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -1656,5 +3233,1359 @@
 <rem:day>13</rem:day>
 </rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0119] UC-1: Revervar cita con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [
+Como gestor, 
+quiero tener acceso a la información referente a las citas
+para poder tener información precisa en todo momento.] -> [las citas, y darle acceso también al gestor.
+En concreto : ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0048] RG-2 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0087] RPS-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0078] RCS-09 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0013</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0008</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [
+Como peluquero,
+quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,
+para poder organizarme.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como trabajador,
+quiero que tener acceso a toda la información de mis pacientes,
+para estar informado en todo momentos.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [Como gestor,
+quiero poder ver el horario de mis trabajadores,
+para tener un control de la plantilla.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Información pacientes con 0 hijos y 7 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [Como gestor,
+quiero que un cliente esté necesariamente registrado,
+para poder reservar una cita. 
+] -> [comprobar que el cliente está registrado para poder reservar una cita.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [
+Como gestor,
+quiero poder almacenar la siguiente información sobre los nuevos clientes:
+- Fecha de nacimiento
+- DNI
+- Nombre
+- Apellidos 
+- Número de teléfono
+- Dirección
+- Código postal
+- Email
+- Número de pacientes
+para tener una mayor organización.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0008</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0079] RCS-10 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0008</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero que no se puedan reservar consultas en el mismo periodo de tiempo, 
+para evitar que existan 2 consultas a la vez. 
+] -> [prohibir que se reserven consultas en el mismo periodo de tiempo. De este modo no habrá conflicto.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como veterinario,
+quiero poder asociar un paciente con un historial,
+para poder hacer un seguimiento del animal.
+] -> [asociar a cada paciente con un historial, para poder mantener el seguimiento de sus vacunas e informes controlados.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [
+Como peluquero,
+quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,
+para poder organizarme.] -> [horario de los peluqueros, para una mejor organización.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0011</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0008</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+permitir al gestor acceder de forma exclusiva a la información de los clientes, para cumplir con la ley de protección de datos
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0070] RCS-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero un listado de los pacientes organizados por raza o especie,
+para tener una organización más estructurada.] -> [poder listar a los pacientes organizados por raza o especie]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0005</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0083] RFin-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0006</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0027] Notificación peluquero con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero un listado de los pacientes organizados por raza o especie,
+para tener una organización más estructurada.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [quedaría bien]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0072] RCS-03 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [puede esperar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como veterinario,
+quiero poder asociar un paciente con un historial,
+para poder hacer un seguimiento del animal.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0089] RM-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [puede esperar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [quedaría bien]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0088] RSS-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0032]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [ser capaz de operar con hasta 100 usuarios concurrentes con un índice de respuesta inferior a 1 segundo, 
+para mejorar la eficiencia del sistema. 
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como peluquero,
+quiero recibir una notificación cuando se añade una nueva consulta.
+para estar al tanto de las nuevas consultas.
+] -> [notificar al peluquero cuando a este se le añada una cita de peluquería.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0086] RES-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor, 
+quiero que el sistema esté disponible todo el tiempo 24/7, 
+para ofrecer servicio en todo momento a los clientes.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [permitir que el gestor modifique los datos de la cita.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0024</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [Como veterinario,
+quiero poder generar un informe y añadirlo al historial de un paciente,
+para hacer un seguimiento del animal.
+] -> [permitir que el veterinario genere un informe o un informe de vacunas y añadirlo al historial del paciente.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor,
+quiero poder modificar el horario de mis trabajadores,
+para tener control de la plantilla.
+] -> [permitir que el gestor modifique el horario de los trabajadores.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [quedaría bien]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [notificar al cliente cuando se realice la reserva de su cita, para que acuda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0031]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [permitir que el cliente pueda realizar su reserva de cita en máximo 6 clicks, y así asegurar un sistema claro y rápido.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0084] RUS-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0025</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [tener seguimientos periódicos y si es necesario que se realicen mejores, y así ofrecerle en todo momento un sistema actualizado tanto al cliente como a los trabajadores.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0077] RCS-08 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [puede esperar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0026</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0030</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0082] RCS-12 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como peluquero,
+quiero recibir una notificación cuando se añade una nueva consulta.
+para estar al tanto de las nuevas consultas.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0081] RCS-11 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0047] RG-1 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0029</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0028</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [
+Como gestor,
+quiero un listado de todos los clientes y respectivos pacientes,
+para tener una organización más estructurada.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de verificación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0052] RG-6 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [
+Como gestor, 
+quiero que el sistema esté disponible todo el tiempo 24/7, 
+para ofrecer servicio en todo momento a los clientes.
+] -> [estar disponible 24/7, para poder atender al cliente en todo momento.
+]]]></rem:description>
 </rem:change>
 </rem:log>
