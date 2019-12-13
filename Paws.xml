@@ -4,7 +4,7 @@
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Paws</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
-<rem:name>Especificación de Requisitos del Sistema [MadejaIR]</rem:name>
+<rem:name>Especificaciï¿½n de Requisitos del Sistema [MadejaIR]</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -54,7 +54,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0003">
 <rem:name>
-[Índice y lista de tablas y figuras]</rem:name>
+[ï¿½ndice y lista de tablas y figuras]</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -71,7 +71,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0001">
 <rem:name>
-Introducción</rem:name>
+Introducciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -117,7 +117,9 @@ Alcance del Proyecto 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>El proyecto que vamos a llevar a cabo va a afectar al negocio de la veterinaria en gran medida, lo único que no trataremos será el control financiero del establecimiento y el stock del material. <br/></rem:text>
+<rem:text>
+<br/>El proyecto que vamos a llevar a cabo va a afectar al negocio de la veterinaria en gran medida, lo ï¿½nico que no trataremos serï¿½ el control financiero del establecimiento y el stock del material. 
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0024">
@@ -134,7 +136,9 @@ Alcance del Proyecto 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Aunque no tratemos todos los aspectos del negocio abordaremos problemas que afectan tanto a la dueña y gerente, por el control de la información,  y a los trabajadores, por el mismo motivo. Por último, a los clientes, ya que se tendrán en cuenta los métodos de reserva de citas que los implican para mejorarlos. <br/><br/></rem:text>
+<rem:text>Aunque no tratemos todos los aspectos del negocio abordaremos problemas que afectan tanto a la dueï¿½a y gerente, por el control de la informaciï¿½n,  y a los trabajadores, por el mismo motivo. Por ï¿½ltimo, a los clientes, ya que se tendrï¿½n en cuenta los mï¿½todos de reserva de citas que los implican para mejorarlos. 
+<br/>
+<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -186,7 +190,7 @@ Organizaciones participantes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La única orgacición participante de este proyecto es la propia clínica veterinaria &quot;Huellas&quot;.</rem:text>
+<rem:text>La ï¿½nica orgaciciï¿½n participante de este proyecto es la propia clï¿½nica veterinaria &quot;Huellas&quot;.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -221,7 +225,7 @@ Personas participantes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. </rem:text>
+<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarï¿½n con la informaciï¿½n y ayuda de la dueï¿½a del establecimiento y de sus trabajadores. </rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -257,7 +261,8 @@ Objetivos del proyecto 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El objetivo de este proyecto es crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.<br/></rem:text>
+<rem:text>El objetivo de este proyecto es crear un sistema informaciï¿½n mï¿½s funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la informaciï¿½n que debe gestionar en un solo punto. De esta forma tendrï¿½n mucho mï¿½s controlada toda la informaciï¿½n.
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0021">
@@ -274,7 +279,8 @@ Objetivos del proyecto 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Por otra parte, mediante la creación del sistema de información anterior, también  abordaremos el control de los empleados y el reparto de su respectivos trabajos.<br/></rem:text>
+<rem:text>Por otra parte, mediante la creaciï¿½n del sistema de informaciï¿½n anterior, tambiï¿½n  abordaremos el control de los empleados y el reparto de su respectivos trabajos.
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0022">
@@ -291,14 +297,15 @@ Objetivos del proyecto 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Finalmente, crearemos un sistema que facilite la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.<br/></rem:text>
+<rem:text>Finalmente, crearemos un sistema que facilite la reserva de citas a los clientes, para que asï¿½ dispongan  de un servicio mï¿½s ï¿½gil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.
+<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0007">
 <rem:name>
-Información sobre el dominio del problema</rem:name>
+Informaciï¿½n sobre el dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -315,7 +322,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0008">
 <rem:name>
-Introducción al dominio del problema</rem:name>
+Introducciï¿½n al dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -332,7 +339,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0004">
 <rem:name>
-Introducción al dominio del problema 1</rem:name>
+Introducciï¿½n al dominio del problema 1</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -344,12 +351,12 @@ Introducción al dominio del problema 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>    La clínica veterinaria &apos;&apos;Huellas&apos;&apos; es una pequeña empresa ubicada en Villanueva de la Serena, un pequeño pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnología de la alimentación, que encontró su vocación tras trabajar durante cinco años en una clínica fuera de su localidad. A raíz de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidió crear una en su pueblo. Así nace el negocio de nuestra <rem:ref oid="GLO-0010">cliente</rem:ref>, que hoy cuenta con más de 12 años de experiencia.</rem:text>
+<rem:text>    La clï¿½nica veterinaria &apos;&apos;Huellas&apos;&apos; es una pequeï¿½a empresa ubicada en Villanueva de la Serena, un pequeï¿½o pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnologï¿½a de la alimentaciï¿½n, que encontrï¿½ su vocaciï¿½n tras trabajar durante cinco aï¿½os en una clï¿½nica fuera de su localidad. A raï¿½z de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidiï¿½ crear una en su pueblo. Asï¿½ nace el negocio de nuestra <rem:ref oid="GLO-0010">cliente</rem:ref>, que hoy cuenta con mï¿½s de 12 aï¿½os de experiencia.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0005">
 <rem:name>
-Introducción al dominio del problema 2</rem:name>
+Introducciï¿½n al dominio del problema 2</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -361,12 +368,14 @@ Introducción al dominio del problema 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El negocio actualmente está formado por la gerente y propietaria,<br/>que ejerce como veterinaria , y una trabajadora, que realiza las tareas de auxiliar y peluquera canina. Durante todo el año se mantiene un horario fijo, no obstante, se puede realizar una consulta fuera del horario normal o a domicilio en caso de urgencia. La gestión de citas se hace tanto en el local como por teléfono, siempre que esté dentro del horario de apertura del mismo.</rem:text>
+<rem:text>El negocio actualmente estï¿½ formado por la gerente y propietaria,
+<br/>que ejerce como veterinaria , y una trabajadora, que realiza las tareas de <rem:ref oid="GLO-0009">auxiliar</rem:ref> y <rem:ref oid="GLO-0038">peluquero</rem:ref>. Durante todo el aï¿½o se mantiene un horario fijo, no obstante, se puede realizar una <rem:ref oid="GLO-0011">consulta</rem:ref> fuera del horario normal o a domicilio en caso de urgencia. La gestiï¿½n de citas se hace tanto en el local como por telï¿½fono, siempre que estï¿½ dentro del horario de apertura del mismo.
+</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0006">
 <rem:name>
-Introducción al dominio del problema 3</rem:name>
+Introducciï¿½n al dominio del problema 3</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -378,12 +387,13 @@ Introducción al dominio del problema 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La clínica suele tratar a animales de compañía pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clínica está especializada fundamentalmente en el trato de perros, gatos y pequeños roedores. También se tratan animales exóticos, aunque con menor frecuencia debido a las<br/>limitaciones que tienen al ser un pequeño negocio.</rem:text>
+<rem:text>La clï¿½nica suele tratar a animales de compaï¿½ï¿½a pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clï¿½nica estï¿½ especializada fundamentalmente en el trato de perros, gatos y pequeï¿½os roedores. Tambiï¿½n se tratan animales exï¿½ticos, aunque con menor frecuencia debido a las
+<br/>limitaciones que tienen al ser un pequeï¿½o negocio.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0007">
 <rem:name>
-Introducción al dominio del problema 4</rem:name>
+Introducciï¿½n al dominio del problema 4</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -395,12 +405,13 @@ Introducción al dominio del problema 4</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En cuanto a la gestión de información, la empresa se organiza<br/>mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del <rem:ref oid="GLO-0010">cliente</rem:ref> y su mascota a la hora de hacer la consulta, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del <rem:ref oid="GLO-0010">cliente</rem:ref>, el contacto con los proveedores o nóminas y horarios del trabajador. </rem:text>
+<rem:text>En cuanto a la gestiï¿½n de informaciï¿½n, la empresa se organiza
+<br/>mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodologï¿½a concreta. Dicha metodologï¿½a consiste en tomar los datos del <rem:ref oid="GLO-0010">cliente</rem:ref> y su mascota a la hora de hacer la <rem:ref oid="GLO-0011">consulta</rem:ref>, y pasar toda la informaciï¿½n al Excel una vez hayan acabado. En el Excel ademï¿½s se encuentra toda la informaciï¿½n relevante del negocio, como el estado de las mascotas, la informaciï¿½n del <rem:ref oid="GLO-0010">cliente</rem:ref>, el contacto con los proveedores o nï¿½minas y horarios del trabajador. </rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0008">
 <rem:name>
-Introducción al dominio del problema 5</rem:name>
+Introducciï¿½n al dominio del problema 5</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -412,13 +423,13 @@ Introducción al dominio del problema 5</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En general, se trata de un sistema donde toda la información está a medias entre un Excel y una agenda. Esto hace que el sistema sea poco flexible y de lenta gestión cuando se supera la media de clientes o llegan clientes nuevos. Nosotros intentaremos solucionar esos problemas concretos.</rem:text>
+<rem:text>En general, se trata de un sistema donde toda la informaciï¿½n estï¿½ a medias entre un Excel y una agenda. Esto hace que el sistema sea poco flexible y de lenta gestiï¿½n cuando se supera la media de clientes o llegan clientes nuevos. Nosotros intentaremos solucionar esos problemas concretos.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0009">
 <rem:name>
-Glosario de términos del dominio del problema</rem:name>
+Glosario de tï¿½rminos del dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -435,7 +446,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0009">
 <rem:name>
-<rem:ref oid="GLO-0009">Auxiliar </rem:ref></rem:name>
+<rem:ref oid="GLO-0009">Auxiliar</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -447,7 +458,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Trabajador que se dedica a los servicios de peluquería canina y da apoyo al <rem:ref oid="GLO-0019">veterinario</rem:ref>.</rem:text>
+<rem:text> Trabajador que se dedica a los servicios de <rem:ref oid="GLO-0038">peluquero</rem:ref> y da apoyo al <rem:ref oid="GLO-0019">veterinario</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0010">
@@ -464,12 +475,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>  Persona que abona la factura y es responsable íntegro del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:text>
+<rem:text>  Persona que abona la factura y es responsable ï¿½ntegro del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0011">
 <rem:name>
-<rem:ref oid="GLO-0011">Consulta </rem:ref></rem:name>
+<rem:ref oid="GLO-0011">Consulta</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -481,12 +492,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del <rem:ref oid="GLO-0015">paciente</rem:ref>. La consulta será remunerada independientemente del tratamiento.</rem:text>
+<rem:text> Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del <rem:ref oid="GLO-0015">paciente</rem:ref>. La <rem:ref oid="GLO-0011">consulta</rem:ref> serï¿½ remunerada independientemente del <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0012">
 <rem:name>
-<rem:ref oid="GLO-0012">Esterilización </rem:ref></rem:name>
+<rem:ref oid="GLO-0012">Esterilizaciï¿½n</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -498,7 +509,8 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Proceso quirúrgico mediante el cual se hace infecundo y estéril a aquel <rem:ref oid="GLO-0015">paciente</rem:ref> que antes no lo era. Se le realiza durante una consulta.</rem:text>
+<rem:text> Proceso quirï¿½rgico mediante el cual se hace infecundo y estï¿½ril a aquel <rem:ref oid="GLO-0015">paciente</rem:ref> que antes no lo era. Se le realiza durante una <rem:ref oid="GLO-0011">consulta</rem:ref>.
+</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0039">
@@ -515,7 +527,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>  Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.</rem:text>
+<rem:text>  Persona que se encarga de dirigir, gestionar o administrar la clï¿½nica veterinaria.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0013">
@@ -532,7 +544,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Periodo fijo de 10:00 a 14:00 y de 17:30 a 19:30 de lunes a viernes. Durante este periodo se podrán llevar a cabo todo tipo de acciones rutinarias como consultas, pero no se realizarán labores de urgencia.</rem:text>
+<rem:text> Periodo fijo de 10:00 a 14:00 y de 17:30 a 19:30 de lunes a viernes. Durante este periodo se podrï¿½n llevar a cabo todo tipo de acciones rutinarias como consultas, pero no se realizarï¿½n labores de urgencia.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0014">
@@ -566,7 +578,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada <rem:ref oid="GLO-0015">paciente</rem:ref> tiene un dueño, ese será el <rem:ref oid="GLO-0010">cliente</rem:ref> de la veterinaria.</rem:text>
+<rem:text> Animal que recibe cualquier tipo de servicio tanto de <rem:ref oid="GLO-0011">consulta</rem:ref> o de urgencia por parte de la veterinaria. Cada <rem:ref oid="GLO-0015">paciente</rem:ref> tiene un dueï¿½o, ese serï¿½ el <rem:ref oid="GLO-0010">cliente</rem:ref> de la veterinaria.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0038">
@@ -588,7 +600,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0016">
 <rem:name>
-<rem:ref oid="GLO-0016">Servicio de Peluquería</rem:ref></rem:name>
+<rem:ref oid="GLO-0016">Servicio de Peluquerï¿½a</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -600,12 +612,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Proceso de aproximadamente 45 minutos en el cual la auxiliar baña, cepilla y corta el pelo y uñas del <rem:ref oid="GLO-0015">paciente</rem:ref>. Solo se puede solicitar el <rem:ref oid="GLO-0016">servicio de peluquería</rem:ref> para perros, gatos y pequeños roedores.</rem:text>
+<rem:text> Proceso de aproximadamente 45 minutos en el cual la <rem:ref oid="GLO-0009">auxiliar</rem:ref> baï¿½a, cepilla y corta el pelo y uï¿½as del <rem:ref oid="GLO-0015">paciente</rem:ref>. Solo se puede solicitar el <rem:ref oid="GLO-0016">servicio de peluquerï¿½a</rem:ref> para perros, gatos y pequeï¿½os roedores.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0017">
 <rem:name>
-<rem:ref oid="GLO-0017">Tratamiento </rem:ref></rem:name>
+<rem:ref oid="GLO-0017">Tratamiento</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -617,7 +629,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Conjunto de toda la medicación, posibles operaciones o radiaciones que el <rem:ref oid="GLO-0015">paciente</rem:ref> reciba. Serán abonadas independientemente de precio de la consulta.</rem:text>
+<rem:text> Conjunto de toda la medicaciï¿½n, posibles operaciones o radiaciones que el <rem:ref oid="GLO-0015">paciente</rem:ref> reciba. Serï¿½n abonadas independientemente de precio de la <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0018">
@@ -634,7 +646,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Instancia en la que un <rem:ref oid="GLO-0015">paciente</rem:ref> se encuentra en una situación extrema y necesita una consulta y tratamiento dentro del <rem:ref oid="GLO-0014">horario de urgencias</rem:ref>.</rem:text>
+<rem:text> Instancia en la que un <rem:ref oid="GLO-0015">paciente</rem:ref> se encuentra en una situaciï¿½n extrema y necesita una <rem:ref oid="GLO-0011">consulta</rem:ref> y <rem:ref oid="GLO-0017">tratamiento</rem:ref> dentro del <rem:ref oid="GLO-0014">horario de urgencias</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0019">
@@ -651,14 +663,14 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Profesional en medicina animal. En este caso particular nos encontramos que el <rem:ref oid="GLO-0019">veterinario</rem:ref> realiza también labores de <rem:ref oid="GLO-0039">gestor</rem:ref>. El <rem:ref oid="GLO-0019">veterinario</rem:ref> es nuestro <rem:ref oid="GLO-0010">cliente</rem:ref> y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.</rem:text>
+<rem:text> Profesional en medicina animal. En este caso particular nos encontramos que el <rem:ref oid="GLO-0019">veterinario</rem:ref> realiza tambiï¿½n labores de <rem:ref oid="GLO-0039">gestor</rem:ref>. El <rem:ref oid="GLO-0019">veterinario</rem:ref> es nuestro <rem:ref oid="GLO-0010">cliente</rem:ref> y este se encarga tanto de la gestiï¿½n del horario, como de las consultas y de suministrar el <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0010">
 <rem:name>
-Descripción de la situación actual</rem:name>
+Descripciï¿½n de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -675,7 +687,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0011">
 <rem:name>
-Pros y contras de la situación actual</rem:name>
+Pros y contras de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -704,7 +716,8 @@ Pros 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al tratarse de un pequeño pueblo no hay muchas clínicas veterinarias por lo que no tienen apenas competencia.<br/></rem:text>
+<rem:text>Al tratarse de un pequeï¿½o pueblo no hay muchas clï¿½nicas veterinarias por lo que no tienen apenas competencia.
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0026">
@@ -721,7 +734,7 @@ Pros 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Actualmente tienen una demanda creciente, debido sobre todo a la ganadería.</rem:text>
+<rem:text>Actualmente tienen una demanda creciente, debido sobre todo a la ganaderï¿½a.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0027">
@@ -738,7 +751,8 @@ Pros 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>De cara al público el trato es muy bueno y los <rem:ref oid="GLO-0010">cliente</rem:ref> están muy fidelizados.<br/></rem:text>
+<rem:text>De cara al pï¿½blico el trato es muy bueno y los <rem:ref oid="GLO-0010">cliente</rem:ref> estï¿½n muy fidelizados.
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0028">
@@ -755,7 +769,8 @@ Contras 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al ser una pequeña clínica, el personal es muy reducido.<br/></rem:text>
+<rem:text>Al ser una pequeï¿½a clï¿½nica, el personal es muy reducido.
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0029">
@@ -772,7 +787,8 @@ Contras 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La demanda creciente genera sobrecarga.<br/></rem:text>
+<rem:text>La demanda creciente genera sobrecarga.
+<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0030">
@@ -789,12 +805,13 @@ Contras 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La recepción de petición de citas es limitada a una línea telefónica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.<br/></rem:text>
+<rem:text>La recepciï¿½n de peticiï¿½n de citas es limitada a una lï¿½nea telefï¿½nica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.
+<br/></rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0015">
 <rem:name>
-Fortalezas de la situación actual</rem:name>
+Fortalezas de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -823,13 +840,14 @@ Fortalezas </rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La fortaleza principal del negocio es el trato personal con los clientes, atendiendo citas en el local o por llamada directa. Sería muy difícil pensar en eliminar esta parte del negocio, pues la gran mayoría de personas que van a este establecimiento es por ello.<br/></rem:text>
+<rem:text>La fortaleza principal del negocio es el trato personal con los clientes, atendiendo citas en el local o por llamada directa. Serï¿½a muy difï¿½cil pensar en eliminar esta parte del negocio, pues la gran mayorï¿½a de personas que van a este establecimiento es por ello.
+<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0016">
 <rem:name>
-Debilidades de la sitación actual</rem:name>
+Debilidades de la sitaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -846,7 +864,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0034">
 <rem:name>
-Debilidades de la situación actual</rem:name>
+Debilidades de la situaciï¿½n actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -858,7 +876,8 @@ Debilidades de la situación actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Las debilidades actuales del negocio son su forma de almacenar toda la información referente a los clientes y trabajadores en general, ya que al ser manual y por un excel no se aprovecha el tiempo como se debería y cabe la posibilidad de que se traspapele información. También les ralentiza y toma mucho tiempo las reservas de citas por teléfono por las mismas razones.<br/></rem:text>
+<rem:text>Las debilidades actuales del negocio son su forma de almacenar toda la informaciï¿½n referente a los clientes y trabajadores en general, ya que al ser manual y por un excel no se aprovecha el tiempo como se deberï¿½a y cabe la posibilidad de que se traspapele informaciï¿½n. Tambiï¿½n les ralentiza y toma mucho tiempo las reservas de citas por telï¿½fono por las mismas razones.
+<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -882,7 +901,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0013">
 <rem:name>
-Descripción de actores de negocio actuales</rem:name>
+Descripciï¿½n de actores de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -910,8 +929,10 @@ Ninguno</rem:comments>
 </rem:date>
 </rem:version>
 <rem:comments>
-  La gestora puede tomar a su vez el rol de peluquera o veterinaria.<br/></rem:comments>
-<rem:actorRole>es el rol encargado de la organización general del negocio. Sus funciones pasan desde la gestión de personal hasta la administración de peticiones de citas.<br/></rem:actorRole>
+  La gestora puede tomar a su vez el rol de peluquera o veterinaria.
+<br/></rem:comments>
+<rem:actorRole>es el rol encargado de la organizaciï¿½n general del negocio. Sus funciones pasan desde la gestiï¿½n de personal hasta la administraciï¿½n de peticiones de citas.
+<br/></rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0002">
@@ -928,7 +949,8 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Al atender una consulta genera un historial.</rem:comments>
-<rem:actorRole>El <rem:ref oid="GLO-0019">veterinario</rem:ref>, tiene la responsabilidad de atender a los animales que el <rem:ref oid="GLO-0039">gestor</rem:ref> le asigne y de cumplir su horario de trabajo establecido por el <rem:ref oid="GLO-0039">gestor</rem:ref>.<br/></rem:actorRole>
+<rem:actorRole>El <rem:ref oid="GLO-0019">veterinario</rem:ref>, tiene la responsabilidad de atender a los animales que el <rem:ref oid="GLO-0039">gestor</rem:ref> le asigne y de cumplir su horario de trabajo establecido por el <rem:ref oid="GLO-0039">gestor</rem:ref>.
+<br/></rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0003">
@@ -945,7 +967,8 @@ Al atender una consulta genera un historial.</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>El <rem:ref oid="GLO-0038">peluquero</rem:ref> tiene la responsabilidad de atender las citas de peluquería asignadas por el <rem:ref oid="GLO-0039">gestor</rem:ref> y debe cumplir con su horario de trabajo establecido.<br/></rem:actorRole>
+<rem:actorRole>El <rem:ref oid="GLO-0038">peluquero</rem:ref> tiene la responsabilidad de atender las citas de peluquerï¿½a asignadas por el <rem:ref oid="GLO-0039">gestor</rem:ref> y debe cumplir con su horario de trabajo establecido.
+<br/></rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
@@ -961,14 +984,15 @@ Ninguno</rem:comments>
 </rem:date>
 </rem:version>
 <rem:comments>
-El <rem:ref oid="GLO-0010">cliente</rem:ref> puede pedir tanto una consulta como una cita de peluquería.</rem:comments>
-<rem:actorRole>El <rem:ref oid="GLO-0010">cliente</rem:ref> es aquella persona que realiza una petición de algún servicio hacia su mascota (<rem:ref oid="GLO-0015">paciente</rem:ref>).<br/></rem:actorRole>
+El <rem:ref oid="GLO-0010">cliente</rem:ref> puede pedir tanto una consulta como una cita de peluquerï¿½a.</rem:comments>
+<rem:actorRole>El <rem:ref oid="GLO-0010">cliente</rem:ref> es aquella persona que realiza una peticiï¿½n de algï¿½n servicio hacia su mascota (<rem:ref oid="GLO-0015">paciente</rem:ref>).
+<br/></rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
  oid = "SEC-0014">
 <rem:name>
-Descripción de procesos de negocio actuales</rem:name>
+Descripciï¿½n de procesos de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1006,7 +1030,8 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-El actor <rem:ref oid="GLO-0010">CLIENTE</rem:ref> solicita una cita por teléfono o de manera presencial, ya sea para la peluquería o para la revisión médica del animal en el horario de actividad laboral de la empresa y el actor <rem:ref oid="GLO-0039">GESTOR</rem:ref>  le informará de la disponibilidad de citas que hay.<br/></rem:triggeringEvent>
+El actor <rem:ref oid="GLO-0010">CLIENTE</rem:ref> solicita una cita por telï¿½fono o de manera presencial, ya sea para la peluquerï¿½a o para la revisiï¿½n mï¿½dica del animal en el horario de actividad laboral de la empresa y el actor <rem:ref oid="GLO-0039">GESTOR</rem:ref>  le informarï¿½ de la disponibilidad de citas que hay.
+<br/></rem:triggeringEvent>
 <rem:precondition>
 <rem:tbd/></rem:precondition>
 <rem:postcondition>
@@ -1029,7 +1054,8 @@ Asignar Citas</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Los trabajadores pueden ser GESTORES , VETERINARIOS o PELUQUEROS. A  los veterinarios solo se le asignan consultas, y a los peluqueros citas de peluquería. <br/></rem:comments>
+Los trabajadores pueden ser GESTORES , VETERINARIOS o PELUQUEROS. A  los veterinarios solo se le asignan consultas, y a los peluqueros citas de peluquerï¿½a. 
+<br/></rem:comments>
 <rem:importance value = "IMV-0003"/>
 <rem:urgency value = "URV-0003"/>
 <rem:status>
@@ -1051,7 +1077,7 @@ El <rem:ref oid="GLO-0039">GESTOR</rem:ref> asigna las citas al TRABAJADOR.</rem
 <rem:useCase
  oid = "UC-0003">
 <rem:name>
-Actualización/Creación Historial <rem:ref oid="GLO-0015">Paciente</rem:ref></rem:name>
+Actualizaciï¿½n/Creaciï¿½n Historial <rem:ref oid="GLO-0015">Paciente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1062,7 +1088,8 @@ Actualización/Creación Historial <rem:ref oid="GLO-0015">Paciente</rem:ref></rem
 </rem:date>
 </rem:version>
 <rem:comments>
- Cuando los pacientes vayan sin historial, se generará uno, en caso de tenerlo se le añadirá un informe al historial<br/></rem:comments>
+ Cuando los pacientes vayan sin historial, se generarï¿½ uno, en caso de tenerlo se le aï¿½adirï¿½ un informe al historial
+<br/></rem:comments>
 <rem:importance>
 <rem:tbd/>
 </rem:importance>
@@ -1076,7 +1103,8 @@ Actualización/Creación Historial <rem:ref oid="GLO-0015">Paciente</rem:ref></rem
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-El <rem:ref oid="GLO-0010">cliente</rem:ref> entrega al <rem:ref oid="GLO-0015">paciente</rem:ref> a la clínica y el <rem:ref oid="GLO-0019">veterinario</rem:ref> crea o añade un informe al historial previo del <rem:ref oid="GLO-0015">paciente</rem:ref>.<br/></rem:triggeringEvent>
+El <rem:ref oid="GLO-0010">cliente</rem:ref> entrega al <rem:ref oid="GLO-0015">paciente</rem:ref> a la clï¿½nica y el <rem:ref oid="GLO-0019">veterinario</rem:ref> crea o aï¿½ade un informe al historial previo del <rem:ref oid="GLO-0015">paciente</rem:ref>.
+<br/></rem:triggeringEvent>
 <rem:precondition>
 <rem:tbd/></rem:precondition>
 <rem:postcondition>
@@ -1090,7 +1118,7 @@ El <rem:ref oid="GLO-0010">cliente</rem:ref> entrega al <rem:ref oid="GLO-0015">
 <rem:section
  oid = "SEC-0017">
 <rem:name>
-Entorno tecnológico actual</rem:name>
+Entorno tecnolï¿½gico actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1107,7 +1135,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0018">
 <rem:name>
-Descripción del entorno de hardware actual</rem:name>
+Descripciï¿½n del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1124,7 +1152,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0035">
 <rem:name>
-Descripción del entorno de hardware actual</rem:name>
+Descripciï¿½n del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1136,13 +1164,14 @@ Descripción del entorno de hardware actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La clínica actualmente tan solo consta de un ordenador de sobremesa de notable vetustez.<br/></rem:text>
+<rem:text>La clï¿½nica actualmente tan solo consta de un ordenador de sobremesa de notable vetustez.
+<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0019">
 <rem:name>
-Descripción del entorno de software actual</rem:name>
+Descripciï¿½n del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1159,7 +1188,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0036">
 <rem:name>
-Descripción del entorno de software actual</rem:name>
+Descripciï¿½n del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1213,7 +1242,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0037">
 <rem:name>
-Objetivos de negocio introducción</rem:name>
+Objetivos de negocio introducciï¿½n</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1225,7 +1254,8 @@ Objetivos de negocio introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Los objetivos del negocio serían principalmente tres. En primer lugar la mejora del control y gestión de la información tanto de los trabajadores como de los pacientes y clientes mediante un sistema de información preferentemente. Por otra parte, una plataforma para la organización de los datos de los pacientes (historiales e informes) para los trabajadores. Y por último la optimización de los métodos de reserva de citas para los clientes. </rem:text>
+<rem:text>
+<br/>Los objetivos del negocio serï¿½an principalmente tres. En primer lugar la mejora del control y gestiï¿½n de la informaciï¿½n tanto de los trabajadores como de los pacientes y clientes mediante un sistema de informaciï¿½n preferentemente. Por otra parte, una plataforma para la organizaciï¿½n de los datos de los pacientes (historiales e informes) para los trabajadores. Y por ï¿½ltimo la optimizaciï¿½n de los mï¿½todos de reserva de citas para los clientes. </rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -1248,7 +1278,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0023">
 <rem:name>
-Descripción de actores de negocio a implantar</rem:name>
+Descripciï¿½n de actores de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1266,7 +1296,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0024">
 <rem:name>
-Descripción de procesos de negocio a implantar</rem:name>
+Descripciï¿½n de procesos de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1286,7 +1316,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0028">
 <rem:name>
-Descripción de los subsistemas del sistema a desarrollar</rem:name>
+Descripciï¿½n de los subsistemas del sistema a desarrollar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1304,7 +1334,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0029">
 <rem:name>
-Catálogo de requisitos del sistema a desarrollar</rem:name>
+Catï¿½logo de requisitos del sistema a desarrollar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1374,7 +1404,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0033">
 <rem:name>
-Especificación de actores del sistema</rem:name>
+Especificaciï¿½n de actores del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1392,7 +1422,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0034">
 <rem:name>
-Especificación de casos de uso del sistema</rem:name>
+Especificaciï¿½n de casos de uso del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1428,7 +1458,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0036">
 <rem:name>
-Requisitos de información del sistema</rem:name>
+Requisitos de informaciï¿½n del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1627,7 +1657,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0047">
 <rem:name>
-Restricciones técnicas del sistema</rem:name>
+Restricciones tï¿½cnicas del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1645,7 +1675,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0048">
 <rem:name>
-Requisitos de integración del sistema</rem:name>
+Requisitos de integraciï¿½n del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1663,7 +1693,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0049">
 <rem:name>
-Información sobre trazabilidad</rem:name>
+Informaciï¿½n sobre trazabilidad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1700,7 +1730,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0026">
 <rem:name>
-Documentación relevante</rem:name>
+Documentaciï¿½n relevante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1718,7 +1748,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0027">
 <rem:name>
-Glosario de acrónimos y abreviaturas</rem:name>
+Glosario de acrï¿½nimos y abreviaturas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1735,7 +1765,7 @@ Ninguno</rem:comments>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
-<rem:name>Documento de Análisis del Sistema</rem:name>
+<rem:name>Documento de Anï¿½lisis del Sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1784,9 +1814,9 @@ Ninguno
 </rem:trace>
 <rem:predefinedValueTypes>
 <rem:predefinedValueType
- oid = "PVT-0005">
+ oid = "PVT-0002">
 <rem:name>
-Date</rem:name>
+Integer</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1797,9 +1827,9 @@ Date</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
+Predefined OCL type</rem:comments>
 <rem:description>
-Dates</rem:description>
+Integer numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -1826,9 +1856,9 @@ Natural numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0002">
+ oid = "PVT-0006">
 <rem:name>
-Integer</rem:name>
+Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1839,9 +1869,9 @@ Integer</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type</rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Integer numbers</rem:description>
+Hour:minutes:seconds</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -1912,7 +1942,7 @@ Real numbers</rem:description>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:name>pendiente de realizaciï¿½n</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
@@ -1921,7 +1951,7 @@ Real numbers</rem:description>
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
+<rem:name>pendiente de anï¿½lisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
@@ -1933,7 +1963,7 @@ Real numbers</rem:description>
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:name>en proceso de negociaciï¿½n</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
@@ -1945,7 +1975,7 @@ Real numbers</rem:description>
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:name>en proceso de negociaciï¿½n</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
@@ -1974,13 +2004,13 @@ Real numbers</rem:description>
 <rem:defectTypeValue oid = "DTV-0015">
 <rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos no estï¿½n expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
 <rem:name>No rastreabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
@@ -1992,31 +2022,31 @@ Real numbers</rem:description>
 <rem:defectTypeValue oid = "DTV-0004">
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algï¿½n lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
 <rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnologï¿½a actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
 <rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma mï¿½s concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:name>Dependiente del diseï¿½o</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseï¿½o del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0010">
@@ -2026,15 +2056,15 @@ Real numbers</rem:description>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:name>Imprecisiï¿½n</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numï¿½ricas siempre que sea posible con el nivel adecuado de precisiï¿½n]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
+<rem:name>Ambigï¿½edad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen mï¿½s de una interpretaciï¿½n posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -2044,15 +2074,15 @@ Real numbers</rem:description>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
+<rem:name>Incompleciï¿½n</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberï¿½ hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:name>Organizaciï¿½n incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no estï¿½n organizados correctamente segï¿½n la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -2071,7 +2101,7 @@ Real numbers</rem:description>
 <rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
+<rem:name>quedarï¿½a bien</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
@@ -2086,7 +2116,7 @@ Real numbers</rem:description>
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
+<rem:name>en construcciï¿½n</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
@@ -2094,17 +2124,14 @@ Real numbers</rem:description>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificación</rem:name>
+<rem:name>pendiente de verificaciï¿½n</rem:name>
 </rem:statusValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
+<rem:name>continï¿½a</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
@@ -2113,16 +2140,16 @@ Real numbers</rem:description>
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:name>aï¿½o(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
@@ -2131,10 +2158,10 @@ Real numbers</rem:description>
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:name>dï¿½cima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
+<rem:name>centï¿½sima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
@@ -2149,7 +2176,7 @@ Real numbers</rem:description>
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
+<rem:name>hay presiï¿½n</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
