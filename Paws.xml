@@ -4,7 +4,7 @@
 xmlns:rem="http://rem.lsi.us.es">
 <rem:name>Paws</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
-<rem:name>Especificaciï¿½n de Requisitos del Sistema [MadejaIR]</rem:name>
+<rem:name>Especificación de Requisitos del Sistema [MadejaIR]</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -54,7 +54,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0003">
 <rem:name>
-[ï¿½ndice y lista de tablas y figuras]</rem:name>
+[Índice y lista de tablas y figuras]</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -71,7 +71,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0001">
 <rem:name>
-Introducciï¿½n</rem:name>
+Introducción</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -117,9 +117,7 @@ Alcance del Proyecto 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>
-<br/>El proyecto que vamos a llevar a cabo va a afectar al negocio de la veterinaria en gran medida, lo ï¿½nico que no trataremos serï¿½ el control financiero del establecimiento y el stock del material. 
-<br/></rem:text>
+<rem:text><br/>El proyecto que vamos a llevar a cabo va a afectar al negocio de la veterinaria en gran medida, lo único que no trataremos será el control financiero del establecimiento y el stock del material. <br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0024">
@@ -136,9 +134,7 @@ Alcance del Proyecto 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Aunque no tratemos todos los aspectos del negocio abordaremos problemas que afectan tanto a la dueï¿½a y gerente, por el control de la informaciï¿½n,  y a los trabajadores, por el mismo motivo. Por ï¿½ltimo, a los clientes, ya que se tendrï¿½n en cuenta los mï¿½todos de reserva de citas que los implican para mejorarlos. 
-<br/>
-<br/></rem:text>
+<rem:text>Aunque no tratemos todos los aspectos del negocio abordaremos problemas que afectan tanto a la dueña y gerente, por el control de la información,  y a los trabajadores, por el mismo motivo. Por último, a los clientes, ya que se tendrán en cuenta los métodos de reserva de citas que los implican para mejorarlos. <br/><br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -190,7 +186,7 @@ Organizaciones participantes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La ï¿½nica orgaciciï¿½n participante de este proyecto es la propia clï¿½nica veterinaria &quot;Huellas&quot;.</rem:text>
+<rem:text>La única organización participante de este proyecto es la propia clínica veterinaria “Huellas”. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por dos empleados y por la dueña de la veterinaria que a su vez trabaja de gestora. <br/><br/>Esta veterinaria aunque puede ser pequeña y con pocos trabajadores tiene una gran demanda de trabajo, pues al estar situada en una zona de campo, tiene muchos clientes que están dedicados a la ganadería y necesitan del trabajo de “Huellas” tanto para poder cuidar a sus animales como para poder certificar en ocasiones que están sanos y son de calidad como puede ser el caso de la crianza de los cerdos y de los caballos.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
@@ -225,7 +221,7 @@ Personas participantes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarï¿½n con la informaciï¿½n y ayuda de la dueï¿½a del establecimiento y de sus trabajadores. </rem:text>
+<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un veterinario, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -261,8 +257,7 @@ Objetivos del proyecto 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El objetivo de este proyecto es crear un sistema informaciï¿½n mï¿½s funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la informaciï¿½n que debe gestionar en un solo punto. De esta forma tendrï¿½n mucho mï¿½s controlada toda la informaciï¿½n.
-<br/></rem:text>
+<rem:text>El objetivo de este proyecto es crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0021">
@@ -279,8 +274,7 @@ Objetivos del proyecto 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Por otra parte, mediante la creaciï¿½n del sistema de informaciï¿½n anterior, tambiï¿½n  abordaremos el control de los empleados y el reparto de su respectivos trabajos.
-<br/></rem:text>
+<rem:text>Por otra parte, mediante la creación del sistema de información anterior, también  abordaremos el control de los empleados y el reparto de su respectivos trabajos.<br/></rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0022">
@@ -297,15 +291,14 @@ Objetivos del proyecto 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Finalmente, crearemos un sistema que facilite la reserva de citas a los clientes, para que asï¿½ dispongan  de un servicio mï¿½s ï¿½gil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.
-<br/></rem:text>
+<rem:text>Finalmente, crearemos un sistema que facilite la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0007">
 <rem:name>
-Informaciï¿½n sobre el dominio del problema</rem:name>
+Información sobre el dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -322,7 +315,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0008">
 <rem:name>
-Introducciï¿½n al dominio del problema</rem:name>
+Introducción al dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -339,7 +332,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0004">
 <rem:name>
-Introducciï¿½n al dominio del problema 1</rem:name>
+Introducción al dominio del problema 1</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -351,12 +344,12 @@ Introducciï¿½n al dominio del problema 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>    La clï¿½nica veterinaria &apos;&apos;Huellas&apos;&apos; es una pequeï¿½a empresa ubicada en Villanueva de la Serena, un pequeï¿½o pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnologï¿½a de la alimentaciï¿½n, que encontrï¿½ su vocaciï¿½n tras trabajar durante cinco aï¿½os en una clï¿½nica fuera de su localidad. A raï¿½z de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidiï¿½ crear una en su pueblo. Asï¿½ nace el negocio de nuestra <rem:ref oid="GLO-0010">cliente</rem:ref>, que hoy cuenta con mï¿½s de 12 aï¿½os de experiencia.</rem:text>
+<rem:text>    La clínica veterinaria &apos;&apos;Huellas&apos;&apos; es una pequeña empresa ubicada en Villanueva de la Serena, un pequeño pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnología de la alimentación, que encontró su vocación tras trabajar durante cinco años en una clínica fuera de su localidad. A raíz de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidió crear una en su pueblo. Así nace el negocio de nuestra cliente, que hoy cuenta con más de 12 años de experiencia.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0005">
 <rem:name>
-Introducciï¿½n al dominio del problema 2</rem:name>
+Introducción al dominio del problema 2</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -368,14 +361,12 @@ Introducciï¿½n al dominio del problema 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El negocio actualmente estï¿½ formado por la gerente y propietaria,
-<br/>que ejerce como veterinaria , y una trabajadora, que realiza las tareas de <rem:ref oid="GLO-0009">auxiliar</rem:ref> y <rem:ref oid="GLO-0038">peluquero</rem:ref>. Durante todo el aï¿½o se mantiene un horario fijo, no obstante, se puede realizar una <rem:ref oid="GLO-0011">consulta</rem:ref> fuera del horario normal o a domicilio en caso de urgencia. La gestiï¿½n de citas se hace tanto en el local como por telï¿½fono, siempre que estï¿½ dentro del horario de apertura del mismo.
-</rem:text>
+<rem:text>El negocio actualmente está formado por la gerente y propietaria,<br/>que ejerce como veterinaria , y una trabajadora, que realiza las tareas de <rem:ref oid="GLO-0009">auxiliar</rem:ref> y peluquera canina. Durante todo el año se mantiene un horario fijo, no obstante, se puede realizar una <rem:ref oid="GLO-0011">consulta</rem:ref> fuera del horario normal o a domicilio en caso de urgencia. La gestión de citas se hace tanto en el local como por teléfono, siempre que esté dentro del horario de apertura del mismo.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0006">
 <rem:name>
-Introducciï¿½n al dominio del problema 3</rem:name>
+Introducción al dominio del problema 3</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -387,13 +378,12 @@ Introducciï¿½n al dominio del problema 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La clï¿½nica suele tratar a animales de compaï¿½ï¿½a pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clï¿½nica estï¿½ especializada fundamentalmente en el trato de perros, gatos y pequeï¿½os roedores. Tambiï¿½n se tratan animales exï¿½ticos, aunque con menor frecuencia debido a las
-<br/>limitaciones que tienen al ser un pequeï¿½o negocio.</rem:text>
+<rem:text>La clínica suele tratar a animales de compañía pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clínica está especializada fundamentalmente en el trato de perros, gatos y pequeños roedores. También se tratan animales exóticos, aunque con menor frecuencia debido a las<br/>limitaciones que tienen al ser un pequeño negocio.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0007">
 <rem:name>
-Introducciï¿½n al dominio del problema 4</rem:name>
+Introducción al dominio del problema 4</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -405,13 +395,12 @@ Introducciï¿½n al dominio del problema 4</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En cuanto a la gestiï¿½n de informaciï¿½n, la empresa se organiza
-<br/>mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodologï¿½a concreta. Dicha metodologï¿½a consiste en tomar los datos del <rem:ref oid="GLO-0010">cliente</rem:ref> y su mascota a la hora de hacer la <rem:ref oid="GLO-0011">consulta</rem:ref>, y pasar toda la informaciï¿½n al Excel una vez hayan acabado. En el Excel ademï¿½s se encuentra toda la informaciï¿½n relevante del negocio, como el estado de las mascotas, la informaciï¿½n del <rem:ref oid="GLO-0010">cliente</rem:ref>, el contacto con los proveedores o nï¿½minas y horarios del trabajador. </rem:text>
+<rem:text>En cuanto a la gestión de información, la empresa se organiza<br/>mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del cliente y su mascota a la hora de hacer la <rem:ref oid="GLO-0011">consulta</rem:ref>, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del cliente, el contacto con los proveedores o nóminas y horarios del trabajador. </rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0008">
 <rem:name>
-Introducciï¿½n al dominio del problema 5</rem:name>
+Introducción al dominio del problema 5</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -423,13 +412,13 @@ Introducciï¿½n al dominio del problema 5</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En general, se trata de un sistema donde toda la informaciï¿½n estï¿½ a medias entre un Excel y una agenda. Esto hace que el sistema sea poco flexible y de lenta gestiï¿½n cuando se supera la media de clientes o llegan clientes nuevos. Nosotros intentaremos solucionar esos problemas concretos.</rem:text>
+<rem:text>En general, se trata de un sistema donde toda la información está a medias entre un Excel y una agenda. Esto hace que el sistema sea poco flexible y de lenta gestión cuando se supera la media de clientes o llegan clientes nuevos. Nosotros intentaremos solucionar esos problemas concretos.</rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0009">
 <rem:name>
-Glosario de tï¿½rminos del dominio del problema</rem:name>
+Glosario de términos del dominio del problema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -458,12 +447,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Trabajador que se dedica a los servicios de <rem:ref oid="GLO-0038">peluquero</rem:ref> y da apoyo al <rem:ref oid="GLO-0019">veterinario</rem:ref>.</rem:text>
+<rem:text> Trabajador que se dedica a los servicios de peluquería canina y da apoyo al veterinario.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0010">
 <rem:name>
-<rem:ref oid="GLO-0010">Cliente</rem:ref></rem:name>
+Cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -475,7 +464,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>  Persona que abona la factura y es responsable ï¿½ntegro del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:text>
+<rem:text> Persona que abona la factura y es responsable íntegro del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0011">
@@ -492,12 +481,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del <rem:ref oid="GLO-0015">paciente</rem:ref>. La <rem:ref oid="GLO-0011">consulta</rem:ref> serï¿½ remunerada independientemente del <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
+<rem:text> Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del <rem:ref oid="GLO-0015">paciente</rem:ref>. La <rem:ref oid="GLO-0011">consulta</rem:ref> será remunerada independientemente del <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0012">
 <rem:name>
-<rem:ref oid="GLO-0012">Esterilizaciï¿½n</rem:ref></rem:name>
+<rem:ref oid="GLO-0012">Esterilización</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -509,13 +498,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Proceso quirï¿½rgico mediante el cual se hace infecundo y estï¿½ril a aquel <rem:ref oid="GLO-0015">paciente</rem:ref> que antes no lo era. Se le realiza durante una <rem:ref oid="GLO-0011">consulta</rem:ref>.
-</rem:text>
+<rem:text> Proceso quirúrgico mediante el cual se hace infecundo y estéril a aquel <rem:ref oid="GLO-0015">paciente</rem:ref> que antes no lo era. Se le realiza durante una <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0039">
 <rem:name>
-<rem:ref oid="GLO-0039">Gestor</rem:ref></rem:name>
+Gestor</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -527,7 +515,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>  Persona que se encarga de dirigir, gestionar o administrar la clï¿½nica veterinaria.</rem:text>
+<rem:text>  Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0013">
@@ -544,7 +532,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Periodo fijo de 10:00 a 14:00 y de 17:30 a 19:30 de lunes a viernes. Durante este periodo se podrï¿½n llevar a cabo todo tipo de acciones rutinarias como consultas, pero no se realizarï¿½n labores de urgencia.</rem:text>
+<rem:text> Periodo fijo de 10:00 a 14:00 y de 17:30 a 19:30 de lunes a viernes. Durante este periodo se podrán llevar a cabo todo tipo de acciones rutinarias como consultas, pero no se realizarán labores de urgencia.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0014">
@@ -578,12 +566,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Animal que recibe cualquier tipo de servicio tanto de <rem:ref oid="GLO-0011">consulta</rem:ref> o de urgencia por parte de la veterinaria. Cada <rem:ref oid="GLO-0015">paciente</rem:ref> tiene un dueï¿½o, ese serï¿½ el <rem:ref oid="GLO-0010">cliente</rem:ref> de la veterinaria.</rem:text>
+<rem:text> Animal que recibe cualquier tipo de servicio tanto de <rem:ref oid="GLO-0011">consulta</rem:ref> o de urgencia por parte de la veterinaria. Cada <rem:ref oid="GLO-0015">paciente</rem:ref> tiene un dueño, ese será el cliente de la veterinaria.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0038">
 <rem:name>
-<rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
+Peluquero</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -600,7 +588,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0016">
 <rem:name>
-<rem:ref oid="GLO-0016">Servicio de Peluquerï¿½a</rem:ref></rem:name>
+<rem:ref oid="GLO-0016">Servicio de Peluquería</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -612,7 +600,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Proceso de aproximadamente 45 minutos en el cual la <rem:ref oid="GLO-0009">auxiliar</rem:ref> baï¿½a, cepilla y corta el pelo y uï¿½as del <rem:ref oid="GLO-0015">paciente</rem:ref>. Solo se puede solicitar el <rem:ref oid="GLO-0016">servicio de peluquerï¿½a</rem:ref> para perros, gatos y pequeï¿½os roedores.</rem:text>
+<rem:text> Proceso de aproximadamente 45 minutos en el cual la <rem:ref oid="GLO-0009">auxiliar</rem:ref> baña, cepilla y corta el pelo y uñas del <rem:ref oid="GLO-0015">paciente</rem:ref>. Solo se puede solicitar el <rem:ref oid="GLO-0016">servicio de peluquería</rem:ref> para perros, gatos y pequeños roedores.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0017">
@@ -629,7 +617,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Conjunto de toda la medicaciï¿½n, posibles operaciones o radiaciones que el <rem:ref oid="GLO-0015">paciente</rem:ref> reciba. Serï¿½n abonadas independientemente de precio de la <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
+<rem:text> Conjunto de toda la medicación, posibles operaciones o radiaciones que el <rem:ref oid="GLO-0015">paciente</rem:ref> reciba. Serán abonadas independientemente de precio de la <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0018">
@@ -646,12 +634,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Instancia en la que un <rem:ref oid="GLO-0015">paciente</rem:ref> se encuentra en una situaciï¿½n extrema y necesita una <rem:ref oid="GLO-0011">consulta</rem:ref> y <rem:ref oid="GLO-0017">tratamiento</rem:ref> dentro del <rem:ref oid="GLO-0014">horario de urgencias</rem:ref>.</rem:text>
+<rem:text> Instancia en la que un <rem:ref oid="GLO-0015">paciente</rem:ref> se encuentra en una situación extrema y necesita una <rem:ref oid="GLO-0011">consulta</rem:ref> y <rem:ref oid="GLO-0017">tratamiento</rem:ref> dentro del <rem:ref oid="GLO-0014">horario de urgencias</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0019">
 <rem:name>
-<rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
+Veterinario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -663,14 +651,14 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Profesional en medicina animal. En este caso particular nos encontramos que el <rem:ref oid="GLO-0019">veterinario</rem:ref> realiza tambiï¿½n labores de <rem:ref oid="GLO-0039">gestor</rem:ref>. El <rem:ref oid="GLO-0019">veterinario</rem:ref> es nuestro <rem:ref oid="GLO-0010">cliente</rem:ref> y este se encarga tanto de la gestiï¿½n del horario, como de las consultas y de suministrar el <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
+<rem:text> Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0010">
 <rem:name>
-Descripciï¿½n de la situaciï¿½n actual</rem:name>
+Descripción de la situación actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -687,7 +675,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0011">
 <rem:name>
-Pros y contras de la situaciï¿½n actual</rem:name>
+Pros y contras de la situación actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -701,10 +689,10 @@ Pros y contras de la situaciï¿½n actual</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>3.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0025">
+<rem:glossaryItem
+ oid = "GLO-0025">
 <rem:name>
-Pros 1</rem:name>
+<rem:ref oid="GLO-0025">Pros 1</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -716,13 +704,12 @@ Pros 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al tratarse de un pequeï¿½o pueblo no hay muchas clï¿½nicas veterinarias por lo que no tienen apenas competencia.
-<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0026">
+<rem:text>Al tratarse de un pequeño pueblo no hay muchas clínicas veterinarias por lo que no tienen apenas competencia.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0026">
 <rem:name>
-Pros 2</rem:name>
+<rem:ref oid="GLO-0026">Pros 2</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -734,12 +721,12 @@ Pros 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Actualmente tienen una demanda creciente, debido sobre todo a la ganaderï¿½a.</rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0027">
+<rem:text>Actualmente tienen una demanda creciente, debido sobre todo a la ganadería.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0027">
 <rem:name>
-Pros 3</rem:name>
+<rem:ref oid="GLO-0027">Pros 3</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -751,13 +738,12 @@ Pros 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>De cara al pï¿½blico el trato es muy bueno y los <rem:ref oid="GLO-0010">cliente</rem:ref> estï¿½n muy fidelizados.
-<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0028">
+<rem:text>De cara al público el trato es muy bueno y los cliente están muy fidelizados.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0028">
 <rem:name>
-Contras 1</rem:name>
+<rem:ref oid="GLO-0028">Contras 1</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -769,13 +755,12 @@ Contras 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al ser una pequeï¿½a clï¿½nica, el personal es muy reducido.
-<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0029">
+<rem:text>Al ser una pequeña clínica, el personal es muy reducido.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0029">
 <rem:name>
-Contras 2</rem:name>
+<rem:ref oid="GLO-0029">Contras 2</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -787,13 +772,12 @@ Contras 2</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La demanda creciente genera sobrecarga.
-<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0030">
+<rem:text>La demanda creciente genera sobrecarga.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0030">
 <rem:name>
-Contras 3</rem:name>
+<rem:ref oid="GLO-0030">Contras 3</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -805,13 +789,12 @@ Contras 3</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La recepciï¿½n de peticiï¿½n de citas es limitada a una lï¿½nea telefï¿½nica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.
-<br/></rem:text>
-</rem:paragraph>
+<rem:text>La recepción de petición de citas es limitada a una línea telefónica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.<br/></rem:text>
+</rem:glossaryItem>
 <rem:section
  oid = "SEC-0015">
 <rem:name>
-Fortalezas de la situaciï¿½n actual</rem:name>
+Fortalezas de la situación actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -840,14 +823,13 @@ Fortalezas </rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La fortaleza principal del negocio es el trato personal con los clientes, atendiendo citas en el local o por llamada directa. Serï¿½a muy difï¿½cil pensar en eliminar esta parte del negocio, pues la gran mayorï¿½a de personas que van a este establecimiento es por ello.
-<br/></rem:text>
+<rem:text>La fortaleza principal del negocio es el trato personal con los clientes, atendiendo citas en el local o por llamada directa. Sería muy difícil pensar en eliminar esta parte del negocio, pues la gran mayoría de personas que van a este establecimiento es por ello.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0016">
 <rem:name>
-Debilidades de la sitaciï¿½n actual</rem:name>
+Debilidades de la sitación actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -864,7 +846,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0034">
 <rem:name>
-Debilidades de la situaciï¿½n actual</rem:name>
+Debilidades de la situación actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -876,8 +858,7 @@ Debilidades de la situaciï¿½n actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Las debilidades actuales del negocio son su forma de almacenar toda la informaciï¿½n referente a los clientes y trabajadores en general, ya que al ser manual y por un excel no se aprovecha el tiempo como se deberï¿½a y cabe la posibilidad de que se traspapele informaciï¿½n. Tambiï¿½n les ralentiza y toma mucho tiempo las reservas de citas por telï¿½fono por las mismas razones.
-<br/></rem:text>
+<rem:text>Las debilidades actuales del negocio son su forma de almacenar toda la información referente a los clientes y trabajadores en general, ya que al ser manual y por un excel no se aprovecha el tiempo como se debería y cabe la posibilidad de que se traspapele información. También les ralentiza y toma mucho tiempo las reservas de citas por teléfono por las mismas razones.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -901,7 +882,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0013">
 <rem:name>
-Descripciï¿½n de actores de negocio actuales</rem:name>
+Descripción de actores de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -915,84 +896,79 @@ Descripciï¿½n de actores de negocio actuales</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.1 </rem:number>
-<rem:actor
- oid = "ACT-0001">
+<rem:paragraph
+ oid = "PRG-0124">
 <rem:name>
-<rem:ref oid="GLO-0039">Gestor</rem:ref></rem:name>
+Gestor</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-  La gestora puede tomar a su vez el rol de peluquera o veterinaria.
-<br/></rem:comments>
-<rem:actorRole>es el rol encargado de la organizaciï¿½n general del negocio. Sus funciones pasan desde la gestiï¿½n de personal hasta la administraciï¿½n de peticiones de citas.
-<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0002">
-<rem:name>
-<rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Al atender una consulta genera un historial.</rem:comments>
-<rem:actorRole>El <rem:ref oid="GLO-0019">veterinario</rem:ref>, tiene la responsabilidad de atender a los animales que el <rem:ref oid="GLO-0039">gestor</rem:ref> le asigne y de cumplir su horario de trabajo establecido por el <rem:ref oid="GLO-0039">gestor</rem:ref>.
-<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0003">
-<rem:name>
-<rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>El <rem:ref oid="GLO-0038">peluquero</rem:ref> tiene la responsabilidad de atender las citas de peluquerï¿½a asignadas por el <rem:ref oid="GLO-0039">gestor</rem:ref> y debe cumplir con su horario de trabajo establecido.
-<br/></rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0004">
+<rem:text>Gestor : El gestor es también la dueña de la veterinaria. Es el rol encargado de la organización general del negocio. Sus funciones pasan desde la gestión del personal y de los horarios de trabajo, hasta la administración de peticiones de citas. La gestora puede tomar a su vez el rol de peluquera o veterinaria. <br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0125">
 <rem:name>
-<rem:ref oid="GLO-0010">Cliente</rem:ref></rem:name>
+Veterinario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
-El <rem:ref oid="GLO-0010">cliente</rem:ref> puede pedir tanto una consulta como una cita de peluquerï¿½a.</rem:comments>
-<rem:actorRole>El <rem:ref oid="GLO-0010">cliente</rem:ref> es aquella persona que realiza una peticiï¿½n de algï¿½n servicio hacia su mascota (<rem:ref oid="GLO-0015">paciente</rem:ref>).
-<br/></rem:actorRole>
-</rem:actor>
+Ninguno</rem:comments>
+<rem:text>Veterinario: El veterinario, tiene la responsabilidad de atender a los animales que el gestor le asigne y de cumplir su horario de trabajo establecido por el gestor. Al atender una <rem:ref oid="GLO-0011">consulta</rem:ref> genera un historial.<br/><br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0126">
+<rem:name>
+Peluquero</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Peluquero: El actor peluquero es uno de los trabajadores de la organización, se encarga de tratar a los pacientes de las peluquerías. Es asignado a estas. Tiene un horario de disponibilidad limitado que se acuerda con el gestor mes a mes.<br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0127">
+<rem:name>
+Cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cliente: El actor cliente es todo aquel que interactúa con la organización con afán de reservar una cita, ya sea <rem:ref oid="GLO-0011">consulta</rem:ref> o peluquería. Es el dueño de un <rem:ref oid="GLO-0015">paciente</rem:ref>.<br/></rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0014">
 <rem:name>
-Descripciï¿½n de procesos de negocio actuales</rem:name>
+Descripción de procesos de negocio actuales</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1006,119 +982,48 @@ Descripciï¿½n de procesos de negocio actuales</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.2 </rem:number>
-<rem:useCase
- oid = "UC-0001">
+<rem:paragraph
+ oid = "PRG-0044">
 <rem:name>
-Solicitar Cita</rem:name>
+Descripción </rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-El actor <rem:ref oid="GLO-0010">CLIENTE</rem:ref> solicita una cita por telï¿½fono o de manera presencial, ya sea para la peluquerï¿½a o para la revisiï¿½n mï¿½dica del animal en el horario de actividad laboral de la empresa y el actor <rem:ref oid="GLO-0039">GESTOR</rem:ref>  le informarï¿½ de la disponibilidad de citas que hay.
-<br/></rem:triggeringEvent>
-<rem:precondition>
-<rem:tbd/></rem:precondition>
-<rem:postcondition>
-<rem:tbd/></rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0002">
+<rem:text>En el siguiente esquema BPM se plasma el proceso de petición de citas. Para comenzar la clínica recibe una petición de cita y posteriormente hay un acuerdo entre gestor y cliente para concertar la fecha de la cita. A continuación, el gestor asigna un profesional dependiendo de si el cliente ha solicitado una <rem:ref oid="GLO-0011">consulta</rem:ref> o una cita de peluquería. Una vez la cita está completa se espera a que aparezca el cliente y el <rem:ref oid="GLO-0015">paciente</rem:ref>.Se les atiende. Y finalmente se devuelve el <rem:ref oid="GLO-0015">paciente</rem:ref> a su dueño.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0003">
 <rem:name>
-Asignar Citas</rem:name>
+BPMN</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
-Los trabajadores pueden ser GESTORES , VETERINARIOS o PELUQUEROS. A  los veterinarios solo se le asignan consultas, y a los peluqueros citas de peluquerï¿½a. 
-<br/></rem:comments>
-<rem:importance value = "IMV-0003"/>
-<rem:urgency value = "URV-0003"/>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-El <rem:ref oid="GLO-0039">GESTOR</rem:ref> asigna las citas al TRABAJADOR.</rem:triggeringEvent>
-<rem:precondition>
-<rem:tbd/></rem:precondition>
-<rem:postcondition>
-<rem:tbd/></rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0003">
-<rem:name>
-Actualizaciï¿½n/Creaciï¿½n Historial <rem:ref oid="GLO-0015">Paciente</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
- Cuando los pacientes vayan sin historial, se generarï¿½ uno, en caso de tenerlo se le aï¿½adirï¿½ un informe al historial
-<br/></rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-El <rem:ref oid="GLO-0010">cliente</rem:ref> entrega al <rem:ref oid="GLO-0015">paciente</rem:ref> a la clï¿½nica y el <rem:ref oid="GLO-0019">veterinario</rem:ref> crea o aï¿½ade un informe al historial previo del <rem:ref oid="GLO-0015">paciente</rem:ref>.
-<br/></rem:triggeringEvent>
-<rem:precondition>
-<rem:tbd/></rem:precondition>
-<rem:postcondition>
-<rem:tbd/></rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-</rem:useCase>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\bpmn.png]]>
+</rem:fileName>
+</rem:graphicFile>
 </rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0017">
 <rem:name>
-Entorno tecnolï¿½gico actual</rem:name>
+Entorno tecnológico actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1135,7 +1040,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0018">
 <rem:name>
-Descripciï¿½n del entorno de hardware actual</rem:name>
+Descripción del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1152,7 +1057,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0035">
 <rem:name>
-Descripciï¿½n del entorno de hardware actual</rem:name>
+Descripción del entorno de hardware actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1164,14 +1069,13 @@ Descripciï¿½n del entorno de hardware actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La clï¿½nica actualmente tan solo consta de un ordenador de sobremesa de notable vetustez.
-<br/></rem:text>
+<rem:text>La clínica actualmente tan solo consta de un ordenador de sobremesa de notable vetustez.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0019">
 <rem:name>
-Descripciï¿½n del entorno de software actual</rem:name>
+Descripción del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1188,7 +1092,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0036">
 <rem:name>
-Descripciï¿½n del entorno de software actual</rem:name>
+Descripción del entorno de software actual</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1200,7 +1104,7 @@ Descripciï¿½n del entorno de software actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text></rem:text>
+<rem:text>En cuanto al software , simplemente disponen de un programa excel para almacenar los datos más relevantes. </rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -1242,7 +1146,7 @@ Ninguno</rem:comments>
 <rem:paragraph
  oid = "PRG-0037">
 <rem:name>
-Objetivos de negocio introducciï¿½n</rem:name>
+Objetivos de negocio introducción</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1254,9 +1158,297 @@ Objetivos de negocio introducciï¿½n</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>
-<br/>Los objetivos del negocio serï¿½an principalmente tres. En primer lugar la mejora del control y gestiï¿½n de la informaciï¿½n tanto de los trabajadores como de los pacientes y clientes mediante un sistema de informaciï¿½n preferentemente. Por otra parte, una plataforma para la organizaciï¿½n de los datos de los pacientes (historiales e informes) para los trabajadores. Y por ï¿½ltimo la optimizaciï¿½n de los mï¿½todos de reserva de citas para los clientes. </rem:text>
+<rem:text><br/>Los objetivos del negocio serían principalmente tres. En primer lugar la mejora del control y gestión de la información tanto de los trabajadores como de los pacientes y clientes mediante un sistema de información preferentemente. Por otra parte, una plataforma para la organización de los datos de los pacientes (historiales e informes) para los trabajadores. Y por último la optimización de los métodos de reserva de citas para los clientes. </rem:text>
 </rem:paragraph>
+<rem:glossaryItem
+ oid = "GLO-0040">
+<rem:name>
+<rem:ref oid="GLO-0040">HU000 - Gestor cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>me gustaría que el cliente pueda pedir cita por telefono o por email, <br/>para dar mas facilidades a los clientes y poder llegar a más personas al permitir coger cita por internet.<br/><br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0041">
+<rem:name>
+<rem:ref oid="GLO-0041">HU001 - Cliente cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como cliente,  <br/>quiero poder reservar consultas y sesiones de peluquería,<br/>para poder hacer un buen uso del sistema.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0042">
+<rem:name>
+<rem:ref oid="GLO-0042">HU002 - Gestor asignar cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>tengo que asignar la cita del cliente a uno de mis trabajadores(peluquería o veterinario),<br/>para organizar el trabajo y ver el horario disponible en cada momento.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0043">
+<rem:name>
+<rem:ref oid="GLO-0043">HU003 - Ficha técnica</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>tengo que rellenar la ficha técnica del animal cada vez que pase <rem:ref oid="GLO-0011">consulta</rem:ref> o realice una operación<br/>para llevar un control organizado de todos los detalles.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0090">
+<rem:name>
+<rem:ref oid="GLO-0090">HU004 - Gestor horario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder ver el horario de mis trabajadores,<br/>para tener un control de la plantilla.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0091">
+<rem:name>
+<rem:ref oid="GLO-0091">HU005 - Gestor información clientes</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder almacenar información sobre los nuevos clientes,<br/>para tener una mayor organización.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0092">
+<rem:name>
+<rem:ref oid="GLO-0092">HU006 - Gestor información pacientes</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder almacenar la información de los nuevos pacientes,<br/>para tener una mayor organización.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0093">
+<rem:name>
+<rem:ref oid="GLO-0093">HU007 - Gestor modificar horario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder modificar el horario de mis trabajadores,<br/>para tener control de la plantilla.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0094">
+<rem:name>
+<rem:ref oid="GLO-0094">HU008 - Gestor crear cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder crear citas,<br/>para poder tener control de las personas atendidas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0095">
+<rem:name>
+<rem:ref oid="GLO-0095">HU009 - Gestor información citas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero tener acceso a la información referente a las citas<br/>para poder tener información precisa en todo momento.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0096">
+<rem:name>
+<rem:ref oid="GLO-0096">HU010 - Gestormodificar información citas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder modificar la información referente a las citas.<br/><br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0097">
+<rem:name>
+<rem:ref oid="GLO-0097">HU011 - Veterinario horario trabajo</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0098">
+<rem:name>
+<rem:ref oid="GLO-0098">HU012 - Veterinario notificación</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0099">
+<rem:name>
+<rem:ref oid="GLO-0099">HU013 - Veterinario asociar paciente con informes</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero poder asociar un <rem:ref oid="GLO-0015">paciente</rem:ref> con un informe,<br/>para poder hacer un seguimiento del animal.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0100">
+<rem:name>
+<rem:ref oid="GLO-0100">HU014 - Veterinario generar informe</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero poder generar un informe y añadirlo al historial de un <rem:ref oid="GLO-0015">paciente</rem:ref>,<br/>para hacer un seguimiento del animal.<br/><br/><br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0101">
+<rem:name>
+<rem:ref oid="GLO-0101">HU015 - Peluquero horario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como peluquero,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0102">
+<rem:name>
+<rem:ref oid="GLO-0102">HU016 - Peluquero notificación</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como peluquero,<br/>quiero recibir una notificación cuando se añade una nueva cita de peluqueria.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0022">
@@ -1278,7 +1470,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0023">
 <rem:name>
-Descripciï¿½n de actores de negocio a implantar</rem:name>
+Descripción de actores de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1292,11 +1484,28 @@ Descripciï¿½n de actores de negocio a implantar</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0045">
+<rem:name>
+Descripción de actores de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>No ha sido necesario incluir ningún actor de negocio nuevo.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0024">
 <rem:name>
-Descripciï¿½n de procesos de negocio a implantar</rem:name>
+Descripción de procesos de negocio a implantar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1310,13 +1519,30 @@ Descripciï¿½n de procesos de negocio a implantar</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>4.2.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0046">
+<rem:name>
+Descripción de procesos de negocio a implantar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Ante los procesos de negocio actuales, hemos decidido que implantaremos las siguientes mejoras. La petición de cita, tal y como lo vemos en el BPMN anterior se realizará mediante la aplicación que crearemos. La asignación de las citas a los trabajadores también se levará a cabo mediante la aplicación. A su vez, toda la información anterior junto con los informes e historiales creados por los trabajadores será guardada y gestionada en una base de datos.<br/>Los diagramas bpmn detallando lo anteriormente nombrado se encuentran en la carpeta adjunta con el nombre 4.2 Descripción de procesos de negocio a implantar. </rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 </rem:section>
 <rem:section
  oid = "SEC-0028">
 <rem:name>
-Descripciï¿½n de los subsistemas del sistema a desarrollar</rem:name>
+Descripción de los subsistemas del sistema a desarrollar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1330,11 +1556,28 @@ Descripciï¿½n de los subsistemas del sistema a desarrollar</rem:name>
 Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>5 </rem:number>
+<rem:paragraph
+ oid = "PRG-0115">
+<rem:name>
+Descripción de los subsistemas del sistema a desarrollar</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Nuesto proyecto abordará todos los requisitos y problemas que se presentan mediante un único sistema, ya que no se trata de un proyecto de excesiva complejidad y que se puede abarcar con uno solo.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0029">
 <rem:name>
-Catï¿½logo de requisitos del sistema a desarrollar</rem:name>
+Catálogo de requisitos del sistema a desarrollar</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1365,6 +1608,108 @@ Requisitos generales del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.1 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0047">
+<rem:name>
+<rem:ref oid="GLO-0047">RG-1</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como cliente,<br/>quiero poder reservar consultas y sesiones de peluquería,<br/>para poder hacer un buen uso del sistema.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0048">
+<rem:name>
+<rem:ref oid="GLO-0048">RG-2</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como cliente,<br/>quiero que tener acceso a toda la información de mis animales,<br/>para estar informado de su estado.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0049">
+<rem:name>
+<rem:ref oid="GLO-0049">RG-3</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero saber la disponibilidad de los trabajadores,<br/>para poder adjudicar una cita o <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0050">
+<rem:name>
+<rem:ref oid="GLO-0050">RG-4</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>tener un registro de estadísticas sobre mi negocio,<br/>para saber mi situación.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0051">
+<rem:name>
+<rem:ref oid="GLO-0051">RG-5</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como trabajador,<br/>quiero que se me notifique cuando un cita se me adjudica o se me cancela.<br/>para estar informado en todo momentos.<br/><br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0052">
+<rem:name>
+<rem:ref oid="GLO-0052">RG-6</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como trabajador,<br/>quiero que tener acceso a toda la información de mis pacientes,<br/>para estar informado en todo momentos.<br/><br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0031">
@@ -1400,11 +1745,28 @@ Diagramas de casos de uso del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0118">
+<rem:name>
+Diagramas de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este apartado se encuentra en la carpeta adjunta con el nombre de 6.2.1 Diagramas de casos de uso del sistema.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0033">
 <rem:name>
-Especificaciï¿½n de actores del sistema</rem:name>
+Especificación de actores del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1418,11 +1780,79 @@ Especificaciï¿½n de actores del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0053">
+<rem:name>
+<rem:ref oid="GLO-0015">Paciente</rem:ref> </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><rem:ref oid="GLO-0015">Paciente</rem:ref> :<br/>El actor <rem:ref oid="GLO-0015">paciente</rem:ref> representa a cualquier animal del actor cliente.<br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0054">
+<rem:name>
+Cliente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Cliente:<br/>El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.<br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0055">
+<rem:name>
+Veterinario</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Veterinario:<br/>El actor veterinario es el encargado de atender las consultas y generar informes, siendo además trabajador en la clínica.<br/></rem:text>
+</rem:paragraph>
+<rem:paragraph
+ oid = "PRG-0056">
+<rem:name>
+Peluquero </rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Peluquero:<br/> El actor peluquero es el encargado de atender las peluquerías, siendo además trabajador en la clínica.</rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0034">
 <rem:name>
-Especificaciï¿½n de casos de uso del sistema</rem:name>
+Especificación de casos de uso del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1436,6 +1866,91 @@ Especificaciï¿½n de casos de uso del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.3 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0119">
+<rem:name>
+<rem:ref oid="GLO-0119">UC-1: Revervar cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este proceso permite reservar cita a un cliente registrado en el sistema . Al finalizarse el proceso el cliente recibirá una confirmación y el trabajador una actualización de su horario.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0120">
+<rem:name>
+<rem:ref oid="GLO-0120">UC-2: Cancelar cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este proceso permite cancelar una cita a aquel cliente que haya reservado previamente una. Se le notificará a los trabajadores y se actualizará su horario.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0121">
+<rem:name>
+<rem:ref oid="GLO-0121">UC-3: Modificar cita</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este proceso permite a un cliente con una cita previamente reservada a modificar su fecha u hora siempre que sea posible y esté dentro del horario establecido. Posteriormente se avisará al trabajador involucrado y se actualizará su horario.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0122">
+<rem:name>
+<rem:ref oid="GLO-0122">UC-4: Registro cliente</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este proceso será necesario para que el cliente pueda solicitar citas posteriormente. Después de haberse registrado, el cliente podrá acceder al sistema de reserva de citas y los trabajadores podrán ver el perfil de sus respectivas mascotas.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0123">
+<rem:name>
+<rem:ref oid="GLO-0123">UC-5: Realización de informe</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este proceso permite al veterinario redactar el informe del <rem:ref oid="GLO-0015">paciente</rem:ref> una vez está en la <rem:ref oid="GLO-0011">consulta</rem:ref>, este informe se añadirá al historial del <rem:ref oid="GLO-0015">paciente</rem:ref> posteriormente y podrá ser consultado por el resto de plantilla veterinaria.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1458,7 +1973,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0036">
 <rem:name>
-Requisitos de informaciï¿½n del sistema</rem:name>
+Requisitos de información del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1472,6 +1987,125 @@ Requisitos de informaciï¿½n del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.1 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0057">
+<rem:name>
+<rem:ref oid="GLO-0057">RI-1</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder ver el horario de mis trabajadores,<br/>para tener un control de la plantilla.<br/><br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0058">
+<rem:name>
+<rem:ref oid="GLO-0058">RI-2</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder almacenar la siguiente información sobre los nuevos clientes:<br/>- Fecha de nacimiento<br/>- DNI<br/>- Nombre<br/>- Apellidos <br/>- Número de teléfono<br/>- Dirección<br/>- Código postal<br/>- Email<br/>- Número de pacientes<br/>para tener una mayor organización.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0059">
+<rem:name>
+<rem:ref oid="GLO-0059">RI-3</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder almacenar la siguiente información de los nuevos pacientes,<br/>- Número chip<br/>- Especie<br/>- Raza<br/>- Género<br/>- Color de pelo<br/>- Edad <br/>para tener una mayor organización.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0060">
+<rem:name>
+<rem:ref oid="GLO-0060">RI-4</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero tener acceso a la información referente a las citas<br/>para poder tener información precisa en todo momento.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0061">
+<rem:name>
+<rem:ref oid="GLO-0061">RI-5</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0062">
+<rem:name>
+<rem:ref oid="GLO-0062">RI-6</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como peluquero,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0063">
+<rem:name>
+<rem:ref oid="GLO-0063">RI-7</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero disponer de la siguiente información de los trabajadores:<br/>- Fecha de nacimiento <br/>- DNI<br/>- Nombre <br/>- Apellidos <br/>- Número de teléfono <br/>- Dirección <br/>- Código postal <br/>- Correo electrónico <br/>- Horarios de trabajo <br/>- Sueldo <br/>- Es gestor<br/>- Disponibilidad<br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0037">
@@ -1490,6 +2124,108 @@ Requisitos de reglas de negocio del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.2 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0064">
+<rem:name>
+<rem:ref oid="GLO-0064">RN-1</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero que no se puedan reservar consultas en el mismo periodo de tiempo, <br/>para evitar que existan 2 consultas a la vez. <br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0065">
+<rem:name>
+<rem:ref oid="GLO-0065">RN-2</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero no se puedan atender a más de 2 pacientes en la peluquería en el mismo periodo de tiempo, <br/>para evitar un exceso de pacientes. <br/><br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0066">
+<rem:name>
+<rem:ref oid="GLO-0066">RN-3</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero que un cliente sea necesariamente mayor de edad para poder estar registrado. <br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0067">
+<rem:name>
+<rem:ref oid="GLO-0067">RN-4</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero que un cliente esté necesariamente registrado,<br/>para poder reservar una cita. <br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0068">
+<rem:name>
+<rem:ref oid="GLO-0068">RN-5</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero que la cita solo pueda ser atendida por su trabajador correspondiente,<br/>para evitar problemas en la organización.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0069">
+<rem:name>
+<rem:ref oid="GLO-0069">RN-6</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero ser el único que pueda contratar a los trabajadores y gestionar las citas,<br/>para tener el control del negocio.<br/><br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0038">
@@ -1508,6 +2244,210 @@ Requisitos de conducta del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.3.3 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0070">
+<rem:name>
+<rem:ref oid="GLO-0070">RCS-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero poder asociar un <rem:ref oid="GLO-0015">paciente</rem:ref> con un historial,<br/>para poder hacer un seguimiento del animal.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0071">
+<rem:name>
+<rem:ref oid="GLO-0071">RCS-02</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero poder generar un informe y añadirlo al historial de un <rem:ref oid="GLO-0015">paciente</rem:ref>,<br/>para hacer un seguimiento del animal.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0072">
+<rem:name>
+<rem:ref oid="GLO-0072">RCS-03</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como peluquero,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0073">
+<rem:name>
+<rem:ref oid="GLO-0073">RCS-04</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder modificar el horario de mis trabajadores,<br/>para tener control de la plantilla.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0074">
+<rem:name>
+<rem:ref oid="GLO-0074">RCS-05</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder modificar la información referente a las citas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0075">
+<rem:name>
+<rem:ref oid="GLO-0075">RCS-06</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero poder crear citas,<br/>para poder tener control de las personas atendidas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0076">
+<rem:name>
+<rem:ref oid="GLO-0076">RCS-07</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0077">
+<rem:name>
+<rem:ref oid="GLO-0077">RCS-08</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como veterinario,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0078">
+<rem:name>
+<rem:ref oid="GLO-0078">RCS-09</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como peluquero,<br/>quiero recibir una notificación cuando se añade una nueva cita de peluqueria.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0079">
+<rem:name>
+<rem:ref oid="GLO-0079">RCS-10</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero un listado de todos los clientes y respectivos pacientes,<br/>para tener una organización más estructurada.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0081">
+<rem:name>
+<rem:ref oid="GLO-0081">RCS-11</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero un listado de los pacientes organizados por raza o especie,<br/>para tener una organización más estructurada.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0082">
+<rem:name>
+<rem:ref oid="GLO-0082">RCS-12</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como cliente,<br/>quiero recibir un mensaje de confirmación al reservar una cita,<br/>para saber si la reserva está confirmada.<br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1544,6 +2484,23 @@ Requisitos de fiabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.1 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0083">
+<rem:name>
+<rem:ref oid="GLO-0083">RFin-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero que el sistema esté disponible todo el tiempo 24/7, <br/>para ofrecer servicio en todo momento a los clientes.<br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0041">
@@ -1562,6 +2519,23 @@ Requisitos de usabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.2 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0084">
+<rem:name>
+<rem:ref oid="GLO-0084">RUS-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero que un usuario sea capaz de pedir una cita en menos de 6 clics, <br/>para facilitar el uso a todo tipo de clientes.<br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0042">
@@ -1580,6 +2554,23 @@ Requisitos de mantenibilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.3 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0089">
+<rem:name>
+<rem:ref oid="GLO-0089">RM-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor,<br/>quiero que el sistema tenga un seguimiento y comprobación periódicos y si es necesario se puedan realizar mejoras<br/>para poder ofrecerle en todo momento un sistema actualizado tanto al clietne como a mi mismo.</rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0043">
@@ -1598,6 +2589,23 @@ Requisitos de eficiencia del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.4 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0086">
+<rem:name>
+<rem:ref oid="GLO-0086">RES-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero que el sistema sea capaz de operar con hasta 100 usuarios concurrentes con un índice de respuesta inferior a 1 segundo, <br/>para mejorar la eficiencia del sistema. <br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0044">
@@ -1616,6 +2624,23 @@ Requisitos de portabilidad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.5 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0087">
+<rem:name>
+<rem:ref oid="GLO-0087">RPS-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero que el sistema solo pueda ser utilizado en las versiones actuales de Google Chrome y Firefox, <br/>para garantizar un correcto funcionamiento del sistema.<br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0045">
@@ -1634,6 +2659,23 @@ Requisitos de seguridad del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.4.6 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0088">
+<rem:name>
+<rem:ref oid="GLO-0088">RSS-01</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como gestor, <br/>quiero acceder de forma exclusiva a la información de los clientes, <br/>para cumplir con la ley de protección de datos<br/><br/></rem:text>
+</rem:glossaryItem>
 </rem:section>
 <rem:section
  oid = "SEC-0046">
@@ -1657,7 +2699,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0047">
 <rem:name>
-Restricciones tï¿½cnicas del sistema</rem:name>
+Restricciones técnicas del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1671,11 +2713,28 @@ Restricciones tï¿½cnicas del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.5 </rem:number>
+<rem:paragraph
+ oid = "PRG-0116">
+<rem:name>
+Restricciones técnicas del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En nuestro proyecto contamos con distintas restricciones técnicas y distintas tecnologías que usaremos. Entre ellas podemos destacar la base de datos y en concreto usaremos SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.<br/><br/>Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.<br/><br/>Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.<br/><br/>También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el cliente. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.<br/><br/>Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.<br/><br/>Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.<br/><br/>Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.<br/></rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0048">
 <rem:name>
-Requisitos de integraciï¿½n del sistema</rem:name>
+Requisitos de integración del sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1689,11 +2748,28 @@ Requisitos de integraciï¿½n del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.6 </rem:number>
+<rem:paragraph
+ oid = "PRG-0117">
+<rem:name>
+Requisitos de integración del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Actualmente no contamos con muchos sistemas que queramos integrar a nuestro proyecto. Por el momento solo hemos decidido que podemos integrar un iframe de Google Maps para poder mostrar al usuario de la web, la locación exacta de la clínica veterinaria “Huellas”. <br/><br/>Lo hemos mencionado en el apartado anterior, pero recordamos que también integraremos JQuery que es la biblioteca multiplataforma de JavaScript, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web.<br/></rem:text>
+</rem:paragraph>
 </rem:section>
 <rem:section
  oid = "SEC-0049">
 <rem:name>
-Informaciï¿½n sobre trazabilidad</rem:name>
+Información sobre trazabilidad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1707,6 +2783,23 @@ Informaciï¿½n sobre trazabilidad</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.7 </rem:number>
+<rem:paragraph
+ oid = "PRG-0114">
+<rem:name>
+Información sobre trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este apartado se encuentra en la carpeta adjunta con el nombre 6.7 Información sobre trazabilidad.</rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1730,7 +2823,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0026">
 <rem:name>
-Documentaciï¿½n relevante</rem:name>
+Documentación relevante</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1748,7 +2841,7 @@ Ninguno</rem:comments>
 <rem:section
  oid = "SEC-0027">
 <rem:name>
-Glosario de acrï¿½nimos y abreviaturas</rem:name>
+Glosario de acrónimos y abreviaturas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1765,7 +2858,7 @@ Ninguno</rem:comments>
 </rem:section>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
-<rem:name>Documento de Anï¿½lisis del Sistema</rem:name>
+<rem:name>Documento de Análisis del Sistema</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1778,6 +2871,661 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno
 </rem:comments>
+<rem:section
+ oid = "SEC-0050">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0107">
+<rem:name>
+Introducción</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El Documento de Análisis del Sistema (DAS)consiste en un escrito técnico que no necesita ser aprobado por el cliente si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.<br/> En el DAS se recogerán la arquitectura lógica, los modelos de clases, los casos de uso, la interfaz de usuario y la interfaz de servicio; todo ello del mismo sistema a desarrollar.<br/></rem:text>
+</rem:paragraph>
+<rem:section
+ oid = "SEC-0051">
+<rem:name>
+Alcance del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0108">
+<rem:name>
+Alcance del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>El alcance del proyecto no ha cambiado desde la publicación de la Especificación de Requisitos del Sistema (ERS); por tanto, la clínica, sus trabajadores y sus clientes, serán los únicos afectados por el problema a abarcar.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0052">
+<rem:name>
+Participantes en el proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.2 </rem:number>
+<rem:section
+ oid = "SEC-0053">
+<rem:name>
+Organizaciones participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0110">
+<rem:name>
+Organizaciones participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>La única organización participante de este proyecto es la propia clínica veterinaria “Huellas”. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por dos empleados y por la dueña de la veterinaria que a su vez trabaja de gestora. <br/><br/>Esta veterinaria aunque puede ser pequeña y con pocos trabajadores tiene una gran demanda de trabajo, pues al estar situada en una zona de campo, tiene muchos clientes que están dedicados a la ganadería y necesitan del trabajo de “Huellas” tanto para poder cuidar a sus animales como para poder certificar en ocasiones que están sanos y son de calidad como puede ser el caso de la crianza de los cerdos y de los caballos.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0054">
+<rem:name>
+Personas participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>3</rem:level>
+<rem:number>1.2.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0111">
+<rem:name>
+Personas participantes</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un veterinario, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0055">
+<rem:name>
+Copia de Objetivos del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>1.3 </rem:number>
+<rem:paragraph
+ oid = "PRG-0109">
+<rem:name>
+Copia de objetivos del proyecto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Los objetivos a conseguir fueron expuestos en la Especificación de Requisitos del Sistema (ERS), es decir, agilizar el proceso de atención al cliente en todo su flujo mediante la implementación de un sistema de solicitud de cita.<br/></rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0056">
+<rem:name>
+Arquitectura lógica del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>2 </rem:number>
+<rem:section
+ oid = "SEC-0057">
+<rem:name>
+Diagramas de la arquitectura del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0113">
+<rem:name>
+Diagramas de la arquitectura lógica</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este apartado se encuentra en la carpeta adjunta con el nombre: 2.1 Diagramas de la arquitectura del sistema. En el siguiente apartado se hará referencia al archivo que se encuentra en su interior.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0058">
+<rem:name>
+Descripción de la arquitectura del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>2.2 </rem:number>
+<rem:paragraph
+ oid = "PRG-0103">
+<rem:name>
+Descripción de la arquitectura lógica del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En este apartado haremos una descripción textual de la arquitectura lógica del sistema. Nuestra arquitectura lógica estará basada en un modelo en capas. <br/><br/>La primera capa es la de presentación, es la capa que refleja la interfaz web que usará el usuario para interactuar con él SI. El objetivo es crear una forma de interactuar con él SI lo más amigable posible. Es la capa de más alto nivel (frontend).<br/><br/>También podemos observar la capa lógica de negocio, la cual se encarga de determinar las reglas por cual la información puede ser creada, almacenada y cambiada. En nuestro caso, la gestora, el veterinario y el peluquero serán los que creen la información relacionada con las citas o con los historiales médicos de los pacientes; esta información será guardada en la base de datos que existe. <br/><br/>La tercera capa es la de persistencia, esta se encarga de la interacción con la base de datos. Es la capa que realmente ejecuta los comandos necesarios(delete, insert, …) en la base de datos para realizar cambios. Encapsula el comportamiento necesario para mantener los objetos. O sea: leer, escribir y borrar objetos en el almacenamiento persistente (base de datos). La persistencia de la información es la parte más crítica en una aplicación de software.<br/><br/>El proyecto cuenta con una base de datos, la cual almacenará todos los datos de la veterinaria como ya hemos mencionado anteriormente.<br/><br/>Finalmente, tenemos la capa lógica del sistema. Utilizaremos el bus de servicios, que se encarga de gestionar la comunicación entre servicios webs, principalmente para llamar a la API del email. De esta forma, podremos mandar correos electrónicos a modo de recordatorio, de las citas de los clientes. De esta forma podemos evitar olvidos o despistes involuntarios.<br/></rem:text>
+</rem:paragraph>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0059">
+<rem:name>
+Modelo de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>3 </rem:number>
+<rem:section
+ oid = "SEC-0060">
+<rem:name>
+Diagramas de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.1 </rem:number>
+<rem:paragraph
+ oid = "PRG-0112">
+<rem:name>
+Diagramas de clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Este apartado se encuentra en la carpeta adjunta 3.1 Diagramas de clases del sistema. En el siguiente apartado se harán referencia al contenido de la misma.</rem:text>
+</rem:paragraph>
+</rem:section>
+<rem:section
+ oid = "SEC-0061">
+<rem:name>
+Descripción de las clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.2 </rem:number>
+<rem:glossaryItem
+ oid = "GLO-0104">
+<rem:name>
+<rem:ref oid="GLO-0104">UML-1</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: cliente, <rem:ref oid="GLO-0015">paciente</rem:ref>, informe, veterinario y cita. <br/><br/>En este modelo se muestran las relaciones entre clases y representan los pasos que se siguen en la realidad. En primer lugar, el cliente puede tener uno o varios pacientes, es decir, mascotas. El cliente es el que reserva la cita, y para ello debe estar registrado previamente en el sistema.<br/><br/>Por otro lado, podemos ver que el <rem:ref oid="GLO-0015">paciente</rem:ref> esta relacionado con uno o varios informes, que son creados por la veterinaria en el momento de la <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0105">
+<rem:name>
+<rem:ref oid="GLO-0105">UML-2</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En la segunda página del UML adjunto podemos observar como continua el proceso de las citas y el resto de clases involucradas. En este caso tenemos al cliente y cita de nuevo, y a la peluquería, <rem:ref oid="GLO-0011">consulta</rem:ref>, urgencia, gestor, peluquera y veterinaria. <br/><br/>Podemos observar que el gestor es el que aministra la cita. Tenemos dos tipos de cita: peluquería y <rem:ref oid="GLO-0011">consulta</rem:ref>, de ahí que sea una herencia completa y disjunta. A su vez la <rem:ref oid="GLO-0011">consulta</rem:ref> puede ser una urgencia. L a peluquería es atendida por la peluquera y la <rem:ref oid="GLO-0011">consulta</rem:ref> por la veterinaria. </rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0106">
+<rem:name>
+<rem:ref oid="GLO-0106">UML-3</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En la tercera página del UML tenemos la relación de los trabajadores. Por un lado tenemos la clase trabajador, de la que heredan peluquera y veterinaria ya que guardan la misma información. A su vez trabajador tiene un horario de trabajo concreto que puede modificarse. <br/><br/>En este diagrama se muestra que de la gestora no se guarda indormación ya que no sería relevante para el sistema, pero esta puede contratar a más trabajadores.</rem:text>
+</rem:glossaryItem>
+</rem:section>
+<rem:section
+ oid = "SEC-0062">
+<rem:name>
+Diagramas de estado de las clases del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>3.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0063">
+<rem:name>
+Modelo de casos de uso del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>4 </rem:number>
+<rem:section
+ oid = "SEC-0064">
+<rem:name>
+Diagramas de secuencia del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0065">
+<rem:name>
+Descripción de los diagramas de secuencia del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>4.2 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0066">
+<rem:name>
+Interfaz de usuario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>5 </rem:number>
+<rem:section
+ oid = "SEC-0067">
+<rem:name>
+Diagramas de navegación del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0068">
+<rem:name>
+Esquemas de la interfaz de ususario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.2 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0069">
+<rem:name>
+Descripción de la interfaz de usuario del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>5.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0070">
+<rem:name>
+Interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>6 </rem:number>
+<rem:section
+ oid = "SEC-0071">
+<rem:name>
+Diagramas de la interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.1 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0072">
+<rem:name>
+Descripción de la interfaz de servicios del sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.2 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0073">
+<rem:name>
+Servicios consumidos por el sistema</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>2</rem:level>
+<rem:number>6.3 </rem:number>
+</rem:section>
+</rem:section>
+<rem:section
+ oid = "SEC-0074">
+<rem:name>
+Información sobre trazabilidad</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>7 </rem:number>
+</rem:section>
+<rem:section
+ oid = "SEC-0075">
+<rem:name>
+Glosario de acrónimos y abreviaturas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:level>1</rem:level>
+<rem:number>A </rem:number>
+</rem:section>
 </rem:d_requirementsSpecification>
 <rem:defectsSpecification oid = "DFS-0003">
 <rem:name>Registro de Conflictos y Defectos</rem:name>
@@ -1809,73 +3557,7 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "UC-0001"  target = "GLO-0019" >
-<rem:isChecked/>
-</rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0004">
 <rem:name>
@@ -1893,27 +3575,6 @@ String</rem:name>
 Predefined OCL type</rem:comments>
 <rem:description>
 Alphanumeric strings</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -1939,60 +3600,210 @@ Real numbers</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realizaciï¿½n</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de anï¿½lisis</rem:name>
+<rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociaciï¿½n</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociaciï¿½n</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
+<rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
 <rem:name>Inconsistencia</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0014">
@@ -2004,119 +3815,59 @@ Real numbers</rem:description>
 <rem:defectTypeValue oid = "DTV-0015">
 <rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no estï¿½n expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
 <rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algï¿½n lector]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnologï¿½a actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma mï¿½s concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseï¿½o</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseï¿½o del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisiï¿½n</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numï¿½ricas siempre que sea posible con el nivel adecuado de precisiï¿½n]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigï¿½edad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen mï¿½s de una interpretaciï¿½n posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleciï¿½n</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberï¿½ hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organizaciï¿½n incorrecta</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no estï¿½n organizados correctamente segï¿½n la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedarï¿½a bien</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0002">
-<rem:name>en construcciï¿½n</rem:name>
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0003">
+<rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
@@ -2124,62 +3875,59 @@ Real numbers</rem:description>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0003">
-<rem:name>pendiente de verificaciï¿½n</rem:name>
-</rem:statusValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continï¿½a</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
-<rem:name>aï¿½o(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0005">
 <rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>dï¿½cima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centï¿½sima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presiï¿½n</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
+<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
