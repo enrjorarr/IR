@@ -1251,6 +1251,106 @@ Descripción de actores de negocio a implantar</h3><a name="PRG-0045" />
 Descripción de procesos de negocio a implantar</h3><a name="PRG-0046" />
 <p>Ante los procesos de negocio actuales, hemos decidido que implantaremos las siguientes mejoras. La petición de cita, tal y como lo vemos en el BPMN anterior se realizará mediante la aplicación que crearemos. La asignación de las citas a los trabajadores también se levará a cabo mediante la aplicación. A su vez, toda la información anterior junto con los informes e historiales creados por los trabajadores será guardada y gestionada en una base de datos.
 <br />Los diagramas bpmn detallando lo anteriormente nombrado se encuentran en la carpeta adjunta con el nombre 4.2 Descripción de procesos de negocio a implantar. </p>
+<a name="GRF-0014" />
+<p align="center">
+<img src=".\BPMN PNG\Reservar cita.png" title=".\BPMN PNG\Reservar cita.png" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+Reservar cita</p>
+<a name="PRG-0128" />
+<p>El cliente previamente registrado en el sistema rellena un formulario con el día que quiere ser citado. El sistema lo filtra y guarda la cita en la base de datos o bien le informa al cliente de que ese horario no es posible.</p>
+<a name="GRF-0015" />
+<p align="center">
+<img src=".\BPMN PNG\Desarollo cita.png" title=".\BPMN PNG\Desarollo cita.png" />
+</p>
+<p align="center">
+<b>Figura 2</b>:
+                
+Desarrollo de cita</p>
+<a name="PRG-0129" />
+<p>El cliente lleva al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> a la clínica, el gestor lo deriva a su respectivo profesional. Si es <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> de veterinaria, al final de esta se realizará su informe correspondiente. El <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> se le entregará a su dueño y posteriormente se realiza el pago de la cita.</p>
+<a name="GRF-0016" />
+<p align="center">
+<img src=".\BPMN PNG\Realización del informe.png" title=".\BPMN PNG\Realización del informe.png" />
+</p>
+<p align="center">
+<b>Figura 3</b>:
+                
+Realización del informe</p>
+<a name="PRG-0130" />
+<p>Tras el desarrollo de la cita, el veterinario/a rellena el informe del animal, el cual se añade a una base de datos y se recopila en el historial del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</p>
+<a name="GRF-0017" />
+<p align="center">
+<img src=".\BPMN PNG\Registro de vacunas.png" title=".\BPMN PNG\Registro de vacunas.png" />
+</p>
+<p align="center">
+<b>Figura 4</b>:
+                
+Registro de vacunas</p>
+<a name="PRG-0131" />
+<p>Al vacunar al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, la cartilla de vacunación se crea en caso de que sea la primera vez, o se actualiza si ya ha sido vacunado anteriormente.</p>
+<a name="GRF-0018" />
+<p align="center">
+<img src=".\BPMN PNG\Organizar horarios.png" title=".\BPMN PNG\Organizar horarios.png" />
+</p>
+<p align="center">
+<b>Figura 5</b>:
+                
+Organizar horarios</p>
+<a name="PRG-0132" />
+<p>El trabajador rellena un formulario con sus horas disponibles de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> o <a href="#GLO-0016" title="Proceso de aproximadamente 45 minutos en el cual la auxiliar baña, cepilla y corta el pelo y uñas del paciente. Solo se puede solicitar el servicio de peluquería para perros, gatos y pequeños roedores.">servicio de peluquería</a>. Si no existen errores, se almacenan como horarios disponibles en la base de datos.</p>
+<a name="GRF-0019" />
+<p align="center">
+<img src=".\BPMN PNG\Registro cliente.png" title=".\BPMN PNG\Registro cliente.png" />
+</p>
+<p align="center">
+<b>Figura 6</b>:
+                
+Registro del cliente</p>
+<a name="PRG-0133" />
+<p>El cliente que se quiere registrar rellena un formulario con sus datos, si no hay errores, se registra correctamente y sus datos se almacenan en la base de datos.</p>
+<a name="GRF-0020" />
+<p align="center">
+<img src=".\BPMN PNG\Modificar perfil.png" title=".\BPMN PNG\Modificar perfil.png" />
+</p>
+<p align="center">
+<b>Figura 7</b>:
+                
+Modificar perfil</p>
+<a name="PRG-0134" />
+<p>Al cliente registrado se le muestra un formulario con sus datos previos, este lo rellena con los nuevos y se actualizan en la base de datos.</p>
+<a name="GRF-0021" />
+<p align="center">
+<img src=".\BPMN PNG\Registrar paciente.png" title=".\BPMN PNG\Registrar paciente.png" />
+</p>
+<p align="center">
+<b>Figura 8</b>:
+                
+Registrar paciente</p>
+<a name="PRG-0135" />
+<p>El cliente rellena un formulario con los datos del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, el sistema los procesa y los almacena en la base de datos.</p>
+<a name="GRF-0022" />
+<p align="center">
+<img src=".\BPMN PNG\Modificar cita.png" title=".\BPMN PNG\Modificar cita.png" />
+</p>
+<p align="center">
+<b>Figura 9</b>:
+                
+Modificar cita</p>
+<a name="PRG-0136" />
+<p>El cliente solicita una nueva cita, si esta es correcta se borra la anteriormente solicitada y la nueva se almacena en la base de datos.</p>
+<a name="GRF-0023" />
+<p align="center">
+<img src=".\BPMN PNG\Eliminar cita.png" title=".\BPMN PNG\Eliminar cita.png" />
+</p>
+<p align="center">
+<b>Figura 10</b>:
+                
+Eliminar cita</p>
+<a name="PRG-0137" />
+<p>El cliente indica qué cita quiere eliminar, esta se borra de la base de datos.</p>
 <a name="SEC-0028" />
 <h1 align="left">5 
 Descripción de los subsistemas del sistema a desarrollar</h1><a name="PRG-0115" />

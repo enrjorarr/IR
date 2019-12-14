@@ -1,530 +1,17 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0001] 1 Introducción con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos del Sistema] -> [Especificación de Requisitos del Sistema [MadejaIR]]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0001] Actas de reuniones con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0025]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0027] Glosario de acrónimos y abreviaturas con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0002] Información sobre el dominio del problema con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0002] Asignar Citas con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0050] 3.1.0 Pros y contras de la situación  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0004] Información y dominio del problema con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0004] Introducción  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0020]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>29</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ACT-0001] Gestor con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ACT-0002] Veterinario con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ACT-0003] Peluquero con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0025] Pros 1 con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0032] Debilidades 1 con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ACT-0002]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [ACT-0004] Cliente con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0001] Solicitar Cita con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0005]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>25</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0009]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [STK-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0003] BPMN con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>5</rem:day>
@@ -533,21 +20,12 @@
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0049] RG - 3  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0050]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -569,7 +47,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>11</rem:month>
 <rem:day>1</rem:day>
@@ -578,7 +56,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>11</rem:month>
 <rem:day>1</rem:day>
@@ -587,16 +65,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>5</rem:day>
@@ -604,6 +73,24 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0048] RG - 2 con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -622,6 +109,15 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] RI-1 con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
@@ -631,44 +127,17 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>S</rem:type>
+<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0086]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>11</rem:month>
 <rem:day>1</rem:day>
@@ -688,37 +157,10 @@
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0003] Actualización/Creación Historial Paciente con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>11</rem:month>
-<rem:day>1</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>5</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -745,7 +187,88 @@
 <rem:month>12</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0048] RG - 2 con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0049] RG - 3  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0085] RMS-01 con 0 hijos y 4 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0091]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0003] BPMN con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -766,8 +289,251 @@
 <rem:description><![CDATA[Eliminado el objeto [PRG-0057]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0003] Actualización/Creación Historial Paciente con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0001] Solicitar Cita con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0020]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0032] Debilidades 1 con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0025] Pros 1 con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0002] Veterinario con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0003] Peluquero con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0002] Asignar Citas con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0050] 3.1.0 Pros y contras de la situación  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>11</rem:month>
 <rem:day>1</rem:day>
@@ -778,80 +544,17 @@
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] RI-1 con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0062] RI-6 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0054] Cliente con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0119] UC-1: Revervar cita con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0008]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0121] UC-3: Modificar cita con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0056] Peluquero  con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0001] Gestor con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>29</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -859,26 +562,26 @@
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>11</rem:month>
+<rem:day>1</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Huellas con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0004] Cliente con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0055] Veterinario con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0002] Información sobre el dominio del problema con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -886,8 +589,8 @@
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -895,242 +598,224 @@
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Huellas con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0004] Información y dominio del problema con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0123] UC-5: Realización de informe con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0025]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0057] RI-1 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0004] Introducción  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0058] RI-2 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0120] UC-2: Cancelar cita con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0009]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0059] RI-3 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0001] Actas de reuniones con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0060] RI-4 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0063] RI-7 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0122] UC-4: Registro cliente con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0013] Copia de Sección de compra del establecimiento, junto a la caja. con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>U</rem:type>
-<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Documento de Requisitos del Sistema] -> [Especificación de Requisitos del Sistema [MadejaIR]]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0001] 1 Introducción con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0027] Glosario de acrónimos y abreviaturas con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>10</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0132</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida traza desde [TYP-0002] Paciente]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0053] Paciente  con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0061] RI-5 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0111]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0109]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0113]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0085] RMS-01 con 0 hijos y 4 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0002] bpmn2 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
@@ -1139,171 +824,342 @@
 <rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0124]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Huellas]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Paws]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0114]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0016</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0014</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0130</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0131</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0128</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0129</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0018</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>13</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0004] foto 1 con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0086]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 2 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0080] RCS-11 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0050]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0107]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0109]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0091]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0111]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
+<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [UC-0001] Reserva de cita con 0 hijos y 20 cambios]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0015</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0128</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El cliente previamente registrado en el sistema rellena un formulario con el día que quiere ser citado. El sistema lo filtra y guarda la cita en la base de datos o bien le informa al cliente de que ese horario no es posible.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0017</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0135</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [El cliente rellena un formulario con los datos de su mascota, el sistema los procesa y los almacena en la base de datos.] -> [El cliente rellena un formulario con los datos del paciente, el sistema los procesa y los almacena en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0133</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El cliente que se quiere registrar rellena un formulario con sus datos, si no hay errores, se registra correctamente y sus datos se almacenan en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0133</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0023</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0132</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [El trabajador rellena un formulario con sus horas disponibles de consulta/peluquería. Si no existen errores, se almacenan como horarios disponibles en la base de datos.] -> [El trabajador rellena un formulario con sus horas disponibles de consulta o servicio de peluquería. Si no existen errores, se almacenan como horarios disponibles en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0130</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [Tras el desarrollo de la cita, el veterinario/a rellena el informe del animal, el cual se añade a una base de datos y se recopila en el historial del paciente.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0134</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0019</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0134</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [Al cliente registrado se le muestra un formulario con sus datos previos, este lo rellena con los nuevos y se actualizan en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0131</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [Al vacunar al paciente, la cartilla de vacunación se crea en caso de que sea la primera vez, o se actualiza si ya ha sido vacunado anteriormente.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0021</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0020</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0135</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El cliente rellena un formulario con los datos de su mascota, el sistema los procesa y los almacena en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0136</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El cliente solicita una nueva cita, si esta es correcta se borra la anteriormente solicitada y la nueva se almacena en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0137</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0132</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El trabajador rellena un formulario con sus horas disponibles de consulta/peluquería. Si no existen errores, se almacenan como horarios disponibles en la base de datos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0135</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0136</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0022</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Modificar cira] -> [Modificar cita]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0137</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El cliente indica qué cita quiere eliminar, esta se borra de la base de datos.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1312,7 +1168,7 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0069] RN-6 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0032]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1324,13 +1180,40 @@
 <rem:description><![CDATA[Eliminado el objeto [FRQ-0007] Información trabajadores con 0 hijos y 6 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida columna [NonFunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0079] RCS-10 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0071] RCS-02 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0078] RCS-09 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1357,43 +1240,7 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0071] RCS-02 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0073] RCS-04 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0068] RN-5 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0049] RG-3 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0065] RN-2 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1420,96 +1267,6 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Información pacientes con 0 hijos y 7 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0005] Horario de trabajo veterinario con 0 hijos y 6 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0066] RN-3 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0074] RCS-05 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0075] RCS-06 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0076] RCS-07 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida columna [AssociationType]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0006] Horario trabajo peluquero con 0 hijos y 6 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0064] RN-1 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0067] RN-4 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0052] RG-6 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
@@ -1528,33 +1285,6 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] Horario trabajadores con 0 hijos y 6 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0002] Información clientes  con 0 hijos y 7 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0048] RG-2 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0072] RCS-03 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
@@ -1564,7 +1294,7 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0078] RCS-09 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0073] RCS-04 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1573,106 +1303,7 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Información de citas con 0 hijos y 6 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0032]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada fila [ObjectType]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0089] RM-01 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0087] RPS-01 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada columna [InformationRequirement]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida fila [ObjectType]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida columna [InformationRequirement]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida columna [FunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0074] RCS-05 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1699,34 +1330,16 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0079] RCS-10 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [FRQ-0027] Notificación peluquero con 0 hijos y 2 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0082] RCS-12 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0083] RFin-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0048] RG-2 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1744,7 +1357,70 @@
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
 </rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0089] RM-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
 <rem:description><![CDATA[Eliminado el objeto [GLO-0086] RES-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0075] RCS-06 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0027] Notificación peluquero con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0006] Horario trabajo peluquero con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0082] RCS-12 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0087] RPS-01 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0076] RCS-07 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
@@ -1766,16 +1442,7 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
@@ -1792,8 +1459,26 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
@@ -1811,15 +1496,6 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
@@ -1829,7 +1505,34 @@
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [CRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [TYP-0010]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>13</rem:day>
@@ -1843,54 +1546,20 @@
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [El objetivo de este proyecto es crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.
-] -> [crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [En nuestro proyecto contamos con distintas restricciones técnicas y distintas tecnologías que usaremos. Entre ellas podemos destacar la base de datos y en concreto usaremos SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.
+
+Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.
+
+Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.
+
+También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el cliente. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.
+
+Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.
+
+Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.
+
+Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.
 ]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0022] Objetivos del proyecto 3 con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0020] Objetivos del proyecto 1 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -1902,48 +1571,17 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [mediante la creación del sistema de información anterior, también  abordaremos el control de los empleados y el reparto de su respectivos trabajos.
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [ crearemos un sistema que facilite la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [mediante la creación del sistema de información anterior, también  abordaremos el control de los empleados y el reparto de su respectivos trabajos.
-] -> [ controlar a los empleados y el repartir sus tareas adecuadamente.
-]]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
@@ -1951,28 +1589,17 @@
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [ crearemos un sistema que facilite la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.
-] -> [facilitar la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.
-]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0112] Diagramas de clases del sistema con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
@@ -1986,7 +1613,7 @@
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1995,35 +1622,16 @@
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [OBJ-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [El objetivo de este proyecto es crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
 <rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -2067,20 +1675,38 @@ Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya q
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0021] Objetivos del proyecto 2 con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0116] Restricciones técnicas del sistema con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [validado]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
@@ -2094,52 +1720,7 @@ Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya q
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [CRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
 <rem:description><![CDATA[Eliminado el objeto [OBJ-0002]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0116] Restricciones técnicas del sistema con 0 hijos y 0 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [hay presión]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -2148,42 +1729,56 @@ Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya q
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [En nuestro proyecto contamos con distintas restricciones técnicas y distintas tecnologías que usaremos. Entre ellas podemos destacar la base de datos y en concreto usaremos SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.
-
-Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.
-
-Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.
-
-También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el cliente. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.
-
-Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.
-
-Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.
-
-Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadida traza desde [TYP-0002] Paciente]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0112] Diagramas de clases del sistema con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0114] Información sobre trazabilidad con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [TYP-0003] Historial]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida traza desde [TYP-0009] Peluquería]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
@@ -2200,13 +1795,40 @@ Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya q
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [TYP-0010]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Añadida traza desde [TYP-0006] Cita]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0021] Objetivos del proyecto 2 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0022] Objetivos del proyecto 3 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>S</rem:type>
@@ -2218,40 +1840,22 @@ Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya q
 <rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRQ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [TYP-0003] Historial]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CRQ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -2263,255 +1867,579 @@ Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya q
 <rem:description><![CDATA[Añadida traza desde [TYP-0001] Cliente]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>S</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento guardado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadida traza desde [TYP-0007] Consulta]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminada columna [FunctionalRequirement]]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
 <rem:day>14</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0114] Información sobre trazabilidad con 0 hijos y 0 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0020] Objetivos del proyecto 1 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0080] RCS-11 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0001] Reserva de cita con 0 hijos y 20 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0114]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0053] Paciente  con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0111]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0113]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0054] Cliente con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fila [ObjectType]]]></rem:description>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Huellas]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0107]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida traza desde [TYP-0009] Peluquería]]></rem:description>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Paws]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [InformationRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Huellas con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [FunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0055] Veterinario con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [FunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0124]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [InformationRequirement]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida columna [InformationRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Huellas con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida columna [InformationRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0109]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida columna [FunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [NonFunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [InformationRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0002] bpmn2 con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida columna [InformationRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida traza desde [TYP-0006] Cita]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada fila [ObjectType]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0111]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>TRM-0002</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0109]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fila [ObjectType]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0103]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida columna [FunctionalRequirement]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada fila [ObjectType]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0004] foto 1 con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada fila [ObjectType]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0013] Copia de Sección de compra del establecimiento, junto a la caja. con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminada columna [AssociationType]]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida traza desde [TYP-0006] Cita]]></rem:description>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>TRM-0001</rem:owner><rem:date>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadida fila [ObjectType]]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0122] UC-4: Registro cliente con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0008]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0059] RI-3 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0057] RI-1 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0123] UC-5: Realización de informe con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0058] RI-2 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [NFR-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0064] RN-1 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0061] RI-5 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0062] RI-6 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0067] RN-4 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0069] RN-6 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0068] RN-5 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0002] Información clientes  con 0 hijos y 7 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0121] UC-3: Modificar cita con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0060] RI-4 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0063] RI-7 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0001] Horario trabajadores con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Información de citas con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0056] Peluquero  con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0005] Horario de trabajo veterinario con 0 hijos y 6 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Información pacientes con 0 hijos y 7 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>S</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento guardado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0120] UC-2: Cancelar cita con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0065] RN-2 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0066] RN-3 con 0 hijos y 0 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0119] UC-1: Revervar cita con 0 hijos y 0 cambios]]></rem:description>
 </rem:change>
 </rem:log>
