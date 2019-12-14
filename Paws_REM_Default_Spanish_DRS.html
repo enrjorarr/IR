@@ -298,11 +298,7 @@ Descripción de la arquitectura del sistema</h2><a name="PRG-0103" />
 <h1 align="left">3 
 Modelo de clases del sistema</h1><a name="SEC-0060" />
 <h2 align="left">3.1 
-Diagramas de clases del sistema</h2><a name="PRG-0112" />
-<p>Este apartado se encuentra en la carpeta adjunta 3.1 Diagramas de clases del sistema. En el siguiente apartado se harán referencia al contenido de la misma.</p>
-<a name="SEC-0061" />
-<h2 align="left">3.2 
-Descripción de las clases del sistema</h2><a name="GLO-0104" />
+Diagramas de clases del sistema</h2><a name="GLO-0104" />
 <p align="left">
 <b> UML-1:</b>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: cliente, <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, informe, veterinario y cita. 
 <br />
@@ -319,6 +315,828 @@ Descripción de las clases del sistema</h2><a name="GLO-0104" />
 <b> UML-3:</b>En la tercera página del UML tenemos la relación de los trabajadores. Por un lado tenemos la clase trabajador, de la que heredan peluquera y veterinaria ya que guardan la misma información. A su vez trabajador tiene un horario de trabajo concreto que puede modificarse. 
 <br />
 <br />En este diagrama se muestra que de la gestora no se guarda indormación ya que no sería relevante para el sistema, pero esta puede contratar a más trabajadores.</p>
+<a name="SEC-0061" />
+<h2 align="left">3.2 
+Descripción de las clases del sistema</h2><a name="TYP-0001" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0001</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Cliente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+a los clientes registrados dentro del sistema, para que posteriormente puedan reservar citas y se guarden los datos de sus respectivas mascotas asociadas a estos.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0002" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0002</th>
+<th align="left" valign="top" width="100%" colspan="3"> Paciente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+los pacientes, estos asistiran a las citas y a su vez tendrán asociados un historial a ellos mismos, que podrá ser visitado por su dueño (cliente).</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0003</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Historial</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+los historiales que están asociados a cada <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, estos están compuestos por informes y vacunas, y son realizados por el veterinario durante la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0004">
+									[TYP-0004] 
+									
+Informe</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0005">
+									[TYP-0005] 
+									
+Vacunas</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0004</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Informe</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+los informes realizados por el veterinario durante o tras una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, en el se guardarán datos de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> como el <a href="#GLO-0017" title="Conjunto de toda la medicación, posibles operaciones o radiaciones que el paciente reciba. Serán abonadas independientemente de precio de la consulta.">tratamiento</a> si se le asigna alguno al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>. </em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0003">
+							[TYP-0003] 
+							
+Historial</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0005" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0005</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Vacunas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+las vacunas a las que se debe someter al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> y aquellas que ya se han realizado. </em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0003">
+							[TYP-0003] 
+							
+Historial</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0006" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0006</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Cita</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+las citas y los datos relevantes de las mismas, estás se dividen en dos tipos : citas de peluquería o consultas.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0007">
+									[TYP-0007] 
+									 Consulta</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0009">
+									[TYP-0009] 
+									
+Peluquería</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0007" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0007</th>
+<th align="left" valign="top" width="100%" colspan="3"> Consulta</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+las consultas, que son atendidas por un veterinario y que extienden de las citas, estás a su vez pueden tratarse de una urgencia. Durante el desarrollo de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> o posteriormente el veterinario podrá generar un informe o informe de vacuna al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> que sea atendido. </em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0006">
+							[TYP-0006] 
+							
+Cita</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (solapados)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0008">
+									[TYP-0008] 
+									
+Urgencia</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0008" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0008</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Urgencia</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+un tipo de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> de urgencia, esta implicaría desplazamiento si es necesario o bien una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> fuera de horario. Hereda de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0007">
+							[TYP-0007] 
+							 Consulta</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0009" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0009</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Peluquería</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+a las citas que son de peluquería. Estas son atendidas por el peluquero, que puede atender comomáximo a dos pacientes a la vez. Hereda de cita.
+<br />
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0006">
+							[TYP-0006] 
+							
+Cita</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0010" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0010</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Trabajador</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+a los trabajadores, dos tipos en específico, peluquero y veterinario que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es gestor a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0011">
+									[TYP-0011] 
+									
+Veterinario</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0012">
+									[TYP-0012] 
+									
+Peluquero</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0011</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Veterinario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+a los veterinarios, que al heredar de trabjadores consta de las mismas propiedades más el número de licenciado y su especialización (si ha realizado alguna). </em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0010">
+							[TYP-0010] 
+							
+Trabajador</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0012" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0012</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Peluquero</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+peluqueros, que al heredar de trabajador tiene las mismas propiedades y además la titulación de peluquería canina/animal.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0010">
+							[TYP-0010] 
+							
+Trabajador</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0013" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0013</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Horario de trabajo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 14/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+el horario dependiendo el dia de la semana de cada trabajador, puede ser modificado por un trabajador que sea gestor. Lo hemos planteado así ya que el horarió de los trabajadores podría variar según el día/semana/mes.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
 <a name="SEC-0062" />
 <h2 align="left">3.3 
 Diagramas de estado de las clases del sistema</h2><a name="SEC-0063" />
