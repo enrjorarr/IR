@@ -190,6 +190,44 @@ Organizaciones participantes</rem:name>
 Ninguno</rem:comments>
 <rem:text>La única organización participante de este proyecto es la propia clínica veterinaria “Huellas”. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por dos empleados y por la dueña de la veterinaria que a su vez trabaja de gestora. <br/><br/>Esta veterinaria aunque puede ser pequeña y con pocos trabajadores tiene una gran demanda de trabajo, pues al estar situada en una zona de campo, tiene muchos clientes que están dedicados a la ganadería y necesitan del trabajo de “Huellas” tanto para poder cuidar a sus animales como para poder certificar en ocasiones que están sanos y son de calidad como puede ser el caso de la crianza de los cerdos y de los caballos.<br/></rem:text>
 </rem:paragraph>
+<rem:organization
+ oid = "ORG-0001">
+<rem:name>
+Huellas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address>Calle San Miguel, 4, 06700 Villanueva de la Serena, Badajoz</rem:address>
+<rem:telephone>924 84 46 82</rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
+<rem:organization
+ oid = "ORG-0002">
+<rem:name>
+Paws</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:address><rem:tbd/></rem:address>
+<rem:telephone><rem:tbd/></rem:telephone>
+<rem:fax><rem:tbd/></rem:fax>
+</rem:organization>
 </rem:section>
 <rem:section
  oid = "SEC-0005">
@@ -225,6 +263,101 @@ Personas participantes</rem:name>
 Ninguno</rem:comments>
 <rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un veterinario, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
 </rem:paragraph>
+<rem:stakeholder
+ oid = "STK-0001">
+<rem:name>
+Laura Beza Quesada</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0002">
+<rem:name>
+Antonio Jesús García Nieto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0003">
+<rem:name>
+Enrique Jordá Arrillaga</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0004">
+<rem:name>
+Enrique Salazar Márquez</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
+<rem:stakeholder
+ oid = "STK-0005">
+<rem:name>
+Alvaro Juan Castro Cachero</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
+<rem:isDeveloper/>
+<rem:worksFor organization = "ORG-0002"/>
+</rem:stakeholder>
 </rem:section>
 </rem:section>
 <rem:section
@@ -244,57 +377,72 @@ Objetivos del proyecto</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>1.3 </rem:number>
-<rem:paragraph
- oid = "PRG-0020">
+<rem:objective
+ oid = "OBJ-0001">
 <rem:name>
-Objetivos del proyecto 1</rem:name>
+Funcionalidad</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El objetivo de este proyecto es crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0021">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.<br/></rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0002">
 <rem:name>
-Objetivos del proyecto 2</rem:name>
+Control de empleados</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Por otra parte, mediante la creación del sistema de información anterior, también  abordaremos el control de los empleados y el reparto de su respectivos trabajos.<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0022">
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+ controlar a los empleados y el repartir sus tareas adecuadamente.<br/></rem:description>
+</rem:objective>
+<rem:objective
+ oid = "OBJ-0003">
 <rem:name>
-Objetivos del proyecto 3</rem:name>
+Reserva de citas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Finalmente, crearemos un sistema que facilite la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.<br/></rem:text>
-</rem:paragraph>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+facilitar la reserva de citas a los clientes, para que así dispongan  de un servicio más ágil y se elimine la posibilidad de solapamiento de llamadas y la sobrecarga de trabajo al personal.<br/></rem:description>
+</rem:objective>
 </rem:section>
 </rem:section>
 <rem:section
@@ -1876,7 +2024,7 @@ registrar estadísticas periódicas del negocio.<br/></rem:description>
 <rem:functionalRequirement
  oid = "FRQ-0018">
 <rem:name>
-Notificación a cliente</rem:name>
+Notificación a trabajadores</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3205,23 +3353,28 @@ Restricciones técnicas del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.5 </rem:number>
-<rem:paragraph
- oid = "PRG-0116">
+<rem:constraintRequirement
+ oid = "CRQ-0001">
 <rem:name>
-Restricciones técnicas del sistema</rem:name>
+Restricciones técnicas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En nuestro proyecto contamos con distintas restricciones técnicas y distintas tecnologías que usaremos. Entre ellas podemos destacar la base de datos y en concreto usaremos SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.<br/><br/>Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.<br/><br/>Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.<br/><br/>También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el cliente. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.<br/><br/>Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.<br/><br/>Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.<br/><br/>Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.<br/></rem:text>
-</rem:paragraph>
+<rem:importance value = "IMV-0003"/>
+<rem:urgency value = "URV-0003"/>
+<rem:status value = "STV-0005"/>
+<rem:stability value = "SBV-0003"/>
+<rem:description>
+la base de datos a utilizar será mediante SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.<br/><br/>Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.<br/><br/>Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.<br/><br/>También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el cliente. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.<br/><br/>Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.<br/><br/>Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.<br/><br/>Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.<br/></rem:description>
+</rem:constraintRequirement>
 </rem:section>
 <rem:section
  oid = "SEC-0048">
@@ -3275,23 +3428,528 @@ Información sobre trazabilidad</rem:name>
 Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>6.7 </rem:number>
-<rem:paragraph
- oid = "PRG-0114">
+<rem:traceabilityMatrix
+ oid = "TRM-0001">
 <rem:name>
-Información sobre trazabilidad</rem:name>
+Requisitos de información</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:day>14</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Este apartado se encuentra en la carpeta adjunta con el nombre 6.7 Información sobre trazabilidad.</rem:text>
-</rem:paragraph>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="IRQ-0001"/>
+<rem:th oid ="IRQ-0002"/>
+<rem:th oid ="IRQ-0003"/>
+<rem:th oid ="IRQ-0004"/>
+<rem:th oid ="IRQ-0005"/>
+<rem:th oid ="IRQ-0006"/>
+<rem:th oid ="IRQ-0007"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0001"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0006"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0012"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0013"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
+<rem:traceabilityMatrix
+ oid = "TRM-0002">
+<rem:name>
+Requisitos funcionales</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>14</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:tr>
+<rem:th/>
+<rem:th oid ="FRQ-0008"/>
+<rem:th oid ="FRQ-0009"/>
+<rem:th oid ="FRQ-0010"/>
+<rem:th oid ="FRQ-0011"/>
+<rem:th oid ="FRQ-0012"/>
+<rem:th oid ="FRQ-0013"/>
+<rem:th oid ="FRQ-0014"/>
+<rem:th oid ="FRQ-0015"/>
+<rem:th oid ="FRQ-0016"/>
+<rem:th oid ="FRQ-0017"/>
+<rem:th oid ="FRQ-0018"/>
+<rem:th oid ="FRQ-0019"/>
+<rem:th oid ="FRQ-0020"/>
+<rem:th oid ="FRQ-0021"/>
+<rem:th oid ="FRQ-0022"/>
+<rem:th oid ="FRQ-0023"/>
+<rem:th oid ="FRQ-0024"/>
+<rem:th oid ="FRQ-0025"/>
+<rem:th oid ="FRQ-0026"/>
+<rem:th oid ="FRQ-0028"/>
+<rem:th oid ="FRQ-0029"/>
+<rem:th oid ="FRQ-0030"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0001"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0002"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0003"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0004"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0005"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0006"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0007"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0008"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0009"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0010"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0011"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0012"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+<rem:tr>
+<rem:th oid ="TYP-0013"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="yes"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+<rem:td mark ="no"/>
+</rem:tr>
+</rem:traceabilityMatrix>
 </rem:section>
 </rem:section>
 <rem:section
@@ -3348,139 +4006,6 @@ Ninguno</rem:comments>
 <rem:level>1</rem:level>
 <rem:number>C </rem:number>
 </rem:section>
-<rem:organization
- oid = "ORG-0001">
-<rem:name>
-Huellas</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:address>Calle San Miguel, 4, 06700 Villanueva de la Serena, Badajoz</rem:address>
-<rem:telephone>924 84 46 82</rem:telephone>
-<rem:fax><rem:tbd/></rem:fax>
-</rem:organization>
-<rem:stakeholder
- oid = "STK-0001">
-<rem:name>
-Laura Beza Quesada</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
-<rem:isDeveloper/>
-<rem:worksFor organization = "ORG-0002"/>
-</rem:stakeholder>
-<rem:stakeholder
- oid = "STK-0002">
-<rem:name>
-Antonio Jesús García Nieto</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
-<rem:isDeveloper/>
-<rem:worksFor organization = "ORG-0002"/>
-</rem:stakeholder>
-<rem:stakeholder
- oid = "STK-0003">
-<rem:name>
-Enrique Jordá Arrillaga</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
-<rem:isDeveloper/>
-<rem:worksFor organization = "ORG-0002"/>
-</rem:stakeholder>
-<rem:stakeholder
- oid = "STK-0004">
-<rem:name>
-Enrique Salazar Márquez</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
-<rem:isDeveloper/>
-<rem:worksFor organization = "ORG-0002"/>
-</rem:stakeholder>
-<rem:stakeholder
- oid = "STK-0005">
-<rem:name>
-Alvaro Juan Castro Cachero</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:stakeholderRole><rem:tbd/></rem:stakeholderRole>
-<rem:isDeveloper/>
-<rem:worksFor organization = "ORG-0002"/>
-</rem:stakeholder>
-<rem:organization
- oid = "ORG-0002">
-<rem:name>
-Paws</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:address><rem:tbd/></rem:address>
-<rem:telephone><rem:tbd/></rem:telephone>
-<rem:fax><rem:tbd/></rem:fax>
-</rem:organization>
 </rem:c_requirementsSpecification>
 <rem:d_requirementsSpecification oid = "DRS-0002">
 <rem:name>Documento de Análisis del Sistema</rem:name>
@@ -4412,7 +4937,214 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
+<rem:trace source = "TYP-0001"  target = "FRQ-0028" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "IRQ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0004"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "FRQ-0029" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0003"  target = "FRQ-0019" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0003"  target = "FRQ-0020" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0003"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0004"  target = "FRQ-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "FRQ-0015" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "FRQ-0022" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0025" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0010"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "FRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "FRQ-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0030" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "IRQ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "FRQ-0016" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "FRQ-0026" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0024" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "FRQ-0023" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0010"  target = "FRQ-0013" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0017" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "IRQ-0005" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0010"  target = "FRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0001">
+<rem:name>
+Real</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Real numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0004">
 <rem:name>
@@ -4455,90 +5187,6 @@ Hour:minutes:seconds</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0001">
-<rem:name>
-Real</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Real numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0001">
@@ -4547,29 +5195,29 @@ Integer numbers</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
+</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
@@ -4577,46 +5225,16 @@ Integer numbers</rem:description>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0001">
-<rem:name>PD</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
+<rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
@@ -4625,16 +5243,34 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0008">
@@ -4643,22 +5279,16 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -4667,16 +5297,34 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0023">
+<rem:name>Otro</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
 <rem:name>Ambigüedad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
+<rem:description>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0016">
@@ -4685,83 +5333,86 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0023">
-<rem:name>Otro</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0001">
-<rem:name>PD</rem:name>
-</rem:terminationValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
@@ -4769,9 +5420,9 @@ Integer numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
 </rem:urgencyValue>
@@ -4780,9 +5431,6 @@ Integer numbers</rem:description>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
