@@ -1982,7 +1982,7 @@ el cliente intenta registrarse en el sistema.</em>
 Ninguna.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="7">Secuencia normal</th>
+<th align="left" valign="top" rowspan="8">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
@@ -2003,47 +2003,54 @@ solicita acceso al sistema de información.</em>
 Cliente (ACT-0002)
     </a>
 <em>
-solicita acceso al sistema de información.</em>
+accede al formulario de registro de cliente.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0005" />
+<td align="center" valign="top">3</td>
+<td>El
+     
+    sistema<em>
+muestra una vista con el formulario de registro.</em>
 </td>
 </tr>
 <tr>
 <a name="STP-0003" />
-<td align="center" valign="top">3</td>
-<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
-Cliente (ACT-0002)
-    </a>
-<em>
-solicita acceso al sistema de información.</em>
-</td>
-</tr>
-<tr>
-<a name="STP-0004" />
 <td align="center" valign="top">4</td>
 <td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
 Cliente (ACT-0002)
     </a>
 <em>
-solicita acceso al sistema de información.</em>
+rellena los campos obligatorios del formulario de registro del cliente.</em>
 </td>
 </tr>
 <tr>
-<a name="STP-0005" />
+<a name="STP-0004" />
 <td align="center" valign="top">5</td>
 <td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
 Cliente (ACT-0002)
     </a>
 <em>
-solicita acceso al sistema de información.</em>
+envía la petición de registro haciendo click en el botón de registro.</em>
 </td>
 </tr>
 <tr>
 <a name="STP-0006" />
 <td align="center" valign="top">6</td>
-<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
-Cliente (ACT-0002)
-    </a>
-<em>
-solicita acceso al sistema de información.</em>
+<td>El
+     
+    sistema<em>
+almacena al cliente.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0043" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente registrado a su sesión.</em>
 </td>
 </tr>
 <tr>
@@ -2058,7 +2065,7 @@ El usuario estará correctamente registrado en el SI.</td>
 </tr>
 <tr>
 <a name="STX-0001" />
-<td align="center" valign="top">4</td>
+<td align="center" valign="top">5</td>
 <td>Si<em>
 el usuario no rellena correctamente los campos del formulario,
                             </em>el
@@ -2125,7 +2132,8 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0002</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Cancelar cita</th>
+Registro de <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -2156,33 +2164,99 @@ Cancelar cita</th>
 
     caso de uso cuando
 <em>
-Este proceso permite cancelar una cita a aquel cliente que haya reservado previamente una. Se le notificará a los trabajadores y se actualizará su horario.</em>
+el cliente intenta registrar un <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+El cliente debe haber iniciado sesión.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="9">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STP-0045" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+inicia sesión en el SI.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0046" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0047" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+pulsa el botón de registro de <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0048" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con los campos a rellenar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0049" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+rellena los campos obligatorios del formulario.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0050" />
+<td align="center" valign="top">6</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+envía la petición de registro haciendo click en el botón de registro.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0051" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+almacena al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0052" />
+<td align="center" valign="top">8</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+El <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> estará correctamente registrado.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2190,12 +2264,18 @@ Este proceso permite cancelar una cita a aquel cliente que haya reservado previa
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STX-0002" />
+<td align="center" valign="top">6</td>
+<td>Si<em>
+el cliente no rellena correctamente los campos del formulario,
+                            </em>el
+     
+    sistema<em>
+informa que los campos rellenados son incorrectos y permite al cliente intentar registrar al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> de nuevo</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Rendimiento</th>
@@ -2252,7 +2332,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0003</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Modificar cita</th>
+Reservar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -2283,33 +2363,136 @@ Modificar cita</th>
 
     caso de uso cuando
 <em>
-Este proceso permite a un cliente con una cita previamente reservada a modificar su fecha u hora siempre que sea posible y esté dentro del horario establecido. Posteriormente se avisará al trabajador involucrado y se actualizará su horario.</em>
+el cliente intenta reservar una cita.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+El cliente debe estar registrado y haber registrado un <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="13">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STP-0053" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+inicia sesión en el sistema.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0054" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0055" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+accede a la pestaña de reservar cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0056" />
+<td align="center" valign="top">4</td>
+<td>El
+     
+    sistema<em>
+muestra la vista de reservar cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0057" />
+<td align="center" valign="top">5</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+elige el tipo de cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0058" />
+<td align="center" valign="top">6</td>
+<td>El
+     
+    sistema<em>
+muestra un formulario con campos a rellenar y las fechas disponibles.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0059" />
+<td align="center" valign="top">7</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+rellena el formulario y elige una fecha disponible.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0060" />
+<td align="center" valign="top">8</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+envía la solicitud de reserva de citas pulsando en el botón.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0061" />
+<td align="center" valign="top">9</td>
+<td>El
+     
+    sistema<em>
+almacena la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0062" />
+<td align="center" valign="top">10</td>
+<td>El
+     
+    sistema<em>
+elimina el espacio de tiempo disponible utilizado para esa cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0063" />
+<td align="center" valign="top">11</td>
+<td>El
+     
+    sistema<em>
+notifica al cliente y al trabajador de la reserva de la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0064" />
+<td align="center" valign="top">12</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+La cita se almacenará en el sistema y el cliente tendrá acceso a dicha cita.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2317,12 +2500,18 @@ Este proceso permite a un cliente con una cita previamente reservada a modificar
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STX-0004" />
+<td align="center" valign="top">8</td>
+<td>Si<em>
+el usuario no rellena correctamente los campos del formulario,
+                            </em>el
+     
+    sistema<em>
+informa que los campos rellenados son incorrectos y permite al cliente rellenar la cita de nuevo</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Rendimiento</th>
@@ -2379,12 +2568,12 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0004</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Registro cliente</th>
+Modificar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top" colspan="2">1.0
-            ( 13/12/2019 )
+            ( 19/12/2019 )
         </td>
 </tr>
 <tr>
@@ -2410,33 +2599,145 @@ Registro cliente</th>
 
     caso de uso cuando
 <em>
-Este proceso será necesario para que el cliente pueda solicitar citas posteriormente. Después de haberse registrado, el cliente podrá acceder al sistema de reserva de citas y los trabajadores podrán ver el perfil de sus respectivas mascotas.</em>
+el cliente intente modificar una cita.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+El cliente debe estar registrado, haber registrado un <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> y tener una cita previa.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="14">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STP-0065" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+inicia sesión en el sistema.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0066" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0067" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+selecciona la cita que quiere modificar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0077" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+pulsa el botón de modificar</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0068" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+muestra la vista de la cita a modificar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0071" />
+<td align="center" valign="top">6</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+rellena el formulario y elige una fecha disponible.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0072" />
+<td align="center" valign="top">7</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+envía la solicitud de reserva de citas pulsando en el botón.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0073" />
+<td align="center" valign="top">8</td>
+<td>El
+     
+    sistema<em>
+almacena la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0074" />
+<td align="center" valign="top">9</td>
+<td>El
+     
+    sistema<em>
+elimina el espacio de tiempo disponible utilizado para esa cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0078" />
+<td align="center" valign="top">10</td>
+<td>El
+     
+    sistema<em>
+elimina la cita previa a la modificación.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0079" />
+<td align="center" valign="top">11</td>
+<td>El
+     
+    sistema<em>
+libera el espacio de tiempo que ocupa la cita previa a la modificación.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0075" />
+<td align="center" valign="top">12</td>
+<td>El
+     
+    sistema<em>
+notifica al cliente y al trabajador de la reserva de la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0076" />
+<td align="center" valign="top">13</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+La cita modificada se almacenará en el sistema y el cliente tendrá acceso a dicha cita.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -2444,12 +2745,18 @@ Este proceso será necesario para que el cliente pueda solicitar citas posteriorm
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STX-0005" />
+<td align="center" valign="top">7</td>
+<td>Si<em>
+el usuario no rellena correctamente los campos del formulario,
+                            </em>el
+     
+    sistema<em>
+informa que los campos rellenados son incorrectos y permite al cliente rellenar la cita de nuevo</em>,
+                            a continuación este caso de uso
+                             
+                            <em>continúa</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Rendimiento</th>
@@ -2506,12 +2813,12 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">UC-0005</th>
 <th align="left" valign="top" width="100%" colspan="2">
-Realización de informe</th>
+Eliminar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
 <td align="left" valign="top" colspan="2">1.0
-            ( 13/12/2019 )
+            ( 19/12/2019 )
         </td>
 </tr>
 <tr>
@@ -2537,33 +2844,117 @@ Realización de informe</th>
 
     caso de uso cuando
 <em>
-Este proceso permite al veterinario redactar el informe del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> una vez está en la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, este informe se añadirá al historial del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> posteriormente y podrá ser consultado por el resto de plantilla veterinaria.</em>
+el cliente intente eliminar una cita.</em>
 </td>
 </tr>
 <tr>
 <th align="left" valign="top">Precondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+El cliente debe estar registrado, haber registrado un <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> y tener una cita previa.</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Secuencia normal</th>
+<th align="left" valign="top" rowspan="11">Secuencia normal</th>
 <th align="center" valign="top">Paso</th>
 <th align="left" valign="top" width="100%">Acción</th>
 </tr>
 <tr>
-<td align="center" valign="top">
-                        -
-                    </td>
-<td>
-                        -
-                    </td>
+<a name="STP-0080" />
+<td align="center" valign="top">1</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+inicia sesión en el sistema.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0081" />
+<td align="center" valign="top">2</td>
+<td>El
+     
+    sistema<em>
+redirige al cliente a su sesión.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0082" />
+<td align="center" valign="top">3</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+selecciona la cita que quiere eliminar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0083" />
+<td align="center" valign="top">4</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+pulsa el botón de eliminar.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0084" />
+<td align="center" valign="top">5</td>
+<td>El
+     
+    sistema<em>
+muestra un mensaje de confirmación de la eliminación de la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0085" />
+<td align="center" valign="top">6</td>
+<td>El actor<a href="#ACT-0002" title="Este actor representa El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.">
+Cliente (ACT-0002)
+    </a>
+<em>
+confirma la eliminación de la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0089" />
+<td align="center" valign="top">7</td>
+<td>El
+     
+    sistema<em>
+elimina la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0090" />
+<td align="center" valign="top">8</td>
+<td>El
+     
+    sistema<em>
+libera el espacio de tiempo que ocupa la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0091" />
+<td align="center" valign="top">9</td>
+<td>El
+     
+    sistema<em>
+notifica al cliente y al trabajador de la eliminación de la cita.</em>
+</td>
+</tr>
+<tr>
+<a name="STP-0092" />
+<td align="center" valign="top">10</td>
+<td>El
+     
+    sistema<em>
+muestra al cliente la vista de su sesión.</em>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Postcondición</th>
 <td align="left" valign="top" colspan="2">
-<font color="red"><b>PD</b></font>
-</td>
+La cita se eliminará del sistema y desaparecerá del perfil del cliente.</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Excepciones</th>
@@ -3513,7 +3904,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">CRQ-0003</th>
 <th align="left" valign="top" width="100%">
-2 Pacientes en peluquería máximo</th>
+Pacientes en peluquería máximo</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -3883,6 +4274,74 @@ Cancelación cita</th>
 	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
 <em>
 No se permitirá la cancelación de una cita el mismo día que se deba llevar a cabo.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="CRQ-0009" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">CRQ-0009</th>
+<th align="left" valign="top" width="100%">
+Jornada trabajador</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 19/12/2019 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="1">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+	La información almacenada por el sistema deberá satisfacer la siguiente restricción: 
+<em>
+las suma de las horas disponibles de un trabajador a la semana deben ser igual a 40</em>
 </td>
 </tr>
 <tr>
