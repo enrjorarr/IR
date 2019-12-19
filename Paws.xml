@@ -2477,25 +2477,6 @@ Diagramas de casos de uso del sistema</rem:name>
 Ninguno</rem:comments>
 <rem:text>Este apartado se encuentra en la carpeta adjunta con el nombre de 6.2.1 Diagramas de casos de uso del sistema.</rem:text>
 </rem:paragraph>
-<rem:graphicFile
- oid = "GRF-0024">
-<rem:name>
-Diagrama Casos de uso 1</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\DiagramaCasoUso0001.jpg]]>
-</rem:fileName>
-</rem:graphicFile>
 </rem:section>
 <rem:section
  oid = "SEC-0033">
@@ -2546,12 +2527,12 @@ Cliente</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.</rem:actorRole>
+<rem:actorRole>El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0003">
 <rem:name>
-Trabajador</rem:name>
+Veterinario</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2563,12 +2544,12 @@ Trabajador</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>al rol de veterinario que es el encargado de atender las consultas y generar informes, y al rol de peluquero que es el encargado de atender las peluquerías.<br/></rem:actorRole>
+<rem:actorRole>El actor veterinario es el encargado de atender las consultas y generar informes, siendo además trabajador en la clínica.<br/></rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
 <rem:name>
-Gestor</rem:name>
+Peluquero</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2580,7 +2561,7 @@ Gestor</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole> a la persona encargada de dirigir, gestionar o administrar la clínica veterinaria.</rem:actorRole>
+<rem:actorRole> El actor peluquero es el encargado de atender las peluquerías, siendo además trabajador en la clínica.</rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
@@ -2630,48 +2611,48 @@ Ninguno</rem:comments>
 <rem:triggeringEvent>
 el cliente intenta registrarse en el sistema.</rem:triggeringEvent>
 <rem:precondition>
-Ninguna</rem:precondition>
+Ninguna.</rem:precondition>
 <rem:postcondition>
-El usuario estará correctamente registrado en el SI</rem:postcondition>
+El usuario estará correctamente registrado en el SI.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0002">
+<rem:step oid = "STP-0001">
 <rem:number>1</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
 solicita acceso al sistema de información.</rem:description>
 </rem:actorAction>
 <rem:comments>
-</rem:comments>
+Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0004">
+<rem:step oid = "STP-0002">
 <rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-accede al formulario de registro de cliente.</rem:description>
-</rem:actorAction>
-<rem:comments>
-</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0005">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-rellena los campos obligatorios del formulario del registro del cliente.</rem:description>
+solicita acceso al sistema de información.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0007">
+<rem:step oid = "STP-0003">
+<rem:number>3</rem:number>
+<rem:actorAction actor = "ACT-0002">
+<rem:description>
+solicita acceso al sistema de información.</rem:description>
+</rem:actorAction>
+<rem:comments>
+Ninguno</rem:comments>
+</rem:step>
+<rem:step oid = "STP-0004">
 <rem:number>4</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-envía la petición de registro haciendo click en el botón de registro.</rem:description>
+solicita acceso al sistema de información.</rem:description>
 </rem:actorAction>
-<rem:stepException oid = "STX-0002">
+<rem:stepException oid = "STX-0001">
 <rem:condition>
-el usuario no rellena correctamente los campos del formulario.</rem:condition>
+el usuario no rellena correctamente los campos del formulario</rem:condition>
 <rem:systemAction>
 <rem:description>
 informa que los campos rellenados son incorrectos y deja al usuario intentar registrarse de nuevo</rem:description>
@@ -2683,21 +2664,21 @@ Ninguno</rem:comments>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0008">
+<rem:step oid = "STP-0005">
 <rem:number>5</rem:number>
-<rem:systemAction>
+<rem:actorAction actor = "ACT-0002">
 <rem:description>
-almacena el cliente en la base de datos.</rem:description>
-</rem:systemAction>
+solicita acceso al sistema de información.</rem:description>
+</rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
-<rem:step oid = "STP-0009">
+<rem:step oid = "STP-0006">
 <rem:number>6</rem:number>
-<rem:systemAction>
+<rem:actorAction actor = "ACT-0002">
 <rem:description>
-notifica al cliente de la correcta creación de su cuenta.</rem:description>
-</rem:systemAction>
+solicita acceso al sistema de información.</rem:description>
+</rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
 </rem:step>
@@ -2705,7 +2686,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0002">
 <rem:name>
-Registro de <rem:ref oid="GLO-0015">paciente</rem:ref></rem:name>
+Cancelar cita</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2730,202 +2711,17 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intenta registrar un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:triggeringEvent>
+Este proceso permite cancelar una cita a aquel cliente que haya reservado previamente una. Se le notificará a los trabajadores y se actualizará su horario.</rem:triggeringEvent>
 <rem:precondition>
-El cliente haya iniciado sesión.</rem:precondition>
+<rem:tbd/></rem:precondition>
 <rem:postcondition>
-El <rem:ref oid="GLO-0015">paciente</rem:ref> estará correctamente registrado en el SI.</rem:postcondition>
+<rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0010">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-inicia sesión en el SI.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0011">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede a su perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0012">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede al formulario de registro de <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0013">
-<rem:number>4</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-rellena los campos obligatorios del formulario del registro del cliente.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0014">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-envía la petición de registro haciendo click en el botón de registro.</rem:description>
-</rem:actorAction>
-<rem:stepException oid = "STX-0003">
-<rem:condition>
-el usuario no rellena correctamente los campos del formulario</rem:condition>
-<rem:systemAction>
-<rem:description>
-informa que los campos rellenados son incorrectos y deja al usuario intentar registrar al <rem:ref oid="GLO-0015">paciente</rem:ref> de nuevo</rem:description>
-</rem:systemAction>
-<rem:termination value = "TEV-0002"/>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:stepException>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0015">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-almacena el <rem:ref oid="GLO-0015">paciente</rem:ref> en la base de datos.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0016">
-<rem:number>7</rem:number>
-<rem:systemAction>
-<rem:description>
-notifica al cliente de la correcta creación de su cuenta.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 </rem:useCase>
 <rem:useCase
  oid = "UC-0003">
-<rem:name>
-Reservar cita</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-el cliente intente reservar una cita.</rem:triggeringEvent>
-<rem:precondition>
-El cliente debe estar registrado y tener registrado un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:precondition>
-<rem:postcondition>
-La cita quedará reglejada en el SI y tendrá acceso a la información de su cita.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0017">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-inicia sesión en el SI.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0018">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede al formulario de reserva de citas.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0019">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-rellena los campos obligatorios del formulario y elige una fecha disponible.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0020">
-<rem:number>4</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-envía la solicitud de reserva de citas.</rem:description>
-</rem:actorAction>
-<rem:stepException oid = "STX-0005">
-<rem:condition>
-el usuario no rellena correctamente los campos del formulario</rem:condition>
-<rem:systemAction>
-<rem:description>
-informa que los campos rellenados son incorrectos y deja al usuario intentar rellenar la cita de nuevo</rem:description>
-</rem:systemAction>
-<rem:termination value = "TEV-0002"/>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:stepException>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0021">
-<rem:number>5</rem:number>
-<rem:systemAction>
-<rem:description>
-almacena la reserva en la base de datos.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0022">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-elimina el espacio de tiempo disponible utilizado para esa cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0023">
-<rem:number>7</rem:number>
-<rem:systemAction>
-<rem:description>
-notifica al cliente y al trabajador de la reserva de la cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0004">
 <rem:name>
 Modificar cita</rem:name>
 <rem:version>
@@ -2952,147 +2748,19 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intente modificar la cita.</rem:triggeringEvent>
+Este proceso permite a un cliente con una cita previamente reservada a modificar su fecha u hora siempre que sea posible y esté dentro del horario establecido. Posteriormente se avisará al trabajador involucrado y se actualizará su horario.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado, tener un <rem:ref oid="GLO-0015">paciente</rem:ref> registrado y tener una cita previa.</rem:precondition>
+<rem:tbd/></rem:precondition>
 <rem:postcondition>
-La modificación de la cita quedará reflejada en el SI y el cliente tendrá acceso a dicha información.</rem:postcondition>
+<rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0024">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-inicia sesión en el SI.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0025">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede a su perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0026">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona la cita que desea modificar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0034">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra la información de la cita seleccionada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0035">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona el botón de modificar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0036">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra la vista del formulario con los campos para modificar.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0027">
-<rem:number>7</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-rellena los campos obligatorios del formulario y elige una nueva fecha disponible.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0028">
-<rem:number>8</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-envía la solicitud de modificación de la cita.</rem:description>
-</rem:actorAction>
-<rem:stepException oid = "STX-0006">
-<rem:condition>
-el usuario no rellena correctamente los campos del formulario</rem:condition>
-<rem:systemAction>
-<rem:description>
-informa que los campos rellenados son incorrectos y deja al usuario intentar rellenar la cita de nuevo</rem:description>
-</rem:systemAction>
-<rem:termination value = "TEV-0002"/>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:stepException>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0029">
-<rem:number>9</rem:number>
-<rem:systemAction>
-<rem:description>
-almacena la reserva en la base de datos.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0030">
-<rem:number>10</rem:number>
-<rem:systemAction>
-<rem:description>
-elimina el espacio de tiempo disponible utilizado para esa cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0031">
-<rem:number>11</rem:number>
-<rem:systemAction>
-<rem:description>
-elimina la cita anterior.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0032">
-<rem:number>12</rem:number>
-<rem:systemAction>
-<rem:description>
-libera el espacio de tiempo disponible utilizado para esa cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0033">
-<rem:number>13</rem:number>
-<rem:systemAction>
-<rem:description>
-notifica al cliente y al trabajador de la reserva de la cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 </rem:useCase>
 <rem:useCase
- oid = "UC-0005">
+ oid = "UC-0004">
 <rem:name>
-Eliminar cita</rem:name>
+Registro cliente</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3117,98 +2785,26 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intente eliminar la cita.</rem:triggeringEvent>
+Este proceso será necesario para que el cliente pueda solicitar citas posteriormente. Después de haberse registrado, el cliente podrá acceder al sistema de reserva de citas y los trabajadores podrán ver el perfil de sus respectivas mascotas.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado, tener un <rem:ref oid="GLO-0015">paciente</rem:ref> registrado y tener una cita previa.</rem:precondition>
+<rem:tbd/></rem:precondition>
 <rem:postcondition>
-La eliminación de la cita quedará reflejada en el SI y la cita desaparecerá del perfil del cliente.</rem:postcondition>
+<rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0037">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-inicia sesión en el SI.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0038">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede a su perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0039">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona la cita que desea eliminar.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0040">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra información sobre la cita seleccionada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0041">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona el botón de eliminar cita.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0043">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-elimina la cita seleccionada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0044">
-<rem:number>7</rem:number>
-<rem:systemAction>
-<rem:description>
-libera el espacio de tiempo disponible utilizado para esa cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0045">
-<rem:number>8</rem:number>
-<rem:systemAction>
-<rem:description>
-notifica al cliente y al trabajador de la eliminación de la cita.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 </rem:useCase>
 <rem:useCase
- oid = "UC-0006">
+ oid = "UC-0005">
 <rem:name>
-Modificar perfil cliente</rem:name>
+Realización de informe</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2019</rem:year>
 <rem:month>12</rem:month>
-<rem:day>14</rem:day>
+<rem:day>13</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -3226,235 +2822,14 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intenta modificar información sobre su perfil.</rem:triggeringEvent>
+Este proceso permite al veterinario redactar el informe del <rem:ref oid="GLO-0015">paciente</rem:ref> una vez está en la <rem:ref oid="GLO-0011">consulta</rem:ref>, este informe se añadirá al historial del <rem:ref oid="GLO-0015">paciente</rem:ref> posteriormente y podrá ser consultado por el resto de plantilla veterinaria.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado.</rem:precondition>
+<rem:tbd/></rem:precondition>
 <rem:postcondition>
-La modificación quedará reflejada en el SI y los datos de su perfil aparecerán modificados.</rem:postcondition>
+<rem:tbd/></rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
-<rem:step oid = "STP-0046">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-inicia sesión en el SI.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0047">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede a su perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0063">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona el botón mi perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0064">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra una vista con la información de su perfil.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0048">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona el botón modificar perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0049">
-<rem:number>6</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra la vista del formulario con los campos para modificar.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0050">
-<rem:number>7</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-rellena los campos obligatorios.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0051">
-<rem:number>8</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-envía la solicitud de modificación del perfil.</rem:description>
-</rem:actorAction>
-<rem:stepException oid = "STX-0007">
-<rem:condition>
-el usuario no rellena correctamente los campos del formulario</rem:condition>
-<rem:systemAction>
-<rem:description>
-informa que los campos rellenados son incorrectos y deja al usuario intentar rellenar los campos de nuevo.</rem:description>
-</rem:systemAction>
-<rem:termination value = "TEV-0002"/>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:stepException>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0052">
-<rem:number>9</rem:number>
-<rem:systemAction>
-<rem:description>
-almacena la nueva información proporcionada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0053">
-<rem:number>10</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra la información del perfil modificada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-</rem:useCase>
-<rem:useCase
- oid = "UC-0007">
-<rem:name>
-Modificar perfil <rem:ref oid="GLO-0015">paciente</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:importance>
-<rem:tbd/>
-</rem:importance>
-<rem:urgency>
-<rem:tbd/>
-</rem:urgency>
-<rem:status>
-<rem:tbd/>
-</rem:status>
-<rem:stability>
-<rem:tbd/>
-</rem:stability>
-<rem:triggeringEvent>
-el cliente intenta modificar información sobre el <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:triggeringEvent>
-<rem:precondition>
-El cliente debe estar registrado y tener registrado un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:precondition>
-<rem:postcondition>
-La modificación quedará reflejada en el SI y los datos del perfil del <rem:ref oid="GLO-0015">paciente</rem:ref> aparecerán modificados.</rem:postcondition>
-<rem:frequency>
-<rem:tbd/>
-</rem:frequency>
-<rem:step oid = "STP-0054">
-<rem:number>1</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-inicia sesión en el SI.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0055">
-<rem:number>2</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-accede a su perfil.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0056">
-<rem:number>3</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-selecciona el botón modificar perfil mascota.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0057">
-<rem:number>4</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra la vista del formulario con los campos para modificar.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0058">
-<rem:number>5</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-rellena los campos obligatorios.</rem:description>
-</rem:actorAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0059">
-<rem:number>6</rem:number>
-<rem:actorAction actor = "ACT-0002">
-<rem:description>
-envía la solicitud de modificación del perfil.</rem:description>
-</rem:actorAction>
-<rem:stepException oid = "STX-0008">
-<rem:condition>
-el usuario no rellena correctamente los campos del formulario</rem:condition>
-<rem:systemAction>
-<rem:description>
-informa que los campos rellenados son incorrectos y deja al usuario intentar rellenar los campos de nuevo.</rem:description>
-</rem:systemAction>
-<rem:termination value = "TEV-0002"/>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:stepException>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0060">
-<rem:number>7</rem:number>
-<rem:systemAction>
-<rem:description>
-almacena la nueva información proporcionada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
-<rem:step oid = "STP-0061">
-<rem:number>8</rem:number>
-<rem:systemAction>
-<rem:description>
-muestra la información del perfil modificada.</rem:description>
-</rem:systemAction>
-<rem:comments>
-Ninguno</rem:comments>
-</rem:step>
 </rem:useCase>
 </rem:section>
 </rem:section>
@@ -5987,34 +5362,115 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "TYP-0002"  target = "FRQ-0029" >
+<rem:trace source = "TYP-0009"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0003"  target = "FRQ-0019" >
+<rem:trace source = "TYP-0010"  target = "FRQ-0013" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0001"  target = "IRQ-0002" >
+<rem:trace source = "TYP-0006"  target = "FRQ-0030" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0001"  target = "FRQ-0010" >
+<rem:trace source = "TYP-0006"  target = "FRQ-0024" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
+<rem:trace source = "TYP-0013"  target = "IRQ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0002"  target = "FRQ-0015" >
+<rem:trace source = "TYP-0013"  target = "FRQ-0023" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "FRQ-0026" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "FRQ-0016" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0010"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "FRQ-0022" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0017" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "FRQ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "FRQ-0014" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0010"  target = "FRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0018" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "IRQ-0005" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0003"  target = "FRQ-0020" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0003"  target = "CRQ-0001" >
+<rem:trace source = "TYP-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0025" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0004"  target = "FRQ-0021" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "TYP-0003"  target = "FRQ-0019" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0003"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0004"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0012" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "TYP-0002"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "FRQ-0015" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "FRQ-0029" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0002"  target = "CRQ-0001" >
@@ -6023,94 +5479,34 @@ Ninguno
 <rem:trace source = "TYP-0001"  target = "FRQ-0008" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "TYP-0001"  target = "FRQ-0010" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "TYP-0001"  target = "FRQ-0028" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0024" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0010"  target = "FRQ-0013" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0001"  target = "FRQ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0007"  target = "FRQ-0014" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0009"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0030" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0017" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0018" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "IRQ-0005" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "FRQ-0023" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "FRQ-0016" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0009"  target = "FRQ-0022" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "IRQ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0010"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0001"  target = "FRQ-0018" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0007"  target = "FRQ-0026" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0010"  target = "FRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0009"  target = "FRQ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "IRQ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0005"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0004"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0025" >
-<rem:isChecked/>
-</rem:trace>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0004">
 <rem:name>
@@ -6154,9 +5550,9 @@ Integer numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0003">
+ oid = "PVT-0001">
 <rem:name>
-Natural</rem:name>
+Real</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6169,28 +5565,7 @@ Natural</rem:name>
 <rem:comments>
 Predefined OCL type</rem:comments>
 <rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
+Real numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -6217,9 +5592,9 @@ Hour:minutes:seconds</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0001">
+ oid = "PVT-0003">
 <rem:name>
-Real</rem:name>
+Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6232,24 +5607,21 @@ Real</rem:name>
 <rem:comments>
 Predefined OCL type</rem:comments>
 <rem:description>
-Real numbers</rem:description>
+Natural numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0004">
-<rem:name>pendiente de realización</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0004">
+<rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0005">
 <rem:name>verificado</rem:name>
@@ -6257,34 +5629,55 @@ Real numbers</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0002">
-<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0003">
 <rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
+<rem:defectStatusValue oid = "DSV-0002">
+<rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0013">
@@ -6305,46 +5698,10 @@ Real numbers</rem:description>
 <![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0005">
-<rem:name>No verificabilidad</rem:name>
-<rem:description>
-<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
@@ -6353,22 +5710,10 @@ Real numbers</rem:description>
 <![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0004">
@@ -6377,10 +5722,28 @@ Real numbers</rem:description>
 <![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0005">
+<rem:name>No verificabilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -6389,11 +5752,23 @@ Real numbers</rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
@@ -6401,8 +5776,8 @@ Real numbers</rem:description>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
@@ -6410,77 +5785,77 @@ Real numbers</rem:description>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0001">
+<rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
-</rem:terminationValue>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0001">
+<rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0009">
 <rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0002">
-<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0002">
+<rem:name>inmediatamente</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
