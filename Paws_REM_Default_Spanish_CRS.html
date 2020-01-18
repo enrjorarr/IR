@@ -432,9 +432,9 @@ Alcance del proyecto</h2><a name="PRG-0023" />
 Participantes en el proyecto</h2><a name="SEC-0004" />
 <h3 align="left">1.2.1 
 Organizaciones participantes</h3><a name="PRG-0032" />
-<p>La única organización participante de este proyecto es la propia clínica veterinaria ?Huellas?. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por dos empleados y por la dueña de la veterinaria que a su vez trabaja de gestora. 
+<p>La única organización participante de este proyecto es la propia clínica veterinaria Huellas. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por dos empleados y por la dueña de la veterinaria que a su vez trabaja de gestora. 
 <br />
-<br />Esta veterinaria aunque puede ser pequeña y con pocos trabajadores tiene una gran demanda de trabajo, pues al estar situada en una zona de campo, tiene muchos clientes que están dedicados a la ganadería y necesitan del trabajo de ?Huellas? tanto para poder cuidar a sus animales como para poder certificar en ocasiones que están sanos y son de calidad como puede ser el caso de la crianza de los cerdos y de los caballos.
+<br />Esta veterinaria aunque puede ser pequeña y con pocos trabajadores tiene una gran demanda de trabajo, pues solo hay dos veterinarias en el pueblo y en de los alrededores, por lo que tiene una clientela ya consolidada. Se dedica fundamentalmente a atender perros, gatos, conejos y hurones.
 <br />
 </p>
 <a name="ORG-0001" />
@@ -689,7 +689,7 @@ Objetivos del proyecto</h2><a name="OBJ-0001" />
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">OBJ-0001</th>
 <th align="left" valign="top" width="100%">
-Funcionalidad</th>
+Almacenamiento de los datos del cliente</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -714,7 +714,7 @@ Funcionalidad</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-crear un sistema información más funcional que el actualmente utilizado por la empresa (hojas de excel), evitando todo lo posible el uso de agendas y centrando toda la información que debe gestionar en un solo punto. De esta forma tendrán mucho más controlada toda la información.
+deberá almacenar información sobre los clientes y sus animales.
 <br />
 </em>
 </td>
@@ -870,6 +870,66 @@ Ninguno</td>
 </tr>
 </table>
 <p />
+<a name="OBJ-0011" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">OBJ-0011</th>
+<th align="left" valign="top" width="100%">
+Creación de estadísticas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top">1.0 
+			( 18/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fuentes</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    El sistema deberá 
+<em>
+deberá almacenar información relevante para el control del negocio en forma de gráfica.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subobjetivos</th>
+<td align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Importancia</th>
+<td align="left" valign="top" colspan="1">importante</td>
+</tr>
+<tr>
+<th align="left" valign="top">Urgencia</th>
+<td align="left" valign="top" colspan="1">hay presión</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estado</th>
+<td align="left" valign="top" colspan="1">validado</td>
+</tr>
+<tr>
+<th align="left" valign="top">Estabilidad</th>
+<td align="left" valign="top" colspan="1">media</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
 <a name="SEC-0007" />
 <h1 align="left">2 
 Información sobre el dominio del problema</h1><a name="SEC-0008" />
@@ -877,15 +937,12 @@ Información sobre el dominio del problema</h1><a name="SEC-0008" />
 Introducción al dominio del problema</h2><a name="PRG-0004" />
 <p>    La clínica veterinaria ''Huellas'' es una pequeña empresa ubicada en Villanueva de la Serena, un pequeño pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnología de la alimentación, que encontró su vocación tras trabajar durante cinco años en una clínica fuera de su localidad. A raíz de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidió crear una en su pueblo. Así nace el negocio de nuestra cliente, que hoy cuenta con más de 12 años de experiencia.</p>
 <a name="PRG-0005" />
-<p>El negocio actualmente está formado por la gerente y propietaria,
-<br />que ejerce como veterinaria , y una trabajadora, que realiza las tareas de <a href="#GLO-0009" title="Trabajador que se dedica a los servicios de peluquería canina y da apoyo al veterinario.">auxiliar</a> y peluquera canina. Durante todo el año se mantiene un horario fijo, no obstante, se puede realizar una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> fuera del horario normal o a domicilio en caso de urgencia. La gestión de citas se hace tanto en el local como por teléfono, siempre que esté dentro del horario de apertura del mismo.
+<p>El negocio actualmente está formado por la gerente y propietaria, que ejerce como veterinaria, y una trabajadora, que realiza las tareas de <a href="#GLO-0009" title="Trabajador que se dedica a los servicios de peluquería canina y da apoyo al veterinario.">auxiliar</a> y peluquería. Durante todo el año se mantiene un horario fijo, no obstante, se puede realizar una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> fuera del horario normal o a domicilio en caso de urgencia. La gestión de citas se hace tanto en el local como por teléfono, siempre que esté dentro del horario de apertura del mismo.
 </p>
 <a name="PRG-0006" />
-<p>La clínica suele tratar a animales de compañía pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clínica está especializada fundamentalmente en el trato de perros, gatos y pequeños roedores. También se tratan animales exóticos, aunque con menor frecuencia debido a las
-<br />limitaciones que tienen al ser un pequeño negocio.</p>
+<p>La clínica suele tratar a animales de compañía pertenecientes a personas de avanzada edad, o perros de presa de cazadores de la zona. De esta forma, la clínica está especializada fundamentalmente en el trato de perros, gatos, conejos y hurones. También se tratan animales exóticos, aunque con menor frecuencia debido a las limitaciones que tienen al ser un pequeño negocio.</p>
 <a name="PRG-0007" />
-<p>En cuanto a la gestión de información, la empresa se organiza
-<br />mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del cliente y su mascota a la hora de hacer la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del cliente, el contacto con los proveedores o nóminas y horarios del trabajador. </p>
+<p>En cuanto a la gestión de información, la empresa se organiza mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del cliente y su mascota a la hora de hacer la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del cliente, el contacto con los proveedores o nóminas y horarios del trabajador. </p>
 <a name="PRG-0008" />
 <p>En general, se trata de un sistema donde toda la información está a medias entre un Excel y una agenda. Esto hace que el sistema sea poco flexible y de lenta gestión cuando se supera la media de clientes o llegan clientes nuevos. Nosotros intentaremos solucionar esos problemas concretos.</p>
 <a name="GRF-0005" />
