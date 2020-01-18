@@ -298,23 +298,61 @@ Descripción de la arquitectura del sistema</h2><a name="PRG-0103" />
 <h1 align="left">3 
 Modelo de clases del sistema</h1><a name="SEC-0060" />
 <h2 align="left">3.1 
-Diagramas de clases del sistema</h2><a name="GLO-0104" />
+Diagramas de clases del sistema</h2><a name="GRF-0024" />
+<p align="center">
+<img src=".\fotos\conceptual diagram\uml-1.png" title=".\fotos\conceptual diagram\uml-1.png" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                 CD-1</p>
+<a name="GLO-0104" />
 <p align="left">
-<b> UML-1:</b>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>, <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, informe, <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> y cita. 
+<b> CD-1:</b>En este diagrama conceptual aparecen las siguientes clases : <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>, <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a>, cita , <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, vacuna e informe.
 <br />
-<br />En este modelo se muestran las relaciones entre clases y representan los pasos que se siguen en la realidad. En primer lugar, el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> puede tener uno o varios pacientes, es decir, mascotas. El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> es el que reserva la cita, y para ello debe estar registrado previamente en el sistema.
+<br />Cada una con sus respectivas propiedades. En primer lugar podemos ver que el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> tiene asociado de uno a varios pacientes, y que dicho <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> puede reservar citas (para ello debe estar previamente registrado).
 <br />
-<br />Por otro lado, podemos ver que el <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> esta relacionado con uno o varios informes, que son creados por la veterinaria en el momento de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>.</p>
+<br />Al igual que el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>, el <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> también tiene la posibilidad de reservar citas. 
+<br />
+<br />Por otra parte, en la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> se encarga de realizar el informe y/o las vacunas pertinentes. En una misma <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> podrá crear un informe y de  cero a varias vacunas ( este proceso se explicará posteriorente).
+<br />
+<br />
+</p>
+<a name="GRF-0025" />
+<p align="center">
+<img src=".\fotos\conceptual diagram\uml-2.png" title=".\fotos\conceptual diagram\uml-2.png" />
+</p>
+<p align="center">
+<b>Figura 2</b>:
+                 CD-2</p>
 <a name="GLO-0105" />
 <p align="left">
-<b> UML-2:</b>En la segunda página del UML adjunto podemos observar como continua el proceso de las citas y el resto de clases involucradas. En este caso tenemos al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> y cita de nuevo, y a la peluquería, <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, urgencia, <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a>, peluquera y veterinaria. 
+<b> CD-2:</b>En el siguiente modelo conceptual se percibe con mayor claridad la reserva de las citas. Entran en juego las siguientes clases: <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>, <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a>, cita, cita de peluquería, <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a>, <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>, urgencia, vacuna e informe.
 <br />
-<br />Podemos observar que el <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> es el que aministra la cita. Tenemos dos tipos de cita: peluquería y <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, de ahí que sea una herencia completa y disjunta. A su vez la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> puede ser una urgencia. L a peluquería es atendida por la peluquera y la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> por la veterinaria. </p>
+<br />Podemos observar que hay dos tipos de cita, peluquerí y <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>. Esta herencia es completa y disjunta porque no hay posibilidad a otro tipo de cita. La peluqueria es atendida por el <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a>, y la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> por un <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>. La <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> a su vez puede ser una urgencia (de ahí que sea incompleta y solapada la herencia). 
+<br />
+<br />Como se ha mencionado anteriormente, durante la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> se realiza una o varias vacunaciones y un informe .</p>
+<a name="GRF-0026" />
+<p align="center">
+<img src=".\fotos\conceptual diagram\uml-3.png" title=".\fotos\conceptual diagram\uml-3.png" />
+</p>
+<p align="center">
+<b>Figura 3</b>:
+                 CD-3</p>
 <a name="GLO-0106" />
 <p align="left">
-<b> UML-3:</b>En la tercera página del UML tenemos la relación de los trabajadores. Por un lado tenemos la clase trabajador, de la que heredan peluquera y veterinaria ya que guardan la misma información. A su vez trabajador tiene un horario de trabajo concreto que puede modificarse. 
+<b> CD-3:</b>En este diagrama conceptual se muestran las diferentes vacunas que se realizan en la vetrinaria. Se trata de varias herencias donde las vacunas se dividen por especies y estas por las disferentes vacunas que se pueden realizar. Todas ellas tienen tres propiedades en común que heredan de Vacuna : nombre, la fecha de realización y su periocidad, que en el caso de no tener sería cero. Las diferentes clases de vacunas son abstractas.</p>
+<a name="GRF-0027" />
+<p align="center">
+<img src=".\fotos\conceptual diagram\uml-4.png" title=".\fotos\conceptual diagram\uml-4.png" />
+</p>
+<p align="center">
+<b>Figura 4</b>:
+                 CD-4</p>
+<a name="GLO-0145" />
+<p align="left">
+<b> CD-4:</b>En este diagrama conceptual vemos como se almacenan la información de los trabajadores. Entran en juego las siguientes clases : trabajador , Horario Trabajo, <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">Peluquero</a>, Veterinaria, y vuelven aparecer cita peluquería y <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>.
 <br />
-<br />En este diagrama se muestra que de la gestora no se guarda indormación ya que no sería relevante para el sistema, pero esta puede contratar a más trabajadores.</p>
+<br />Vemos que el trabajador lleva asociado varios horarios de trabajo que indica su horario dependiendo del dia de la semana. Por otra parte vemos que <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> y <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> heredan de trabajador las propiedades indicadas. Y como se ha mencionado anteriormente el <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> atiende la peluquería y el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>.</p>
 <a name="SEC-0061" />
 <h2 align="left">3.2 
 Descripción de las clases del sistema</h2><a name="TYP-0001" />
@@ -411,14 +449,14 @@ Ninguno</td>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
-<a href="#IRQ-0003" title="Información pacientes">
-                                [IRQ-0003] 
-Información pacientes</a>
-</li>
-<li>
 <a href="#CRQ-0001" title="Restricciones técnicas">
                                 [CRQ-0001] 
 Restricciones técnicas</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Información pacientes">
+                                [IRQ-0003] 
+Información pacientes</a>
 </li>
 <li>
 <a href="#FRQ-0029" title="Listado de pacientes">
@@ -484,13 +522,13 @@ Historial</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
+<a href="#FRQ-0020" title="Paciente historial">
+                                [FRQ-0020]  Paciente historial</a>
+</li>
+<li>
 <a href="#CRQ-0001" title="Restricciones técnicas">
                                 [CRQ-0001] 
 Restricciones técnicas</a>
-</li>
-<li>
-<a href="#FRQ-0020" title="Paciente historial">
-                                [FRQ-0020]  Paciente historial</a>
 </li>
 </td>
 </tr>
@@ -564,14 +602,14 @@ Informe</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
-<a href="#IRQ-0003" title="Información pacientes">
-                                [IRQ-0003] 
-Información pacientes</a>
-</li>
-<li>
 <a href="#FRQ-0021" title="Informe historial">
                                 [FRQ-0021] 
 Informe historial</a>
+</li>
+<li>
+<a href="#IRQ-0003" title="Información pacientes">
+                                [IRQ-0003] 
+Información pacientes</a>
 </li>
 </td>
 </tr>
@@ -705,6 +743,11 @@ Cita</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
+<a href="#FRQ-0030" title="Notificación cliente">
+                                [FRQ-0030] 
+Notificación cliente</a>
+</li>
+<li>
 <a href="#FRQ-0025" title="Crear cita">
                                 [FRQ-0025] 
 Crear cita</a>
@@ -720,19 +763,14 @@ Información de citas</a>
 Restricciones técnicas</a>
 </li>
 <li>
-<a href="#OBJ-0003" title="Reserva de citas">
-                                [OBJ-0003] 
-Reserva de citas</a>
-</li>
-<li>
-<a href="#FRQ-0030" title="Notificación cliente">
-                                [FRQ-0030] 
-Notificación cliente</a>
-</li>
-<li>
 <a href="#FRQ-0024" title="Modificar cita">
                                 [FRQ-0024] 
 Modificar cita</a>
+</li>
+<li>
+<a href="#OBJ-0003" title="Reserva de citas">
+                                [OBJ-0003] 
+Reserva de citas</a>
 </li>
 </td>
 </tr>
@@ -945,14 +983,14 @@ Peluquería</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
-<a href="#FRQ-0022" title="Notificación peluquero">
-                                [FRQ-0022] 
-Notificación peluquero</a>
-</li>
-<li>
 <a href="#CRQ-0001" title="Restricciones técnicas">
                                 [CRQ-0001] 
 Restricciones técnicas</a>
+</li>
+<li>
+<a href="#FRQ-0022" title="Notificación peluquero">
+                                [FRQ-0022] 
+Notificación peluquero</a>
 </li>
 </td>
 </tr>
@@ -1277,7 +1315,407 @@ Diagramas de navegación del sistema</h2><a name="SEC-0068" />
 <h2 align="left">5.2 
 Esquemas de la interfaz de ususario del sistema</h2><a name="SEC-0069" />
 <h2 align="left">5.3 
-Descripción de la interfaz de usuario del sistema</h2><a name="SEC-0070" />
+Descripción de la interfaz de usuario del sistema</h2><a name="GRF-0028" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\1.inicio.png" title=".\fotos\MOCKUP tamaño correcto\1.inicio.png" />
+</p>
+<p align="center">
+<b>Figura 1</b>:
+                
+m1</p>
+<a name="GRF-0029" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\2.sobre nosostros sin iniciar sesion.png" title=".\fotos\MOCKUP tamaño correcto\2.sobre nosostros sin iniciar sesion.png" />
+</p>
+<p align="center">
+<b>Figura 2</b>:
+                
+m2</p>
+<a name="GRF-0030" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\3.png" title=".\fotos\MOCKUP tamaño correcto\3.png" />
+</p>
+<p align="center">
+<b>Figura 3</b>:
+                
+m3</p>
+<a name="GRF-0031" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\4.png" title=".\fotos\MOCKUP tamaño correcto\4.png" />
+</p>
+<p align="center">
+<b>Figura 4</b>:
+                
+m4</p>
+<a name="GRF-0032" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\5.png" title=".\fotos\MOCKUP tamaño correcto\5.png" />
+</p>
+<p align="center">
+<b>Figura 5</b>:
+                
+m5</p>
+<a name="GRF-0033" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\6.png" title=".\fotos\MOCKUP tamaño correcto\6.png" />
+</p>
+<p align="center">
+<b>Figura 6</b>:
+                
+m6</p>
+<a name="GRF-0034" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\7-Perfil cliente.png" title=".\fotos\MOCKUP tamaño correcto\7-Perfil cliente.png" />
+</p>
+<p align="center">
+<b>Figura 7</b>:
+                
+m7</p>
+<a name="GRF-0035" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\8.Perfil cliente cita cancelada.png" title=".\fotos\MOCKUP tamaño correcto\8.Perfil cliente cita cancelada.png" />
+</p>
+<p align="center">
+<b>Figura 8</b>:
+                
+m8</p>
+<a name="GRF-0036" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\9.Perfil cliente cancelar cita correcto.png" title=".\fotos\MOCKUP tamaño correcto\9.Perfil cliente cancelar cita correcto.png" />
+</p>
+<p align="center">
+<b>Figura 9</b>:
+                
+m9</p>
+<a name="GRF-0037" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\10.Perfil cliente info.png" title=".\fotos\MOCKUP tamaño correcto\10.Perfil cliente info.png" />
+</p>
+<p align="center">
+<b>Figura 10</b>:
+                
+m10</p>
+<a name="GRF-0038" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\11.Modificar informacion perfil usuario.png" title=".\fotos\MOCKUP tamaño correcto\11.Modificar informacion perfil usuario.png" />
+</p>
+<p align="center">
+<b>Figura 11</b>:
+                
+m11</p>
+<a name="GRF-0039" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\12.Multiples mascotas.png" title=".\fotos\MOCKUP tamaño correcto\12.Multiples mascotas.png" />
+</p>
+<p align="center">
+<b>Figura 12</b>:
+                
+m12</p>
+<a name="GRF-0040" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\13.Mascota.png" title=".\fotos\MOCKUP tamaño correcto\13.Mascota.png" />
+</p>
+<p align="center">
+<b>Figura 13</b>:
+                
+m13</p>
+<a name="GRF-0041" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\14.png" title=".\fotos\MOCKUP tamaño correcto\14.png" />
+</p>
+<p align="center">
+<b>Figura 14</b>:
+                
+m14</p>
+<a name="GRF-0042" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\15.Modificar mascota.png" title=".\fotos\MOCKUP tamaño correcto\15.Modificar mascota.png" />
+</p>
+<p align="center">
+<b>Figura 15</b>:
+                
+m15</p>
+<a name="GRF-0043" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\16.png" title=".\fotos\MOCKUP tamaño correcto\16.png" />
+</p>
+<p align="center">
+<b>Figura 16</b>:
+                
+m16</p>
+<a name="GRF-0044" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\17.mascota añadida correctamente.png" title=".\fotos\MOCKUP tamaño correcto\17.mascota añadida correctamente.png" />
+</p>
+<p align="center">
+<b>Figura 17</b>:
+                
+m17</p>
+<a name="GRF-0045" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\18. Vacuna2.0.png" title=".\fotos\MOCKUP tamaño correcto\18. Vacuna2.0.png" />
+</p>
+<p align="center">
+<b>Figura 18</b>:
+                
+m18</p>
+<a name="GRF-0046" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\19.Rabia vacuna 2.0.png" title=".\fotos\MOCKUP tamaño correcto\19.Rabia vacuna 2.0.png" />
+</p>
+<p align="center">
+<b>Figura 19</b>:
+                
+m19</p>
+<a name="GRF-0047" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\20.png" title=".\fotos\MOCKUP tamaño correcto\20.png" />
+</p>
+<p align="center">
+<b>Figura 20</b>:
+                
+m20</p>
+<a name="GRF-0048" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\21.reservar consulta loggeado.png" title=".\fotos\MOCKUP tamaño correcto\21.reservar consulta loggeado.png" />
+</p>
+<p align="center">
+<b>Figura 21</b>:
+                
+m21</p>
+<a name="GRF-0049" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\22.Reservar consulta loggeado confirmacion.png" title=".\fotos\MOCKUP tamaño correcto\22.Reservar consulta loggeado confirmacion.png" />
+</p>
+<p align="center">
+<b>Figura 22</b>:
+                
+m22</p>
+<a name="GRF-0050" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\23.Reservar peluqueria login.png" title=".\fotos\MOCKUP tamaño correcto\23.Reservar peluqueria login.png" />
+</p>
+<p align="center">
+<b>Figura 23</b>:
+                
+m23</p>
+<a name="GRF-0051" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\24.reservar peluqueria correctamente login.png" title=".\fotos\MOCKUP tamaño correcto\24.reservar peluqueria correctamente login.png" />
+</p>
+<p align="center">
+<b>Figura 24</b>:
+                
+m24</p>
+<a name="GRF-0052" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\25.pedir peluqueria sin log.png" title=".\fotos\MOCKUP tamaño correcto\25.pedir peluqueria sin log.png" />
+</p>
+<p align="center">
+<b>Figura 25</b>:
+                
+m25</p>
+<a name="GRF-0053" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\26.Modificar peluqueria.png" title=".\fotos\MOCKUP tamaño correcto\26.Modificar peluqueria.png" />
+</p>
+<p align="center">
+<b>Figura 26</b>:
+                
+m26</p>
+<a name="GRF-0054" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\27.Modificar cita correctamente.png" title=".\fotos\MOCKUP tamaño correcto\27.Modificar cita correctamente.png" />
+</p>
+<p align="center">
+<b>Figura 27</b>:
+                
+m27</p>
+<a name="GRF-0055" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\28.Registrate1.png" title=".\fotos\MOCKUP tamaño correcto\28.Registrate1.png" />
+</p>
+<p align="center">
+<b>Figura 28</b>:
+                
+m28</p>
+<a name="GRF-0056" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\29.Registrate2.png" title=".\fotos\MOCKUP tamaño correcto\29.Registrate2.png" />
+</p>
+<p align="center">
+<b>Figura 29</b>:
+                
+m29</p>
+<a name="GRF-0057" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\30.Inicio Trabajador.png" title=".\fotos\MOCKUP tamaño correcto\30.Inicio Trabajador.png" />
+</p>
+<p align="center">
+<b>Figura 30</b>:
+                
+m30</p>
+<a name="GRF-0058" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\31.Menu citas.png" title=".\fotos\MOCKUP tamaño correcto\31.Menu citas.png" />
+</p>
+<p align="center">
+<b>Figura 31</b>:
+                
+m31</p>
+<a name="GRF-0059" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\32.png" title=".\fotos\MOCKUP tamaño correcto\32.png" />
+</p>
+<p align="center">
+<b>Figura 32</b>:
+                
+m32</p>
+<a name="GRF-0060" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\33.png" title=".\fotos\MOCKUP tamaño correcto\33.png" />
+</p>
+<p align="center">
+<b>Figura 33</b>:
+                
+m33</p>
+<a name="GRF-0061" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\34.png" title=".\fotos\MOCKUP tamaño correcto\34.png" />
+</p>
+<p align="center">
+<b>Figura 34</b>:
+                
+m34</p>
+<a name="GRF-0062" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\35.png" title=".\fotos\MOCKUP tamaño correcto\35.png" />
+</p>
+<p align="center">
+<b>Figura 35</b>:
+                
+m35</p>
+<a name="GRF-0063" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\36.png" title=".\fotos\MOCKUP tamaño correcto\36.png" />
+</p>
+<p align="center">
+<b>Figura 36</b>:
+                
+m36</p>
+<a name="GRF-0064" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\37.png" title=".\fotos\MOCKUP tamaño correcto\37.png" />
+</p>
+<p align="center">
+<b>Figura 37</b>:
+                
+m37</p>
+<a name="GRF-0065" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\38.png" title=".\fotos\MOCKUP tamaño correcto\38.png" />
+</p>
+<p align="center">
+<b>Figura 38</b>:
+                
+m38</p>
+<a name="GRF-0066" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\39.png" title=".\fotos\MOCKUP tamaño correcto\39.png" />
+</p>
+<p align="center">
+<b>Figura 39</b>:
+                
+m39</p>
+<a name="GRF-0067" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\40.png" title=".\fotos\MOCKUP tamaño correcto\40.png" />
+</p>
+<p align="center">
+<b>Figura 40</b>:
+                
+m40</p>
+<a name="GRF-0068" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\41.Perfil trabajador.png" title=".\fotos\MOCKUP tamaño correcto\41.Perfil trabajador.png" />
+</p>
+<p align="center">
+<b>Figura 41</b>:
+                
+m41</p>
+<a name="GRF-0069" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\42.ModificaPerfilTrabajador.png" title=".\fotos\MOCKUP tamaño correcto\42.ModificaPerfilTrabajador.png" />
+</p>
+<p align="center">
+<b>Figura 42</b>:
+                
+m42</p>
+<a name="GRF-0070" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\43.vista gestor.png" title=".\fotos\MOCKUP tamaño correcto\43.vista gestor.png" />
+</p>
+<p align="center">
+<b>Figura 43</b>:
+                
+m43</p>
+<a name="GRF-0071" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\44.png" title=".\fotos\MOCKUP tamaño correcto\44.png" />
+</p>
+<p align="center">
+<b>Figura 44</b>:
+                
+m44</p>
+<a name="GRF-0072" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\45.png" title=".\fotos\MOCKUP tamaño correcto\45.png" />
+</p>
+<p align="center">
+<b>Figura 45</b>:
+                
+m45</p>
+<a name="GRF-0073" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\46.png" title=".\fotos\MOCKUP tamaño correcto\46.png" />
+</p>
+<p align="center">
+<b>Figura 46</b>:
+                
+m46</p>
+<a name="GRF-0074" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\47.png" title=".\fotos\MOCKUP tamaño correcto\47.png" />
+</p>
+<p align="center">
+<b>Figura 47</b>:
+                
+m47</p>
+<a name="GRF-0075" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\48.png" title=".\fotos\MOCKUP tamaño correcto\48.png" />
+</p>
+<p align="center">
+<b>Figura 48</b>:
+                
+m48</p>
+<a name="GRF-0076" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\49.png" title=".\fotos\MOCKUP tamaño correcto\49.png" />
+</p>
+<p align="center">
+<b>Figura 49</b>:
+                
+m49</p>
+<a name="GRF-0077" />
+<p align="center">
+<img src=".\fotos\MOCKUP tamaño correcto\50.png" title=".\fotos\MOCKUP tamaño correcto\50.png" />
+</p>
+<p align="center">
+<b>Figura 50</b>:
+                
+m50</p>
+<a name="SEC-0070" />
 <h1 align="left">6 
 Interfaz de servicios del sistema</h1><a name="SEC-0071" />
 <h2 align="left">6.1 
@@ -1289,5 +1727,69 @@ Servicios consumidos por el sistema</h2><a name="SEC-0074" />
 <h1 align="left">7 
 Información sobre trazabilidad</h1><a name="SEC-0075" />
 <h1 align="left">A 
-Glosario de acrónimos y abreviaturas</h1></body>
+Glosario de acrónimos y abreviaturas</h1><a name="ORG-0003" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Organización</th>
+<th align="left" valign="top" width="100%">
+Huellas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Dirección</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Teléfono</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fax</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ORG-0004" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">Organización</th>
+<th align="left" valign="top" width="100%">
+Paws</th>
+</tr>
+<tr>
+<th align="left" valign="top">Dirección</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Teléfono</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Fax</th>
+<td align="left" valign="top" colspan="1">
+<font color="red"><b>PD</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+</body>
 </html>
