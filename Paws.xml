@@ -261,7 +261,7 @@ Personas participantes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un veterinario, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
+<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un <rem:ref oid="GLO-0019">veterinario</rem:ref>, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
 </rem:paragraph>
 <rem:stakeholder
  oid = "STK-0001">
@@ -380,7 +380,7 @@ Ninguno</rem:comments>
 <rem:objective
  oid = "OBJ-0001">
 <rem:name>
-Almacenamiento de los datos del cliente</rem:name>
+Almacenamiento de los datos del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -516,7 +516,7 @@ Introducción al dominio del problema 1</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>    La clínica veterinaria &apos;&apos;Huellas&apos;&apos; es una pequeña empresa ubicada en Villanueva de la Serena, un pequeño pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnología de la alimentación, que encontró su vocación tras trabajar durante cinco años en una clínica fuera de su localidad. A raíz de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidió crear una en su pueblo. Así nace el negocio de nuestra cliente, que hoy cuenta con más de 12 años de experiencia.</rem:text>
+<rem:text>    La clínica veterinaria &apos;&apos;Huellas&apos;&apos; es una pequeña empresa ubicada en Villanueva de la Serena, un pequeño pueblo de Badajoz. Fue creada por una licenciada en veterinaria y especializada en tecnología de la alimentación, que encontró su vocación tras trabajar durante cinco años en una clínica fuera de su localidad. A raíz de esto, y en vista de la escasa competencia en el sector de la medicina animal,decidió crear una en su pueblo. Así nace el negocio de nuestra <rem:ref oid="GLO-0138">cliente</rem:ref>, que hoy cuenta con más de 12 años de experiencia.</rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0005">
@@ -567,7 +567,7 @@ Introducción al dominio del problema 4</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En cuanto a la gestión de información, la empresa se organiza mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del cliente y su mascota a la hora de hacer la <rem:ref oid="GLO-0011">consulta</rem:ref>, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del cliente, el contacto con los proveedores o nóminas y horarios del trabajador. </rem:text>
+<rem:text>En cuanto a la gestión de información, la empresa se organiza mediante el uso de hojas de papel con una plantilla, boli, una agenda y un Excel siguiendo una metodología concreta. Dicha metodología consiste en tomar los datos del <rem:ref oid="GLO-0138">cliente</rem:ref> y su mascota a la hora de hacer la <rem:ref oid="GLO-0011">consulta</rem:ref>, y pasar toda la información al Excel una vez hayan acabado. En el Excel además se encuentra toda la información relevante del negocio, como el estado de las mascotas, la información del <rem:ref oid="GLO-0138">cliente</rem:ref>, el contacto con los proveedores o nóminas y horarios del trabajador. </rem:text>
 </rem:paragraph>
 <rem:paragraph
  oid = "PRG-0008">
@@ -757,6 +757,23 @@ Ninguno</rem:comments>
 <rem:level>2</rem:level>
 <rem:number>2.2 </rem:number>
 <rem:glossaryItem
+ oid = "GLO-0139">
+<rem:name>
+<rem:ref oid="GLO-0139">Anamnesis</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text> Conjunto de datos que se recogen en la historia clínica de un <rem:ref oid="GLO-0015">paciente</rem:ref> con un objetivo diagnóstico.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
  oid = "GLO-0009">
 <rem:name>
 <rem:ref oid="GLO-0009">Auxiliar</rem:ref></rem:name>
@@ -771,19 +788,19 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Trabajador que se dedica a los servicios de peluquería canina y da apoyo al veterinario.</rem:text>
+<rem:text> Trabajador que se dedica a los servicios de peluquería canina y da apoyo al <rem:ref oid="GLO-0019">veterinario</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
- oid = "GLO-0010">
+ oid = "GLO-0138">
 <rem:name>
-Cliente</rem:name>
+<rem:ref oid="GLO-0138">Cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2019</rem:year>
-<rem:month>10</rem:month>
-<rem:day>26</rem:day>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -827,7 +844,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0039">
 <rem:name>
-Gestor</rem:name>
+<rem:ref oid="GLO-0039">Gestor</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -890,12 +907,29 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Animal que recibe cualquier tipo de servicio tanto de <rem:ref oid="GLO-0011">consulta</rem:ref> o de urgencia por parte de la veterinaria. Cada <rem:ref oid="GLO-0015">paciente</rem:ref> tiene un dueño, ese será el cliente de la veterinaria.</rem:text>
+<rem:text> Animal que recibe cualquier tipo de servicio tanto de <rem:ref oid="GLO-0011">consulta</rem:ref> o de urgencia por parte de la veterinaria. Cada <rem:ref oid="GLO-0015">paciente</rem:ref> tiene un dueño, ese será el <rem:ref oid="GLO-0138">cliente</rem:ref> de la veterinaria.</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0140">
+<rem:name>
+<rem:ref oid="GLO-0140">Pasaporte para animales de compañía</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text> El <rem:ref oid="GLO-0140">Pasaporte para Animales de Compañía</rem:ref> es un documento común en toda la Unión Europea que permite viajar con mascota (perro, gato o hurón) por todos los países pertenecientes.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0038">
 <rem:name>
-Peluquero</rem:name>
+<rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -963,7 +997,7 @@ Ninguno</rem:comments>
 <rem:glossaryItem
  oid = "GLO-0019">
 <rem:name>
-Veterinario</rem:name>
+<rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -975,7 +1009,7 @@ Veterinario</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text> Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
+<rem:text> Profesional en medicina animal. En este caso particular nos encontramos que el <rem:ref oid="GLO-0019">veterinario</rem:ref> realiza también labores de <rem:ref oid="GLO-0039">gestor</rem:ref>. El <rem:ref oid="GLO-0019">veterinario</rem:ref> es nuestro <rem:ref oid="GLO-0138">cliente</rem:ref> y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el <rem:ref oid="GLO-0017">tratamiento</rem:ref>.</rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -1062,7 +1096,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al tratarse de un pequeño pueblo no hay muchas clínicas veterinarias por lo que no tienen apenas competencia.<br/></rem:text>
+<rem:text> Al tratarse de un pequeño pueblo no hay muchas clínicas veterinarias por lo que no tienen apenas competencia.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0026">
@@ -1079,7 +1113,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Actualmente tienen una demanda creciente, debido sobre todo a la ganadería.</rem:text>
+<rem:text> Actualmente tienen una demanda creciente.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0027">
@@ -1096,7 +1130,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>De cara al público el trato es muy bueno y los cliente están muy fidelizados.<br/></rem:text>
+<rem:text> De cara al público el trato es muy bueno y los clientes están muy fidelizados.<br/></rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section
@@ -1148,7 +1182,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al ser una pequeña clínica, el personal es muy reducido.<br/></rem:text>
+<rem:text> Al ser una pequeña clínica, el personal es muy reducido.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0029">
@@ -1165,7 +1199,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La demanda creciente genera sobrecarga.<br/></rem:text>
+<rem:text> La demanda creciente genera sobrecarga.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0030">
@@ -1182,7 +1216,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>La recepción de petición de citas es limitada a una línea telefónica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.<br/></rem:text>
+<rem:text> La recepción de petición de citas es limitada a una línea telefónica luego en ocasiones se pierden posibles clientes pues se les deja comunicando.<br/></rem:text>
 </rem:glossaryItem>
 </rem:section>
 </rem:section>
@@ -1220,74 +1254,91 @@ Descripción de actores de negocio actuales</rem:name>
 Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>3.2.1 </rem:number>
-<rem:paragraph
- oid = "PRG-0124">
+<rem:actor
+ oid = "ACT-0005">
 <rem:name>
-Gestor</rem:name>
+<rem:ref oid="GLO-0138">Cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Gestor : El gestor es también la dueña de la veterinaria. Es el rol encargado de la organización general del negocio. Sus funciones pasan desde la gestión del personal y de los horarios de trabajo, hasta la administración de peticiones de citas. La gestora puede tomar a su vez el rol de peluquera o veterinaria. <br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0125">
+<rem:actorRole>a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0006">
 <rem:name>
-Veterinario</rem:name>
+<rem:ref oid="GLO-0015">Paciente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Veterinario: El veterinario, tiene la responsabilidad de atender a los animales que el gestor le asigne y de cumplir su horario de trabajo establecido por el gestor. Al atender una <rem:ref oid="GLO-0011">consulta</rem:ref> genera un historial.<br/><br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0126">
+<rem:actorRole> a cualquier animal del actor <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0007">
 <rem:name>
-Peluquero</rem:name>
+<rem:ref oid="GLO-0039">Gestor</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Peluquero: El actor peluquero es uno de los trabajadores de la organización, se encarga de tratar a los pacientes de las peluquerías. Es asignado a estas. Tiene un horario de disponibilidad limitado que se acuerda con el gestor mes a mes.<br/></rem:text>
-</rem:paragraph>
-<rem:paragraph
- oid = "PRG-0127">
+<rem:actorRole>al encargado de la organización general del negocio.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0008">
 <rem:name>
-Cliente</rem:name>
+<rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>7</rem:day>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Cliente: El actor cliente es todo aquel que interactúa con la organización con afán de reservar una cita, ya sea <rem:ref oid="GLO-0011">consulta</rem:ref> o peluquería. Es el dueño de un <rem:ref oid="GLO-0015">paciente</rem:ref>.<br/></rem:text>
-</rem:paragraph>
+<rem:actorRole>al encargado de atender las consultas y generar informes, siendo además trabajador en la clínica.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0009">
+<rem:name>
+<rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>al encargado de atender las peluquerías, siendo además trabajador en la clínica</rem:actorRole>
+</rem:actor>
 </rem:section>
 <rem:section
  oid = "SEC-0014">
@@ -1321,7 +1372,7 @@ Descripción </rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En el siguiente esquema BPM se plasma el proceso de petición de citas. Para comenzar la clínica recibe una petición de cita y posteriormente hay un acuerdo entre gestor y cliente para concertar la fecha de la cita. A continuación, el gestor asigna un profesional dependiendo de si el cliente ha solicitado una <rem:ref oid="GLO-0011">consulta</rem:ref> o una cita de peluquería. Una vez la cita está completa se espera a que aparezca el cliente y el <rem:ref oid="GLO-0015">paciente</rem:ref>.Se les atiende. Y finalmente se devuelve el <rem:ref oid="GLO-0015">paciente</rem:ref> a su dueño.</rem:text>
+<rem:text>En el siguiente esquema BPM se plasma el proceso de petición de citas. Para comenzar la clínica recibe una petición de cita y posteriormente hay un acuerdo entre <rem:ref oid="GLO-0039">gestor</rem:ref> y <rem:ref oid="GLO-0138">cliente</rem:ref> para concertar la fecha de la cita. A continuación, el <rem:ref oid="GLO-0039">gestor</rem:ref> asigna un profesional dependiendo de si el <rem:ref oid="GLO-0138">cliente</rem:ref> ha solicitado una <rem:ref oid="GLO-0011">consulta</rem:ref> o una cita de peluquería. Una vez la cita está completa se espera a que aparezca el <rem:ref oid="GLO-0138">cliente</rem:ref> y el <rem:ref oid="GLO-0015">paciente</rem:ref>.Se les atiende. Y finalmente se devuelve el <rem:ref oid="GLO-0015">paciente</rem:ref> a su dueño.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0003">
@@ -1447,7 +1498,7 @@ Descripción del entorno de software actual</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En cuanto al software , simplemente disponen de un programa excel para almacenar los datos más relevantes. </rem:text>
+<rem:text>En cuanto al software, simplemente disponen de una plantilla excel para almacenar los datos más relevantes. </rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -1501,7 +1552,7 @@ Objetivos de negocio introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Los objetivos del negocio serían principalmente tres. En primer lugar la mejora del control y gestión de la información tanto de los trabajadores como de los pacientes y clientes mediante un sistema de información preferentemente. Por otra parte, una plataforma para la organización de los datos de los pacientes (historiales e informes) para los trabajadores. Y por último la optimización de los métodos de reserva de citas para los clientes. </rem:text>
+<rem:text>Los objetivos del negocio serían principalmente cuatro. En primer lugar el almacenamiento de la información en el sistema de los pacientes y clientes. Por otra parte, la creación de estadísticas a partir de los datos almacenados en el sistema. Y por último la optimización de los métodos de reserva de citas para los clientes así como la asignación de dichas citas a los trabajadores correspondientes. </rem:text>
 </rem:paragraph>
 <rem:glossaryItem
  oid = "GLO-0040">
@@ -1518,7 +1569,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>me gustaría que el cliente pueda pedir cita por telefono o por email, <br/>para dar mas facilidades a los clientes y poder llegar a más personas al permitir coger cita por internet.<br/><br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>, <br/>me gustaría que el <rem:ref oid="GLO-0138">cliente</rem:ref> pueda pedir cita por telefono o por email, <br/>para dar mas facilidades a los clientes y poder llegar a más personas al permitir coger cita por internet.<br/><br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0041">
@@ -1535,12 +1586,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como cliente,  <br/>quiero poder reservar consultas y sesiones de peluquería,<br/>para poder hacer un buen uso del sistema.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0138">cliente</rem:ref>,  <br/>quiero poder reservar consultas y sesiones de peluquería,<br/>para poder hacer un buen uso del sistema.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0042">
 <rem:name>
-<rem:ref oid="GLO-0042">HU002 - Gestor asignar cita</rem:ref></rem:name>
+<rem:ref oid="GLO-0042">HU002 - Asignar cita</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1552,7 +1603,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>tengo que asignar la cita del cliente a uno de mis trabajadores(peluquería o veterinario),<br/>para organizar el trabajo y ver el horario disponible en cada momento.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>, <br/>quiero que las citas de los clientes, se asignen automáticamente a uno de mis trabajadores(peluquería o <rem:ref oid="GLO-0019">veterinario</rem:ref>), <br/>para ahorrar tiempo, organizar el trabajo y ver el horario disponible en cada momento.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0043">
@@ -1569,29 +1620,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>tengo que rellenar la ficha técnica del animal cada vez que pase <rem:ref oid="GLO-0011">consulta</rem:ref> o realice una operación<br/>para llevar un control organizado de todos los detalles.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0090">
-<rem:name>
-<rem:ref oid="GLO-0090">HU004 - Gestor horario</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder ver el horario de mis trabajadores,<br/>para tener un control de la plantilla.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0019">veterinario</rem:ref>,<br/>tengo que rellenar la ficha técnica del animal cada vez que pase <rem:ref oid="GLO-0011">consulta</rem:ref> o realice una operación<br/>para llevar un control organizado de todos los detalles.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0091">
 <rem:name>
-<rem:ref oid="GLO-0091">HU005 - Gestor información clientes</rem:ref></rem:name>
+<rem:ref oid="GLO-0091">HU004 - Gestor información clientes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1603,12 +1637,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder almacenar información sobre los nuevos clientes,<br/>para tener una mayor organización.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>,<br/>quiero poder almacenar información sobre los nuevos clientes,<br/>para tener una mayor organización.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0092">
 <rem:name>
-<rem:ref oid="GLO-0092">HU006 - Gestor información pacientes</rem:ref></rem:name>
+<rem:ref oid="GLO-0092">HU005 - Gestor información pacientes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1620,46 +1654,29 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder almacenar la información de los nuevos pacientes,<br/>para tener una mayor organización.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>,<br/>quiero poder almacenar la información de los nuevos pacientes,<br/>para tener una mayor organización.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
- oid = "GLO-0093">
+ oid = "GLO-0141">
 <rem:name>
-<rem:ref oid="GLO-0093">HU007 - Gestor modificar horario</rem:ref></rem:name>
+<rem:ref oid="GLO-0141">HU006 - Gestor crear cita</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder modificar el horario de mis trabajadores,<br/>para tener control de la plantilla.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0094">
-<rem:name>
-<rem:ref oid="GLO-0094">HU008 - Gestor crear cita</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder crear citas,<br/>para poder tener control de las personas atendidas.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>, <br/>quiero poder crear citas, <br/>para poder tener control de las personas atendidas.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0095">
 <rem:name>
-<rem:ref oid="GLO-0095">HU009 - Gestor información citas</rem:ref></rem:name>
+<rem:ref oid="GLO-0095">HU007 - Gestor información citas</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1671,29 +1688,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como gestor, <br/>quiero tener acceso a la información referente a las citas<br/>para poder tener información precisa en todo momento.<br/></rem:text>
-</rem:glossaryItem>
-<rem:glossaryItem
- oid = "GLO-0096">
-<rem:name>
-<rem:ref oid="GLO-0096">HU010 - Gestormodificar información citas</rem:ref></rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:text><br/>Como gestor,<br/>quiero poder modificar la información referente a las citas.<br/><br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>, <br/>quiero tener acceso a la información referente a las citas<br/>para poder tener información precisa en todo momento.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0097">
 <rem:name>
-<rem:ref oid="GLO-0097">HU011 - Veterinario horario trabajo</rem:ref></rem:name>
+<rem:ref oid="GLO-0097">HU008 - Veterinario citas al dia</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1705,12 +1705,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0019">veterinario</rem:ref>,<br/>quiero saber que citas debo atender cada día  y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0098">
 <rem:name>
-<rem:ref oid="GLO-0098">HU012 - Veterinario notificación</rem:ref></rem:name>
+<rem:ref oid="GLO-0098">HU009 - Veterinario notificación</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1722,12 +1722,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0019">veterinario</rem:ref>,<br/>quiero recibir una notificación cuando se añade una nueva <rem:ref oid="GLO-0011">consulta</rem:ref>.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0099">
 <rem:name>
-<rem:ref oid="GLO-0099">HU013 - Veterinario asociar paciente con informes</rem:ref></rem:name>
+<rem:ref oid="GLO-0099">HU010 - Veterinario asociar paciente con informes</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1739,12 +1739,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero poder asociar un <rem:ref oid="GLO-0015">paciente</rem:ref> con un informe,<br/>para poder hacer un seguimiento del animal.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0019">veterinario</rem:ref>,<br/>quiero poder asociar un <rem:ref oid="GLO-0015">paciente</rem:ref> con un informe,<br/>para poder hacer un seguimiento del animal.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0100">
 <rem:name>
-<rem:ref oid="GLO-0100">HU014 - Veterinario generar informe</rem:ref></rem:name>
+<rem:ref oid="GLO-0100">HU011 - Veterinario generar informe</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1756,12 +1756,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como veterinario,<br/>quiero poder generar un informe y añadirlo al historial de un <rem:ref oid="GLO-0015">paciente</rem:ref>,<br/>para hacer un seguimiento del animal.<br/><br/><br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0019">veterinario</rem:ref>,<br/>quiero poder generar un informe y añadirlo al historial de un <rem:ref oid="GLO-0015">paciente</rem:ref>,<br/>para hacer un seguimiento del animal.<br/><br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0101">
 <rem:name>
-<rem:ref oid="GLO-0101">HU015 - Peluquero horario</rem:ref></rem:name>
+<rem:ref oid="GLO-0101">HU012 - Peluquero citas por dia</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1773,12 +1773,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como peluquero,<br/>quiero saber cual es mi horario de trabajo y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0038">peluquero</rem:ref>,<br/>quiero saber que citas debo atender cada dia y que pacientes tengo que tratar,<br/>para poder organizarme.<br/></rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0102">
 <rem:name>
-<rem:ref oid="GLO-0102">HU016 - Peluquero notificación</rem:ref></rem:name>
+<rem:ref oid="GLO-0102">HU013 - Peluquero notificación</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -1790,7 +1790,58 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text><br/>Como peluquero,<br/>quiero recibir una notificación cuando se añade una nueva cita de peluqueria.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+<rem:text><br/>Como <rem:ref oid="GLO-0038">peluquero</rem:ref>,<br/>quiero recibir una notificación cuando se añade una nueva cita de peluqueria.<br/>para estar al tanto de las nuevas consultas.<br/></rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0142">
+<rem:name>
+<rem:ref oid="GLO-0142">HU014 - Estadísticas vacunas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>,<br/>Quiero saber el número de vacunas que pongo a cada animal, principalmente quiero que aparezcan las vacunas para perros,gatos,hurones,conejos y otros,<br/>Para saber si necesito más vacunas para alguna especie en concreto</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0143">
+<rem:name>
+<rem:ref oid="GLO-0143">HU015 - Estadísticas mapa calor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>,<br/>Quiero saber de donde proviene la mayor parte de mis clientes,<br/>Para saber si es necesario invertir en publicidad en otras localidades</rem:text>
+</rem:glossaryItem>
+<rem:glossaryItem
+ oid = "GLO-0144">
+<rem:name>
+<rem:ref oid="GLO-0144">HU016 - Estadísticas animales a las citas</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>18</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text><br/>Como <rem:ref oid="GLO-0039">gestor</rem:ref>,<br/>Quiero saber el número de animales que atiendo en las citas,quiero que aparezcan los campos perros,gatos,hurones,conejos y otros,<br/>Para saber si necesito empezar a estandarizar el <rem:ref oid="GLO-0017">tratamiento</rem:ref> de algún tipo nuevo de animal</rem:text>
 </rem:glossaryItem>
 </rem:section>
 <rem:section
@@ -1913,7 +1964,7 @@ Descripción reserva de cita.</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El cliente previamente registrado en el sistema rellena un formulario con el día que quiere ser citado. El sistema lo filtra y guarda la cita en la base de datos o bien le informa al cliente de que ese horario no es posible.</rem:text>
+<rem:text>El <rem:ref oid="GLO-0138">cliente</rem:ref> previamente registrado en el sistema rellena un formulario con el día que quiere ser citado. El sistema lo filtra y guarda la cita en la base de datos o bien le informa al <rem:ref oid="GLO-0138">cliente</rem:ref> de que ese horario no es posible.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0015">
@@ -1949,7 +2000,7 @@ Descripción desarrollo de cita</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El cliente lleva al <rem:ref oid="GLO-0015">paciente</rem:ref> a la clínica, el gestor lo deriva a su respectivo profesional. Si es <rem:ref oid="GLO-0011">consulta</rem:ref> de veterinaria, al final de esta se realizará su informe correspondiente. El <rem:ref oid="GLO-0015">paciente</rem:ref> se le entregará a su dueño y posteriormente se realiza el pago de la cita.</rem:text>
+<rem:text>El <rem:ref oid="GLO-0138">cliente</rem:ref> lleva al <rem:ref oid="GLO-0015">paciente</rem:ref> a la clínica, el <rem:ref oid="GLO-0039">gestor</rem:ref> lo deriva a su respectivo profesional. Si es <rem:ref oid="GLO-0011">consulta</rem:ref> de veterinaria, al final de esta se realizará su informe correspondiente. El <rem:ref oid="GLO-0015">paciente</rem:ref> se le entregará a su dueño y posteriormente se realiza el pago de la cita.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0016">
@@ -1985,7 +2036,7 @@ Descripción de la realización del informe</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Tras el desarrollo de la cita, el veterinario/a rellena el informe del animal, el cual se añade a una base de datos y se recopila en el historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:text>
+<rem:text>Tras el desarrollo de la cita, el <rem:ref oid="GLO-0019">veterinario</rem:ref>/a rellena el informe del animal, el cual se añade a una base de datos y se recopila en el historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0017">
@@ -2062,7 +2113,7 @@ Ninguno</rem:comments>
 <rem:graphicFile
  oid = "GRF-0019">
 <rem:name>
-Registro del cliente</rem:name>
+Registro del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2093,7 +2144,7 @@ Descripción del registro de clientes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El cliente que se quiere registrar rellena un formulario con sus datos, si no hay errores, se registra correctamente y sus datos se almacenan en la base de datos.</rem:text>
+<rem:text>El <rem:ref oid="GLO-0138">cliente</rem:ref> que se quiere registrar rellena un formulario con sus datos, si no hay errores, se registra correctamente y sus datos se almacenan en la base de datos.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0020">
@@ -2129,7 +2180,7 @@ Descripción modificación de perfil</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Al cliente registrado se le muestra un formulario con sus datos previos, este lo rellena con los nuevos y se actualizan en la base de datos.</rem:text>
+<rem:text>Al <rem:ref oid="GLO-0138">cliente</rem:ref> registrado se le muestra un formulario con sus datos previos, este lo rellena con los nuevos y se actualizan en la base de datos.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0021">
@@ -2165,7 +2216,7 @@ Descripción de registro de <rem:ref oid="GLO-0015">paciente</rem:ref></rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El cliente rellena un formulario con los datos del <rem:ref oid="GLO-0015">paciente</rem:ref>, el sistema los procesa y los almacena en la base de datos.</rem:text>
+<rem:text>El <rem:ref oid="GLO-0138">cliente</rem:ref> rellena un formulario con los datos del <rem:ref oid="GLO-0015">paciente</rem:ref>, el sistema los procesa y los almacena en la base de datos.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0022">
@@ -2201,7 +2252,7 @@ Descripción modificación de cita</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El cliente solicita una nueva cita, si esta es correcta se borra la anteriormente solicitada y la nueva se almacena en la base de datos.</rem:text>
+<rem:text>El <rem:ref oid="GLO-0138">cliente</rem:ref> solicita una nueva cita, si esta es correcta se borra la anteriormente solicitada y la nueva se almacena en la base de datos.</rem:text>
 </rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0023">
@@ -2237,7 +2288,7 @@ Descripción de eliminar cita</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El cliente indica qué cita quiere eliminar, esta se borra de la base de datos.</rem:text>
+<rem:text>El <rem:ref oid="GLO-0138">cliente</rem:ref> indica qué cita quiere eliminar, esta se borra de la base de datos.</rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -2369,12 +2420,12 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-gestionar la información del cliente y de pacientes.</rem:description>
+gestionar la información del <rem:ref oid="GLO-0138">cliente</rem:ref> y de pacientes.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0006">
 <rem:name>
-Registro de cliente y mascotas</rem:name>
+Registro de <rem:ref oid="GLO-0138">cliente</rem:ref> y mascotas</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2459,7 +2510,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-notificar al cliente y trabajador implicados en una cita de su cancelación. Al igual que deberá notificar a ambos de que una cita se aproxima.</rem:description>
+notificar al <rem:ref oid="GLO-0138">cliente</rem:ref> y trabajador implicados en una cita de su cancelación. Al igual que deberá notificar a ambos de que una cita se aproxima.</rem:description>
 </rem:objective>
 <rem:objective
  oid = "OBJ-0009">
@@ -2562,6 +2613,23 @@ Ninguno</rem:comments>
 <rem:level>3</rem:level>
 <rem:number>6.2.2 </rem:number>
 <rem:actor
+ oid = "ACT-0002">
+<rem:name>
+<rem:ref oid="GLO-0138">Cliente</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>El actor <rem:ref oid="GLO-0138">cliente</rem:ref> representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.</rem:actorRole>
+</rem:actor>
+<rem:actor
  oid = "ACT-0001">
 <rem:name>
 <rem:ref oid="GLO-0015">Paciente</rem:ref></rem:name>
@@ -2576,46 +2644,12 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole>El actor <rem:ref oid="GLO-0015">paciente</rem:ref> representa a cualquier animal del actor cliente.</rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0002">
-<rem:name>
-Cliente</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>El actor cliente representa a cualquier usuario no perteneciente a la clínica que tenga la intención de usar el SI.</rem:actorRole>
-</rem:actor>
-<rem:actor
- oid = "ACT-0003">
-<rem:name>
-Veterinario</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>13</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:actorRole>El actor veterinario es el encargado de atender las consultas y generar informes, siendo además trabajador en la clínica.<br/></rem:actorRole>
+<rem:actorRole>El actor <rem:ref oid="GLO-0015">paciente</rem:ref> representa a cualquier animal del actor <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:actorRole>
 </rem:actor>
 <rem:actor
  oid = "ACT-0004">
 <rem:name>
-Peluquero</rem:name>
+<rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2627,7 +2661,24 @@ Peluquero</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:actorRole> El actor peluquero es el encargado de atender las peluquerías, siendo además trabajador en la clínica.</rem:actorRole>
+<rem:actorRole> El actor <rem:ref oid="GLO-0038">peluquero</rem:ref> es el encargado de atender las peluquerías, siendo además trabajador en la clínica.</rem:actorRole>
+</rem:actor>
+<rem:actor
+ oid = "ACT-0003">
+<rem:name>
+<rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2019</rem:year>
+<rem:month>12</rem:month>
+<rem:day>13</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:actorRole>El actor <rem:ref oid="GLO-0019">veterinario</rem:ref> es el encargado de atender las consultas y generar informes, siendo además trabajador en la clínica.<br/></rem:actorRole>
 </rem:actor>
 </rem:section>
 <rem:section
@@ -2650,7 +2701,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0001">
 <rem:name>
-Registro de cliente</rem:name>
+Registro de <rem:ref oid="GLO-0138">cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -2675,7 +2726,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intenta registrarse en el sistema.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intenta registrarse en el sistema.</rem:triggeringEvent>
 <rem:precondition>
 Ninguna.</rem:precondition>
 <rem:postcondition>
@@ -2696,7 +2747,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-accede al formulario de registro de cliente.</rem:description>
+accede al formulario de registro de <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2714,7 +2765,7 @@ Ninguno</rem:comments>
 <rem:number>4</rem:number>
 <rem:actorAction actor = "ACT-0002">
 <rem:description>
-rellena los campos obligatorios del formulario de registro del cliente.</rem:description>
+rellena los campos obligatorios del formulario de registro del <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:description>
 </rem:actorAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2743,7 +2794,7 @@ Ninguno</rem:comments>
 <rem:number>6</rem:number>
 <rem:systemAction>
 <rem:description>
-almacena al cliente.</rem:description>
+almacena al <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2752,7 +2803,7 @@ Ninguno</rem:comments>
 <rem:number>7</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente registrado a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> registrado a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2786,9 +2837,9 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intenta registrar un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intenta registrar un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe haber iniciado sesión.</rem:precondition>
+El <rem:ref oid="GLO-0138">cliente</rem:ref> debe haber iniciado sesión.</rem:precondition>
 <rem:postcondition>
 El <rem:ref oid="GLO-0015">paciente</rem:ref> estará correctamente registrado.</rem:postcondition>
 <rem:frequency>
@@ -2807,7 +2858,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2847,10 +2898,10 @@ envía la petición de registro haciendo click en el botón de registro.</rem:descr
 </rem:actorAction>
 <rem:stepException oid = "STX-0002">
 <rem:condition>
-el cliente no rellena correctamente los campos del formulario</rem:condition>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> no rellena correctamente los campos del formulario</rem:condition>
 <rem:systemAction>
 <rem:description>
-informa que los campos rellenados son incorrectos y permite al cliente intentar registrar al <rem:ref oid="GLO-0015">paciente</rem:ref> de nuevo</rem:description>
+informa que los campos rellenados son incorrectos y permite al <rem:ref oid="GLO-0138">cliente</rem:ref> intentar registrar al <rem:ref oid="GLO-0015">paciente</rem:ref> de nuevo</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
@@ -2872,7 +2923,7 @@ Ninguno</rem:comments>
 <rem:number>8</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2906,11 +2957,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intenta reservar una cita.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intenta reservar una cita.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado y haber registrado un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:precondition>
+El <rem:ref oid="GLO-0138">cliente</rem:ref> debe estar registrado y haber registrado un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:precondition>
 <rem:postcondition>
-La cita se almacenará en el sistema y el cliente tendrá acceso a dicha cita.</rem:postcondition>
+La cita se almacenará en el sistema y el <rem:ref oid="GLO-0138">cliente</rem:ref> tendrá acceso a dicha cita.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -2927,7 +2978,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -2988,7 +3039,7 @@ envía la solicitud de reserva de citas pulsando en el botón.</rem:description>
 el usuario no rellena correctamente los campos del formulario</rem:condition>
 <rem:systemAction>
 <rem:description>
-informa que los campos rellenados son incorrectos y permite al cliente rellenar la cita de nuevo</rem:description>
+informa que los campos rellenados son incorrectos y permite al <rem:ref oid="GLO-0138">cliente</rem:ref> rellenar la cita de nuevo</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
@@ -3019,7 +3070,7 @@ Ninguno</rem:comments>
 <rem:number>11</rem:number>
 <rem:systemAction>
 <rem:description>
-notifica al cliente y al trabajador de la reserva de la cita.</rem:description>
+notifica al <rem:ref oid="GLO-0138">cliente</rem:ref> y al trabajador de la reserva de la cita.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3028,7 +3079,7 @@ Ninguno</rem:comments>
 <rem:number>12</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3062,11 +3113,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intente modificar una cita.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intente modificar una cita.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado, haber registrado un <rem:ref oid="GLO-0015">paciente</rem:ref> y tener una cita previa.</rem:precondition>
+El <rem:ref oid="GLO-0138">cliente</rem:ref> debe estar registrado, haber registrado un <rem:ref oid="GLO-0015">paciente</rem:ref> y tener una cita previa.</rem:precondition>
 <rem:postcondition>
-La cita modificada se almacenará en el sistema y el cliente tendrá acceso a dicha cita.</rem:postcondition>
+La cita modificada se almacenará en el sistema y el <rem:ref oid="GLO-0138">cliente</rem:ref> tendrá acceso a dicha cita.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -3083,7 +3134,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3135,7 +3186,7 @@ envía la solicitud de reserva de citas pulsando en el botón.</rem:description>
 el usuario no rellena correctamente los campos del formulario</rem:condition>
 <rem:systemAction>
 <rem:description>
-informa que los campos rellenados son incorrectos y permite al cliente rellenar la cita de nuevo</rem:description>
+informa que los campos rellenados son incorrectos y permite al <rem:ref oid="GLO-0138">cliente</rem:ref> rellenar la cita de nuevo</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
@@ -3184,7 +3235,7 @@ Ninguno</rem:comments>
 <rem:number>12</rem:number>
 <rem:systemAction>
 <rem:description>
-notifica al cliente y al trabajador de la reserva de la cita.</rem:description>
+notifica al <rem:ref oid="GLO-0138">cliente</rem:ref> y al trabajador de la reserva de la cita.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3193,7 +3244,7 @@ Ninguno</rem:comments>
 <rem:number>13</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3227,11 +3278,11 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intente eliminar una cita.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intente eliminar una cita.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado, haber registrado un <rem:ref oid="GLO-0015">paciente</rem:ref> y tener una cita previa.</rem:precondition>
+El <rem:ref oid="GLO-0138">cliente</rem:ref> debe estar registrado, haber registrado un <rem:ref oid="GLO-0015">paciente</rem:ref> y tener una cita previa.</rem:precondition>
 <rem:postcondition>
-La cita se eliminará del sistema y desaparecerá del perfil del cliente.</rem:postcondition>
+La cita se eliminará del sistema y desaparecerá del perfil del <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:postcondition>
 <rem:frequency>
 <rem:tbd/>
 </rem:frequency>
@@ -3248,7 +3299,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3311,7 +3362,7 @@ Ninguno</rem:comments>
 <rem:number>9</rem:number>
 <rem:systemAction>
 <rem:description>
-notifica al cliente y al trabajador de la eliminación de la cita.</rem:description>
+notifica al <rem:ref oid="GLO-0138">cliente</rem:ref> y al trabajador de la eliminación de la cita.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3320,7 +3371,7 @@ Ninguno</rem:comments>
 <rem:number>10</rem:number>
 <rem:systemAction>
 <rem:description>
-muestra al cliente la vista de su sesión.</rem:description>
+muestra al <rem:ref oid="GLO-0138">cliente</rem:ref> la vista de su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3329,7 +3380,7 @@ Ninguno</rem:comments>
 <rem:useCase
  oid = "UC-0006">
 <rem:name>
-Modificar perfil cliente</rem:name>
+Modificar perfil <rem:ref oid="GLO-0138">cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -3354,9 +3405,9 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intente modificar su perfil.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intente modificar su perfil.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado.</rem:precondition>
+El <rem:ref oid="GLO-0138">cliente</rem:ref> debe estar registrado.</rem:precondition>
 <rem:postcondition>
 La modificación quedará reflejada en el sistema y los datos de su perfil aparecerán modificados.</rem:postcondition>
 <rem:frequency>
@@ -3375,7 +3426,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3436,7 +3487,7 @@ envía la solicitud de modificación pulsando en el botón.</rem:description>
 el usuario no rellena correctamente los campos del formulario</rem:condition>
 <rem:systemAction>
 <rem:description>
-informa que los campos rellenados son incorrectos y permite al cliente rellenar la cita de nuevo</rem:description>
+informa que los campos rellenados son incorrectos y permite al <rem:ref oid="GLO-0138">cliente</rem:ref> rellenar la cita de nuevo</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
@@ -3458,7 +3509,7 @@ Ninguno</rem:comments>
 <rem:number>10</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su perfil.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su perfil.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3492,9 +3543,9 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el cliente intente modificar información sobre su mascota.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0138">cliente</rem:ref> intente modificar información sobre su mascota.</rem:triggeringEvent>
 <rem:precondition>
-El cliente debe estar registrado y tener registrado un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:precondition>
+El <rem:ref oid="GLO-0138">cliente</rem:ref> debe estar registrado y tener registrado un <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:precondition>
 <rem:postcondition>
 La modificación quedará reflejada en el sistema y los datos del perfil del <rem:ref oid="GLO-0015">paciente</rem:ref> aparecerán modificados.</rem:postcondition>
 <rem:frequency>
@@ -3513,7 +3564,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3574,7 +3625,7 @@ envía la solicitud de modificación pulsando en el botón.</rem:description>
 el usuario no rellena correctamente los campos del formulario</rem:condition>
 <rem:systemAction>
 <rem:description>
-informa que los campos rellenados son incorrectos y permite al cliente rellenar la cita de nuevo</rem:description>
+informa que los campos rellenados son incorrectos y permite al <rem:ref oid="GLO-0138">cliente</rem:ref> rellenar la cita de nuevo</rem:description>
 </rem:systemAction>
 <rem:termination value = "TEV-0002"/>
 <rem:comments>
@@ -3596,7 +3647,7 @@ Ninguno</rem:comments>
 <rem:number>10</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al cliente al perfil del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:description>
+redirige al <rem:ref oid="GLO-0138">cliente</rem:ref> al perfil del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3630,9 +3681,9 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el veterinario intenta rellenar un informe.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0019">veterinario</rem:ref> intenta rellenar un informe.</rem:triggeringEvent>
 <rem:precondition>
-El veterinario y el <rem:ref oid="GLO-0015">paciente</rem:ref> deben estar registrados además de existir una cita.</rem:precondition>
+El <rem:ref oid="GLO-0019">veterinario</rem:ref> y el <rem:ref oid="GLO-0015">paciente</rem:ref> deben estar registrados además de existir una cita.</rem:precondition>
 <rem:postcondition>
 El informe se almacenará en el sistema y se añadirá al historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:postcondition>
 <rem:frequency>
@@ -3651,7 +3702,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al veterinario a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0019">veterinario</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3757,9 +3808,9 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el veterinario actualiza la cartilla de vacunación.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0019">veterinario</rem:ref> actualiza la cartilla de vacunación.</rem:triggeringEvent>
 <rem:precondition>
-El veterinario y el <rem:ref oid="GLO-0015">paciente</rem:ref> deben estar registrados además de existir una cita.</rem:precondition>
+El <rem:ref oid="GLO-0019">veterinario</rem:ref> y el <rem:ref oid="GLO-0015">paciente</rem:ref> deben estar registrados además de existir una cita.</rem:precondition>
 <rem:postcondition>
 La cartilla de vacunación se actualizará en el sistema y se añadirá al historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:postcondition>
 <rem:frequency>
@@ -3778,7 +3829,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al veterinario a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0019">veterinario</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -3884,9 +3935,9 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:triggeringEvent>
-el veterinario quiera actualizar su disponibilidad.</rem:triggeringEvent>
+el <rem:ref oid="GLO-0019">veterinario</rem:ref> quiera actualizar su disponibilidad.</rem:triggeringEvent>
 <rem:precondition>
-El veterinario debe estar registrado.</rem:precondition>
+El <rem:ref oid="GLO-0019">veterinario</rem:ref> debe estar registrado.</rem:precondition>
 <rem:postcondition>
 El disponibilidad de las citas se actualizará.</rem:postcondition>
 <rem:frequency>
@@ -3908,7 +3959,7 @@ Ninguno</rem:comments>
 <rem:number>2</rem:number>
 <rem:systemAction>
 <rem:description>
-redirige al veterinario a su sesión.</rem:description>
+redirige al <rem:ref oid="GLO-0019">veterinario</rem:ref> a su sesión.</rem:description>
 </rem:systemAction>
 <rem:comments>
 Ninguno</rem:comments>
@@ -4550,7 +4601,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-solo se permitirá un máximo de dos pacientes atendidos en peluquería en el mismo periodo de tiempo, así evitaría la sobrecarga de trabajo al peluquero.</rem:description>
+solo se permitirá un máximo de dos pacientes atendidos en peluquería en el mismo periodo de tiempo, así evitaría la sobrecarga de trabajo al <rem:ref oid="GLO-0038">peluquero</rem:ref>.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0004">
@@ -4580,7 +4631,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-Para que el cliente se registre tendrá que ser mayor de edad.</rem:description>
+Para que el <rem:ref oid="GLO-0138">cliente</rem:ref> se registre tendrá que ser mayor de edad.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0005">
@@ -4610,7 +4661,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-para reservar, modificar, y eliminar citas, el cliente debe estar registrado.</rem:description>
+para reservar, modificar, y eliminar citas, el <rem:ref oid="GLO-0138">cliente</rem:ref> debe estar registrado.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0006">
@@ -4670,7 +4721,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-Solo el gestor podrá realizar el registro de los trabajadores en el sistema.</rem:description>
+Solo el <rem:ref oid="GLO-0039">gestor</rem:ref> podrá realizar el registro de los trabajadores en el sistema.</rem:description>
 </rem:constraintRequirement>
 <rem:constraintRequirement
  oid = "CRQ-0008">
@@ -4760,7 +4811,7 @@ Ninguno</rem:comments>
 <rem:tbd/>
 </rem:stability>
 <rem:description>
-Para modificar el perfil del cliente o de la mascota, debe estar registrado.</rem:description>
+Para modificar el perfil del <rem:ref oid="GLO-0138">cliente</rem:ref> o de la mascota, debe estar registrado.</rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section
@@ -4822,12 +4873,12 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir que el veterinario genere un informe o un informe de vacunas y añadirlo al historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:description>
+permitir que el <rem:ref oid="GLO-0019">veterinario</rem:ref> genere un informe o un informe de vacunas y añadirlo al historial del <rem:ref oid="GLO-0015">paciente</rem:ref>.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0022">
 <rem:name>
-Notificación peluquero</rem:name>
+Notificación <rem:ref oid="GLO-0038">peluquero</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4844,7 +4895,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-notificar al peluquero cuando a este se le añada una cita de peluquería.</rem:description>
+notificar al <rem:ref oid="GLO-0038">peluquero</rem:ref> cuando a este se le añada una cita de peluquería.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0023">
@@ -4866,7 +4917,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir que el gestor modifique el horario de los trabajadores.</rem:description>
+permitir que el <rem:ref oid="GLO-0039">gestor</rem:ref> modifique el horario de los trabajadores.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0024">
@@ -4888,7 +4939,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0003"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir que el gestor modifique los datos de la cita.</rem:description>
+permitir que el <rem:ref oid="GLO-0039">gestor</rem:ref> modifique los datos de la cita.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0025">
@@ -4910,12 +4961,12 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir que el gestor cree citas, en el caso de que haya alguna persona que decida reservarla yendo directamente al establecimiento.</rem:description>
+permitir que el <rem:ref oid="GLO-0039">gestor</rem:ref> cree citas, en el caso de que haya alguna persona que decida reservarla yendo directamente al establecimiento.</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0026">
 <rem:name>
-Notificación veterinario</rem:name>
+Notificación <rem:ref oid="GLO-0019">veterinario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4932,7 +4983,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-notificar al veterinario en el caso de que se le añada una <rem:ref oid="GLO-0011">consulta</rem:ref> a atender</rem:description>
+notificar al <rem:ref oid="GLO-0019">veterinario</rem:ref> en el caso de que se le añada una <rem:ref oid="GLO-0011">consulta</rem:ref> a atender</rem:description>
 </rem:functionalRequirement>
 <rem:functionalRequirement
  oid = "FRQ-0028">
@@ -4981,7 +5032,7 @@ poder listar a los pacientes organizados por raza o especie</rem:description>
 <rem:functionalRequirement
  oid = "FRQ-0030">
 <rem:name>
-Notificación cliente</rem:name>
+Notificación <rem:ref oid="GLO-0138">cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -4998,7 +5049,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-notificar al cliente cuando se realice la reserva de su cita, para que acuda.</rem:description>
+notificar al <rem:ref oid="GLO-0138">cliente</rem:ref> cuando se realice la reserva de su cita, para que acuda.</rem:description>
 </rem:functionalRequirement>
 </rem:section>
 </rem:section>
@@ -5056,7 +5107,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0002"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-estar disponible 24/7, para poder atender al cliente en todo momento.<br/></rem:description>
+estar disponible 24/7, para poder atender al <rem:ref oid="GLO-0138">cliente</rem:ref> en todo momento.<br/></rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
@@ -5096,7 +5147,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0004"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir que el cliente pueda realizar su reserva de cita en máximo 6 clicks, y así asegurar un sistema claro y rápido.</rem:description>
+permitir que el <rem:ref oid="GLO-0138">cliente</rem:ref> pueda realizar su reserva de cita en máximo 6 clicks, y así asegurar un sistema claro y rápido.</rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
@@ -5136,7 +5187,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-tener seguimientos periódicos y si es necesario que se realicen mejores, y así ofrecerle en todo momento un sistema actualizado tanto al cliente como a los trabajadores.</rem:description>
+tener seguimientos periódicos y si es necesario que se realicen mejores, y así ofrecerle en todo momento un sistema actualizado tanto al <rem:ref oid="GLO-0138">cliente</rem:ref> como a los trabajadores.</rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
@@ -5239,7 +5290,7 @@ Ninguno</rem:comments>
 <rem:nonFunctionalRequirement
  oid = "NFR-0006">
 <rem:name>
-Acceso para el gestor</rem:name>
+Acceso para el <rem:ref oid="GLO-0039">gestor</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -5256,7 +5307,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-permitir al gestor acceder de forma exclusiva a la información de los clientes, para cumplir con la ley de protección de datos.<br/><br/></rem:description>
+permitir al <rem:ref oid="GLO-0039">gestor</rem:ref> acceder de forma exclusiva a la información de los clientes, para cumplir con la ley de protección de datos.<br/><br/></rem:description>
 </rem:nonFunctionalRequirement>
 </rem:section>
 <rem:section
@@ -5315,7 +5366,7 @@ Ninguno</rem:comments>
 <rem:status value = "STV-0005"/>
 <rem:stability value = "SBV-0003"/>
 <rem:description>
-la base de datos a utilizar será mediante SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.<br/><br/>Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.<br/><br/>Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.<br/><br/>También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el cliente. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.<br/><br/>Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.<br/><br/>Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.<br/><br/>Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.<br/></rem:description>
+la base de datos a utilizar será mediante SQL que es el lenguaje de programación estándar e interactivo para la obtención de información. Hemos elegido SQL porque ya hemos trabajado anteriormente con este lenguaje y siempre hemos obtenido buenos resultados y podemos utilizarlo con mayor facilidad.<br/><br/>Crearemos un proyecto que sea compatible como mínimo con los navegadores google Chrome y con Mozilla Firefox ya que son los más utilizados.<br/><br/>Los lenguajes para programar el funcionamiento de la página web serán principalmente PHP, con el que programaremos las funcionalidades de post, get, y delete, como puede ser la recogida de datos del formulario de los clientes o la reserva de las citas.<br/><br/>También usaremos Javascript, Jquery y Ajax para darle más dinamismo a la página web, ya que estos lenguajes o bibliotecas permiten añadir muchas funciones a objetos que con HTML y CSS serían solo objetos estáticos. Por ejemplo, podremos conseguir botones dinámicos que redirijan o ejecuten determinadas tareas de la web que necesitará el <rem:ref oid="GLO-0138">cliente</rem:ref>. Además de los mencionados HTML y CSS usaremos Bootstrap para agilizar y facilitar algunas partes del diseño de la web.<br/><br/>Entre los distintos editores de código hemos Visual Studio Code porque nos proporciona un mayor rendimiento, ya que podemos trabajar con todos los lenguajes comentados y tiene una interfaz muy amigable.<br/><br/>Tenemos la intención de tener un protocolo de comunicación basado en HTTPS para proporcionar una mayor seguridad y privacidad de los datos de los clientes, ya que al usar el protocolo HTTPS estaremos encriptando los mensajes y aunque sean interceptados por algún hacker no podrá saber la información.<br/><br/>Finalmente, hemos decidido que no será necesario usar un servidor dedicado, ya que no se dispone del presupuesto y principalmente porque no es necesario para la demanda que tendrá la clínica veterinaria. Usando el ordenador de la gestora como el propio servidor será suficiente.<br/></rem:description>
 </rem:constraintRequirement>
 </rem:section>
 <rem:section
@@ -5827,7 +5878,7 @@ Introducción</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>El Documento de Análisis del Sistema (DAS)consiste en un escrito técnico que no necesita ser aprobado por el cliente si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.<br/> En el DAS se recogerán la arquitectura lógica, los modelos de clases, los casos de uso, la interfaz de usuario y la interfaz de servicio; todo ello del mismo sistema a desarrollar.<br/></rem:text>
+<rem:text>El Documento de Análisis del Sistema (DAS)consiste en un escrito técnico que no necesita ser aprobado por el <rem:ref oid="GLO-0138">cliente</rem:ref> si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.<br/> En el DAS se recogerán la arquitectura lógica, los modelos de clases, los casos de uso, la interfaz de usuario y la interfaz de servicio; todo ello del mismo sistema a desarrollar.<br/></rem:text>
 </rem:paragraph>
 <rem:section
  oid = "SEC-0051">
@@ -5948,7 +5999,7 @@ Personas participantes</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un veterinario, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
+<rem:text>Durante el desarrollo del proyecto los componentes de nuestro grupo contarán con la información y ayuda de la dueña del establecimiento y de sus trabajadores. <br/><br/>La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. <br/><br/>La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un <rem:ref oid="GLO-0019">veterinario</rem:ref>, el cual realiza las revisiones de <rem:ref oid="GLO-0011">consulta</rem:ref> y las operaciones que haya que realizar. <br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -5984,7 +6035,7 @@ Copia de objetivos del proyecto</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>Los objetivos a conseguir fueron expuestos en la Especificación de Requisitos del Sistema (ERS), es decir, agilizar el proceso de atención al cliente en todo su flujo mediante la implementación de un sistema de solicitud de cita.<br/></rem:text>
+<rem:text>Los objetivos a conseguir fueron expuestos en la Especificación de Requisitos del Sistema (ERS), es decir, agilizar el proceso de atención al <rem:ref oid="GLO-0138">cliente</rem:ref> en todo su flujo mediante la implementación de un sistema de solicitud de cita.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -6072,7 +6123,7 @@ Descripción de la arquitectura lógica del sistema</rem:name>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En este apartado haremos una descripción textual de la arquitectura lógica del sistema. Nuestra arquitectura lógica estará basada en un modelo en capas. <br/><br/>La primera capa es la de presentación, es la capa que refleja la interfaz web que usará el usuario para interactuar con él SI. El objetivo es crear una forma de interactuar con él SI lo más amigable posible. Es la capa de más alto nivel (frontend).<br/><br/>También podemos observar la capa lógica de negocio, la cual se encarga de determinar las reglas por cual la información puede ser creada, almacenada y cambiada. En nuestro caso, la gestora, el veterinario y el peluquero serán los que creen la información relacionada con las citas o con los historiales médicos de los pacientes; esta información será guardada en la base de datos que existe. <br/><br/>La tercera capa es la de persistencia, esta se encarga de la interacción con la base de datos. Es la capa que realmente ejecuta los comandos necesarios(delete, insert, …) en la base de datos para realizar cambios. Encapsula el comportamiento necesario para mantener los objetos. O sea: leer, escribir y borrar objetos en el almacenamiento persistente (base de datos). La persistencia de la información es la parte más crítica en una aplicación de software.<br/><br/>El proyecto cuenta con una base de datos, la cual almacenará todos los datos de la veterinaria como ya hemos mencionado anteriormente.<br/><br/>Finalmente, tenemos la capa lógica del sistema. Utilizaremos el bus de servicios, que se encarga de gestionar la comunicación entre servicios webs, principalmente para llamar a la API del email. De esta forma, podremos mandar correos electrónicos a modo de recordatorio, de las citas de los clientes. De esta forma podemos evitar olvidos o despistes involuntarios.<br/></rem:text>
+<rem:text>En este apartado haremos una descripción textual de la arquitectura lógica del sistema. Nuestra arquitectura lógica estará basada en un modelo en capas. <br/><br/>La primera capa es la de presentación, es la capa que refleja la interfaz web que usará el usuario para interactuar con él SI. El objetivo es crear una forma de interactuar con él SI lo más amigable posible. Es la capa de más alto nivel (frontend).<br/><br/>También podemos observar la capa lógica de negocio, la cual se encarga de determinar las reglas por cual la información puede ser creada, almacenada y cambiada. En nuestro caso, la gestora, el <rem:ref oid="GLO-0019">veterinario</rem:ref> y el <rem:ref oid="GLO-0038">peluquero</rem:ref> serán los que creen la información relacionada con las citas o con los historiales médicos de los pacientes; esta información será guardada en la base de datos que existe. <br/><br/>La tercera capa es la de persistencia, esta se encarga de la interacción con la base de datos. Es la capa que realmente ejecuta los comandos necesarios(delete, insert, …) en la base de datos para realizar cambios. Encapsula el comportamiento necesario para mantener los objetos. O sea: leer, escribir y borrar objetos en el almacenamiento persistente (base de datos). La persistencia de la información es la parte más crítica en una aplicación de software.<br/><br/>El proyecto cuenta con una base de datos, la cual almacenará todos los datos de la veterinaria como ya hemos mencionado anteriormente.<br/><br/>Finalmente, tenemos la capa lógica del sistema. Utilizaremos el bus de servicios, que se encarga de gestionar la comunicación entre servicios webs, principalmente para llamar a la API del email. De esta forma, podremos mandar correos electrónicos a modo de recordatorio, de las citas de los clientes. De esta forma podemos evitar olvidos o despistes involuntarios.<br/></rem:text>
 </rem:paragraph>
 </rem:section>
 </rem:section>
@@ -6125,7 +6176,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: cliente, <rem:ref oid="GLO-0015">paciente</rem:ref>, informe, veterinario y cita. <br/><br/>En este modelo se muestran las relaciones entre clases y representan los pasos que se siguen en la realidad. En primer lugar, el cliente puede tener uno o varios pacientes, es decir, mascotas. El cliente es el que reserva la cita, y para ello debe estar registrado previamente en el sistema.<br/><br/>Por otro lado, podemos ver que el <rem:ref oid="GLO-0015">paciente</rem:ref> esta relacionado con uno o varios informes, que son creados por la veterinaria en el momento de la <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
+<rem:text>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: <rem:ref oid="GLO-0138">cliente</rem:ref>, <rem:ref oid="GLO-0015">paciente</rem:ref>, informe, <rem:ref oid="GLO-0019">veterinario</rem:ref> y cita. <br/><br/>En este modelo se muestran las relaciones entre clases y representan los pasos que se siguen en la realidad. En primer lugar, el <rem:ref oid="GLO-0138">cliente</rem:ref> puede tener uno o varios pacientes, es decir, mascotas. El <rem:ref oid="GLO-0138">cliente</rem:ref> es el que reserva la cita, y para ello debe estar registrado previamente en el sistema.<br/><br/>Por otro lado, podemos ver que el <rem:ref oid="GLO-0015">paciente</rem:ref> esta relacionado con uno o varios informes, que son creados por la veterinaria en el momento de la <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0105">
@@ -6142,7 +6193,7 @@ Ninguno</rem:comments>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:text>En la segunda página del UML adjunto podemos observar como continua el proceso de las citas y el resto de clases involucradas. En este caso tenemos al cliente y cita de nuevo, y a la peluquería, <rem:ref oid="GLO-0011">consulta</rem:ref>, urgencia, gestor, peluquera y veterinaria. <br/><br/>Podemos observar que el gestor es el que aministra la cita. Tenemos dos tipos de cita: peluquería y <rem:ref oid="GLO-0011">consulta</rem:ref>, de ahí que sea una herencia completa y disjunta. A su vez la <rem:ref oid="GLO-0011">consulta</rem:ref> puede ser una urgencia. L a peluquería es atendida por la peluquera y la <rem:ref oid="GLO-0011">consulta</rem:ref> por la veterinaria. </rem:text>
+<rem:text>En la segunda página del UML adjunto podemos observar como continua el proceso de las citas y el resto de clases involucradas. En este caso tenemos al <rem:ref oid="GLO-0138">cliente</rem:ref> y cita de nuevo, y a la peluquería, <rem:ref oid="GLO-0011">consulta</rem:ref>, urgencia, <rem:ref oid="GLO-0039">gestor</rem:ref>, peluquera y veterinaria. <br/><br/>Podemos observar que el <rem:ref oid="GLO-0039">gestor</rem:ref> es el que aministra la cita. Tenemos dos tipos de cita: peluquería y <rem:ref oid="GLO-0011">consulta</rem:ref>, de ahí que sea una herencia completa y disjunta. A su vez la <rem:ref oid="GLO-0011">consulta</rem:ref> puede ser una urgencia. L a peluquería es atendida por la peluquera y la <rem:ref oid="GLO-0011">consulta</rem:ref> por la veterinaria. </rem:text>
 </rem:glossaryItem>
 <rem:glossaryItem
  oid = "GLO-0106">
@@ -6182,7 +6233,7 @@ Ninguno</rem:comments>
 <rem:objectType
  oid = "TYP-0001">
 <rem:name>
-Cliente</rem:name>
+<rem:ref oid="GLO-0138">Cliente</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6214,7 +6265,7 @@ a los clientes registrados dentro del sistema, para que posteriormente puedan re
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-los pacientes, estos asistiran a las citas y a su vez tendrán asociados un historial a ellos mismos, que podrá ser visitado por su dueño (cliente).</rem:description>
+los pacientes, estos asistiran a las citas y a su vez tendrán asociados un historial a ellos mismos, que podrá ser visitado por su dueño (<rem:ref oid="GLO-0138">cliente</rem:ref>).</rem:description>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -6233,7 +6284,7 @@ Historial</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-los historiales que están asociados a cada <rem:ref oid="GLO-0015">paciente</rem:ref>, estos están compuestos por informes y vacunas, y son realizados por el veterinario durante la <rem:ref oid="GLO-0011">consulta</rem:ref>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</rem:description>
+los historiales que están asociados a cada <rem:ref oid="GLO-0015">paciente</rem:ref>, estos están compuestos por informes y vacunas, y son realizados por el <rem:ref oid="GLO-0019">veterinario</rem:ref> durante la <rem:ref oid="GLO-0011">consulta</rem:ref>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</rem:description>
 <rem:isAbstract/>
 <rem:disjointSubtypes/>
 </rem:objectType>
@@ -6253,7 +6304,7 @@ Informe</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-los informes realizados por el veterinario durante o tras una <rem:ref oid="GLO-0011">consulta</rem:ref>, en el se guardarán datos de la <rem:ref oid="GLO-0011">consulta</rem:ref> como el <rem:ref oid="GLO-0017">tratamiento</rem:ref> si se le asigna alguno al <rem:ref oid="GLO-0015">paciente</rem:ref>. </rem:description>
+los informes realizados por el <rem:ref oid="GLO-0019">veterinario</rem:ref> durante o tras una <rem:ref oid="GLO-0011">consulta</rem:ref>, en el se guardarán datos de la <rem:ref oid="GLO-0011">consulta</rem:ref> como el <rem:ref oid="GLO-0017">tratamiento</rem:ref> si se le asigna alguno al <rem:ref oid="GLO-0015">paciente</rem:ref>. </rem:description>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -6310,7 +6361,7 @@ las citas y los datos relevantes de las mismas, estás se dividen en dos tipos : 
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-las consultas, que son atendidas por un veterinario y que extienden de las citas, estás a su vez pueden tratarse de una urgencia. Durante el desarrollo de la <rem:ref oid="GLO-0011">consulta</rem:ref> o posteriormente el veterinario podrá generar un informe o informe de vacuna al <rem:ref oid="GLO-0015">paciente</rem:ref> que sea atendido. </rem:description>
+las consultas, que son atendidas por un <rem:ref oid="GLO-0019">veterinario</rem:ref> y que extienden de las citas, estás a su vez pueden tratarse de una urgencia. Durante el desarrollo de la <rem:ref oid="GLO-0011">consulta</rem:ref> o posteriormente el <rem:ref oid="GLO-0019">veterinario</rem:ref> podrá generar un informe o informe de vacuna al <rem:ref oid="GLO-0015">paciente</rem:ref> que sea atendido. </rem:description>
 </rem:objectType>
 <rem:objectType
  supertype = "TYP-0007" oid = "TYP-0008">
@@ -6347,7 +6398,7 @@ Peluquería</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-a las citas que son de peluquería. Estas son atendidas por el peluquero, que puede atender comomáximo a dos pacientes a la vez. Hereda de cita.<br/></rem:description>
+a las citas que son de peluquería. Estas son atendidas por el <rem:ref oid="GLO-0038">peluquero</rem:ref>, que puede atender comomáximo a dos pacientes a la vez. Hereda de cita.<br/></rem:description>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -6366,13 +6417,13 @@ Trabajador</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-a los trabajadores, dos tipos en específico, peluquero y veterinario que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es gestor a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</rem:description>
+a los trabajadores, dos tipos en específico, <rem:ref oid="GLO-0038">peluquero</rem:ref> y <rem:ref oid="GLO-0019">veterinario</rem:ref> que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es <rem:ref oid="GLO-0039">gestor</rem:ref> a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</rem:description>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
  supertype = "TYP-0010" oid = "TYP-0011">
 <rem:name>
-Veterinario</rem:name>
+<rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6391,7 +6442,7 @@ a los veterinarios, que al heredar de trabjadores consta de las mismas propiedad
 <rem:objectType
  supertype = "TYP-0010" oid = "TYP-0012">
 <rem:name>
-Peluquero</rem:name>
+<rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6423,7 +6474,7 @@ Horario de trabajo</rem:name>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:description>
-el horario dependiendo el dia de la semana de cada trabajador, puede ser modificado por un trabajador que sea gestor. Lo hemos planteado así ya que el horarió de los trabajadores podría variar según el día/semana/mes.</rem:description>
+el horario dependiendo el dia de la semana de cada trabajador, puede ser modificado por un trabajador que sea <rem:ref oid="GLO-0039">gestor</rem:ref>. Lo hemos planteado así ya que el horarió de los trabajadores podría variar según el día/semana/mes.</rem:description>
 <rem:disjointSubtypes/>
 </rem:objectType>
 </rem:section>
@@ -6711,43 +6762,28 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "TYP-0007"  target = "FRQ-0026" >
+<rem:trace source = "TYP-0001"  target = "FRQ-0028" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0025" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "IRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0009"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0002"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0003"  target = "FRQ-0020" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0005"  target = "IRQ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "IRQ-0004" >
+<rem:trace source = "TYP-0001"  target = "IRQ-0002" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0004"  target = "FRQ-0021" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0001"  target = "FRQ-0028" >
+<rem:trace source = "TYP-0005"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "IRQ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0002"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0003"  target = "FRQ-0020" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0002"  target = "FRQ-0029" >
@@ -6756,34 +6792,49 @@ Ninguno
 <rem:trace source = "TYP-0003"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0001"  target = "IRQ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0009"  target = "FRQ-0022" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0010"  target = "IRQ-0007" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0013"  target = "FRQ-0023" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "FRQ-0030" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0002"  target = "CRQ-0001" >
+<rem:trace source = "TYP-0006"  target = "FRQ-0025" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0004"  target = "IRQ-0003" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "FRQ-0022" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0009"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0010"  target = "IRQ-0007" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "IRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "IRQ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "FRQ-0030" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "FRQ-0026" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "TYP-0006"  target = "FRQ-0024" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0013"  target = "FRQ-0023" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
@@ -6809,9 +6860,9 @@ Real numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0002">
+ oid = "PVT-0006">
 <rem:name>
-Integer</rem:name>
+Time</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6822,9 +6873,9 @@ Integer</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type</rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Integer numbers</rem:description>
+Hour:minutes:seconds</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -6851,27 +6902,6 @@ Natural numbers</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0005">
-<rem:name>
-Date</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Dates</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
  oid = "PVT-0004">
 <rem:name>
 String</rem:name>
@@ -6893,9 +6923,30 @@ Alphanumeric strings</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0006">
+ oid = "PVT-0002">
 <rem:name>
-Time</rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0005">
+<rem:name>
+Date</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -6908,18 +6959,24 @@ Time</rem:name>
 <rem:comments>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
-Hour:minutes:seconds</rem:description>
+Dates</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
+<rem:changeRequestStatusValue oid = "CRV-0006">
+<rem:name>rechazado</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0002">
 <rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
@@ -6927,17 +6984,8 @@ Hour:minutes:seconds</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0006">
-<rem:name>rechazado</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
-</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
-</rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0002">
-<rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -6945,36 +6993,21 @@ Hour:minutes:seconds</rem:description>
 <rem:conflictStatusValue oid = "CSV-0004">
 <rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0002">
+<rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
-</rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
 <rem:name>Otro</rem:name>
 <rem:description>
@@ -6987,40 +7020,40 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
 <rem:name>Organización incorrecta</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0003">
@@ -7041,22 +7074,28 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0007">
 <rem:name>No implementabilidad</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[Por Determinar]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -7065,17 +7104,29 @@ Hour:minutes:seconds</rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
@@ -7083,14 +7134,14 @@ Hour:minutes:seconds</rem:description>
 <rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
 </rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0004">
-<rem:name>alta</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0005">
-<rem:name>validado</rem:name>
+<rem:stabilityValue oid = "SBV-0004">
+<rem:name>alta</rem:name>
+</rem:stabilityValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
@@ -7098,59 +7149,59 @@ Hour:minutes:seconds</rem:description>
 <rem:statusValue oid = "STV-0004">
 <rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
+<rem:statusValue oid = "STV-0005">
+<rem:name>validado</rem:name>
+</rem:statusValue>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0001">
-<rem:name>PD</rem:name>
-</rem:statusValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
+</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0001">
-<rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0001">
+<rem:name>PD</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0013">
-<rem:name>centésima(s) de segundo</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0014">
 <rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
+<rem:timeUnitValue oid = "TUV-0013">
+<rem:name>centésima(s) de segundo</rem:name>
+</rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>

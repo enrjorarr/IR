@@ -240,7 +240,7 @@ Glosario de acrónimos y abreviaturas</a>
 <a name="SEC-0050" />
 <h1 align="left">1 
 Introducción</h1><a name="PRG-0107" />
-<p>El Documento de Análisis del Sistema (DAS)consiste en un escrito técnico que no necesita ser aprobado por el cliente si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.
+<p>El Documento de Análisis del Sistema (DAS)consiste en un escrito técnico que no necesita ser aprobado por el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.
 <br /> En el DAS se recogerán la arquitectura lógica, los modelos de clases, los casos de uso, la interfaz de usuario y la interfaz de servicio; todo ello del mismo sistema a desarrollar.
 <br />
 </p>
@@ -263,13 +263,13 @@ Personas participantes</h3><a name="PRG-0111" />
 <br />
 <br />La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. 
 <br />
-<br />La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un veterinario, el cual realiza las revisiones de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> y las operaciones que haya que realizar. 
+<br />La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>, el cual realiza las revisiones de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> y las operaciones que haya que realizar. 
 <br />
 </p>
 <a name="SEC-0055" />
 <h2 align="left">1.3 
 Copia de Objetivos del proyecto</h2><a name="PRG-0109" />
-<p>Los objetivos a conseguir fueron expuestos en la Especificación de Requisitos del Sistema (ERS), es decir, agilizar el proceso de atención al cliente en todo su flujo mediante la implementación de un sistema de solicitud de cita.
+<p>Los objetivos a conseguir fueron expuestos en la Especificación de Requisitos del Sistema (ERS), es decir, agilizar el proceso de atención al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> en todo su flujo mediante la implementación de un sistema de solicitud de cita.
 <br />
 </p>
 <a name="SEC-0056" />
@@ -285,7 +285,7 @@ Descripción de la arquitectura del sistema</h2><a name="PRG-0103" />
 <br />
 <br />La primera capa es la de presentación, es la capa que refleja la interfaz web que usará el usuario para interactuar con él SI. El objetivo es crear una forma de interactuar con él SI lo más amigable posible. Es la capa de más alto nivel (frontend).
 <br />
-<br />También podemos observar la capa lógica de negocio, la cual se encarga de determinar las reglas por cual la información puede ser creada, almacenada y cambiada. En nuestro caso, la gestora, el veterinario y el peluquero serán los que creen la información relacionada con las citas o con los historiales médicos de los pacientes; esta información será guardada en la base de datos que existe. 
+<br />También podemos observar la capa lógica de negocio, la cual se encarga de determinar las reglas por cual la información puede ser creada, almacenada y cambiada. En nuestro caso, la gestora, el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> y el <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> serán los que creen la información relacionada con las citas o con los historiales médicos de los pacientes; esta información será guardada en la base de datos que existe. 
 <br />
 <br />La tercera capa es la de persistencia, esta se encarga de la interacción con la base de datos. Es la capa que realmente ejecuta los comandos necesarios(delete, insert, ?) en la base de datos para realizar cambios. Encapsula el comportamiento necesario para mantener los objetos. O sea: leer, escribir y borrar objetos en el almacenamiento persistente (base de datos). La persistencia de la información es la parte más crítica en una aplicación de software.
 <br />
@@ -300,16 +300,16 @@ Modelo de clases del sistema</h1><a name="SEC-0060" />
 <h2 align="left">3.1 
 Diagramas de clases del sistema</h2><a name="GLO-0104" />
 <p align="left">
-<b> UML-1:</b>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: cliente, <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, informe, veterinario y cita. 
+<b> UML-1:</b>En la página uno de los modelos conceptuales podemos observar la aparición de las siguientes clases: <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>, <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, informe, <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> y cita. 
 <br />
-<br />En este modelo se muestran las relaciones entre clases y representan los pasos que se siguen en la realidad. En primer lugar, el cliente puede tener uno o varios pacientes, es decir, mascotas. El cliente es el que reserva la cita, y para ello debe estar registrado previamente en el sistema.
+<br />En este modelo se muestran las relaciones entre clases y representan los pasos que se siguen en la realidad. En primer lugar, el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> puede tener uno o varios pacientes, es decir, mascotas. El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> es el que reserva la cita, y para ello debe estar registrado previamente en el sistema.
 <br />
 <br />Por otro lado, podemos ver que el <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> esta relacionado con uno o varios informes, que son creados por la veterinaria en el momento de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>.</p>
 <a name="GLO-0105" />
 <p align="left">
-<b> UML-2:</b>En la segunda página del UML adjunto podemos observar como continua el proceso de las citas y el resto de clases involucradas. En este caso tenemos al cliente y cita de nuevo, y a la peluquería, <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, urgencia, gestor, peluquera y veterinaria. 
+<b> UML-2:</b>En la segunda página del UML adjunto podemos observar como continua el proceso de las citas y el resto de clases involucradas. En este caso tenemos al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> y cita de nuevo, y a la peluquería, <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, urgencia, <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a>, peluquera y veterinaria. 
 <br />
-<br />Podemos observar que el gestor es el que aministra la cita. Tenemos dos tipos de cita: peluquería y <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, de ahí que sea una herencia completa y disjunta. A su vez la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> puede ser una urgencia. L a peluquería es atendida por la peluquera y la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> por la veterinaria. </p>
+<br />Podemos observar que el <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> es el que aministra la cita. Tenemos dos tipos de cita: peluquería y <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, de ahí que sea una herencia completa y disjunta. A su vez la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> puede ser una urgencia. L a peluquería es atendida por la peluquera y la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> por la veterinaria. </p>
 <a name="GLO-0106" />
 <p align="left">
 <b> UML-3:</b>En la tercera página del UML tenemos la relación de los trabajadores. Por un lado tenemos la clase trabajador, de la que heredan peluquera y veterinaria ya que guardan la misma información. A su vez trabajador tiene un horario de trabajo concreto que puede modificarse. 
@@ -321,8 +321,7 @@ Descripción de las clases del sistema</h2><a name="TYP-0001" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">TYP-0001</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Cliente</th>
+<th align="left" valign="top" width="100%" colspan="3"> Cliente</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -340,11 +339,6 @@ Cliente</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
-<a href="#CRQ-0001" title="Restricciones técnicas">
-                                [CRQ-0001] 
-Restricciones técnicas</a>
-</li>
-<li>
 <a href="#FRQ-0028" title="Clientes y pacientes">
                                 [FRQ-0028] 
 Clientes y pacientes</a>
@@ -353,6 +347,11 @@ Clientes y pacientes</a>
 <a href="#IRQ-0002" title="Información de clientes">
                                 [IRQ-0002] 
 Información de clientes</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Restricciones técnicas">
+                                [CRQ-0001] 
+Restricciones técnicas</a>
 </li>
 </td>
 </tr>
@@ -417,14 +416,14 @@ Ninguno</td>
 Información pacientes</a>
 </li>
 <li>
-<a href="#FRQ-0029" title="Listado de pacientes">
-                                [FRQ-0029] 
-Listado de pacientes</a>
-</li>
-<li>
 <a href="#CRQ-0001" title="Restricciones técnicas">
                                 [CRQ-0001] 
 Restricciones técnicas</a>
+</li>
+<li>
+<a href="#FRQ-0029" title="Listado de pacientes">
+                                [FRQ-0029] 
+Listado de pacientes</a>
 </li>
 </td>
 </tr>
@@ -433,7 +432,7 @@ Restricciones técnicas</a>
 <td colspan="3" align="left" valign="top">
     Este tipo de objetos representa
 <em>
-los pacientes, estos asistiran a las citas y a su vez tendrán asociados un historial a ellos mismos, que podrá ser visitado por su dueño (cliente).</em>
+los pacientes, estos asistiran a las citas y a su vez tendrán asociados un historial a ellos mismos, que podrá ser visitado por su dueño (<a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>).</em>
 </td>
 </tr>
 <tr>
@@ -500,7 +499,7 @@ Restricciones técnicas</a>
 <td colspan="3" align="left" valign="top">
     Este tipo abstracto de objetos representa
 <em>
-los historiales que están asociados a cada <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, estos están compuestos por informes y vacunas, y son realizados por el veterinario durante la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</em>
+los historiales que están asociados a cada <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, estos están compuestos por informes y vacunas, y son realizados por el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> durante la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</em>
 </td>
 </tr>
 <tr>
@@ -581,7 +580,7 @@ Información pacientes</a>
 <td colspan="3" align="left" valign="top">
     Este tipo de objetos representa
 <em>
-los informes realizados por el veterinario durante o tras una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, en el se guardarán datos de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> como el <a href="#GLO-0017" title="Conjunto de toda la medicación, posibles operaciones o radiaciones que el paciente reciba. Serán abonadas independientemente de precio de la consulta.">tratamiento</a> si se le asigna alguno al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>. </em>
+los informes realizados por el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> durante o tras una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, en el se guardarán datos de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> como el <a href="#GLO-0017" title="Conjunto de toda la medicación, posibles operaciones o radiaciones que el paciente reciba. Serán abonadas independientemente de precio de la consulta.">tratamiento</a> si se le asigna alguno al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>. </em>
 </td>
 </tr>
 <tr>
@@ -805,14 +804,14 @@ Ninguno</td>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
-<a href="#FRQ-0026" title="Notificación veterinario">
-                                [FRQ-0026] 
-Notificación veterinario</a>
-</li>
-<li>
 <a href="#OBJ-0002" title="Control de empleados">
                                 [OBJ-0002] 
 Control de empleados</a>
+</li>
+<li>
+<a href="#FRQ-0026" title="Notificación veterinario">
+                                [FRQ-0026] 
+Notificación veterinario</a>
 </li>
 </td>
 </tr>
@@ -821,7 +820,7 @@ Control de empleados</a>
 <td colspan="3" align="left" valign="top">
     Este tipo de objetos representa
 <em>
-las consultas, que son atendidas por un veterinario y que extienden de las citas, estás a su vez pueden tratarse de una urgencia. Durante el desarrollo de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> o posteriormente el veterinario podrá generar un informe o informe de vacuna al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> que sea atendido. </em>
+las consultas, que son atendidas por un <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> y que extienden de las citas, estás a su vez pueden tratarse de una urgencia. Durante el desarrollo de la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> o posteriormente el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> podrá generar un informe o informe de vacuna al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> que sea atendido. </em>
 </td>
 </tr>
 <tr>
@@ -946,14 +945,14 @@ Peluquería</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="3">
 <li>
-<a href="#CRQ-0001" title="Restricciones técnicas">
-                                [CRQ-0001] 
-Restricciones técnicas</a>
-</li>
-<li>
 <a href="#FRQ-0022" title="Notificación peluquero">
                                 [FRQ-0022] 
 Notificación peluquero</a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Restricciones técnicas">
+                                [CRQ-0001] 
+Restricciones técnicas</a>
 </li>
 </td>
 </tr>
@@ -962,7 +961,7 @@ Notificación peluquero</a>
 <td colspan="3" align="left" valign="top">
     Este tipo de objetos representa
 <em>
-a las citas que son de peluquería. Estas son atendidas por el peluquero, que puede atender comomáximo a dos pacientes a la vez. Hereda de cita.
+a las citas que son de peluquería. Estas son atendidas por el <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a>, que puede atender comomáximo a dos pacientes a la vez. Hereda de cita.
 <br />
 </em>
 </td>
@@ -1032,7 +1031,7 @@ Información trabajadores</a>
 <td colspan="3" align="left" valign="top">
     Este tipo de objetos representa
 <em>
-a los trabajadores, dos tipos en específico, peluquero y veterinario que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es gestor a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</em>
+a los trabajadores, dos tipos en específico, <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> y <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</em>
 </td>
 </tr>
 <tr>
@@ -1045,14 +1044,12 @@ a los trabajadores, dos tipos en específico, peluquero y veterinario que heredan
 <li>
 <a href="&#xA;										#TYP-0011">
 									[TYP-0011] 
-									
-Veterinario</a>
+									 Veterinario</a>
 </li>
 <li>
 <a href="&#xA;										#TYP-0012">
 									[TYP-0012] 
-									
-Peluquero</a>
+									 Peluquero</a>
 </li>
 </td>
 </tr>
@@ -1078,8 +1075,7 @@ Ninguno</td>
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">TYP-0011</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Veterinario</th>
+<th align="left" valign="top" width="100%" colspan="3"> Veterinario</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1140,8 +1136,7 @@ Ninguno</td>
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">TYP-0012</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Peluquero</th>
+<th align="left" valign="top" width="100%" colspan="3"> Peluquero</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1237,7 +1232,7 @@ Modificar horario</a>
 <td colspan="3" align="left" valign="top">
     Este tipo de objetos representa
 <em>
-el horario dependiendo el dia de la semana de cada trabajador, puede ser modificado por un trabajador que sea gestor. Lo hemos planteado así ya que el horarió de los trabajadores podría variar según el día/semana/mes.</em>
+el horario dependiendo el dia de la semana de cada trabajador, puede ser modificado por un trabajador que sea <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a>. Lo hemos planteado así ya que el horarió de los trabajadores podría variar según el día/semana/mes.</em>
 </td>
 </tr>
 <tr>
