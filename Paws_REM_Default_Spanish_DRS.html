@@ -240,7 +240,7 @@ Glosario de acrónimos y abreviaturas</a>
 <a name="SEC-0050" />
 <h1 align="left">1 
 Introducción</h1><a name="PRG-0107" />
-<p>El Documento de Análisis del Sistema (DAS)consiste en un escrito técnico que no necesita ser aprobado por el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.
+<p>El Documento de Análisis del Sistema (DAS) consiste en un escrito técnico que no necesita ser aprobado por el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> si no que sirve como medio de comunicación entre ingenieros de requisitos y desarrolladores.
 <br /> En el DAS se recogerán la arquitectura lógica, los modelos de clases, los casos de uso, la interfaz de usuario y la interfaz de servicio; todo ello del mismo sistema a desarrollar.
 <br />
 </p>
@@ -253,9 +253,9 @@ Alcance del proyecto</h2><a name="PRG-0108" />
 Participantes en el proyecto</h2><a name="SEC-0053" />
 <h3 align="left">1.2.1 
 Organizaciones participantes</h3><a name="PRG-0110" />
-<p>La única organización participante de este proyecto es la propia clínica veterinaria ?Huellas?. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por dos empleados y por la dueña de la veterinaria que a su vez trabaja de gestora. 
+<p>La única organización participante de este proyecto es la propia clínica veterinaria Huellas. Está situada en Badajoz, concretamente en Villanueva de la serena, y está formada por un empleado y por la dueña de la clínica que a su vez trabaja de gestora y veterinaria. 
 <br />
-<br />Esta veterinaria aunque puede ser pequeña y con pocos trabajadores tiene una gran demanda de trabajo, pues al estar situada en una zona de campo, tiene muchos clientes que están dedicados a la ganadería y necesitan del trabajo de ?Huellas? tanto para poder cuidar a sus animales como para poder certificar en ocasiones que están sanos y son de calidad como puede ser el caso de la crianza de los cerdos y de los caballos.</p>
+<br />Esta veterinaria aunque puede ser pequeña y con pocos trabajadores pero tiene una gran demanda de trabajo, pues al estar situada en una zona de campo, con poca competencia y donde es muy usual tener varias mascotas. Las mascotas son en la gran mayoria de los casos gatos , perros , hurones o conejos.</p>
 <a name="SEC-0054" />
 <h3 align="left">1.2.2 
 Personas participantes</h3><a name="PRG-0111" />
@@ -263,7 +263,7 @@ Personas participantes</h3><a name="PRG-0111" />
 <br />
 <br />La dueña además de llevar todo lo relacionado con el stock de la tienda y la economía en general del negocio, se encarga de administrar las citas de los clientes y el horario de trabajo de sus trabajadores. 
 <br />
-<br />La clínica también cuenta con una peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>, el cual realiza las revisiones de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> y las operaciones que haya que realizar. 
+<br />La clínica también cuenta con un trabajador con el rol de  peluquera, la cual se encarga simplemente de lavar y pelar al animal; y también cuenta con un <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> (la dueña de la clinica), la cual realiza las revisiones de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> y las operaciones que haya que realizar. 
 <br />
 </p>
 <a name="SEC-0055" />
@@ -287,7 +287,7 @@ Descripción de la arquitectura del sistema</h2><a name="PRG-0103" />
 <br />
 <br />También podemos observar la capa lógica de negocio, la cual se encarga de determinar las reglas por cual la información puede ser creada, almacenada y cambiada. En nuestro caso, la gestora, el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> y el <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> serán los que creen la información relacionada con las citas o con los historiales médicos de los pacientes; esta información será guardada en la base de datos que existe. 
 <br />
-<br />La tercera capa es la de persistencia, esta se encarga de la interacción con la base de datos. Es la capa que realmente ejecuta los comandos necesarios(delete, insert, ?) en la base de datos para realizar cambios. Encapsula el comportamiento necesario para mantener los objetos. O sea: leer, escribir y borrar objetos en el almacenamiento persistente (base de datos). La persistencia de la información es la parte más crítica en una aplicación de software.
+<br />La tercera capa es la de persistencia, esta se encarga de la interacción con la base de datos. Es la capa que realmente ejecuta los comandos necesarios(delete, insert) en la base de datos para realizar cambios. Encapsula el comportamiento necesario para mantener los objetos. O sea: leer, escribir y borrar objetos en el almacenamiento persistente (base de datos). La persistencia de la información es la parte más crítica en una aplicación de software.
 <br />
 <br />El proyecto cuenta con una base de datos, la cual almacenará todos los datos de la veterinaria como ya hemos mencionado anteriormente.
 <br />
