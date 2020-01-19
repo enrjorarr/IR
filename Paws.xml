@@ -8041,6 +8041,110 @@ Ninguno</rem:comments>
 Ninguno</rem:comments>
 <rem:description>
 a los clientes registrados dentro del sistema, para que posteriormente puedan reservar citas y se guarden los datos de sus respectivas mascotas asociadas a estos.</rem:description>
+<rem:attribute oid = "ATT-0219" baseType = "PVT-0005">
+<rem:name>
+fecha nacimiento</rem:name>
+<rem:description>
+la fecha de nacimiento del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0223" baseType = "PVT-0004">
+<rem:name>
+dni</rem:name>
+<rem:description>
+el documento nacional de identidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0224" baseType = "PVT-0004">
+<rem:name>
+nombre</rem:name>
+<rem:description>
+nombre del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0225" baseType = "PVT-0004">
+<rem:name>
+apellidos</rem:name>
+<rem:description>
+el apellido del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0226" baseType = "PVT-0003">
+<rem:name>
+número de teléfono</rem:name>
+<rem:description>
+el número de teléfono del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0227" baseType = "PVT-0004">
+<rem:name>
+dirección</rem:name>
+<rem:description>
+la dirección de procedencia del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0228" baseType = "PVT-0003">
+<rem:name>
+código postal</rem:name>
+<rem:description>
+el código postal de la ciudad de procedencia del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0229" baseType = "PVT-0004">
+<rem:name>
+email</rem:name>
+<rem:description>
+el correo electronico del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:component oid = "COM-0271" baseType = "TYP-0002">
+<rem:name>
+esDueñoDe</rem:name>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:isSet/>
+<rem:multiplicity>
+<rem:lowerBound>
+1</rem:lowerBound>
+<rem:upperBound>
+*</rem:upperBound>
+</rem:multiplicity>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:component>
+<rem:component oid = "COM-0272" baseType = "TYP-0015">
+<rem:name>
+reservaUna</rem:name>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:isSet/>
+<rem:multiplicity>
+<rem:lowerBound>
+1</rem:lowerBound>
+<rem:upperBound>
+*</rem:upperBound>
+</rem:multiplicity>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:component>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -8060,30 +8164,89 @@ a los clientes registrados dentro del sistema, para que posteriormente puedan re
 Ninguno</rem:comments>
 <rem:description>
 los pacientes, estos asistiran a las citas y a su vez tendrán asociados un historial a ellos mismos, que podrá ser visitado por su dueño (<rem:ref oid="GLO-0138">cliente</rem:ref>).</rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- oid = "TYP-0003">
+<rem:attribute oid = "ATT-0230" baseType = "PVT-0003">
 <rem:name>
-Historial</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
+número chip</rem:name>
+<rem:description>
+el número del chip que identifica al <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
 <rem:comments>
 Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0231" baseType = "PVT-0004">
+<rem:name>
+especie</rem:name>
 <rem:description>
-los historiales que están asociados a cada <rem:ref oid="GLO-0015">paciente</rem:ref>, estos están compuestos por informes y vacunas, y son realizados por el <rem:ref oid="GLO-0019">veterinario</rem:ref> durante la <rem:ref oid="GLO-0011">consulta</rem:ref>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</rem:description>
-<rem:isAbstract/>
+la especie del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0232" baseType = "PVT-0004">
+<rem:name>
+raza</rem:name>
+<rem:description>
+la raza del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0233" baseType = "PVT-0004">
+<rem:name>
+género</rem:name>
+<rem:description>
+el género del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0234" baseType = "PVT-0004">
+<rem:name>
+color pelo</rem:name>
+<rem:description>
+el color del pelo del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0235" baseType = "PVT-0005">
+<rem:name>
+fecha de nacimiento </rem:name>
+<rem:description>
+la fecha de nacimiento del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:component oid = "COM-0274" baseType = "TYP-0006">
+<rem:name>
+asisteA</rem:name>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:isSet/>
+<rem:multiplicity>
+<rem:lowerBound>
+1</rem:lowerBound>
+<rem:upperBound>
+*</rem:upperBound>
+</rem:multiplicity>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:component>
+<rem:component oid = "COM-0275" baseType = "TYP-0001">
+<rem:name>
+perteneceA</rem:name>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:component>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
- supertype = "TYP-0003" oid = "TYP-0004">
+ oid = "TYP-0004">
 <rem:name>
 Informe</rem:name>
 <rem:version>
@@ -8099,10 +8262,64 @@ Informe</rem:name>
 Ninguno</rem:comments>
 <rem:description>
 los informes realizados por el <rem:ref oid="GLO-0019">veterinario</rem:ref> durante o tras una <rem:ref oid="GLO-0011">consulta</rem:ref>, en el se guardarán datos de la <rem:ref oid="GLO-0011">consulta</rem:ref> como el <rem:ref oid="GLO-0017">tratamiento</rem:ref> si se le asigna alguno al <rem:ref oid="GLO-0015">paciente</rem:ref>. </rem:description>
+<rem:attribute oid = "ATT-0237" baseType = "PVT-0004">
+<rem:name>
+<rem:ref oid="GLO-0139">anamnesis</rem:ref></rem:name>
+<rem:description>
+ el cojunto de preguntas previas a la <rem:ref oid="GLO-0011">consulta</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0238" baseType = "PVT-0004">
+<rem:name>
+exploración</rem:name>
+<rem:description>
+la exploración que se le realiza al <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0239" baseType = "PVT-0004">
+<rem:name>
+síntomas</rem:name>
+<rem:description>
+los síntomas del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0240" baseType = "PVT-0004">
+<rem:name>
+diagnóstico</rem:name>
+<rem:description>
+el diagnóstico del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0241" baseType = "PVT-0004">
+<rem:name>
+<rem:ref oid="GLO-0017">tratamiento</rem:ref></rem:name>
+<rem:description>
+el <rem:ref oid="GLO-0017">tratamiento</rem:ref> del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:component oid = "COM-0276" baseType = "TYP-0007">
+<rem:name>
+creaUna</rem:name>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:component>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
- supertype = "TYP-0003" oid = "TYP-0005">
+ oid = "TYP-0005">
 <rem:name>
 Vacunas</rem:name>
 <rem:version>
@@ -8118,6 +8335,49 @@ Vacunas</rem:name>
 Ninguno</rem:comments>
 <rem:description>
 las vacunas a las que se debe someter al <rem:ref oid="GLO-0015">paciente</rem:ref> y aquellas que ya se han realizado. </rem:description>
+<rem:attribute oid = "ATT-0243" baseType = "PVT-0004">
+<rem:name>
+nombre</rem:name>
+<rem:description>
+el nombre de la vacuna</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0244" baseType = "PVT-0003">
+<rem:name>
+primera vacuna</rem:name>
+<rem:description>
+la primera vacuna del <rem:ref oid="GLO-0015">paciente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0245" baseType = "PVT-0003">
+<rem:name>
+periodicidad</rem:name>
+<rem:description>
+la frecuencia con la que se debe poner dicha vacuna</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:component oid = "COM-0277" baseType = "TYP-0007">
+<rem:name>
+seCreaEn</rem:name>
+<rem:description>
+<rem:tbd/></rem:description>
+<rem:isSet/>
+<rem:multiplicity>
+<rem:lowerBound>
+0</rem:lowerBound>
+<rem:upperBound>
+*</rem:upperBound>
+</rem:multiplicity>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:component>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -8137,6 +8397,33 @@ Cita</rem:name>
 Ninguno</rem:comments>
 <rem:description>
 las citas y los datos relevantes de las mismas, estás se dividen en dos tipos : citas de peluquería o consultas.</rem:description>
+<rem:attribute oid = "ATT-0246" baseType = "PVT-0005">
+<rem:name>
+horario</rem:name>
+<rem:description>
+el horario de la cita</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0247" baseType = "PVT-0003">
+<rem:name>
+duración</rem:name>
+<rem:description>
+la duración de la cita</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0248" baseType = "PVT-0003">
+<rem:name>
+coste</rem:name>
+<rem:description>
+el coste de la cita</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -8174,6 +8461,15 @@ Urgencia</rem:name>
 Ninguno</rem:comments>
 <rem:description>
 un tipo de <rem:ref oid="GLO-0011">consulta</rem:ref> de urgencia, esta implicaría desplazamiento si es necesario o bien una <rem:ref oid="GLO-0011">consulta</rem:ref> fuera de horario. Hereda de <rem:ref oid="GLO-0011">consulta</rem:ref>.</rem:description>
+<rem:attribute oid = "ATT-0249" baseType = "PVT-0004">
+<rem:name>
+dirección</rem:name>
+<rem:description>
+la dirección en la que se ha producido la urgencia</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
@@ -8196,26 +8492,7 @@ a las citas que son de peluquería. Estas son atendidas por el <rem:ref oid="GLO-
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
- oid = "TYP-0010">
-<rem:name>
-Trabajador</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2019</rem:year>
-<rem:month>12</rem:month>
-<rem:day>14</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:description>
-a los trabajadores, dos tipos en específico, <rem:ref oid="GLO-0038">peluquero</rem:ref> y <rem:ref oid="GLO-0019">veterinario</rem:ref> que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es <rem:ref oid="GLO-0039">gestor</rem:ref> a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</rem:description>
-<rem:disjointSubtypes/>
-</rem:objectType>
-<rem:objectType
- supertype = "TYP-0010" oid = "TYP-0011">
+ supertype = "TYP-0014" oid = "TYP-0011">
 <rem:name>
 <rem:ref oid="GLO-0019">Veterinario</rem:ref></rem:name>
 <rem:version>
@@ -8231,10 +8508,28 @@ a los trabajadores, dos tipos en específico, <rem:ref oid="GLO-0038">peluquero</
 Ninguno</rem:comments>
 <rem:description>
 a los veterinarios, que al heredar de trabjadores consta de las mismas propiedades más el número de licenciado y su especialización (si ha realizado alguna). </rem:description>
+<rem:attribute oid = "ATT-0263" baseType = "PVT-0004">
+<rem:name>
+número colegiado</rem:name>
+<rem:description>
+el número de colegiado del <rem:ref oid="GLO-0019">veterinario</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0264" baseType = "PVT-0003">
+<rem:name>
+especialización</rem:name>
+<rem:description>
+la especialización del <rem:ref oid="GLO-0019">veterinario</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
 <rem:disjointSubtypes/>
 </rem:objectType>
 <rem:objectType
- supertype = "TYP-0010" oid = "TYP-0012">
+ supertype = "TYP-0014" oid = "TYP-0012">
 <rem:name>
 <rem:ref oid="GLO-0038">Peluquero</rem:ref></rem:name>
 <rem:version>
@@ -8269,6 +8564,441 @@ Horario de trabajo</rem:name>
 Ninguno</rem:comments>
 <rem:description>
 el horario dependiendo el dia de la semana de cada trabajador, puede ser modificado por un trabajador que sea <rem:ref oid="GLO-0039">gestor</rem:ref>. Lo hemos planteado así ya que el horarió de los trabajadores podría variar según el día/semana/mes.</rem:description>
+<rem:attribute oid = "ATT-0265" baseType = "PVT-0003">
+<rem:name>
+día semana</rem:name>
+<rem:description>
+el dia de la semana en el que ha trabajado</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0267" baseType = "PVT-0006">
+<rem:name>
+hora comienzo</rem:name>
+<rem:description>
+la hora de comienzo de la cita</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0268" baseType = "PVT-0006">
+<rem:name>
+hora fin</rem:name>
+<rem:description>
+la hora de fin de la cita</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ oid = "TYP-0014">
+<rem:name>
+Trabajador</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+a los trabajadores, dos tipos en específico, <rem:ref oid="GLO-0038">peluquero</rem:ref> y <rem:ref oid="GLO-0019">veterinario</rem:ref> que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es <rem:ref oid="GLO-0039">gestor</rem:ref> a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</rem:description>
+<rem:attribute oid = "ATT-0253" baseType = "PVT-0005">
+<rem:name>
+fecha nacimiento</rem:name>
+<rem:description>
+la fecha de nacimiento del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0254" baseType = "PVT-0004">
+<rem:name>
+dni</rem:name>
+<rem:description>
+el documento nacional de identidad</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0255" baseType = "PVT-0004">
+<rem:name>
+nombre</rem:name>
+<rem:description>
+nombre del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0256" baseType = "PVT-0004">
+<rem:name>
+apellidos</rem:name>
+<rem:description>
+el apellido del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0257" baseType = "PVT-0003">
+<rem:name>
+número de teléfono</rem:name>
+<rem:description>
+el número de teléfono del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0258" baseType = "PVT-0004">
+<rem:name>
+dirección</rem:name>
+<rem:description>
+la dirección de procedencia del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0259" baseType = "PVT-0003">
+<rem:name>
+código postal</rem:name>
+<rem:description>
+el código postal de la ciudad de procedencia del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0260" baseType = "PVT-0004">
+<rem:name>
+email</rem:name>
+<rem:description>
+el correo electronico del <rem:ref oid="GLO-0138">cliente</rem:ref></rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0261" baseType = "PVT-0003">
+<rem:name>
+sueldo</rem:name>
+<rem:description>
+el salario mensual del trabajador</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:attribute oid = "ATT-0262" baseType = "PVT-0003">
+<rem:name>
+esGestor</rem:name>
+<rem:description>
+la propiedad define si es <rem:ref oid="GLO-0039">gestor</rem:ref> o no el trabajador</rem:description>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:isVariable/>
+</rem:attribute>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ oid = "TYP-0015">
+<rem:name>
+<rem:ref oid="GLO-0039">Gestor</rem:ref></rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+al encargado de controlar la clínica</rem:description>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0005" oid = "TYP-0016">
+<rem:name>
+Vacuna: Gatos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+el tipo de vacunas para gatos</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0005" oid = "TYP-0017">
+<rem:name>
+Vacuna: Hurones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+el tipo de vacunas para hurones</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0005" oid = "TYP-0018">
+<rem:name>
+Vacuna: Conejos</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+el tipo de vacunas para conejos</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0005" oid = "TYP-0019">
+<rem:name>
+Vacuna: Perros</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+el tipo de vacunas para perros</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0017" oid = "TYP-0020">
+<rem:name>
+Moquillo</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0017" oid = "TYP-0021">
+<rem:name>
+Rabia Hurón</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0018" oid = "TYP-0022">
+<rem:name>
+Fiebre hemorrágica</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0018" oid = "TYP-0023">
+<rem:name>
+Mixomatosis</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0016" oid = "TYP-0024">
+<rem:name>
+Rabia Gato</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0016" oid = "TYP-0025">
+<rem:name>
+Leucemia felina</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0016" oid = "TYP-0026">
+<rem:name>
+Trivalente felina</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0019" oid = "TYP-0027">
+<rem:name>
+Rabia Perruna</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0019" oid = "TYP-0028">
+<rem:name>
+Primovacunaciones</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
+<rem:disjointSubtypes/>
+</rem:objectType>
+<rem:objectType
+ supertype = "TYP-0019" oid = "TYP-0029">
+<rem:name>
+Polivalente</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:description>
+la vacuna específica</rem:description>
+<rem:isAbstract/>
 <rem:disjointSubtypes/>
 </rem:objectType>
 </rem:section>
@@ -10358,121 +11088,16 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "TYP-0002"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "UC-0011"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0003"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0008"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0014"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0006"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0006"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0009"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0012"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0006"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0003"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0010"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0004"  target = "OBJ-0003" >
+<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0006"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0003"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0004"  target = "FRQ-0021" >
+<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0007"  target = "OBJ-0002" >
@@ -10481,118 +11106,127 @@ Ninguno
 <rem:trace source = "TYP-0009"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0006"  target = "OBJ-0003" >
+<rem:trace source = "TYP-0004"  target = "FRQ-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0004"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0012"  target = "OBJ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0008"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0014"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0013"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "OBJ-0010"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0028"  target = "CRQ-0001" >
+<rem:trace source = "UC-0002"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0031"  target = "OBJ-0012" >
+<rem:trace source = "UC-0007"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0033"  target = "OBJ-0012" >
+<rem:trace source = "UC-0007"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0025"  target = "OBJ-0004" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0025"  target = "OBJ-0008" >
+<rem:trace source = "UC-0003"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "OBJ-0004" >
+<rem:trace source = "OBJ-0010"  target = "OBJ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0020"  target = "OBJ-0004" >
+<rem:trace source = "OBJ-0006"  target = "OBJ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0008"  target = "OBJ-0008" >
+<rem:trace source = "UC-0001"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0021"  target = "OBJ-0010" >
+<rem:trace source = "UC-0002"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0028"  target = "OBJ-0010" >
+<rem:trace source = "UC-0003"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0032"  target = "OBJ-0012" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0034"  target = "OBJ-0012" >
+<rem:trace source = "UC-0005"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0007"  target = "OBJ-0009" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0030"  target = "OBJ-0008" >
+<rem:trace source = "UC-0005"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0025"  target = "OBJ-0012" >
+<rem:trace source = "OBJ-0009"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0035"  target = "OBJ-0006" >
+<rem:trace source = "IRQ-0003"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0003"  target = "OBJ-0004" >
+<rem:trace source = "UC-0006"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0010"  target = "OBJ-0011" >
+<rem:trace source = "IRQ-0004"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0002"  target = "OBJ-0004" >
+<rem:trace source = "IRQ-0004"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0029"  target = "OBJ-0010" >
+<rem:trace source = "UC-0004"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0009"  target = "OBJ-0009" >
+<rem:trace source = "UC-0008"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0006"  target = "OBJ-0009" >
+<rem:trace source = "UC-0010"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0010"  target = "OBJ-0010" >
+<rem:trace source = "UC-0011"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0020"  target = "OBJ-0010" >
+<rem:trace source = "UC-0004"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0022"  target = "OBJ-0008" >
+<rem:trace source = "IRQ-0007"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0024"  target = "OBJ-0008" >
+<rem:trace source = "IRQ-0009"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0004"  target = "OBJ-0006" >
+<rem:trace source = "IRQ-0003"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0008"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0024"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0024"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0004"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0026"  target = "OBJ-0008" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0004"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
+<rem:trace source = "IRQ-0008"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0009"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0009"  target = "OBJ-0010" >
@@ -10601,52 +11235,145 @@ Ninguno
 <rem:trace source = "IRQ-0008"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0006" >
+<rem:trace source = "FRQ-0030"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0009"  target = "OBJ-0012" >
+<rem:trace source = "FRQ-0026"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0010" >
+<rem:trace source = "FRQ-0025"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0045"  target = "OBJ-0008" >
+<rem:trace source = "FRQ-0021"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0041"  target = "OBJ-0010" >
+<rem:trace source = "CRQ-0010"  target = "OBJ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0038"  target = "OBJ-0010" >
+<rem:trace source = "FRQ-0020"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0043"  target = "OBJ-0009" >
+<rem:trace source = "FRQ-0032"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0020"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0028"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0034"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0029"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0035"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0036"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0035"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0036"  target = "OBJ-0012" >
+<rem:trace source = "FRQ-0037"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0037"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "FRQ-0035"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0033"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0025"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0035"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0024"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0024"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0028"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0024"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0031"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0008"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0036"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "FRQ-0039"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0036"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0022"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0008"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0009"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0025"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0006"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0041"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0044"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0040"  target = "OBJ-0010" >
+<rem:trace source = "FRQ-0041"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0037"  target = "OBJ-0010" >
+<rem:trace source = "FRQ-0038"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0045"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0040"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0045"  target = "OBJ-0004" >
@@ -10655,13 +11382,58 @@ Ninguno
 <rem:trace source = "FRQ-0038"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "FRQ-0043"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "FRQ-0042"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0041"  target = "OBJ-0012" >
+<rem:trace source = "TYP-0014"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
+<rem:predefinedValueType
+ oid = "PVT-0003">
+<rem:name>
+Natural</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Natural numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0002">
+<rem:name>
+Integer</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type</rem:comments>
+<rem:description>
+Integer numbers</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0005">
 <rem:name>
@@ -10679,6 +11451,27 @@ Date</rem:name>
 Predefined OCL type (non-standard)</rem:comments>
 <rem:description>
 Dates</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -10725,69 +11518,6 @@ Alphanumeric strings</rem:description>
 (null)
 </rem:definition>
 </rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0006">
-<rem:name>
-Time</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
-<rem:description>
-Hour:minutes:seconds</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
-<rem:predefinedValueType
- oid = "PVT-0002">
-<rem:name>
-Integer</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Integer numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
 <rem:changeRequestStatusValue oid = "CRV-0002">
@@ -10799,49 +11529,49 @@ Integer numbers</rem:description>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0001">
-<rem:name>PD</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0003">
 <rem:name>pendiente de aprobar/rechazar</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0004">
-<rem:name>resuelto</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0001">
+<rem:name>PD</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0001">
 <rem:name>PD</rem:name>
 </rem:conflictStatusValue>
-<rem:conflictStatusValue oid = "CSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:conflictStatusValue oid = "CSV-0004">
+<rem:name>resuelto</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
 </rem:conflictStatusValue>
-<rem:defectStatusValue oid = "DSV-0004">
-<rem:name>eliminado</rem:name>
+<rem:conflictStatusValue oid = "CSV-0003">
+<rem:name>en proceso de negociación</rem:name>
+</rem:conflictStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
+<rem:defectStatusValue oid = "DSV-0004">
+<rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0011">
-<rem:name>Imprecisión</rem:name>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0006">
@@ -10856,16 +11586,10 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0017">
-<rem:name>Organización incorrecta</rem:name>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0001">
@@ -10874,22 +11598,10 @@ Integer numbers</rem:description>
 <![CDATA[Por Determinar]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0009">
-<rem:name>Dependiente del diseño</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0002">
@@ -10898,34 +11610,40 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
-</rem:description>
-</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
 <rem:name>No verificabilidad</rem:name>
 <rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
+<rem:defectTypeValue oid = "DTV-0017">
+<rem:name>Organización incorrecta</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+<![CDATA[El requisito o requisitos no están organizados correctamente según la normativa aplicada o el documento no contiene las secciones obligatorias]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0011">
+<rem:name>Imprecisión</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0009">
+<rem:name>Dependiente del diseño</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0023">
@@ -10934,83 +11652,89 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:importanceValue oid = "IMV-0004">
-<rem:name>quedaría bien</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0003">
-<rem:name>importante</rem:name>
-</rem:importanceValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:importanceValue oid = "IMV-0001">
 <rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0004">
+<rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0002">
 <rem:name>vital</rem:name>
 </rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0003">
-<rem:name>media</rem:name>
-</rem:stabilityValue>
+<rem:importanceValue oid = "IMV-0003">
+<rem:name>importante</rem:name>
+</rem:importanceValue>
 <rem:stabilityValue oid = "SBV-0002">
 <rem:name>baja</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
-<rem:statusValue oid = "STV-0001">
+<rem:stabilityValue oid = "SBV-0001">
 <rem:name>PD</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0002">
-<rem:name>en construcción</rem:name>
-</rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0003">
+<rem:name>media</rem:name>
+</rem:stabilityValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0002">
-<rem:name>continúa</rem:name>
-</rem:terminationValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0002">
+<rem:name>en construcción</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0001">
+<rem:name>PD</rem:name>
+</rem:statusValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
+</rem:terminationValue>
+<rem:terminationValue oid = "TEV-0002">
+<rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0003">
 <rem:name>queda sin efecto</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0010">
-<rem:name>minuto(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0002">
-<rem:name>año(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0007">
 <rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0008">
-<rem:name>día(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0002">
+<rem:name>año(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0008">
+<rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
@@ -11021,17 +11745,23 @@ Integer numbers</rem:description>
 <rem:timeUnitValue oid = "TUV-0012">
 <rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0010">
+<rem:name>minuto(s)</rem:name>
+</rem:timeUnitValue>
+<rem:urgencyValue oid = "URV-0003">
+<rem:name>hay presión</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0001">
+<rem:name>PD</rem:name>
+</rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0004">
 <rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0001">
-<rem:name>PD</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0003">
-<rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>

@@ -400,19 +400,285 @@ a los clientes registrados dentro del sistema, para que posteriormente puedan re
 <td colspan="3" align="left" valign="top">Ninguno</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top" rowspan="3">Componentes</th>
 <th align="left" valign="top">Nombre</th>
 <th align="left" valign="top">Tipo</th>
 <th align="left" valign="top">Multiplicidad</th>
 </tr>
 <tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
+<a name="COM-0271" />
+<td align="left" valign="top">
+esDueñoDe</td>
+<td align="left" valign="top">
+<code>
+            Set(
+         Paciente
+        )
+    </code>
+</td>
+<td align="left" valign="top">
+1..
+                                
+*</td>
+</tr>
+<tr>
+<a name="COM-0272" />
+<td align="left" valign="top">
+reservaUna</td>
+<td align="left" valign="top">
+<code>
+            Set(
+         Gestor
+        )
+    </code>
+</td>
+<td align="left" valign="top">
+1..
+                                
+*</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0219" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+fecha nacimiento</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la fecha de nacimiento del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Date</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0223" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+dni</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el documento nacional de identidad</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0224" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+nombre</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+nombre del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0225" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+apellidos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el apellido del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0226" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+número de teléfono</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el número de teléfono del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0227" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+dirección</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la dirección de procedencia del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0228" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+código postal</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el código postal de la ciudad de procedencia del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0229" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Cliente::
+email</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el correo electronico del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
 Ninguno</td>
 </tr>
 </table>
@@ -462,15 +728,38 @@ los pacientes, estos asistiran a las citas y a su vez tendrán asociados un histo
 <td colspan="3" align="left" valign="top">Ninguno</td>
 </tr>
 <tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top" rowspan="3">Componentes</th>
 <th align="left" valign="top">Nombre</th>
 <th align="left" valign="top">Tipo</th>
 <th align="left" valign="top">Multiplicidad</th>
 </tr>
 <tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
+<a name="COM-0274" />
+<td align="left" valign="top">
+asisteA</td>
+<td align="left" valign="top">
+<code>
+            Set(
+        
+Cita
+        )
+    </code>
+</td>
+<td align="left" valign="top">
+1..
+                                
+*</td>
+</tr>
+<tr>
+<a name="COM-0275" />
+<td align="left" valign="top">
+perteneceA</td>
+<td align="left" valign="top">
+<code> Cliente</code>
+</td>
+<td align="left" valign="top">
+                                1
+                            </td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
@@ -479,78 +768,182 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="TYP-0003" />
+<a name="ATT-0230" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0003</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Historial</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 14/12/2019 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">
-<li>
-<a href="#CRQ-0001" title="Restricciones técnicas">
-                                [CRQ-0001] 
-Restricciones técnicas</a>
-</li>
-</td>
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Paciente::
+número chip</th>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo abstracto de objetos representa
+<td align="left" valign="top">
+    Este atributo representa
 <em>
-los historiales que están asociados a cada <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, estos están compuestos por informes y vacunas, y son realizados por el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> durante la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>. Pueden ser consultados por los propios veterinarios y los clientes podrán acceder a ellos .</em>
+el número del chip que identifica al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
 </td>
 </tr>
 <tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos (disjuntos)</th>
-<td colspan="3" align="left" valign="top">
-<li>
-<a href="&#xA;										#TYP-0004">
-									[TYP-0004] 
-									
-Informe</a>
-</li>
-<li>
-<a href="&#xA;										#TYP-0005">
-									[TYP-0005] 
-									
-Vacunas</a>
-</li>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
 <th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0231" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Paciente::
+especie</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la especie del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0232" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Paciente::
+raza</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la raza del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0233" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Paciente::
+género</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el género del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0234" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Paciente::
+color pelo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el color del pelo del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0235" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Paciente::
+fecha de nacimiento </th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la fecha de nacimiento del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Date</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
 Ninguno</td>
 </tr>
 </table>
@@ -594,12 +987,7 @@ los informes realizados por el <a href="#GLO-0019" title="Profesional en medicin
 </tr>
 <tr>
 <th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">
-<a href="&#xA;								#TYP-0003">
-							[TYP-0003] 
-							
-Historial</a>
-</td>
+<td colspan="3" align="left" valign="top">Ninguno</td>
 </tr>
 <tr>
 <th align="left" valign="top">Subtipos</th>
@@ -612,13 +1000,172 @@ Historial</a>
 <th align="left" valign="top">Multiplicidad</th>
 </tr>
 <tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
+<a name="COM-0276" />
+<td align="left" valign="top">
+creaUna</td>
+<td align="left" valign="top">
+<code> Consulta</code>
+</td>
+<td align="left" valign="top">
+                                1
+                            </td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0237" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Informe:: anamnesis</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+ el cojunto de preguntas previas a la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0238" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Informe::
+exploración</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la exploración que se le realiza al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0239" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Informe::
+síntomas</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+los síntomas del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0240" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Informe::
+diagnóstico</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el diagnóstico del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0241" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Informe:: tratamiento</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el <a href="#GLO-0017" title="Conjunto de toda la medicación, posibles operaciones o radiaciones que el paciente reciba. Serán abonadas independientemente de precio de la consulta.">tratamiento</a> del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
 Ninguno</td>
 </tr>
 </table>
@@ -656,16 +1203,36 @@ las vacunas a las que se debe someter al <a href="#GLO-0015" title="Animal que r
 </tr>
 <tr>
 <th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">
-<a href="&#xA;								#TYP-0003">
-							[TYP-0003] 
-							
-Historial</a>
-</td>
+<td colspan="3" align="left" valign="top">Ninguno</td>
 </tr>
 <tr>
-<th align="left" valign="top">Subtipos</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0016">
+									[TYP-0016] 
+									
+Vacuna: Gatos</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0017">
+									[TYP-0017] 
+									
+Vacuna: Hurones</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0018">
+									[TYP-0018] 
+									
+Vacuna: Conejos</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0019">
+									[TYP-0019] 
+									
+Vacuna: Perros</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top" rowspan="2">Componentes</th>
@@ -674,13 +1241,115 @@ Historial</a>
 <th align="left" valign="top">Multiplicidad</th>
 </tr>
 <tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
+<a name="COM-0277" />
+<td align="left" valign="top">
+seCreaEn</td>
+<td align="left" valign="top">
+<code>
+            Set(
+         Consulta
+        )
+    </code>
+</td>
+<td align="left" valign="top">
+0..
+                                
+*</td>
 </tr>
 <tr>
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0243" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Vacunas::
+nombre</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el nombre de la vacuna</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0244" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Vacunas::
+primera vacuna</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la primera vacuna del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0245" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Vacunas::
+periodicidad</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la frecuencia con la que se debe poner dicha vacuna</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
 Ninguno</td>
 </tr>
 </table>
@@ -761,6 +1430,96 @@ Peluquería</a>
 <tr>
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0246" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Cita::
+horario</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el horario de la cita</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Date</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0247" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Cita::
+duración</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la duración de la cita</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0248" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Cita::
+coste</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el coste de la cita</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
 Ninguno</td>
 </tr>
 </table>
@@ -900,6 +1659,36 @@ Ninguno</td>
 </tr>
 </table>
 <p />
+<a name="ATT-0249" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Urgencia::
+dirección</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la dirección en la que se ha producido la urgencia</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
 <a name="TYP-0009" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
@@ -970,74 +1759,6 @@ Ninguno</td>
 </tr>
 </table>
 <p />
-<a name="TYP-0010" />
-<table border="1" width="100%">
-<tr bgcolor="#c8e0e0">
-<th align="left" valign="top">TYP-0010</th>
-<th align="left" valign="top" width="100%" colspan="3">
-Trabajador</th>
-</tr>
-<tr>
-<th align="left" valign="top">Versión</th>
-<td align="left" valign="top" colspan="3">1.0 
-			( 14/12/2019 )
-        </td>
-</tr>
-<tr>
-<th align="left" valign="top">Autores</th>
-<td align="left" valign="top" colspan="3">
-<font color="red"><b>?</b></font>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="3">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Descripción</th>
-<td colspan="3" align="left" valign="top">
-    Este tipo de objetos representa
-<em>
-a los trabajadores, dos tipos en específico, <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> y <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</em>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Supertipo</th>
-<td colspan="3" align="left" valign="top">Ninguno</td>
-</tr>
-<tr>
-<th align="left" valign="top">Subtipos (disjuntos)</th>
-<td colspan="3" align="left" valign="top">
-<li>
-<a href="&#xA;										#TYP-0011">
-									[TYP-0011] 
-									 Veterinario</a>
-</li>
-<li>
-<a href="&#xA;										#TYP-0012">
-									[TYP-0012] 
-									 Peluquero</a>
-</li>
-</td>
-</tr>
-<tr>
-<th align="left" valign="top" rowspan="2">Componentes</th>
-<th align="left" valign="top">Nombre</th>
-<th align="left" valign="top">Tipo</th>
-<th align="left" valign="top">Multiplicidad</th>
-</tr>
-<tr>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-<td align="left" valign="top">-</td>
-</tr>
-<tr>
-<th align="left" valign="top">Comentarios</th>
-<td align="left" valign="top" colspan="3">
-Ninguno</td>
-</tr>
-</table>
-<p />
 <a name="TYP-0011" />
 <table border="1" width="100%">
 <tr bgcolor="#c8e0e0">
@@ -1071,8 +1792,8 @@ a los veterinarios, que al heredar de trabjadores consta de las mismas propiedad
 <tr>
 <th align="left" valign="top">Supertipo</th>
 <td colspan="3" align="left" valign="top">
-<a href="&#xA;								#TYP-0010">
-							[TYP-0010] 
+<a href="&#xA;								#TYP-0014">
+							[TYP-0014] 
 							
 Trabajador</a>
 </td>
@@ -1095,6 +1816,66 @@ Trabajador</a>
 <tr>
 <th align="left" valign="top">Comentarios</th>
 <td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0263" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Veterinario::
+número colegiado</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el número de colegiado del <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0264" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%"> Veterinario::
+especialización</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la especialización del <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
 Ninguno</td>
 </tr>
 </table>
@@ -1132,8 +1913,8 @@ peluqueros, que al heredar de trabajador tiene las mismas propiedades y además l
 <tr>
 <th align="left" valign="top">Supertipo</th>
 <td colspan="3" align="left" valign="top">
-<a href="&#xA;								#TYP-0010">
-							[TYP-0010] 
+<a href="&#xA;								#TYP-0014">
+							[TYP-0014] 
 							
 Trabajador</a>
 </td>
@@ -1194,6 +1975,1465 @@ el horario dependiendo el dia de la semana de cada trabajador, puede ser modific
 <tr>
 <th align="left" valign="top">Supertipo</th>
 <td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0265" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Horario de trabajo::
+día semana</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el dia de la semana en el que ha trabajado</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0267" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Horario de trabajo::
+hora comienzo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la hora de comienzo de la cita</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Time</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0268" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Horario de trabajo::
+hora fin</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la hora de fin de la cita</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Time</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0014" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0014</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Trabajador</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">
+<li>
+<a href="#CRQ-0001" title="Restricciones técnicas">
+                                [CRQ-0001] 
+Restricciones técnicas</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+a los trabajadores, dos tipos en específico, <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cortar y arreglar el pelo de los animales.">peluquero</a> y <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> que heredan del mismo, de ambos se guardan la misma información, al igual que una variable que indica si el trabajador es <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> a su vez (ya que actualmente la veterinaria es la gestora). A su vez cada trabajador tiene asignado una serie de horarios de trabajo que representan las horas que tienen que trabajar cada día de la semana.</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0011">
+									[TYP-0011] 
+									 Veterinario</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0012">
+									[TYP-0012] 
+									 Peluquero</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0253" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+fecha nacimiento</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la fecha de nacimiento del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Date</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0254" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+dni</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el documento nacional de identidad</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0255" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+nombre</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+nombre del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0256" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+apellidos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el apellido del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0257" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+número de teléfono</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el número de teléfono del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0258" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+dirección</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la dirección de procedencia del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0259" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+código postal</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el código postal de la ciudad de procedencia del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0260" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+email</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el correo electronico del <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>
+</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+String</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0261" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+sueldo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+el salario mensual del trabajador</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="ATT-0262" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top" nowrap="1">Atributo variable</th>
+<th align="left" valign="top" width="100%">
+Trabajador::
+esGestor</th>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td align="left" valign="top">
+    Este atributo representa
+<em>
+la propiedad define si es <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> o no el trabajador</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Tipo</th>
+<td align="left" valign="top">
+<code>
+Natural</code>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="1">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0015" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0015</th>
+<th align="left" valign="top" width="100%" colspan="3"> Gestor</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo de objetos representa
+<em>
+al encargado de controlar la clínica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0016" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0016</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Vacuna: Gatos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+el tipo de vacunas para gatos</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0005">
+							[TYP-0005] 
+							
+Vacunas</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0024">
+									[TYP-0024] 
+									
+Rabia Gato</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0025">
+									[TYP-0025] 
+									
+Leucemia felina</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0026">
+									[TYP-0026] 
+									
+Trivalente felina</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0017" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0017</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Vacuna: Hurones</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+el tipo de vacunas para hurones</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0005">
+							[TYP-0005] 
+							
+Vacunas</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0020">
+									[TYP-0020] 
+									
+Moquillo</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0021">
+									[TYP-0021] 
+									
+Rabia Hurón</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0018" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0018</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Vacuna: Conejos</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+el tipo de vacunas para conejos</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0005">
+							[TYP-0005] 
+							
+Vacunas</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0022">
+									[TYP-0022] 
+									
+Fiebre hemorrágica</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0023">
+									[TYP-0023] 
+									
+Mixomatosis</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0019" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0019</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Vacuna: Perros</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+el tipo de vacunas para perros</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0005">
+							[TYP-0005] 
+							
+Vacunas</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos (disjuntos)</th>
+<td colspan="3" align="left" valign="top">
+<li>
+<a href="&#xA;										#TYP-0027">
+									[TYP-0027] 
+									
+Rabia Perruna</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0028">
+									[TYP-0028] 
+									
+Primovacunaciones</a>
+</li>
+<li>
+<a href="&#xA;										#TYP-0029">
+									[TYP-0029] 
+									
+Polivalente</a>
+</li>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0020" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0020</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Moquillo</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0017">
+							[TYP-0017] 
+							
+Vacuna: Hurones</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0021" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0021</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Rabia Hurón</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0017">
+							[TYP-0017] 
+							
+Vacuna: Hurones</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0022" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0022</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Fiebre hemorrágica</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0018">
+							[TYP-0018] 
+							
+Vacuna: Conejos</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0023" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0023</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Mixomatosis</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0018">
+							[TYP-0018] 
+							
+Vacuna: Conejos</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0024" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0024</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Rabia Gato</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0016">
+							[TYP-0016] 
+							
+Vacuna: Gatos</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0025" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0025</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Leucemia felina</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0016">
+							[TYP-0016] 
+							
+Vacuna: Gatos</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0026" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0026</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Trivalente felina</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0016">
+							[TYP-0016] 
+							
+Vacuna: Gatos</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0027" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0027</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Rabia Perruna</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0019">
+							[TYP-0019] 
+							
+Vacuna: Perros</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0028" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0028</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Primovacunaciones</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0019">
+							[TYP-0019] 
+							
+Vacuna: Perros</a>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Subtipos</th>
+<td colspan="3" align="left" valign="top">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top" rowspan="2">Componentes</th>
+<th align="left" valign="top">Nombre</th>
+<th align="left" valign="top">Tipo</th>
+<th align="left" valign="top">Multiplicidad</th>
+</tr>
+<tr>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+<td align="left" valign="top">-</td>
+</tr>
+<tr>
+<th align="left" valign="top">Comentarios</th>
+<td align="left" valign="top" colspan="3">
+Ninguno</td>
+</tr>
+</table>
+<p />
+<a name="TYP-0029" />
+<table border="1" width="100%">
+<tr bgcolor="#c8e0e0">
+<th align="left" valign="top">TYP-0029</th>
+<th align="left" valign="top" width="100%" colspan="3">
+Polivalente</th>
+</tr>
+<tr>
+<th align="left" valign="top">Versión</th>
+<td align="left" valign="top" colspan="3">1.0 
+			( 19/01/2020 )
+        </td>
+</tr>
+<tr>
+<th align="left" valign="top">Autores</th>
+<td align="left" valign="top" colspan="3">
+<font color="red"><b>?</b></font>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Dependencias</th>
+<td align="left" valign="top" colspan="3">Ninguno</td>
+</tr>
+<tr>
+<th align="left" valign="top">Descripción</th>
+<td colspan="3" align="left" valign="top">
+    Este tipo abstracto de objetos representa
+<em>
+la vacuna específica</em>
+</td>
+</tr>
+<tr>
+<th align="left" valign="top">Supertipo</th>
+<td colspan="3" align="left" valign="top">
+<a href="&#xA;								#TYP-0019">
+							[TYP-0019] 
+							
+Vacuna: Perros</a>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Subtipos</th>
