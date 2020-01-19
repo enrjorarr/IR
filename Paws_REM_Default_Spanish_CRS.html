@@ -1603,7 +1603,7 @@ Requisitos generales del sistema</h2><a name="OBJ-0004" />
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">OBJ-0004</th>
 <th align="left" valign="top" width="100%">
-Reservar citas</th>
+Gestionar citas</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -1628,7 +1628,7 @@ Reservar citas</th>
 <td align="left" valign="top">
     El sistema deberá 
 <em>
-permitir reservar citas.</em>
+permitir reservar/modificar/eliminar y generar datos relevantes de las citas.</em>
 </td>
 </tr>
 <tr>
@@ -2247,7 +2247,18 @@ Registro de <a href="#GLO-0138" title="Persona que abona la factura y es respons
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -2434,7 +2445,18 @@ Registro de <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servi
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -2647,7 +2669,18 @@ Reservar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -2887,7 +2920,18 @@ Modificar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -3136,7 +3180,18 @@ Eliminar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -3344,7 +3399,18 @@ Modificar perfil <a href="#GLO-0138" title="Persona que abona la factura y es re
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -3558,7 +3624,18 @@ Modificar perfil <a href="#GLO-0015" title="Animal que recibe cualquier tipo de 
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -3789,7 +3866,13 @@ Rellenar historial</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -4014,7 +4097,13 @@ Crear perfil trabajador</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -4227,7 +4316,13 @@ Modificar perfil trabajador</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -4458,7 +4553,13 @@ Ninguno</td>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -4671,7 +4772,13 @@ Ninguno</td>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -4893,7 +5000,13 @@ Ninguno</td>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5086,7 +5199,18 @@ Horario trabajadores</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5192,7 +5316,23 @@ Información de clientes</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5313,7 +5453,23 @@ Información pacientes</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5429,7 +5585,23 @@ Información de citas</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5535,7 +5707,13 @@ Información trabajadores</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5657,7 +5835,18 @@ Información del informe</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5777,7 +5966,23 @@ Información de las vacunas</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="2">Ninguno</td>
+<td align="left" valign="top" colspan="2">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -5893,9 +6098,9 @@ Reserva de citas</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0004" title="Reservar citas">
+<a href="#OBJ-0004" title="Gestionar citas">
                                 [OBJ-0004] 
-Reservar citas</a>
+Gestionar citas</a>
 </li>
 </td>
 </tr>
@@ -5965,7 +6170,13 @@ Pacientes en peluquería máximo</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6033,7 +6244,18 @@ Mayoría de edad</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6169,7 +6391,18 @@ Un trabajador por cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6237,7 +6470,13 @@ Registro de trabajadores</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6305,7 +6544,18 @@ Cancelación cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6373,7 +6623,13 @@ Jornada trabajador</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6441,7 +6697,18 @@ Modificación de perfil</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0011" title="Creación de estadísticas">
+                                [OBJ-0011] 
+Creación de estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6511,7 +6778,18 @@ Requisitos de conducta del sistema</h3><a name="FRQ-0020" />
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6571,7 +6849,13 @@ Informe historial</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6632,7 +6916,13 @@ Notificación <a href="#GLO-0038" title="Persona que tiene por oficio peinar, cor
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6692,7 +6982,23 @@ Modificar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6752,7 +7058,23 @@ Crear cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6813,7 +7135,13 @@ Notificación <a href="#GLO-0019" title="Profesional en medicina animal. En este 
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6873,7 +7201,18 @@ Clientes y pacientes</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#CRQ-0001" title="Restricciones técnicas">
+                                [CRQ-0001] 
+Restricciones técnicas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6933,7 +7272,13 @@ Listado de pacientes</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -6994,7 +7339,13 @@ Notificación <a href="#GLO-0138" title="Persona que abona la factura y es respon
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7054,7 +7405,13 @@ Estadísticas citas</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7122,7 +7479,13 @@ Estadisticas vacunas</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7190,7 +7553,13 @@ Estadísticas mapa de calor</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7258,7 +7627,13 @@ Estadística visita animales </th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7327,7 +7702,23 @@ Añadir <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio t
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7396,7 +7787,18 @@ Modificar <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servici
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7464,7 +7866,18 @@ Eliminar cita</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7533,7 +7946,18 @@ Modificar perfil <a href="#GLO-0138" title="Persona que abona la factura y es re
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7601,7 +8025,13 @@ Mostrar historiales</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7669,7 +8099,13 @@ Mostrar citas</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7737,7 +8173,18 @@ Crear/Actualizar historial</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7805,7 +8252,13 @@ Lista empleados</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7873,7 +8326,13 @@ Modificar perf trabajador</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7941,7 +8400,13 @@ Añadir empleado</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
+                                [OBJ-0009] 
+Gestión de la información de los trabajadores</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -7988,7 +8453,7 @@ Ninguno</td>
 <tr bgcolor="#c8e0e0">
 <th align="left" valign="top">FRQ-0045</th>
 <th align="left" valign="top" width="100%">
-Creación/Modificación/Elinación de citas Gestora</th>
+Creación/Modificación/Eliminación de citas Gestora</th>
 </tr>
 <tr>
 <th align="left" valign="top">Versión</th>
@@ -8010,7 +8475,18 @@ Creación/Modificación/Elinación de citas Gestora</th>
 </tr>
 <tr>
 <th align="left" valign="top">Dependencias</th>
-<td align="left" valign="top" colspan="1">Ninguno</td>
+<td align="left" valign="top" colspan="1">
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
+</li>
+</td>
 </tr>
 <tr>
 <th align="left" valign="top">Descripción</th>
@@ -8509,172 +8985,1152 @@ Ninguno</td>
 <a name="SEC-0048" />
 <h2 align="left">6.6 
 Requisitos de integración del sistema</h2><a name="PRG-0117" />
-<p>Actualmente no contamos con muchos sistemas que queramos integrar a nuestro proyecto. Por el momento solo hemos decidido que podemos integrar un iframe de Google Maps para poder mostrar al usuario de la web, la locación exacta de la clínica veterinaria ?Huellas?. 
+<p>Actualmente no contamos con muchos sistemas que queramos integrar a nuestro proyecto. Por el momento solo hemos decidido que podemos integrar un iframe de Google Maps para poder mostrar al usuario de la web, la locación exacta de la clínica veterinaria Huellas. 
 <br />
 <br />
 </p>
 <a name="SEC-0049" />
 <h2 align="left">6.7 
-Información sobre trazabilidad</h2><a name="TRM-0001" />
+Información sobre trazabilidad</h2><a name="PRG-0147" />
+<p>En relación a las siguientes matrices de trazabilidad cabe destacar que :
+<br />
+<br />Los objetivos [OBJ-0001] [OBJ-0002] [OBJ-0003] [OBJ-0011] son objetivos del proyecto. Los objetivos restantes son requisitos generales del sistema. Este problema estará presente en todas las matrices.
+<br />
+<br />En cuanto a los requisitos no funcionales,restricciones tecnicas y requisitos de información hemos considerado que no era necesario generar una matriz pues realmente son independientes.</p>
+<a name="TRM-0003" />
 <table border="1" width="100%">
 <tr>
-<th bgcolor="#c8e0e0">TRM-0001</th>
+<th bgcolor="#c8e0e0">TRM-0003</th>
 <th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0001" title="Almacenamiento de los datos del cliente">OBJ-0001</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0002" title="Control de empleados">OBJ-0002</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0003" title="Reserva de citas">OBJ-0003</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0004" title="Gestionar citas">OBJ-0004</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0006" title="Registro de cliente y paciente">OBJ-0006</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0008" title="Notificar cancelación y aproximación de cita">OBJ-0008</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0009" title="Gestión de la información de los trabajadores">OBJ-0009</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0010" title="Gestión de información de clientes y pacientes">OBJ-0010</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0011" title="Creación de estadísticas">OBJ-0011</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0012" title="Representación de las estadísticas">OBJ-0012</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0001" title="Almacenamiento de los datos del cliente">OBJ-0001</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0002" title="Control de empleados">OBJ-0002</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0003" title="Reserva de citas">OBJ-0003</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0004" title="Gestionar citas">OBJ-0004</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0006" title="Registro de cliente y paciente">OBJ-0006</a>
+</th>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0008" title="Notificar cancelación y aproximación de cita">OBJ-0008</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0009" title="Gestión de la información de los trabajadores">OBJ-0009</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0010" title="Gestión de información de clientes y pacientes">OBJ-0010</a>
+</th>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0011" title="Creación de estadísticas">OBJ-0011</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0012" title="Representación de las estadísticas">OBJ-0012</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+</table>
+<p align="center">
+<b>Matriz de rastreabilidad</b>:
+        
+RG vs OP</p>
+<a name="TRM-0004" />
+<table border="1" width="100%">
+<tr>
+<th bgcolor="#c8e0e0">TRM-0004</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0001" title="Almacenamiento de los datos del cliente">OBJ-0001</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0002" title="Control de empleados">OBJ-0002</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0003" title="Reserva de citas">OBJ-0003</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0004" title="Gestionar citas">OBJ-0004</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0006" title="Registro de cliente y paciente">OBJ-0006</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0008" title="Notificar cancelación y aproximación de cita">OBJ-0008</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0009" title="Gestión de la información de los trabajadores">OBJ-0009</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0010" title="Gestión de información de clientes y pacientes">OBJ-0010</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0011" title="Creación de estadísticas">OBJ-0011</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0012" title="Representación de las estadísticas">OBJ-0012</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0001" title="Registro de cliente">UC-0001</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0002" title="Registro de paciente">UC-0002</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0003" title="Reservar cita">UC-0003</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0004" title="Modificar cita">UC-0004</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0005" title="Eliminar cita">UC-0005</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0006" title="Modificar perfil cliente">UC-0006</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0007" title="Modificar perfil paciente">UC-0007</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0008" title="Rellenar historial">UC-0008</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0010" title="Crear perfil trabajador">UC-0010</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0011" title="Modificar perfil trabajador">UC-0011</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0012" title="Gestor crear citas">UC-0012</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0013" title="Gestor modifica citas">UC-0013</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #UC-0014" title="Gestor eliminar citas">UC-0014</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+</table>
+<p align="center">
+<b>Matriz de rastreabilidad</b>:
+        
+UC vs RG</p>
+<a name="TRM-0005" />
+<table border="1" width="100%">
+<tr>
+<th bgcolor="#c8e0e0">TRM-0005</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0001" title="Almacenamiento de los datos del cliente">OBJ-0001</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0002" title="Control de empleados">OBJ-0002</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0003" title="Reserva de citas">OBJ-0003</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0004" title="Gestionar citas">OBJ-0004</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0006" title="Registro de cliente y paciente">OBJ-0006</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0008" title="Notificar cancelación y aproximación de cita">OBJ-0008</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0009" title="Gestión de la información de los trabajadores">OBJ-0009</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0010" title="Gestión de información de clientes y pacientes">OBJ-0010</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0011" title="Creación de estadísticas">OBJ-0011</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0012" title="Representación de las estadísticas">OBJ-0012</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0001" title="Horario trabajadores">IRQ-0001</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0002" title="Información de clientes">IRQ-0002</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0003" title="Información pacientes">IRQ-0003</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0004" title="Información de citas">IRQ-0004</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0007" title="Información trabajadores">IRQ-0007</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0008" title="Información del informe">IRQ-0008</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #IRQ-0009" title="Información de las vacunas">IRQ-0009</a>
 </th>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0001" title="Cliente">TYP-0001</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0002" title="Paciente">TYP-0002</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0003" title="Historial">TYP-0003</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0004" title="Informe">TYP-0004</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0005" title="Vacunas">TYP-0005</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0006" title="Cita">TYP-0006</a>
-</th>
 <td align="center" valign="top">
                 -
             </td>
@@ -8696,101 +10152,6 @@ Información sobre trazabilidad</h2><a name="TRM-0001" />
 <td align="center" valign="top">
                 -
             </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0007" title="Consulta">TYP-0007</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0008" title="Urgencia">TYP-0008</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0009" title="Peluquería">TYP-0009</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0010" title="Trabajador">TYP-0010</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
@@ -8798,173 +10159,1213 @@ Información sobre trazabilidad</h2><a name="TRM-0001" />
                 -
             </td>
 <td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0011" title="Veterinario">TYP-0011</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0012" title="Peluquero">TYP-0012</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0013" title="Horario de trabajo">TYP-0013</a>
-</th>
-<td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 </table>
 <p align="center">
 <b>Matriz de rastreabilidad</b>:
         
-Requisitos de información</p>
-<a name="TRM-0002" />
+RI vs RG</p>
+<a name="TRM-0006" />
 <table border="1" width="100%">
 <tr>
-<th bgcolor="#c8e0e0">TRM-0002</th>
+<th bgcolor="#c8e0e0">TRM-0006</th>
 <th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0001" title="Almacenamiento de los datos del cliente">OBJ-0001</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0002" title="Control de empleados">OBJ-0002</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0003" title="Reserva de citas">OBJ-0003</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0004" title="Gestionar citas">OBJ-0004</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0006" title="Registro de cliente y paciente">OBJ-0006</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0008" title="Notificar cancelación y aproximación de cita">OBJ-0008</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0009" title="Gestión de la información de los trabajadores">OBJ-0009</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0010" title="Gestión de información de clientes y pacientes">OBJ-0010</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0011" title="Creación de estadísticas">OBJ-0011</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0012" title="Representación de las estadísticas">OBJ-0012</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0001" title="Restricciones técnicas">CRQ-0001</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0002" title="Reserva de citas">CRQ-0002</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0003" title="Pacientes en peluquería máximo">CRQ-0003</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0004" title="Mayoría de edad">CRQ-0004</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0005" title="Registro necesario">CRQ-0005</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0006" title="Un trabajador por cita">CRQ-0006</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0007" title="Registro de trabajadores">CRQ-0007</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0008" title="Cancelación cita">CRQ-0008</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0009" title="Jornada trabajador">CRQ-0009</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #CRQ-0010" title="Modificación de perfil">CRQ-0010</a>
+</th>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+</table>
+<p align="center">
+<b>Matriz de rastreabilidad</b>:
+        
+RN vs RG</p>
+<a name="TRM-0007" />
+<table border="1" width="100%">
+<tr>
+<th bgcolor="#c8e0e0">TRM-0007</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0001" title="Almacenamiento de los datos del cliente">OBJ-0001</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0002" title="Control de empleados">OBJ-0002</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0003" title="Reserva de citas">OBJ-0003</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0004" title="Gestionar citas">OBJ-0004</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0006" title="Registro de cliente y paciente">OBJ-0006</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0008" title="Notificar cancelación y aproximación de cita">OBJ-0008</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0009" title="Gestión de la información de los trabajadores">OBJ-0009</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0010" title="Gestión de información de clientes y pacientes">OBJ-0010</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0011" title="Creación de estadísticas">OBJ-0011</a>
+</th>
+<th align="center" valign="top" bgcolor="#c8e0e0">
+<a href="&#xA;                        #OBJ-0012" title="Representación de las estadísticas">OBJ-0012</a>
+</th>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0020" title="Paciente historial">FRQ-0020</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0021" title="Informe historial">FRQ-0021</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0022" title="Notificación peluquero">FRQ-0022</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0024" title="Modificar cita">FRQ-0024</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0025" title="Crear cita">FRQ-0025</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0026" title="Notificación veterinario">FRQ-0026</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0028" title="Clientes y pacientes">FRQ-0028</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0029" title="Listado de pacientes">FRQ-0029</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0030" title="Notificación cliente">FRQ-0030</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0031" title="Estadísticas citas">FRQ-0031</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0032" title="Estadisticas vacunas">FRQ-0032</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0033" title="Estadísticas mapa de calor">FRQ-0033</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0034" title="Estadística visita animales">FRQ-0034</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0035" title="Añadir paciente">FRQ-0035</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0036" title="Modificar paciente">FRQ-0036</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0037" title="Eliminar cita">FRQ-0037</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0038" title="Modificar perfil cliente">FRQ-0038</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0039" title="Mostrar historiales">FRQ-0039</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0040" title="Mostrar citas">FRQ-0040</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0041" title="Crear/Actualizar historial">FRQ-0041</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0042" title="Lista empleados">FRQ-0042</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0043" title="Modificar perf trabajador">FRQ-0043</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
+</td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+<td align="center" valign="top">
+                -
+            </td>
+</tr>
+<tr>
+<th align="left" valign="top" bgcolor="#c8e0e0">
 <a href="&#xA;                        #FRQ-0044" title="Añadir empleado">FRQ-0044</a>
 </th>
-<th align="center" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #FRQ-0045" title="Creación/Modificación/Elinación de citas Gestora">FRQ-0045</a>
-</th>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0001" title="Cliente">TYP-0001</a>
-</th>
 <td align="center" valign="top">
                 -
             </td>
@@ -8995,360 +11396,10 @@ Requisitos de información</p>
 <td align="center" valign="top">
                 -
             </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
 </tr>
 <tr>
 <th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0002" title="Paciente">TYP-0002</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0003" title="Historial">TYP-0003</a>
-</th>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0004" title="Informe">TYP-0004</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0005" title="Vacunas">TYP-0005</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0006" title="Cita">TYP-0006</a>
+<a href="&#xA;                        #FRQ-0045" title="Creación/Modificación/Eliminación de citas Gestora">FRQ-0045</a>
 </th>
 <td align="center" valign="top">
                 -
@@ -9363,592 +11414,11 @@ Requisitos de información</p>
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
 <td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
                 -
             </td>
 <td align="center" valign="top">
 <img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
 </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0007" title="Consulta">TYP-0007</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0008" title="Urgencia">TYP-0008</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0009" title="Peluquería">TYP-0009</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-<img src="&#xA;C:\Program Files (x86)\REM 1.2.2\xml\default\trace.gif&#xA;" />
-</td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0010" title="Trabajador">TYP-0010</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0011" title="Veterinario">TYP-0011</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0012" title="Peluquero">TYP-0012</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-</tr>
-<tr>
-<th align="left" valign="top" bgcolor="#c8e0e0">
-<a href="&#xA;                        #TYP-0013" title="Horario de trabajo">TYP-0013</a>
-</th>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
-<td align="center" valign="top">
-                -
-            </td>
 <td align="center" valign="top">
                 -
             </td>
@@ -9966,7 +11436,7 @@ Requisitos de información</p>
 <p align="center">
 <b>Matriz de rastreabilidad</b>:
         
-Requisitos funcionales</p>
+RC vs RG</p>
 <a name="SEC-0025" />
 <h1 align="left">A 
 Actas de reuniones</h1><a name="SEC-0026" />
