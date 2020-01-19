@@ -1309,14 +1309,14 @@ Ninguno</td>
 <h3 align="left">3.2.2 
 Descripción de procesos de negocio actuales</h3><a name="PRG-0044" />
 <p>En el siguiente esquema BPM se plasma el proceso de petición de citas. Para comenzar la clínica recibe una petición de cita y posteriormente hay un acuerdo entre <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> y <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> para concertar la fecha de la cita. A continuación, el <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> asigna un profesional dependiendo de si el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> ha solicitado una <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> o una cita de peluquería. Una vez la cita está completa se espera a que aparezca el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> y el <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.Se les atiende. Y finalmente se devuelve el <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> a su dueño.</p>
-<a name="GRF-0003" />
+<a name="GRF-0078" />
 <p align="center">
-<img src=".\bpmn.png" title=".\bpmn.png" />
+<img src=".\BMPN PNG V2.0\Alto nivel 3.2.2 ok.png" title=".\BMPN PNG V2.0\Alto nivel 3.2.2 ok.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
                 
-BPMN</p>
+BPMN alto nivel</p>
 <a name="SEC-0017" />
 <h2 align="left">3.3 
 Entorno tecnológico actual</h2><a name="SEC-0018" />
@@ -1490,106 +1490,106 @@ Descripción de actores de negocio a implantar</h3><a name="PRG-0045" />
 Descripción de procesos de negocio a implantar</h3><a name="PRG-0046" />
 <p>Ante los procesos de negocio actuales, hemos decidido que implantaremos las siguientes mejoras. La petición de cita, tal y como lo vemos en el BPMN anterior se realizará mediante la aplicación que crearemos. La asignación de las citas a los trabajadores también se levará a cabo mediante la aplicación. A su vez, toda la información anterior junto con los informes e historiales creados por los trabajadores será guardada y gestionada en una base de datos.
 <br />Los diagramas bpmn detallando lo anteriormente nombrado se encuentran en la carpeta adjunta con el nombre 4.2 Descripción de procesos de negocio a implantar. </p>
-<a name="GRF-0014" />
+<a name="GRF-0079" />
 <p align="center">
-<img src=".\BPMN PNG\Reservar cita.png" title=".\BPMN PNG\Reservar cita.png" />
+<img src=".\BMPN PNG V2.0\Registrar cliente ok.png" title=".\BMPN PNG V2.0\Registrar cliente ok.png" />
 </p>
 <p align="center">
 <b>Figura 1</b>:
                 
-Reservar cita</p>
-<a name="PRG-0128" />
-<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> previamente registrado en el sistema rellena un formulario con el día que quiere ser citado. El sistema lo filtra y guarda la cita en la base de datos o bien le informa al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> de que ese horario no es posible.</p>
-<a name="GRF-0015" />
+Registro cliente</p>
+<a name="PRG-0148" />
+<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> rellena el formulario de registro con sus datos, el sistema comprueba si existen errores. Si existen errores se los muestra al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> por pantalla para que los corrija, si no existen errores, el <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> se almacena en la base de datos y este se crea correctamente en el sistema. El sistema informa al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> que su perfil ha sido creado con éxito.</p>
+<a name="GRF-0080" />
 <p align="center">
-<img src=".\BPMN PNG\Desarollo cita.png" title=".\BPMN PNG\Desarollo cita.png" />
+<img src=".\BMPN PNG V2.0\Modificar perfil ok.png" title=".\BMPN PNG V2.0\Modificar perfil ok.png" />
 </p>
 <p align="center">
 <b>Figura 2</b>:
                 
-Desarrollo de cita</p>
-<a name="PRG-0129" />
-<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> lleva al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> a la clínica, el <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> lo deriva a su respectivo profesional. Si es <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> de veterinaria, al final de esta se realizará su informe correspondiente. El <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> se le entregará a su dueño y posteriormente se realiza el pago de la cita.</p>
-<a name="GRF-0016" />
+Modificar perfil cliente</p>
+<a name="PRG-0149" />
+<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> modifica los datos que necesita, envía la petición al sistema. Si existen errores, se le muestran al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> para que los corrija, si no, el perfil se actualiza en la base de datos y se le muestra modificado por pantalla al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a>.</p>
+<a name="GRF-0081" />
 <p align="center">
-<img src=".\BPMN PNG\Realización del informe.png" title=".\BPMN PNG\Realización del informe.png" />
+<img src=".\BMPN PNG V2.0\Registrar paciente ok.png" title=".\BMPN PNG V2.0\Registrar paciente ok.png" />
 </p>
 <p align="center">
 <b>Figura 3</b>:
                 
-Realización del informe</p>
-<a name="PRG-0130" />
-<p>Tras el desarrollo de la cita, el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a>/a rellena el informe del animal, el cual se añade a una base de datos y se recopila en el historial del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</p>
-<a name="GRF-0017" />
+Registro paciente</p>
+<a name="PRG-0150" />
+<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> rellena el formulario de registro con los datos del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, el sistema comprueba si existen errores. Si existen errores se los muestra al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> por pantalla para que los corrija, si no existen errores, el <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> se almacena en la base de datos y este se crea correctamente en el sistema. El sistema informa al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> que el perfil del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> ha sido creado con éxito.</p>
+<a name="GRF-0082" />
 <p align="center">
-<img src=".\BPMN PNG\Registro de vacunas.png" title=".\BPMN PNG\Registro de vacunas.png" />
+<img src=".\BMPN PNG V2.0\Reservar cita ok.png" title=".\BMPN PNG V2.0\Reservar cita ok.png" />
 </p>
 <p align="center">
 <b>Figura 4</b>:
                 
-Registro de vacunas</p>
-<a name="PRG-0131" />
-<p>Al vacunar al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, la cartilla de vacunación se crea en caso de que sea la primera vez, o se actualiza si ya ha sido vacunado anteriormente.</p>
-<a name="GRF-0018" />
+Reservar cita</p>
+<a name="PRG-0151" />
+<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> rellena el formulario con la cita a solicitar, el sistema comprueba si hay errores. Si existe alguno, se le notifica al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> sobre ellos y la cita no se reserva; si no existen, paralelamente se almacena la cita en la base de datos y se le notifican al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> los datos de la cita que acaba de reservar con éxito.</p>
+<a name="GRF-0083" />
 <p align="center">
-<img src=".\BPMN PNG\Organizar horarios.png" title=".\BPMN PNG\Organizar horarios.png" />
+<img src=".\BMPN PNG V2.0\Reservar cita gestora ok.png" title=".\BMPN PNG V2.0\Reservar cita gestora ok.png" />
 </p>
 <p align="center">
 <b>Figura 5</b>:
                 
-Organizar horarios</p>
-<a name="PRG-0132" />
-<p>El trabajador rellena un formulario con sus horas disponibles de <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a> o <a href="#GLO-0016" title="Proceso de aproximadamente 45 minutos en el cual la auxiliar baña, cepilla y corta el pelo y uñas del paciente. Solo se puede solicitar el servicio de peluquería para perros, gatos y pequeños roedores.">servicio de peluquería</a>. Si no existen errores, se almacenan como horarios disponibles en la base de datos.</p>
-<a name="GRF-0019" />
+Reserva cita gestora</p>
+<a name="PRG-0152" />
+<p>El <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> recibe la llamada de un <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> registrado para reservar una cita, este le informa de los datos a rellenar en el formulario. La cita se reservaría con total normalidad.</p>
+<a name="GRF-0084" />
 <p align="center">
-<img src=".\BPMN PNG\Registro cliente.png" title=".\BPMN PNG\Registro cliente.png" />
+<img src=".\BMPN PNG V2.0\Eliminar cita OK.png" title=".\BMPN PNG V2.0\Eliminar cita OK.png" />
 </p>
 <p align="center">
 <b>Figura 6</b>:
                 
-Registro del cliente</p>
-<a name="PRG-0133" />
-<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> que se quiere registrar rellena un formulario con sus datos, si no hay errores, se registra correctamente y sus datos se almacenan en la base de datos.</p>
-<a name="GRF-0020" />
+Eliminar cita</p>
+<a name="PRG-0153" />
+<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> envía una petición de cancelación de cita, el sistema la procesa y elimina de la base de datos la cita previamente almacenada. El sistema informa al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> de que la cita ha sido cancelada con éxito y el espacio temporal ocupado por la anterior cita queda libre de nuevo.</p>
+<a name="GRF-0085" />
 <p align="center">
-<img src=".\BPMN PNG\Modificar perfil.png" title=".\BPMN PNG\Modificar perfil.png" />
+<img src=".\BMPN PNG V2.0\Modificar cita ok.png" title=".\BMPN PNG V2.0\Modificar cita ok.png" />
 </p>
 <p align="center">
 <b>Figura 7</b>:
                 
-Modificar perfil</p>
-<a name="PRG-0134" />
-<p>Al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> registrado se le muestra un formulario con sus datos previos, este lo rellena con los nuevos y se actualizan en la base de datos.</p>
-<a name="GRF-0021" />
+Modificar cita</p>
+<a name="PRG-0154" />
+<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> rellena los datos a modificar de la cita que ya tenía reservada, el sistema reserva la nueva cita, elimina la anterior y almacena los datos de la nueva cita en la base de datos. Finalmente, se informa al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> de que la cita ha sido modificada con éxito.</p>
+<a name="GRF-0086" />
 <p align="center">
-<img src=".\BPMN PNG\Registrar paciente.png" title=".\BPMN PNG\Registrar paciente.png" />
+<img src=".\BMPN PNG V2.0\Desarollo cita ok.png" title=".\BMPN PNG V2.0\Desarollo cita ok.png" />
 </p>
 <p align="center">
 <b>Figura 8</b>:
                 
-Registrar paciente</p>
-<a name="PRG-0135" />
-<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> rellena un formulario con los datos del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, el sistema los procesa y los almacena en la base de datos.</p>
-<a name="GRF-0022" />
+Desarrollo cita</p>
+<a name="PRG-0155" />
+<p>El <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> llega a su hora de la cita, el <a href="#GLO-0039" title="Persona que se encarga de dirigir, gestionar o administrar la clínica veterinaria.">gestor</a> deriva al <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a> a su respectiva cita. Si es de veterinaria, se lleva a cabo y al finalizar se realiza el historial; si es peluquería, se atiende con normalidad. Al acabar la cita se emite la factura al <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> el cual paga en mano, ya sea en efectivo o con tarjeta.</p>
+<a name="GRF-0087" />
 <p align="center">
-<img src=".\BPMN PNG\Modificar cita.png" title=".\BPMN PNG\Modificar cita.png" />
+<img src=".\BMPN PNG V2.0\Realización del informe ok.png" title=".\BMPN PNG V2.0\Realización del informe ok.png" />
 </p>
 <p align="center">
 <b>Figura 9</b>:
                 
-Modificar cita</p>
-<a name="PRG-0136" />
-<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> solicita una nueva cita, si esta es correcta se borra la anteriormente solicitada y la nueva se almacena en la base de datos.</p>
-<a name="GRF-0023" />
+Realizar informe</p>
+<a name="PRG-0156" />
+<p>Cuando el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> termina la cita con el <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, rellena el informe sobre lo realizado en la <a href="#GLO-0011" title="Espacio de tiempo de aproximadamente 20 minutos en los que un profesional diagnostica las posibles enfermedades o trastornos del paciente. La consulta será remunerada independientemente del tratamiento.">consulta</a>, el informe se almacena en la base de datos y este se añade al historial del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</p>
+<a name="GRF-0088" />
 <p align="center">
-<img src=".\BPMN PNG\Eliminar cita.png" title=".\BPMN PNG\Eliminar cita.png" />
+<img src=".\BMPN PNG V2.0\Registro de vacunas ok.png" title=".\BMPN PNG V2.0\Registro de vacunas ok.png" />
 </p>
 <p align="center">
 <b>Figura 10</b>:
                 
-Eliminar cita</p>
-<a name="PRG-0137" />
-<p>El <a href="#GLO-0138" title="Persona que abona la factura y es responsable íntegro del paciente.">cliente</a> indica qué cita quiere eliminar, esta se borra de la base de datos.</p>
+Realizar cartilla de vacunación</p>
+<a name="PRG-0157" />
+<p>En el momento en el que el <a href="#GLO-0019" title="Profesional en medicina animal. En este caso particular nos encontramos que el veterinario realiza también labores de gestor. El veterinario es nuestro cliente y este se encarga tanto de la gestión del horario, como de las consultas y de suministrar el tratamiento.">veterinario</a> vacuna a un <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>, actualiza la cartilla de vacunación si ya había una existente o crea una nueva en caso de que no existiera en la base de datos. La cartilla de vacunación se añade al historial del <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio tanto de consulta o de urgencia por parte de la veterinaria. Cada paciente tiene un dueño, ese será el cliente de la veterinaria.">paciente</a>.</p>
 <a name="SEC-0028" />
 <h1 align="left">5 
 Descripción de los subsistemas del sistema a desarrollar</h1><a name="PRG-0115" />
@@ -2249,14 +2249,14 @@ Registro de <a href="#GLO-0138" title="Persona que abona la factura y es respons
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0006" title="Registro de cliente y paciente">
-                                [OBJ-0006] 
-Registro de cliente y paciente</a>
-</li>
-<li>
 <a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
                                 [OBJ-0010] 
 Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0006" title="Registro de cliente y paciente">
+                                [OBJ-0006] 
+Registro de cliente y paciente</a>
 </li>
 </td>
 </tr>
@@ -2922,14 +2922,14 @@ Modificar cita</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0004" title="Gestionar citas">
-                                [OBJ-0004] 
-Gestionar citas</a>
-</li>
-<li>
 <a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
                                 [OBJ-0008] 
 Notificar cancelación y aproximación de cita</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
 </li>
 </td>
 </tr>
@@ -5318,14 +5318,14 @@ Información de clientes</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
-                                [OBJ-0010] 
-Gestión de información de clientes y pacientes </a>
-</li>
-<li>
 <a href="#OBJ-0012" title="Representación de las estadísticas">
                                 [OBJ-0012] 
 Representación de las estadísticas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
 </li>
 <li>
 <a href="#OBJ-0006" title="Registro de cliente y paciente">
@@ -5455,14 +5455,14 @@ Información pacientes</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="2">
 <li>
-<a href="#OBJ-0012" title="Representación de las estadísticas">
-                                [OBJ-0012] 
-Representación de las estadísticas</a>
-</li>
-<li>
 <a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
                                 [OBJ-0010] 
 Gestión de información de clientes y pacientes </a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
 </li>
 <li>
 <a href="#OBJ-0006" title="Registro de cliente y paciente">
@@ -6246,14 +6246,14 @@ Mayoría de edad</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
-                                [OBJ-0010] 
-Gestión de información de clientes y pacientes </a>
-</li>
-<li>
 <a href="#OBJ-0006" title="Registro de cliente y paciente">
                                 [OBJ-0006] 
 Registro de cliente y paciente</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
 </li>
 </td>
 </tr>
@@ -6393,14 +6393,14 @@ Un trabajador por cita</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0004" title="Gestionar citas">
-                                [OBJ-0004] 
-Gestionar citas</a>
-</li>
-<li>
 <a href="#OBJ-0009" title="Gestión de la información de los trabajadores">
                                 [OBJ-0009] 
 Gestión de la información de los trabajadores</a>
+</li>
+<li>
+<a href="#OBJ-0004" title="Gestionar citas">
+                                [OBJ-0004] 
+Gestionar citas</a>
 </li>
 </td>
 </tr>
@@ -6546,14 +6546,14 @@ Cancelación cita</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
-                                [OBJ-0008] 
-Notificar cancelación y aproximación de cita</a>
-</li>
-<li>
 <a href="#OBJ-0004" title="Gestionar citas">
                                 [OBJ-0004] 
 Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
 </li>
 </td>
 </tr>
@@ -6984,11 +6984,6 @@ Modificar cita</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0012" title="Representación de las estadísticas">
-                                [OBJ-0012] 
-Representación de las estadísticas</a>
-</li>
-<li>
 <a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
                                 [OBJ-0008] 
 Notificar cancelación y aproximación de cita</a>
@@ -6997,6 +6992,11 @@ Notificar cancelación y aproximación de cita</a>
 <a href="#OBJ-0004" title="Gestionar citas">
                                 [OBJ-0004] 
 Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0012" title="Representación de las estadísticas">
+                                [OBJ-0012] 
+Representación de las estadísticas</a>
 </li>
 </td>
 </tr>
@@ -7060,6 +7060,11 @@ Crear cita</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
+</li>
+<li>
 <a href="#OBJ-0004" title="Gestionar citas">
                                 [OBJ-0004] 
 Gestionar citas</a>
@@ -7068,11 +7073,6 @@ Gestionar citas</a>
 <a href="#OBJ-0012" title="Representación de las estadísticas">
                                 [OBJ-0012] 
 Representación de las estadísticas</a>
-</li>
-<li>
-<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
-                                [OBJ-0008] 
-Notificar cancelación y aproximación de cita</a>
 </li>
 </td>
 </tr>
@@ -7203,14 +7203,14 @@ Clientes y pacientes</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
-                                [OBJ-0010] 
-Gestión de información de clientes y pacientes </a>
-</li>
-<li>
 <a href="#CRQ-0001" title="Restricciones técnicas">
                                 [CRQ-0001] 
 Restricciones técnicas</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
 </li>
 </td>
 </tr>
@@ -7704,14 +7704,14 @@ Añadir <a href="#GLO-0015" title="Animal que recibe cualquier tipo de servicio t
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
-                                [OBJ-0010] 
-Gestión de información de clientes y pacientes </a>
-</li>
-<li>
 <a href="#OBJ-0006" title="Registro de cliente y paciente">
                                 [OBJ-0006] 
 Registro de cliente y paciente</a>
+</li>
+<li>
+<a href="#OBJ-0010" title="Gestión de información de clientes y pacientes">
+                                [OBJ-0010] 
+Gestión de información de clientes y pacientes </a>
 </li>
 <li>
 <a href="#OBJ-0012" title="Representación de las estadísticas">
@@ -8477,14 +8477,14 @@ Creación/Modificación/Eliminación de citas Gestora</th>
 <th align="left" valign="top">Dependencias</th>
 <td align="left" valign="top" colspan="1">
 <li>
-<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
-                                [OBJ-0008] 
-Notificar cancelación y aproximación de cita</a>
-</li>
-<li>
 <a href="#OBJ-0004" title="Gestionar citas">
                                 [OBJ-0004] 
 Gestionar citas</a>
+</li>
+<li>
+<a href="#OBJ-0008" title="Notificar cancelación y aproximación de cita">
+                                [OBJ-0008] 
+Notificar cancelación y aproximación de cita</a>
 </li>
 </td>
 </tr>
