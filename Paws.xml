@@ -8356,6 +8356,23 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\1.inicio.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0158">
+<rem:name>
+Inicio</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Esta vista representa la página de inicio de la página. Está formada por un fondo  (en este caso una foto de un perro).Esta vista está compuesta por un menú que estará presente también cuando el <rem:ref oid="GLO-0138">cliente</rem:ref> inicie sesión, al igual que el pie de foto. El usuario tendrá la opción de iniciar sesión o registrarse en la esquina derecha de la página.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0029">
 <rem:name>
@@ -8375,6 +8392,23 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\2.sobre nosostros sin iniciar sesion.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0159">
+<rem:name>
+Sobre nosotros</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hacemos click en &apos;Sobre nosotros&apos; del menú veremos una descripción del negocio con información general del mismo. A esta vista tendrá acceso tanto un usuario sin registro como un <rem:ref oid="GLO-0138">cliente</rem:ref> logueado.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0030">
 <rem:name>
@@ -8394,6 +8428,23 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\3.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0160">
+<rem:name>
+Citas</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hacemos click en &apos;Citas&apos; del menú obtendremos la siguiente vista, donde el usuario podrá reservar cita solo si esta logueado.</rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0031">
 <rem:name>
@@ -8413,6 +8464,23 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\4.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0161">
+<rem:name>
+FAQ</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hacemos click sobre &apos;FAQ&apos; tendremos una vista con las preguntas más frecuentes relacionadas con el negocio.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0032">
 <rem:name>
@@ -8432,6 +8500,23 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\5.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0162">
+<rem:name>
+Contacto</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hacemos click sobre &apos;Contacto&apos; obtendremos la siguiente vista, que consta de las diferentes formas de contacto con la veterinaria, la dirección, número de teléfono y un mapa que indique específicamente donde se encuentra el establecimiento.</rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0033">
 <rem:name>
@@ -8451,29 +8536,27 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\6.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0034">
+<rem:paragraph
+ oid = "PRG-0163">
 <rem:name>
-m7</rem:name>
+Iniciar Sesión</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\7-Perfil cliente.png]]>
-</rem:fileName>
-</rem:graphicFile>
+<rem:text>Si hacemos click sobre iniciar sesión veremos lo siguiente. Se podrá iniciar sesión como <rem:ref oid="GLO-0138">cliente</rem:ref>, trabajador o gestora. Se introduce el usuario y la contraseña, y a la hora de hacer click para evitar que un <rem:ref oid="GLO-0138">cliente</rem:ref> inicie sesión como trabajador o gestora se comprobará previamente que ese usuario pertenece a un <rem:ref oid="GLO-0138">cliente</rem:ref>,trabajador o <rem:ref oid="GLO-0039">gestor</rem:ref>. </rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0035">
 <rem:name>
-m8</rem:name>
+m7</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8489,10 +8572,27 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\8.Perfil cliente cita cancelada.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0164">
+<rem:name>
+7</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En el caso que iniciemos sesión como <rem:ref oid="GLO-0138">cliente</rem:ref> obtendremos la siguiente vista. En ella podremos ver nuestro perfil, el de nuestras mascotas y las futuras citas que tenemos concertadas, con la opción de reservar una cita (también se puede reservar cita accediendo al botón &apos;cita&apos; que hay en el menú superior). Podemos apreciar que ahora en la cabecera en vez de aparecer la opción de iniciar sesión y registrarse el <rem:ref oid="GLO-0138">cliente</rem:ref> tiene la opción de cerrar sesión o ver su perfil (haciendo click en el botón que está en la esquina superior derecha).<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0036">
 <rem:name>
-m9</rem:name>
+m8</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8508,10 +8608,27 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\9.Perfil cliente cancelar cita correcto.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0165">
+<rem:name>
+8</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En el caso de que decidamos eliminar una cita veremos la siguiente vista. En la que el sistema nos mostrará un pop-up para asegurarse de que realmente el <rem:ref oid="GLO-0138">cliente</rem:ref> quiere cancelar una cita. Si hace click en si, la cita será eliminada, si le da click en no volvería a la vista anterior.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0037">
 <rem:name>
-m10</rem:name>
+m9</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8527,10 +8644,27 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\10.Perfil cliente info.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0166">
+<rem:name>
+9</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si el <rem:ref oid="GLO-0138">cliente</rem:ref> hace click en su perfil obtendrá la siguiente vista. En ella podrá comprobar sus datos personales y tendrá la opción de modificarlos.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0038">
 <rem:name>
-m11</rem:name>
+m10</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8546,10 +8680,27 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\11.Modificar informacion perfil usuario.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0167">
+<rem:name>
+10</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al darle click en modificar podrá modificar sus datos menos la fecha de nacimiento y NIF.<br/>Para realizar la acción deberá hacer click en confirm. Si decide no hacerla le podrá dar al botón de atrás.<br/></rem:text>
+</rem:paragraph>
 <rem:graphicFile
  oid = "GRF-0039">
 <rem:name>
-m12</rem:name>
+m11</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -8565,17 +8716,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\12.Multiples mascotas.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0040">
+<rem:paragraph
+ oid = "PRG-0168">
 <rem:name>
-m13</rem:name>
+11</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text> Si el <rem:ref oid="GLO-0138">cliente</rem:ref> decide hacer click en sus mascotas obtendrá esta vista. En ella sele muestra un menú con sus diferentes mascotas (si solo tuviese una solo vería una y si no tuviese ninguna añadida aún tendría la opción de añadirla ). Cada mascota tiene una cartilla de vacunas y una serie de informes, para acceder a estos solo tendría que hacer click en vacunas o informes respectivamente. </rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0089">
+<rem:name>
+12</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8584,17 +8752,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\13.Mascota.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0041">
+<rem:paragraph
+ oid = "PRG-0169">
 <rem:name>
-m14</rem:name>
+12</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al darle a informes obtendría la siguiente vista, donde se muestran todos los informes que se le han realizado a la mascota y junto a toda la información recogida en cada <rem:ref oid="GLO-0011">consulta</rem:ref>. Al hacer click en cada informe se despliega toda la información anteriormente descrita, tal y como se ve en la imagen. También tiene la posibilidad de hacer click en &apos;Anamnesis&apos; para acceder a ella.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0090">
+<rem:name>
+13</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8603,112 +8788,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\14.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0042">
+<rem:paragraph
+ oid = "PRG-0170">
 <rem:name>
-m15</rem:name>
+13</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\15.Modificar mascota.png]]>
-</rem:fileName>
-</rem:graphicFile>
+<rem:text>Si hace click en la ficha de la mascota se le mostrará todos los datos almacenados sobre la mascota, que podrá modificar el <rem:ref oid="GLO-0138">cliente</rem:ref>.</rem:text>
+</rem:paragraph>
 <rem:graphicFile
- oid = "GRF-0043">
+ oid = "GRF-0096">
 <rem:name>
-m16</rem:name>
+14</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\16.png]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0044">
-<rem:name>
-m17</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>1</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\17.mascota añadida correctamente.png]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0045">
-<rem:name>
-m18</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>1</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\18. Vacuna2.0.png]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0046">
-<rem:name>
-m19</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>1</rem:month>
-<rem:day>18</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Ninguno</rem:comments>
-<rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\19.Rabia vacuna 2.0.png]]>
-</rem:fileName>
-</rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0047">
-<rem:name>
-m20</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2020</rem:year>
-<rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8717,17 +8824,214 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\20.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0048">
+<rem:paragraph
+ oid = "PRG-0176">
 <rem:name>
-m21</rem:name>
+14</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en la anamnésis de un informe en concreo podrá ver la siguiente información. Se le mostrarán las casillas rellenadas por el <rem:ref oid="GLO-0019">veterinario</rem:ref>, y si las clickea se desplegará la información de esa casilla en concreto, en este caso la de &apos;Habitos&apos;.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0091">
+<rem:name>
+15</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\fotos\MOCKUP tamaño correcto\15.Modificar mascota.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0171">
+<rem:name>
+15</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al hacer click en modificar el sistema permite que el <rem:ref oid="GLO-0138">cliente</rem:ref> modifique el nombre, la foto y el color de pelo. Cuando haya terminado de modificar el perfil de su mascota le puede hacer click en confirmar para guardar los cambios , o por lo contrario, hacer click en atrás para volver a la vista anterior.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0092">
+<rem:name>
+16</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\fotos\MOCKUP tamaño correcto\16.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0172">
+<rem:name>
+16</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al hacer click en &apos;Añadir mascota&apos; el <rem:ref oid="GLO-0138">cliente</rem:ref> verá este formulario con los datos que deberá rellenar para añadir su mascota. Al hacer click en &apos;Añadir mascota&apos; se le añadirá la mascota automáticamente en el perfil. Si hace click en atrás volverá a la vista anterior.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0093">
+<rem:name>
+17</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\fotos\MOCKUP tamaño correcto\17.mascota añadida correctamente.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0173">
+<rem:name>
+17</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en &apos;Añadir mascota&apos; le saldrá este pop-up que le notificará de que se ha añadido correctamente, si desea cancelar la creación puede hacer click en cancelar, de lo contrario, si está conforme, le puede dar a aceptar y el animal se añadirá a su perfil.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0094">
+<rem:name>
+18</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\fotos\MOCKUP tamaño correcto\18. Vacuna2.0.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0174">
+<rem:name>
+18</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al hacer click en vacunas desde la vista 12 de las mascotas obtendrá la siguiente vista. En esta vista se mostrarán las vacunas que se le han realizado a la mascota a lo largo del tiempo. Podrá hacer click sobre el signo de interrogación para ver el historial de vacunas de ese tipo de vacuna en concreto.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0095">
+<rem:name>
+19</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:fileName>
+<![CDATA[.\fotos\MOCKUP tamaño correcto\19.Rabia vacuna 2.0.png]]>
+</rem:fileName>
+</rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0175">
+<rem:name>
+19</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si por ejemplo decide darle al signo de interrogación de la rabia obtendrá esta vista, donde se muestran las vacunas que se han realizado de ese tipo y la fecha de la próxima.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0097">
+<rem:name>
+20</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8736,17 +9040,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\21.reservar consulta loggeado.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0049">
+<rem:paragraph
+ oid = "PRG-0177">
 <rem:name>
-m22</rem:name>
+20</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en <rem:ref oid="GLO-0011">consulta</rem:ref> en la vista 3, verá lo siguiente. La vista consta de un calendario donde se muestran los horarios libres para reservar cita. A su derecho tenemos el motivo de <rem:ref oid="GLO-0011">consulta</rem:ref> a rellenar por el <rem:ref oid="GLO-0138">cliente</rem:ref>, y en el caso de que el usuario esté logueado la casilla de <rem:ref oid="GLO-0015">Paciente</rem:ref> consta de un desplegable que contenga una lista con sus mascotas, para poder elegir a cual irá dirigida la <rem:ref oid="GLO-0011">consulta</rem:ref>. </rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0098">
+<rem:name>
+21</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8755,17 +9076,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\22.Reservar consulta loggeado confirmacion.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0050">
+<rem:paragraph
+ oid = "PRG-0178">
 <rem:name>
-m23</rem:name>
+21</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Una vez rellenada la información saltará un pop-up que le comunique al <rem:ref oid="GLO-0138">cliente</rem:ref> que se ha realizado correctamente.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0099">
+<rem:name>
+22</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8774,17 +9112,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\23.Reservar peluqueria login.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0051">
+<rem:paragraph
+ oid = "PRG-0179">
 <rem:name>
-m24</rem:name>
+22</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si en la vista 3 hace click en peluquería, obtendrá una vista en la que tendrá un calendario con los horarios libres donde pueda reservar cita de peluquería, y a su derecha una casilla donde , si está logueado, le aparecerá un desplegable con sus mascotas para que pueda seleccionar a qué animal va dirigida la peluquería. <br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0100">
+<rem:name>
+23</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8793,17 +9148,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\24.reservar peluqueria correctamente login.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0052">
+<rem:paragraph
+ oid = "PRG-0180">
 <rem:name>
-m25</rem:name>
+23</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al hacer click en continuar se le mostrará un pop-up que notifique al <rem:ref oid="GLO-0138">cliente</rem:ref> de que la cita se ha reservado correctamente.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0101">
+<rem:name>
+24</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8812,17 +9184,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\25.pedir peluqueria sin log.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0053">
+<rem:paragraph
+ oid = "PRG-0181">
 <rem:name>
-m26</rem:name>
+24</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En el caso de que intente reservar una cita sin haberse logueado le saltará el siguiente pop-up, donde se invita al usuario a iniciar sesión o registrarse.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0102">
+<rem:name>
+25</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8831,17 +9220,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\26.Modificar peluqueria.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0054">
+<rem:paragraph
+ oid = "PRG-0182">
 <rem:name>
-m27</rem:name>
+25</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Por otro lado, desde la vista del perfil del <rem:ref oid="GLO-0138">cliente</rem:ref>, también puede modificar la cita. Si hace click sobre modificar cita se le mostrará la siguiente vista donde podrá cambiar al <rem:ref oid="GLO-0015">paciente</rem:ref> al que va dirigido y podrá cambiar el horario a otro que esté libre (siempre teniendo en cuenta que no se puede modificar el mismo día de la <rem:ref oid="GLO-0011">consulta</rem:ref>, al igual que no se puede cancelar el mismo día tampoco).</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0103">
+<rem:name>
+26</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8850,17 +9256,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\27.Modificar cita correctamente.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0055">
+<rem:paragraph
+ oid = "PRG-0183">
 <rem:name>
-m28</rem:name>
+26</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en continuar en la vista anterior le saltará un pop-up notificando al <rem:ref oid="GLO-0138">cliente</rem:ref> de que la modificación de la cita se ha realizado correctamente.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0104">
+<rem:name>
+27</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8869,17 +9292,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\28.Registrate1.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0056">
+<rem:paragraph
+ oid = "PRG-0184">
 <rem:name>
-m29</rem:name>
+27</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al hacer click en registrarse el usuario verá el siguiente formulario que deberá rellenar.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0105">
+<rem:name>
+28</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8888,17 +9328,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\29.Registrate2.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0057">
+<rem:paragraph
+ oid = "PRG-0185">
 <rem:name>
-m30</rem:name>
+28</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Al hacer click en siguiente el usuario verá la segunda parte del formulario a rellenar, una vez haga click en siguiente se creará su cuenta.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0106">
+<rem:name>
+29</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8907,17 +9364,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\30.Inicio Trabajador.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0058">
+<rem:paragraph
+ oid = "PRG-0186">
 <rem:name>
-m31</rem:name>
+29</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si inicia sesión un trabajador tendrá la siguiente vista. Está compuesta por dos botones, citas e historiales (para los veterinarios), si iniciase sesión un <rem:ref oid="GLO-0038">peluquero</rem:ref> solo tendría acceso a sus citas.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0107">
+<rem:name>
+30</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8926,17 +9400,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\31.Menu citas.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0059">
+<rem:paragraph
+ oid = "PRG-0187">
 <rem:name>
-m32</rem:name>
+30</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si el trabajador da click en citas verá lo siguiente. Se trata de un listado de las citas que tiene que atender, pudiendo dar al botón del maletín para completar el informe de dicha <rem:ref oid="GLO-0011">consulta</rem:ref>. </rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0108">
+<rem:name>
+31</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8945,17 +9436,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\32.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0060">
+<rem:paragraph
+ oid = "PRG-0188">
 <rem:name>
-m33</rem:name>
+31</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si da click en un <rem:ref oid="GLO-0138">cliente</rem:ref> cuya mascota no tiene historial creado le saldrá un pop-up para indicarle que debe crear uno. Si la mascota del <rem:ref oid="GLO-0138">cliente</rem:ref> tuviese ya un historial creado le redirigirá directamente a la creación del historial.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0109">
+<rem:name>
+32</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8964,17 +9472,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\33.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0061">
+<rem:paragraph
+ oid = "PRG-0189">
 <rem:name>
-m34</rem:name>
+32</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En esta vista el <rem:ref oid="GLO-0019">veterinario</rem:ref> tendrá todos los datos del <rem:ref oid="GLO-0015">paciente</rem:ref> y deberá añadirle una cartilla de vacuna según su especie. Como podemos ver , en la cabecera, siempre estará presente el nombre del <rem:ref oid="GLO-0015">paciente</rem:ref>, su dueño y la fecha de la <rem:ref oid="GLO-0011">consulta</rem:ref> que se está realizando.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0110">
+<rem:name>
+33</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -8983,17 +9508,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\34.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0062">
+<rem:paragraph
+ oid = "PRG-0190">
 <rem:name>
-m35</rem:name>
+33</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>En este caso ha seleccionado la cartilla de vacunas de perros donde se le muestran todas las vacunas que hay que realizarle a los perros y donde se le da la opción de añadir alguna vacuna que se haya realizado el animal antes de haber atendido a esta clínica para tener toda la información de la mascota. Si el historial ya se hubiese creado saldría directamente la cartilla de vacunación de la especie pertinente junto con las vacunas realizadas y por realizar.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0111">
+<rem:name>
+34</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9002,17 +9544,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\35.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0063">
+<rem:paragraph
+ oid = "PRG-0191">
 <rem:name>
-m36</rem:name>
+34</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si le damos scroll hacia abajo en la vista anterior podremos rellenar el informe, que consta de las casillas que vemos y de un botón para rellenar la anámnesis.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0112">
+<rem:name>
+35</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9021,17 +9580,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\36.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0064">
+<rem:paragraph
+ oid = "PRG-0192">
 <rem:name>
-m37</rem:name>
+35</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text> Si el trabajador hace click en la anámnesis podrá añadir o retirar casillas a rellenar, según lo que crea pertinente. El botón de &apos;Añadir campo&apos; le permite añadir una casilla más para rellenar. Si hace click en &apos;guardar y volver&apos; , como el propio botón indica , guardará la información y volverá a la vista anterior.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0113">
+<rem:name>
+36</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9040,17 +9616,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\37.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0065">
+<rem:paragraph
+ oid = "PRG-0193">
 <rem:name>
-m38</rem:name>
+36</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si el trabajador ya ha terminado de rellenar las casillas necesarias y la da click en añadir informe(si el <rem:ref oid="GLO-0015">paciente</rem:ref> ya tenía historial) o añadir historial (que es lo que sale en este caso puesto que el <rem:ref oid="GLO-0015">paciente</rem:ref> no posea uno anteriormente), le saltará un pop-up para notificarle de que se ha realizado correctamente. Si le da click en aceptar se le mostrará el historial del animal, y si le da a cancelar volverá a la vista anterior.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0114">
+<rem:name>
+37</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9059,17 +9652,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\38.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0066">
+<rem:paragraph
+ oid = "PRG-0194">
 <rem:name>
-m39</rem:name>
+37</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si le da a aceptar en la vista anterior verá lo siguiente. En esta vista se visualiza el historial del <rem:ref oid="GLO-0015">paciente</rem:ref>, que está compuesto por las vacunas vinculadas a esa especie y la fecha a la que se le ha realizado. Y la lista de informes que se le han ido realizando en la parte posterior de la vista. Si hace click en el signo de interrogación de las vacunas verá lo mismo que veía el <rem:ref oid="GLO-0138">cliente</rem:ref> al darle click al mismo botón, el historial de las vacunas de ese tipo específico que se le han realizado al <rem:ref oid="GLO-0015">paciente</rem:ref> junto con la fecha de la próxima en el caso de que sean periódicas.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0115">
+<rem:name>
+38</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9078,17 +9688,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\39.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0067">
+<rem:paragraph
+ oid = "PRG-0195">
 <rem:name>
-m40</rem:name>
+38</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click sobre &apos;Anámnesis&apos; en la vista anterior se le mostrará la anámnesis rellenada de dicho informe y dicho <rem:ref oid="GLO-0015">paciente</rem:ref> en concreto.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0116">
+<rem:name>
+39</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9097,17 +9724,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\40.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0068">
+<rem:paragraph
+ oid = "PRG-0196">
 <rem:name>
-m41</rem:name>
+39</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si el <rem:ref oid="GLO-0019">veterinario</rem:ref> le da click a los historiale en el menú inicial que se muestra al iniciar sesión, obtendrá esta vista, donde se guardan todos los pacientes. Esta vista permite buscar un <rem:ref oid="GLO-0015">paciente</rem:ref> por su id y visualizar el historial de cada uno dando click en el maletín.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0117">
+<rem:name>
+40</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9116,17 +9760,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\41.Perfil trabajador.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0069">
+<rem:paragraph
+ oid = "PRG-0197">
 <rem:name>
-m42</rem:name>
+40</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si el trabajador le da click en el botón situado arriba a la derecha podrá visualizar su perfil personal y podrá modificarlo si lo desea.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0118">
+<rem:name>
+41</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9135,17 +9796,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\42.ModificaPerfilTrabajador.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0070">
+<rem:paragraph
+ oid = "PRG-0198">
 <rem:name>
-m43</rem:name>
+41</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en modificar obtendrá esta vista, donde podrá cambiar todo menos su fecha de nacimiento y NIF.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0119">
+<rem:name>
+42</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9154,17 +9832,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\43.vista gestor.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0071">
+<rem:paragraph
+ oid = "PRG-0199">
 <rem:name>
-m44</rem:name>
+42</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si es el <rem:ref oid="GLO-0039">gestor</rem:ref> el que inicia sesión en el sistema obtendrá esta vista inicial, que consta de tres botones: empleados,citas y estadísticas.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0120">
+<rem:name>
+43</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9173,17 +9868,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\44.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0072">
+<rem:paragraph
+ oid = "PRG-0200">
 <rem:name>
-m45</rem:name>
+43</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si decide hacer click en empleados se le mostrará la siguiente vista. Ésta consta de una lista con todos sus empleados. Si hace click en &apos;check&apos; podrá ver sus perfiles, y si hace click en &apos;añadir empleado&apos; podrá registrar a sus empleados manualmente, ya que los empleados no pueden registrarse por sí mismos en el sistema, los debe añadir el <rem:ref oid="GLO-0039">gestor</rem:ref>.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0121">
+<rem:name>
+44</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9192,17 +9904,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\45.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0073">
+<rem:paragraph
+ oid = "PRG-0201">
 <rem:name>
-m46</rem:name>
+44</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en &apos;Check&apos; de los empleados podrá visualizar su perfil teniendo la opción de modificarlo también.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0122">
+<rem:name>
+45</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9211,17 +9940,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\46.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0074">
+<rem:paragraph
+ oid = "PRG-0202">
 <rem:name>
-m47</rem:name>
+45</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text> Si hace click en &apos;Añadir empleado&apos; le saldrá el siguiente formulario a rellenar para añadir al empleado en el sistema. Al hacer click en siguiente se añadirá.</rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0123">
+<rem:name>
+46</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9230,36 +9976,70 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\47.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0075">
+<rem:paragraph
+ oid = "PRG-0203">
 <rem:name>
-m48</rem:name>
+46</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si en el menú del inicio hace click en citas tendrá una vista con todas las citas del establecimiento, pudiendo acceder a los historiales de los respectivos pacientes, eliminar las citas u modificarlas. Si la gestora modifica o elimina una cita el <rem:ref oid="GLO-0138">cliente</rem:ref> afectado será informado.<br/>Esta vista también consta de un buscador por el id de los empleados que filtra las citas según el empleado al que se le ha asignado. Por otro lado, el <rem:ref oid="GLO-0039">gestor</rem:ref> también tiene el poder de crear una cita, esta función se puede realizar haciendo click en el botón de crear cita. Al <rem:ref oid="GLO-0039">gestor</rem:ref> se le permite crear una cita (que sería lo equivalente a reservar) en el caso de que reciba una llamada para reservar cita o acuda personalmente un <rem:ref oid="GLO-0138">cliente</rem:ref> al establecimiento, de esta forma se recopila toda la información necesaria de todas las citas. En estos casos los clientes deben estar registrados para poder llevar a cabo este proceso, de lo contrario deberán registrarse.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0124">
+<rem:name>
+47</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
 Ninguno</rem:comments>
 <rem:fileName>
-<![CDATA[.\fotos\MOCKUP tamaño correcto\48.png]]>
+<![CDATA[.\fotos\MOCKUP tamaño correcto\48.2.0.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0076">
+<rem:paragraph
+ oid = "PRG-0204">
 <rem:name>
-m49</rem:name>
+47</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si el <rem:ref oid="GLO-0039">gestor</rem:ref> hace click en crear cita obtendrá la siguiente vista. Consta de un calendario con los horarios libres de cada empleado. Si selecciona <rem:ref oid="GLO-0011">consulta</rem:ref> en el desplegable se visualizarán los horarios libres de los veterinarios y si selecciona peluquería , se mostrará el horario de los peluqueros.  A su derecha , si se ha seleccionado la opción de <rem:ref oid="GLO-0011">consulta</rem:ref>, tendría las casillas de motivo de <rem:ref oid="GLO-0011">consulta</rem:ref>, <rem:ref oid="GLO-0138">cliente</rem:ref> y <rem:ref oid="GLO-0015">paciente</rem:ref>. Si ha seleccionado peluquería solo tendría que rellenar las casillas <rem:ref oid="GLO-0138">cliente</rem:ref> y <rem:ref oid="GLO-0015">paciente</rem:ref>. Una vez haya rellenado la casilla de <rem:ref oid="GLO-0138">cliente</rem:ref>, la casilla de <rem:ref oid="GLO-0015">paciente</rem:ref> mostrará un desplegable con los pacientes de dicho <rem:ref oid="GLO-0138">cliente</rem:ref> para facilitar la selección. Una vez rellenado todo, puede darle click a “crear” para añadir la cita.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0125">
+<rem:name>
+48</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9268,17 +10048,34 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\49.png]]>
 </rem:fileName>
 </rem:graphicFile>
-<rem:graphicFile
- oid = "GRF-0077">
+<rem:paragraph
+ oid = "PRG-0205">
 <rem:name>
-m50</rem:name>
+48</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
 <rem:date>
 <rem:year>2020</rem:year>
 <rem:month>1</rem:month>
-<rem:day>18</rem:day>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si en el menú principal selecciona estadísticas obtendrá esta vista compuesta por dos botones. Si hace click en el &apos;Mensual&apos; obtendrá las estadísticas mensuales. Si hace click en &apos;Anual&apos; obtendrá las estadísticas anuales.<br/></rem:text>
+</rem:paragraph>
+<rem:graphicFile
+ oid = "GRF-0126">
+<rem:name>
+49</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
 </rem:date>
 </rem:version>
 <rem:comments>
@@ -9287,6 +10084,23 @@ Ninguno</rem:comments>
 <![CDATA[.\fotos\MOCKUP tamaño correcto\50.png]]>
 </rem:fileName>
 </rem:graphicFile>
+<rem:paragraph
+ oid = "PRG-0206">
+<rem:name>
+49</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2020</rem:year>
+<rem:month>1</rem:month>
+<rem:day>19</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Ninguno</rem:comments>
+<rem:text>Si hace click en &apos;Mensual&apos; verá lo siguiente. Esta vista muestra las estadísticas del mes y año que se indique en el desplegable, en este caso abril del 2018. Las estadísticas se mostrarán explicadas en el cuadro de la izquierda y representadas gráficamente en la parte de la derecha de la vista. <br/>El gráfico de visitas muestra la función del número de consultas y número de peluquerías frente al tiempo.<br/>El gráfico de animales muestra el número de animales que son pacientes en el establecimiento frente a la especie.<br/><br/>El gráfico de vacunas muestra los diferentes tipos de vacunas (con el tipo de especie incluido) que se han ido realizando en ese mes.<br/><br/>En el mapa de clientes se muestran con puntos rojos de donde proceden los clientes que frecuentaban la veterinaria ese mes.<br/><br/>Si hubiese seleccionado el anual, mostraría la misma información pero respecto al año seleccionado.<br/><br/></rem:text>
+</rem:paragraph>
 </rem:section>
 </rem:section>
 <rem:section
@@ -9466,133 +10280,103 @@ Ninguno
 Ninguno
 </rem:comments>
 </rem:changeRequestsSpecification>
-<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0002"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0003"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0004"  target = "FRQ-0021" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0008"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0010"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0012"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0004"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0013"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "UC-0014"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0012"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0003"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0008"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0006"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0010"  target = "OBJ-0011" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0005"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0007"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0006"  target = "OBJ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0011"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "OBJ-0004"  target = "OBJ-0003" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0002"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0001"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0009"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "OBJ-0006"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "OBJ-0009"  target = "OBJ-0002" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0003"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "UC-0001"  target = "OBJ-0006" >
+<rem:trace source = "UC-0002"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "UC-0004"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "UC-0003"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0010"  target = "OBJ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0001"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0004"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0008"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0003"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0006"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "UC-0006"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0006"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0007"  target = "OBJ-0002" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0008"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0012"  target = "OBJ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0010"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "OBJ-0004"  target = "OBJ-0003" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0007"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0011"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0012"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0002"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0004"  target = "FRQ-0021" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "TYP-0003"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "UC-0005"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "TYP-0006"  target = "OBJ-0003" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0010" >
+<rem:trace source = "UC-0013"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0012" >
+<rem:trace source = "OBJ-0010"  target = "OBJ-0011" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0009"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0010" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "IRQ-0004"  target = "OBJ-0012" >
@@ -9601,124 +10385,133 @@ Ninguno
 <rem:trace source = "IRQ-0003"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0007"  target = "OBJ-0009" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0004"  target = "OBJ-0006" >
+<rem:trace source = "UC-0007"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0024"  target = "OBJ-0008" >
+<rem:trace source = "IRQ-0003"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "IRQ-0009"  target = "OBJ-0012" >
+<rem:trace source = "IRQ-0001"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0010"  target = "OBJ-0011" >
+<rem:trace source = "IRQ-0004"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0026"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0028"  target = "CRQ-0001" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0008"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0024"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0025"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0006"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0009"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0021"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0004"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0010"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0002"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0004"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0007"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0002"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0025"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0020"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0029"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0008"  target = "OBJ-0004" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0025"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0022"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0028"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0009"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "CRQ-0008"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0024"  target = "OBJ-0012" >
+<rem:trace source = "IRQ-0002"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0020"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "CRQ-0003"  target = "OBJ-0004" >
+<rem:trace source = "IRQ-0004"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0024"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0008"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0024"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0007"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0002"  target = "OBJ-0006" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "CRQ-0006"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "CRQ-0006"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0008"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0009"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0003"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0007"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0003"  target = "OBJ-0006" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0020"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0021"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0004"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0022"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0010"  target = "OBJ-0011" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0025"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "IRQ-0009"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0025"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0026"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0002"  target = "OBJ-0004" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "CRQ-0008"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0025"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0024"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0029"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "FRQ-0035"  target = "OBJ-0006" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0036"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0037"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0031"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0030"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "FRQ-0032"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0035"  target = "OBJ-0010" >
+<rem:trace source = "FRQ-0030"  target = "OBJ-0008" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0033"  target = "OBJ-0012" >
@@ -9727,70 +10520,70 @@ Ninguno
 <rem:trace source = "FRQ-0034"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
+<rem:trace source = "FRQ-0028"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0028"  target = "CRQ-0001" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0045"  target = "OBJ-0008" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0036"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0035"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0044"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0036"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0038"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0038"  target = "OBJ-0012" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0037"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0035"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0042"  target = "OBJ-0009" >
+<rem:isChecked/>
+</rem:trace>
+<rem:trace source = "FRQ-0041"  target = "OBJ-0010" >
+<rem:isChecked/>
+</rem:trace>
 <rem:trace source = "FRQ-0043"  target = "OBJ-0009" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0040"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0041"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "FRQ-0039"  target = "OBJ-0010" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0036"  target = "OBJ-0012" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0044"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0038"  target = "OBJ-0012" >
+<rem:trace source = "FRQ-0041"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
 <rem:trace source = "FRQ-0045"  target = "OBJ-0004" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0045"  target = "OBJ-0008" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0038"  target = "OBJ-0010" >
-<rem:isChecked/>
-</rem:trace>
-<rem:trace source = "FRQ-0042"  target = "OBJ-0009" >
-<rem:isChecked/>
-</rem:trace>
 <rem:trace source = "FRQ-0037"  target = "OBJ-0012" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0041"  target = "OBJ-0010" >
+<rem:trace source = "TYP-0001"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
-<rem:trace source = "FRQ-0035"  target = "OBJ-0012" >
+<rem:trace source = "TYP-0002"  target = "CRQ-0001" >
 <rem:isChecked/>
 </rem:trace>
 <rem:predefinedValueTypes>
-<rem:predefinedValueType
- oid = "PVT-0003">
-<rem:name>
-Natural</rem:name>
-<rem:version>
-<rem:major>1</rem:major>
-<rem:minor>0</rem:minor>
-<rem:date>
-<rem:year>2000</rem:year>
-<rem:month>10</rem:month>
-<rem:day>30</rem:day>
-</rem:date>
-</rem:version>
-<rem:comments>
-Predefined OCL type</rem:comments>
-<rem:description>
-Natural numbers</rem:description>
-<rem:definition>
-(null)
-</rem:definition>
-</rem:predefinedValueType>
 <rem:predefinedValueType
  oid = "PVT-0001">
 <rem:name>
@@ -9834,6 +10627,27 @@ Dates</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
+ oid = "PVT-0006">
+<rem:name>
+Time</rem:name>
+<rem:version>
+<rem:major>1</rem:major>
+<rem:minor>0</rem:minor>
+<rem:date>
+<rem:year>2000</rem:year>
+<rem:month>10</rem:month>
+<rem:day>30</rem:day>
+</rem:date>
+</rem:version>
+<rem:comments>
+Predefined OCL type (non-standard)</rem:comments>
+<rem:description>
+Hour:minutes:seconds</rem:description>
+<rem:definition>
+(null)
+</rem:definition>
+</rem:predefinedValueType>
+<rem:predefinedValueType
  oid = "PVT-0004">
 <rem:name>
 String</rem:name>
@@ -9855,9 +10669,9 @@ Alphanumeric strings</rem:description>
 </rem:definition>
 </rem:predefinedValueType>
 <rem:predefinedValueType
- oid = "PVT-0006">
+ oid = "PVT-0003">
 <rem:name>
-Time</rem:name>
+Natural</rem:name>
 <rem:version>
 <rem:major>1</rem:major>
 <rem:minor>0</rem:minor>
@@ -9868,9 +10682,9 @@ Time</rem:name>
 </rem:date>
 </rem:version>
 <rem:comments>
-Predefined OCL type (non-standard)</rem:comments>
+Predefined OCL type</rem:comments>
 <rem:description>
-Hour:minutes:seconds</rem:description>
+Natural numbers</rem:description>
 <rem:definition>
 (null)
 </rem:definition>
@@ -9898,29 +10712,29 @@ Integer numbers</rem:description>
 </rem:predefinedValueType>
 </rem:predefinedValueTypes>
 <rem:predefinedValues>
-<rem:changeRequestStatusValue oid = "CRV-0003">
-<rem:name>pendiente de aprobar/rechazar</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0004">
 <rem:name>pendiente de realización</rem:name>
-</rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0005">
-<rem:name>verificado</rem:name>
 </rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0006">
 <rem:name>rechazado</rem:name>
 </rem:changeRequestStatusValue>
-<rem:changeRequestStatusValue oid = "CRV-0002">
-<rem:name>pendiente de análisis</rem:name>
-</rem:changeRequestStatusValue>
 <rem:changeRequestStatusValue oid = "CRV-0001">
 <rem:name>PD</rem:name>
 </rem:changeRequestStatusValue>
-<rem:conflictStatusValue oid = "CSV-0001">
-<rem:name>PD</rem:name>
-</rem:conflictStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0002">
+<rem:name>pendiente de análisis</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0003">
+<rem:name>pendiente de aprobar/rechazar</rem:name>
+</rem:changeRequestStatusValue>
+<rem:changeRequestStatusValue oid = "CRV-0005">
+<rem:name>verificado</rem:name>
+</rem:changeRequestStatusValue>
 <rem:conflictStatusValue oid = "CSV-0002">
 <rem:name>no resuelto</rem:name>
+</rem:conflictStatusValue>
+<rem:conflictStatusValue oid = "CSV-0001">
+<rem:name>PD</rem:name>
 </rem:conflictStatusValue>
 <rem:conflictStatusValue oid = "CSV-0003">
 <rem:name>en proceso de negociación</rem:name>
@@ -9931,19 +10745,19 @@ Integer numbers</rem:description>
 <rem:defectStatusValue oid = "DSV-0002">
 <rem:name>no eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectStatusValue oid = "DSV-0003">
-<rem:name>en proceso de negociación</rem:name>
-</rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0001">
 <rem:name>PD</rem:name>
+</rem:defectStatusValue>
+<rem:defectStatusValue oid = "DSV-0003">
+<rem:name>en proceso de negociación</rem:name>
 </rem:defectStatusValue>
 <rem:defectStatusValue oid = "DSV-0004">
 <rem:name>eliminado</rem:name>
 </rem:defectStatusValue>
-<rem:defectTypeValue oid = "DTV-0004">
-<rem:name>Incomprensibilidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0002">
+<rem:name>Ambigüedad</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0005">
@@ -9952,64 +10766,10 @@ Integer numbers</rem:description>
 <![CDATA[No se puede comprobar que el sistema satisface el requisito o requisitos]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0003">
-<rem:name>No necesidad</rem:name>
+<rem:defectTypeValue oid = "DTV-0008">
+<rem:name>Verbosidad excesiva</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0001">
-<rem:name>PD</rem:name>
-<rem:description>
-<![CDATA[Por Determinar]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0002">
-<rem:name>Ambigüedad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos, aunque comprensibles, tienen más de una interpretación posible]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0010">
-<rem:name>Redundancia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0014">
-<rem:name>Estabilidad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0016">
-<rem:name>No rastreabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0013">
-<rem:name>Prioridad no establecida</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0015">
-<rem:name>Nivel incorrecto de detalle</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0012">
-<rem:name>Incompleción</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
-</rem:description>
-</rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0006">
-<rem:name>Inconsistencia</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0009">
@@ -10018,16 +10778,76 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos incluyen elementos dependientes del diseño del sistema]]>
 </rem:description>
 </rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0007">
+<rem:name>No implementabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0006">
+<rem:name>Inconsistencia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son consistentes, es decir, presentan contradicciones internas o entre varios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0010">
+<rem:name>Redundancia</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos son redundantes o contienen elementos redundantes]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0012">
+<rem:name>Incompleción</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no describen todo lo que el sistema se supone que deberá hacer, no describen las respuestas del sistema a todas las posibles situaciones o incluyen elementos por determinar (PD)]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0001">
+<rem:name>PD</rem:name>
+<rem:description>
+<![CDATA[Por Determinar]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0013">
+<rem:name>Prioridad no establecida</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no tienen establecida su prioridad, es decir, su importancia y su urgencia]]>
+</rem:description>
+</rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0011">
 <rem:name>Imprecisión</rem:name>
 <rem:description>
 <![CDATA[El requisito o requisitos no se expresan de forma precisa, es decir, usando cantidades numéricas siempre que sea posible con el nivel adecuado de precisión]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0008">
-<rem:name>Verbosidad excesiva</rem:name>
+<rem:defectTypeValue oid = "DTV-0014">
+<rem:name>Estabilidad no establecida</rem:name>
 <rem:description>
-<![CDATA[El requisito o requisitos pueden expresarse de forma más concisa sin alterar su significado]]>
+<![CDATA[El requisito o requisitos no tienen estimada su estabilidad]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0004">
+<rem:name>Incomprensibilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no pueden ser entendidos por algún lector]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0015">
+<rem:name>Nivel incorrecto de detalle</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están expresados con el nivel adecuado de detalle, es decir, son demasiado abstractos o demasiado detallados]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0003">
+<rem:name>No necesidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no son necesarios porque no contribuyen a satisfacer ninguna necesidad de clientes o usuarios]]>
+</rem:description>
+</rem:defectTypeValue>
+<rem:defectTypeValue oid = "DTV-0016">
+<rem:name>No rastreabilidad</rem:name>
+<rem:description>
+<![CDATA[El requisito o requisitos no están trazados hacia sus orígenes, bien requisitos de nivel superior (objetivos), bien clientes y usuarios]]>
 </rem:description>
 </rem:defectTypeValue>
 <rem:defectTypeValue oid = "DTV-0017">
@@ -10042,35 +10862,29 @@ Integer numbers</rem:description>
 <![CDATA[El requisito o requisitos presentan otro tipo de defecto]]>
 </rem:description>
 </rem:defectTypeValue>
-<rem:defectTypeValue oid = "DTV-0007">
-<rem:name>No implementabilidad</rem:name>
-<rem:description>
-<![CDATA[El requisito o requisitos no pueden ser implementados con la tecnología actual o dentro de un coste razonable]]>
-</rem:description>
-</rem:defectTypeValue>
+<rem:importanceValue oid = "IMV-0001">
+<rem:name>PD</rem:name>
+</rem:importanceValue>
+<rem:importanceValue oid = "IMV-0002">
+<rem:name>vital</rem:name>
+</rem:importanceValue>
 <rem:importanceValue oid = "IMV-0003">
 <rem:name>importante</rem:name>
 </rem:importanceValue>
 <rem:importanceValue oid = "IMV-0004">
 <rem:name>quedaría bien</rem:name>
 </rem:importanceValue>
-<rem:importanceValue oid = "IMV-0002">
-<rem:name>vital</rem:name>
-</rem:importanceValue>
-<rem:importanceValue oid = "IMV-0001">
-<rem:name>PD</rem:name>
-</rem:importanceValue>
-<rem:stabilityValue oid = "SBV-0001">
-<rem:name>PD</rem:name>
-</rem:stabilityValue>
-<rem:stabilityValue oid = "SBV-0002">
-<rem:name>baja</rem:name>
-</rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0004">
 <rem:name>alta</rem:name>
 </rem:stabilityValue>
 <rem:stabilityValue oid = "SBV-0003">
 <rem:name>media</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0002">
+<rem:name>baja</rem:name>
+</rem:stabilityValue>
+<rem:stabilityValue oid = "SBV-0001">
+<rem:name>PD</rem:name>
 </rem:stabilityValue>
 <rem:statusValue oid = "STV-0001">
 <rem:name>PD</rem:name>
@@ -10078,68 +10892,68 @@ Integer numbers</rem:description>
 <rem:statusValue oid = "STV-0002">
 <rem:name>en construcción</rem:name>
 </rem:statusValue>
-<rem:statusValue oid = "STV-0004">
-<rem:name>pendiente de validación</rem:name>
-</rem:statusValue>
 <rem:statusValue oid = "STV-0003">
 <rem:name>pendiente de verificación</rem:name>
+</rem:statusValue>
+<rem:statusValue oid = "STV-0004">
+<rem:name>pendiente de validación</rem:name>
 </rem:statusValue>
 <rem:statusValue oid = "STV-0005">
 <rem:name>validado</rem:name>
 </rem:statusValue>
-<rem:terminationValue oid = "TEV-0003">
-<rem:name>queda sin efecto</rem:name>
-</rem:terminationValue>
 <rem:terminationValue oid = "TEV-0002">
 <rem:name>continúa</rem:name>
 </rem:terminationValue>
 <rem:terminationValue oid = "TEV-0001">
 <rem:name>PD</rem:name>
 </rem:terminationValue>
-<rem:timeUnitValue oid = "TUV-0007">
-<rem:name>semana(s)</rem:name>
-</rem:timeUnitValue>
+<rem:terminationValue oid = "TEV-0003">
+<rem:name>queda sin efecto</rem:name>
+</rem:terminationValue>
 <rem:timeUnitValue oid = "TUV-0001">
 <rem:name>PD</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0009">
-<rem:name>hora(s)</rem:name>
-</rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0005">
-<rem:name>mes(es)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0002">
 <rem:name>año(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0011">
-<rem:name>segundo(s)</rem:name>
-</rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0008">
 <rem:name>día(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0005">
+<rem:name>mes(es)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0007">
+<rem:name>semana(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0009">
+<rem:name>hora(s)</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0010">
 <rem:name>minuto(s)</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0014">
-<rem:name>milisegundo(s)</rem:name>
+<rem:timeUnitValue oid = "TUV-0012">
+<rem:name>décima(s) de segundo</rem:name>
 </rem:timeUnitValue>
 <rem:timeUnitValue oid = "TUV-0013">
 <rem:name>centésima(s) de segundo</rem:name>
 </rem:timeUnitValue>
-<rem:timeUnitValue oid = "TUV-0012">
-<rem:name>décima(s) de segundo</rem:name>
+<rem:timeUnitValue oid = "TUV-0011">
+<rem:name>segundo(s)</rem:name>
+</rem:timeUnitValue>
+<rem:timeUnitValue oid = "TUV-0014">
+<rem:name>milisegundo(s)</rem:name>
 </rem:timeUnitValue>
 <rem:urgencyValue oid = "URV-0001">
 <rem:name>PD</rem:name>
-</rem:urgencyValue>
-<rem:urgencyValue oid = "URV-0004">
-<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0003">
 <rem:name>hay presión</rem:name>
 </rem:urgencyValue>
 <rem:urgencyValue oid = "URV-0002">
 <rem:name>inmediatamente</rem:name>
+</rem:urgencyValue>
+<rem:urgencyValue oid = "URV-0004">
+<rem:name>puede esperar</rem:name>
 </rem:urgencyValue>
 </rem:predefinedValues>
 </rem:requirementsProject>
